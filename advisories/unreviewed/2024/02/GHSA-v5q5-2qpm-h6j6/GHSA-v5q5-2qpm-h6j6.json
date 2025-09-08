@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v5q5-2qpm-h6j6",
-  "modified": "2024-02-12T09:31:26Z",
+  "modified": "2025-09-08T12:30:32Z",
   "published": "2024-02-12T09:31:26Z",
   "aliases": [
     "CVE-2024-25100"
   ],
-  "details": "Deserialization of Untrusted Data vulnerability in WP Swings Coupon Referral Program.This issue affects Coupon Referral Program: from n/a through 1.7.2.\n\n",
+  "details": "Deserialization of Untrusted Data vulnerability in WP Swings Coupon Referral Program.This issue affects Coupon Referral Program: from n/a through 1.7.2.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://patchstack.com/database/vulnerability/coupon-referral-program/wordpress-coupon-referral-program-plugin-1-7-2-unauthenticated-php-object-injection-vulnerability?_s_id=cve"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/wordpress/plugin/coupon-referral-program/vulnerability/wordpress-coupon-referral-program-plugin-1-7-2-unauthenticated-php-object-injection-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {
