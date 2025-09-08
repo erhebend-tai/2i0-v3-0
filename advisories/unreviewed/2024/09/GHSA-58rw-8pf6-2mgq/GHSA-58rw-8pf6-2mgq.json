@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-58rw-8pf6-2mgq",
-  "modified": "2024-09-17T21:30:33Z",
+  "modified": "2025-09-08T21:30:57Z",
   "published": "2024-09-17T21:30:33Z",
   "aliases": [
     "CVE-2024-8956"
@@ -26,6 +26,14 @@
     {
       "type": "WEB",
       "url": "https://vulncheck.com/advisories/ptzoptics-insufficient-auth"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.greynoise.io/blog/greynoise-intelligence-discovers-zero-day-vulnerabilities-in-live-streaming-cameras-with-the-help-of-ai"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.labs.greynoise.io/grimoire/2024-10-31-sift-0-day-rce"
     }
   ],
   "database_specific": {
