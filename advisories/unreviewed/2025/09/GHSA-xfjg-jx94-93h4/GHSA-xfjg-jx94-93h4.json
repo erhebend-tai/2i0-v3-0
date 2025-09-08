@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xfjg-jx94-93h4",
-  "modified": "2025-09-05T18:31:26Z",
+  "modified": "2025-09-08T09:31:09Z",
   "published": "2025-09-05T18:31:26Z",
   "aliases": [
     "CVE-2025-39681"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-39681"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/62f12cde10118253348a7540e85606869bd69432"
     },
     {
       "type": "WEB",
