@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rv46-hcfv-qpvx",
-  "modified": "2025-07-03T09:30:34Z",
+  "modified": "2025-09-09T18:31:11Z",
   "published": "2025-07-03T09:30:34Z",
   "aliases": [
     "CVE-2025-38148"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/0b40aeaf83ca04d4c9801e235b7533400c8b5f17"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/24b24295464f25fb771d36ed558c7cd942119361"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-whcm-px77-62x7",
-  "modified": "2025-03-28T18:33:13Z",
+  "modified": "2025-09-09T18:31:10Z",
   "published": "2025-03-27T18:31:25Z",
   "aliases": [
     "CVE-2023-52935"
@@ -25,7 +25,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/352fbf61ce776fef18dca6a68680a6cd943dac95"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/abdf3c33918185c3e8ffeb09ed3e334b3d7df47c"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/acb08187b5a83cdb9ac4112fae9e18cf983b0128"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/cee956ab1efbd858b4ca61c8b474af5aa24b29a6"
     }
   ],
   "database_specific": {

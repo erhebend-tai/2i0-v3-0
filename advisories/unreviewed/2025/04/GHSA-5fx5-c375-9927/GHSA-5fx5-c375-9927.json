@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5fx5-c375-9927",
-  "modified": "2025-04-16T15:34:46Z",
+  "modified": "2025-09-09T18:31:11Z",
   "published": "2025-04-16T15:34:46Z",
   "aliases": [
     "CVE-2025-23133"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-23133"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/26618c039b78a76c373d4e02c5fbd52e3a73aead"
     },
     {
       "type": "WEB",
