@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-34r3-h75p-74mh",
+  "modified": "2025-09-09T06:30:17Z",
+  "published": "2025-09-09T06:30:17Z",
+  "aliases": [
+    "CVE-2025-8889"
+  ],
+  "details": "The Compress & Upload WordPress plugin before 1.0.5 does not properly validate uploaded files, allowing high privilege users such as admin to upload arbitrary files on the server even when they should not be allowed to (for example in multisite setup)",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-8889"
+    },
+    {
+      "type": "WEB",
+      "url": "https://wpscan.com/vulnerability/5d84a577-62aa-4aa2-ac39-b146eae65243"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-09-09T06:15:32Z"
+  }
+}
