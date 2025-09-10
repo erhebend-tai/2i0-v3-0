@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-735f-pc8j-v9w8",
-  "modified": "2025-09-02T16:51:06Z",
+  "modified": "2025-09-10T20:53:03Z",
   "published": "2024-09-19T16:06:03Z",
   "aliases": [
     "CVE-2024-7254"
@@ -357,7 +357,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-20"
+      "CWE-20",
+      "CWE-400",
+      "CWE-787"
     ],
     "severity": "HIGH",
     "github_reviewed": true,
