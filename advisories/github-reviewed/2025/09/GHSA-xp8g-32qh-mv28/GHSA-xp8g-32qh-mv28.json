@@ -1,26 +1,48 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xp8g-32qh-mv28",
-  "modified": "2025-09-10T18:30:16Z",
+  "modified": "2025-09-10T20:48:53Z",
   "published": "2025-09-10T18:30:16Z",
   "aliases": [
     "CVE-2025-57520"
   ],
+  "summary": "Decap CMS Cross Site Scripting (XSS) vulnerability",
   "details": "A Cross Site Scripting (XSS) vulnerability exists in Decap CMS thru 3.8.3. Input fields such as body, tags, title, and description are not properly sanitized before being rendered in the content preview pane. This enables an attacker to inject arbitrary JavaScript which executes whenever a user views the preview panel. The vulnerability affects multiple input vectors and does not require user interaction beyond viewing the affected content.",
-  "severity": [],
-  "affected": [],
+  "severity": [
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:P/VC:N/VI:N/VA:N/SC:L/SI:L/SA:N/E:P"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "decap-cms"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "3.8.3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-57520"
     },
     {
-      "type": "WEB",
+      "type": "PACKAGE",
       "url": "https://github.com/decaporg/decap-cms"
-    },
-    {
-      "type": "WEB",
-      "url": "https://onurcangenc.com.tr/blog/decap-cms-xss-analysis"
     },
     {
       "type": "WEB",
@@ -28,10 +50,12 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": "LOW",
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-09-10T20:48:53Z",
     "nvd_published_at": "2025-09-10T17:15:33Z"
   }
 }

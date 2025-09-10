@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rrw2-px9j-qffj",
-  "modified": "2025-09-05T20:58:24Z",
+  "modified": "2025-09-10T20:50:04Z",
   "published": "2025-09-05T20:58:23Z",
   "aliases": [
     "CVE-2025-58369"
@@ -288,6 +288,10 @@
       "url": "https://github.com/typelevel/fs2/security/advisories/GHSA-rrw2-px9j-qffj"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-58369"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/typelevel/fs2/issues/3590"
     },
@@ -319,6 +323,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-09-05T20:58:23Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-09-05T22:15:34Z"
   }
 }

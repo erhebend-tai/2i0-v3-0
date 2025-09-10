@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-23hg-53q6-hqfg",
-  "modified": "2025-09-05T20:09:19Z",
+  "modified": "2025-09-10T20:49:20Z",
   "published": "2025-09-05T20:09:19Z",
   "aliases": [
     "CVE-2025-57807"
@@ -250,6 +250,10 @@
       "url": "https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-23hg-53q6-hqfg"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-57807"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/ImageMagick/ImageMagick/commit/077a417a19a5ea8c85559b602754a5b928eef23e"
     },
@@ -267,6 +271,6 @@
     "severity": "LOW",
     "github_reviewed": true,
     "github_reviewed_at": "2025-09-05T20:09:19Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-09-05T22:15:34Z"
   }
 }
