@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m494-73pw-6cw9",
-  "modified": "2025-09-10T18:30:16Z",
+  "modified": "2025-09-10T21:30:19Z",
   "published": "2025-09-10T18:30:16Z",
   "aliases": [
     "CVE-2025-55976"
   ],
   "details": "Intelbras IWR 3000N 1.9.8 exposes the Wi-Fi password in plaintext via the /api/wireless endpoint. Any unauthenticated user on the local network can directly obtain the Wi-Fi network password by querying this endpoint.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-200"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-10T18:15:33Z"
