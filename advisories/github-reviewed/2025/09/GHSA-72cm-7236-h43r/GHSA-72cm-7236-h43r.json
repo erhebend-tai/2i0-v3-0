@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-72cm-7236-h43r",
-  "modified": "2025-09-09T21:01:44Z",
+  "modified": "2025-09-10T21:08:19Z",
   "published": "2025-09-09T21:01:44Z",
   "aliases": [
     "CVE-2025-58759"
@@ -41,6 +41,10 @@
       "url": "https://github.com/datahihi1/tiny-env/security/advisories/GHSA-72cm-7236-h43r"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-58759"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/datahihi1/tiny-env/commit/69b7b885e6cfbf07f470fb3512360e0caa95521e"
     },
@@ -56,6 +60,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-09-09T21:01:44Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-09-09T20:15:49Z"
   }
 }

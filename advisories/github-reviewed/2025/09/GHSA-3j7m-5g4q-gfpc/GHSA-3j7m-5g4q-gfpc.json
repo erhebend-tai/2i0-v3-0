@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3j7m-5g4q-gfpc",
-  "modified": "2025-09-09T20:59:52Z",
+  "modified": "2025-09-10T21:08:15Z",
   "published": "2025-09-09T20:59:52Z",
   "aliases": [
     "CVE-2025-58758"
@@ -60,6 +60,14 @@
       "url": "https://github.com/datahihi1/tiny-env/security/advisories/GHSA-3j7m-5g4q-gfpc"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-58758"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/datahihi1/tiny-env/commit/69b7b885e6cfbf07f470fb3512360e0caa95521e"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/datahihi1/tiny-env/commit/7dc656c58bef6050afb8f7a395e38227e31a66df"
     },
@@ -75,6 +83,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-09-09T20:59:52Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-09-09T20:15:49Z"
   }
 }
