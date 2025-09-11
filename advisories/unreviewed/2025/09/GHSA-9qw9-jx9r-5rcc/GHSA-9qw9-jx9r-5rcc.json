@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9qw9-jx9r-5rcc",
-  "modified": "2025-09-04T15:30:28Z",
+  "modified": "2025-09-11T15:31:17Z",
   "published": "2025-09-04T15:30:28Z",
   "aliases": [
     "CVE-2025-8311"
