@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f5qf-vh69-9q4r",
-  "modified": "2022-05-31T17:18:38Z",
+  "modified": "2025-09-12T21:32:13Z",
   "published": "2022-05-14T00:55:56Z",
   "aliases": [
     "CVE-2017-1000190"
@@ -50,11 +50,23 @@
     },
     {
       "type": "WEB",
+      "url": "https://lists.apache.org/thread.html/708d94141126eac03011144a971a6411fcac16d9c248d1d535a39451%40%3Csolr-user.lucene.apache.org%3E"
+    },
+    {
+      "type": "WEB",
       "url": "https://lists.apache.org/thread.html/708d94141126eac03011144a971a6411fcac16d9c248d1d535a39451@%3Csolr-user.lucene.apache.org%3E"
     },
     {
       "type": "WEB",
+      "url": "https://lists.apache.org/thread.html/8c4ef27e2c0218f29e785990dc919266855aea137c958f10d242cb36%40%3Cdev.lucene.apache.org%3E"
+    },
+    {
+      "type": "WEB",
       "url": "https://lists.apache.org/thread.html/8c4ef27e2c0218f29e785990dc919266855aea137c958f10d242cb36@%3Cdev.lucene.apache.org%3E"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.apache.org/thread.html/r204ba2a9ea750f38d789d2bb429cc0925ad6133deea7cbc3001d96b5%40%3Csolr-user.lucene.apache.org%3E"
     },
     {
       "type": "WEB",
