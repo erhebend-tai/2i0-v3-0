@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wxj7-3fx5-pp9m",
-  "modified": "2025-06-27T21:07:20Z",
+  "modified": "2025-09-12T14:23:38Z",
   "published": "2025-06-23T15:31:43Z",
   "aliases": [
     "CVE-2025-52967"
@@ -25,10 +25,29 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "3.0.0rc0"
             },
             {
               "fixed": "3.1.0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "mlflow"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.22.2"
             }
           ]
         }
@@ -51,6 +70,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/mlflow/mlflow"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/mlflow/mlflow/releases/tag/v2.22.2"
     },
     {
       "type": "WEB",
