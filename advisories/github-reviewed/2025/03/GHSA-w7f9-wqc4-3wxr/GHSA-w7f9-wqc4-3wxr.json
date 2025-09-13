@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w7f9-wqc4-3wxr",
-  "modified": "2025-09-10T21:14:16Z",
+  "modified": "2025-09-13T03:03:19Z",
   "published": "2025-03-11T16:17:42Z",
   "aliases": [
     "CVE-2025-59049"
@@ -66,6 +66,10 @@
       "url": "https://github.com/mockoon/mockoon/security/advisories/GHSA-w7f9-wqc4-3wxr"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-59049"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/mockoon/mockoon/commit/c7f6e23e87dc3b8cc44e5802af046200a797bd2e"
     },
@@ -90,6 +94,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2025-03-11T16:17:42Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-09-10T19:15:42Z"
   }
 }
