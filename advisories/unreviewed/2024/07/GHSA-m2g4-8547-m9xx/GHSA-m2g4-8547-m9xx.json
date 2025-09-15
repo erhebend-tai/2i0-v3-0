@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m2g4-8547-m9xx",
-  "modified": "2024-07-09T18:30:51Z",
+  "modified": "2025-09-15T18:31:00Z",
   "published": "2024-07-09T18:30:51Z",
   "aliases": [
     "CVE-2024-38030"
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38030"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/cve-2024-38030-detection-script-windows-themes-spoofing-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/cve-2024-38030-mitigation-script-windows-themes-spoofing-vulnerability"
     }
   ],
   "database_specific": {

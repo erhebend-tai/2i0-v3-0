@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-75vh-4rgj-m3j3",
-  "modified": "2025-07-08T18:31:44Z",
+  "modified": "2025-09-15T18:31:05Z",
   "published": "2025-07-08T18:31:44Z",
   "aliases": [
     "CVE-2025-47981"
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-47981"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/cve-2025-47981-detection-script-heap-based-buffer-overflow-in-windows-spnego-extended-negotiation"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/cve-2025-47981-mitigation-script-heap-based-buffer-overflow-in-windows-spnego-extended-negotiation"
     }
   ],
   "database_specific": {

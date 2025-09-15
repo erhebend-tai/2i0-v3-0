@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3wg3-6wwv-v265",
-  "modified": "2024-08-12T21:31:34Z",
+  "modified": "2025-09-15T18:31:01Z",
   "published": "2024-08-12T21:31:34Z",
   "aliases": [
     "CVE-2024-6768"
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://www.fortra.com/security/advisories/research/fr-2024-001"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/cve-2024-6768-detection-script-blue-screen-of-death-vulnerability-affecting-microsoft-windows"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/cve-2024-6768-mitigation-script-blue-screen-of-death-vulnerability-affecting-microsoft-windows"
     }
   ],
   "database_specific": {

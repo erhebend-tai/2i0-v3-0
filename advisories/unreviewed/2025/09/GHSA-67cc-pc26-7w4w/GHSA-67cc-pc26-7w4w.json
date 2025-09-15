@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-67cc-pc26-7w4w",
-  "modified": "2025-09-15T15:31:30Z",
+  "modified": "2025-09-15T18:31:06Z",
   "published": "2025-09-15T15:31:30Z",
   "aliases": [
     "CVE-2025-6202"
@@ -22,10 +22,16 @@
     {
       "type": "WEB",
       "url": "https://comsec.ethz.ch/phoenix"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.googleblog.com/2025/09/supporting-rowhammer-research-to.html"
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-404"
+    ],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j4xf-75rr-vvrv",
-  "modified": "2025-07-14T18:30:41Z",
+  "modified": "2025-09-15T18:31:06Z",
   "published": "2025-07-10T18:31:27Z",
   "aliases": [
     "CVE-2025-47812"
@@ -26,6 +26,14 @@
     {
       "type": "WEB",
       "url": "https://www.rcesecurity.com/2025/06/what-the-null-wing-ftp-server-rce-cve-2025-47812"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/cve-2025-47812-detection-script-remote-code-execution-vulnerability-in-wing-ftp-server"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/cve-2025-47812-mitigation-script-remote-code-execution-vulnerability-in-wing-ftp-server"
     },
     {
       "type": "WEB",

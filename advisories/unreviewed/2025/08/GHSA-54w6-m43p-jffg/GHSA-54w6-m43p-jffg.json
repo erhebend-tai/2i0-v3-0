@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-54w6-m43p-jffg",
-  "modified": "2025-08-16T06:30:21Z",
+  "modified": "2025-09-15T18:31:06Z",
   "published": "2025-08-16T06:30:21Z",
   "aliases": [
     "CVE-2025-38501"
@@ -37,6 +37,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/fa1c47af4ff641cf9197ecdb1f8240cbb30389c1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/keymaker-arch/KSMBDrain"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g459-66wh-4437",
-  "modified": "2024-06-11T18:30:49Z",
+  "modified": "2025-09-15T18:31:00Z",
   "published": "2024-06-11T18:30:49Z",
   "aliases": [
     "CVE-2024-30080"
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-30080"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/cve-2024-30080-detection-script-remote-code-execution-vulnerability-affecting-microsoft-msmq-1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/cve-2024-30080-mitigation-script-remote-code-execution-vulnerability-affecting-microsoft-msmq"
     }
   ],
   "database_specific": {
