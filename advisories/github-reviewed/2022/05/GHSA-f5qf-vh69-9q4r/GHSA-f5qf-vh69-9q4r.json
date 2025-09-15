@@ -1,17 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f5qf-vh69-9q4r",
-  "modified": "2025-09-12T21:32:13Z",
+  "modified": "2025-09-15T14:30:53Z",
   "published": "2022-05-14T00:55:56Z",
   "aliases": [
     "CVE-2017-1000190"
   ],
-  "summary": "SimpleXML vulnerable to XML External Entity (XXE)",
+  "summary": "SimpleXML has XML External Entity (XXE) vulnerability",
   "details": "SimpleXML (latest version 2.7.1) is vulnerable to an XXE vulnerability resulting SSRF, information disclosure, DoS and so on.",
   "severity": [
     {
       "type": "CVSS_V3",
-      "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H"
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H"
     }
   ],
   "affected": [
