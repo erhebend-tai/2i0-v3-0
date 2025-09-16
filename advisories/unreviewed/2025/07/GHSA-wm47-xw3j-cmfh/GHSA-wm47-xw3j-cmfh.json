@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wm47-xw3j-cmfh",
-  "modified": "2025-07-31T18:32:02Z",
+  "modified": "2025-09-16T00:30:20Z",
   "published": "2025-07-30T00:32:23Z",
   "aliases": [
     "CVE-2025-43273"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/en-us/124149"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/en-us/125112"
     }
   ],
   "database_specific": {

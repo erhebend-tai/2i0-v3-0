@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-fqf6-x64r-wwrm",
+  "modified": "2025-09-16T00:30:23Z",
+  "published": "2025-09-16T00:30:23Z",
+  "aliases": [
+    "CVE-2025-43263"
+  ],
+  "details": "The issue was addressed with improved checks. This issue is fixed in Xcode 26. An app may be able to read and write files outside of its sandbox.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-43263"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/en-us/125117"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-09-15T23:15:31Z"
+  }
+}
