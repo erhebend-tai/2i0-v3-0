@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-242p-3rpg-2x9q",
-  "modified": "2024-06-19T15:30:54Z",
+  "modified": "2025-09-17T21:30:40Z",
   "published": "2024-06-19T15:30:53Z",
   "aliases": [
     "CVE-2024-38585"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ntools/nolibc/stdlib: fix memory error in realloc()\n\nPass user_p_len to memcpy() instead of heap->len to prevent realloc()\nfrom copying an extra sizeof(heap) bytes from beyond the allocated\nregion.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -36,8 +41,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-125"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-06-19T14:15:18Z"

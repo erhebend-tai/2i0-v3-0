@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6f25-fxw5-f5mv",
-  "modified": "2024-07-05T09:33:44Z",
+  "modified": "2025-09-17T21:30:40Z",
   "published": "2024-06-19T15:30:54Z",
   "aliases": [
     "CVE-2024-38586"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nr8169: Fix possible ring buffer corruption on fragmented Tx packets.\n\nAn issue was found on the RTL8125b when transmitting small fragmented\npackets, whereby invalid entries were inserted into the transmit ring\nbuffer, subsequently leading to calls to dma_unmap_single() with a null\naddress.\n\nThis was caused by rtl8169_start_xmit() not noticing changes to nr_frags\nwhich may occur when small packets are padded (to work around hardware\nquirks) in rtl8169_tso_csum_v2().\n\nTo fix this, postpone inspecting nr_frags until after any padding has been\napplied.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -44,8 +49,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-787"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-06-19T14:15:18Z"

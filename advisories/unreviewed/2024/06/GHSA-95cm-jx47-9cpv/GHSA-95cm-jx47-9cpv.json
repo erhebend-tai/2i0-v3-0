@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-95cm-jx47-9cpv",
-  "modified": "2024-06-19T15:30:53Z",
+  "modified": "2025-09-17T21:30:39Z",
   "published": "2024-06-19T15:30:53Z",
   "aliases": [
     "CVE-2024-38566"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nbpf: Fix verifier assumptions about socket->sk\n\nThe verifier assumes that 'sk' field in 'struct socket' is valid\nand non-NULL when 'socket' pointer itself is trusted and non-NULL.\nThat may not be the case when socket was just created and\npassed to LSM socket_accept hook.\nFix this verifier assumption and adjust tests.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -33,7 +38,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-06-19T14:15:16Z"
