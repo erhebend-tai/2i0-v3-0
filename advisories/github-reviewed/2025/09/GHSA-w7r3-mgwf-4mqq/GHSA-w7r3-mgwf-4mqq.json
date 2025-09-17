@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w7r3-mgwf-4mqq",
-  "modified": "2025-09-17T00:31:11Z",
+  "modified": "2025-09-17T19:07:53Z",
   "published": "2025-09-17T00:31:11Z",
   "aliases": [
     "CVE-2025-9708"
   ],
+  "summary": "Kubernetes C# client accepts certificates from any CA without properly verifying the trust chain",
   "details": "A vulnerability exists in the Kubernetes C# client where the certificate validation logic accepts properly constructed certificates from any Certificate Authority (CA) without properly verifying the trust chain. This flaw allows a malicious actor to present a forged certificate and potentially intercept or manipulate communication with the Kubernetes API server, leading to possible man-in-the-middle attacks and API impersonation.",
   "severity": [
     {
@@ -13,7 +14,27 @@
       "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:N"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "NuGet",
+        "name": "KubernetesClient"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "17.0.14"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -22,6 +43,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/kubernetes/kubernetes/issues/134063"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/kubernetes-client/csharp"
     },
     {
       "type": "WEB",
@@ -33,8 +58,8 @@
       "CWE-295"
     ],
     "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-09-17T19:07:53Z",
     "nvd_published_at": "2025-09-16T22:15:33Z"
   }
 }
