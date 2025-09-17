@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vvvp-c6hw-m8pj",
-  "modified": "2024-06-20T12:31:22Z",
+  "modified": "2025-09-17T18:31:14Z",
   "published": "2024-06-20T12:31:22Z",
   "aliases": [
     "CVE-2022-48757"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: fix information leakage in /proc/net/ptype\n\nIn one net namespace, after creating a packet socket without binding\nit to a device, users in other net namespaces can observe the new\n`packet_type` added by this packet socket by reading `/proc/net/ptype`\nfile. This is minor information leakage as packet socket is\nnamespace aware.\n\nAdd a net pointer in `packet_type` to keep the net namespace of\nof corresponding packet socket. In `ptype_seq_show`, this net pointer\nmust be checked when it is not NULL.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -52,8 +57,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-668"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-06-20T12:15:13Z"

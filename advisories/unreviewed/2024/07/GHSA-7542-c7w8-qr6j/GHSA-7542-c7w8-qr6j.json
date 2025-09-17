@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7542-c7w8-qr6j",
-  "modified": "2024-07-12T15:31:27Z",
+  "modified": "2025-09-17T18:31:16Z",
   "published": "2024-07-12T15:31:27Z",
   "aliases": [
     "CVE-2024-40913"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ncachefiles: defer exposing anon_fd until after copy_to_user() succeeds\n\nAfter installing the anonymous fd, we can now see it in userland and close\nit. However, at this point we may not have gotten the reference count of\nthe cache, but we will put it during colse fd, so this may cause a cache\nUAF.\n\nSo grab the cache reference count before fd_install(). In addition, by\nkernel convention, fd is taken over by the user land after fd_install(),\nand the kernel should not call close_fd() after that, i.e., it should call\nfd_install() after everything is ready, thus fd_install() is called after\ncopy_to_user() succeeds.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-416"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-07-12T13:15:14Z"

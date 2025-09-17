@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6p4q-ch45-w85q",
-  "modified": "2025-09-09T21:30:28Z",
+  "modified": "2025-09-17T18:31:17Z",
   "published": "2025-09-09T21:30:28Z",
   "aliases": [
     "CVE-2025-34174"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://redmine.pfsense.org/issues/16413"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vulncheck.com/advisories/netgate-pf-sense-ce-status-traffic-totals-stored-xss"
     }
   ],
   "database_specific": {

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v22f-rw8m-47vr",
-  "modified": "2024-06-27T15:30:40Z",
+  "modified": "2025-09-17T18:31:14Z",
   "published": "2024-06-21T12:31:21Z",
   "aliases": [
     "CVE-2024-38637"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ngreybus: lights: check return of get_channel_from_mode\n\nIf channel for the given node is not found we return null from\nget_channel_from_mode. Make sure we validate the return pointer\nbefore using it in two of the missing places.\n\nThis was originally reported in [0]:\nFound by Linux Verification Center (linuxtesting.org) with SVACE.\n\n[0] https://lore.kernel.org/all/20240301190425.120605-1-m.lobanov@rosalinux.ru",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -52,8 +57,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-06-21T11:15:12Z"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fv5h-vqpf-6fqj",
-  "modified": "2025-07-10T09:32:27Z",
+  "modified": "2025-09-17T18:31:16Z",
   "published": "2025-07-10T09:32:27Z",
   "aliases": [
     "CVE-2025-32988"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-32988"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:16115"
     },
     {
       "type": "WEB",

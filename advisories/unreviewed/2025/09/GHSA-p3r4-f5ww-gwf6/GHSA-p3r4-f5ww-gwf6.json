@@ -1,13 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p3r4-f5ww-gwf6",
-  "modified": "2025-09-09T15:31:18Z",
+  "modified": "2025-09-17T18:31:17Z",
   "published": "2025-09-09T15:31:18Z",
   "aliases": [
     "CVE-2025-8008"
   ],
   "details": "A security issue exists in the protected mode of EN4TR devices, where sending specifically crafted messages during a Forward Close operation can cause the device to crash.",
   "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    },
     {
       "type": "CVSS_V4",
       "score": "CVSS:4.0/AV:A/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"

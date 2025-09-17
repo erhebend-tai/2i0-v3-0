@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w48q-m5vp-9pqr",
-  "modified": "2024-06-20T12:31:20Z",
+  "modified": "2025-09-17T18:31:13Z",
   "published": "2024-06-20T12:31:20Z",
   "aliases": [
     "CVE-2022-48712"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\next4: fix error handling in ext4_fc_record_modified_inode()\n\nCurrent code does not fully takes care of krealloc() error case, which\ncould lead to silent memory corruption or a kernel bug.  This patch\nfixes that.\n\nAlso it cleans up some duplicated error handling logic from various\nfunctions in fast_commit.c file.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-787"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-06-20T11:15:54Z"
