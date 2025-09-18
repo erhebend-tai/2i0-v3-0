@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w9q2-p57h-r357",
-  "modified": "2024-12-12T21:30:45Z",
+  "modified": "2025-09-18T21:30:55Z",
   "published": "2024-05-08T15:30:42Z",
   "aliases": [
     "CVE-2024-21793"
   ],
-  "details": "\nAn OData injection vulnerability exists in the BIG-IP Next Central Manager API (URI).  Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated.",
+  "details": "An OData injection vulnerability exists in the BIG-IP Next Central Manager API (URI).  Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated.",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m6pg-q484-64g9",
-  "modified": "2024-04-04T08:28:58Z",
+  "modified": "2025-09-18T21:30:55Z",
   "published": "2023-10-10T15:30:50Z",
   "aliases": [
     "CVE-2023-40542"
   ],
-  "details": "\nWhen TCP Verified Accept is enabled on a TCP profile that is configured on a Virtual Server, undisclosed requests can cause an increase in memory resource utilization.  Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated",
+  "details": "When TCP Verified Accept is enabled on a TCP profile that is configured on a Virtual Server, undisclosed requests can cause an increase in memory resource utilization.  Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated",
   "severity": [
     {
       "type": "CVSS_V3",

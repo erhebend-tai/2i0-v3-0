@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-h963-6gvx-2vg6",
+  "modified": "2025-09-18T21:30:57Z",
+  "published": "2025-09-18T21:30:57Z",
+  "aliases": [
+    "CVE-2025-57295"
+  ],
+  "details": "H3C devices running firmware version NX15V100R015 are vulnerable to unauthorized access due to insecure default credentials. The root user account has no password set, and the H3C user account uses the default password \"admin,\" both stored in the /etc/shadow file. Attackers with network access can exploit these credentials to gain unauthorized root-level access to the device via the administrative interface or other network services, potentially leading to privilege escalation, information disclosure, or arbitrary code execution.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-57295"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/ZZ2266/.github.io/blob/main/H3C/readme.md"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.h3c.com/cn/d_202504/2407151_30005_0.htm"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-09-18T21:15:49Z"
+  }
+}

@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vgvm-wwrq-c4xw",
-  "modified": "2024-04-04T05:39:17Z",
+  "modified": "2025-09-18T21:30:54Z",
   "published": "2023-07-06T21:14:53Z",
   "aliases": [
     "CVE-2023-29240"
   ],
-  "details": "\nAn authenticated attacker granted a Viewer or Auditor role on a BIG-IQ can upload arbitrary files using an undisclosed iControl REST endpoint.  Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated.",
+  "details": "An authenticated attacker granted a Viewer or Auditor role on a BIG-IQ can upload arbitrary files using an undisclosed iControl REST endpoint.  Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -27,7 +27,8 @@
   "database_specific": {
     "cwe_ids": [
       "CWE-269",
-      "CWE-434"
+      "CWE-434",
+      "CWE-863"
     ],
     "severity": "MODERATE",
     "github_reviewed": false,
