@@ -1,23 +1,38 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q58r-hwc8-rm9j",
-  "modified": "2025-06-01T12:30:24Z",
+  "modified": "2025-09-18T17:14:56Z",
   "published": "2025-05-15T18:31:47Z",
   "aliases": [
     "CVE-2025-1647"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Bootstrap allows Cross-Site Scripting (XSS).This issue affects Bootstrap: from 3.4.1 before 4.0.0.",
+  "summary": "Bootstrap Vulnerable to Cross-Site Scripting in its Popover and Tooltip Components",
+  "details": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Bootstrap allows Cross-Site Scripting (XSS). This issue affects Bootstrap version 3.4.1. At time of publication, there is no publicly available patched version.",
   "severity": [
     {
       "type": "CVSS_V3",
       "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "bootstrap"
+      },
+      "versions": [
+        "3.4.1"
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-1647"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/twbs/bootstrap"
     },
     {
       "type": "WEB",
@@ -33,8 +48,8 @@
       "CWE-79"
     ],
     "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-09-18T17:14:56Z",
     "nvd_published_at": "2025-05-15T17:15:47Z"
   }
 }
