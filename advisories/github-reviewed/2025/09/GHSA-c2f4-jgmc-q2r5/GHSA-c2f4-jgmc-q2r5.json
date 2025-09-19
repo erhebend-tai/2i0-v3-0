@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c2f4-jgmc-q2r5",
-  "modified": "2025-09-17T20:00:56Z",
+  "modified": "2025-09-19T14:41:30Z",
   "published": "2025-09-17T18:26:48Z",
   "aliases": [
     "CVE-2025-58767"
@@ -11,7 +11,7 @@
   "severity": [
     {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:L/SC:N/SI:N/SA:N/E:U"
+      "score": "CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:L/SC:N/SI:N/SA:N/E:U"
     }
   ],
   "affected": [
@@ -54,6 +54,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/ruby/rexml"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/rexml/CVE-2025-58767.yml"
     },
     {
       "type": "WEB",
