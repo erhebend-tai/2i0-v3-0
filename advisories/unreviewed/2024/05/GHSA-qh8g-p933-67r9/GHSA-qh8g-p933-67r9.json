@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qh8g-p933-67r9",
-  "modified": "2024-05-21T15:31:44Z",
+  "modified": "2025-09-19T15:31:07Z",
   "published": "2024-05-21T15:31:44Z",
   "aliases": [
     "CVE-2021-47398"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nRDMA/hfi1: Fix kernel pointer leak\n\nPointers should be printed with %p or %px rather than cast to 'unsigned\nlong long' and printed with %llx.  Change %llx to %p to print the secured\npointer.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-21T15:15:25Z"

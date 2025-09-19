@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6cpx-w2cg-qmgr",
-  "modified": "2025-02-27T21:32:15Z",
+  "modified": "2025-09-19T15:31:07Z",
   "published": "2025-02-27T03:34:04Z",
   "aliases": [
     "CVE-2025-21751"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/23a86c76a1a197e8fbbbd0ce3e826eb58c471624"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/5682aad0276ff9b9b0eff3188eb6a1f504d6b436"
     }
   ],
   "database_specific": {
