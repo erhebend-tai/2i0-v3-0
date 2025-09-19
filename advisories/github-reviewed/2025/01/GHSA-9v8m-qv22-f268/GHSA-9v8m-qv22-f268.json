@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9v8m-qv22-f268",
-  "modified": "2025-01-14T22:00:02Z",
+  "modified": "2025-09-19T22:01:59Z",
   "published": "2025-01-14T19:41:48Z",
   "aliases": [
     "CVE-2025-23041"
   ],
   "summary": "Umbraco Forms's Short and Long Answer Fields Are Not Validated Server-Side For Maximum Length",
-  "details": "### Impact\n\nCharacter limits configured by editors for short and long answer fields are validated only client-side, not server-side.\n\n### Patches\n\nPatched in 8.13.16, 10.5.7, 13.2.2, 14.1.2\n\n",
+  "details": "### Impact\n\nCharacter limits configured by editors for short and long answer fields are validated only client-side, not server-side.\n\n### Patches\n\nPatched in 8.13.16, 10.5.7, 13.2.2, 14.1.2",
   "severity": [
     {
       "type": "CVSS_V3",
