@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qm9p-f9j5-w83w",
-  "modified": "2025-09-18T17:15:13Z",
+  "modified": "2025-09-20T00:50:59Z",
   "published": "2025-09-17T21:30:42Z",
   "aliases": [
     "CVE-2025-56648"
@@ -25,7 +25,7 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "1.6.0"
             },
             {
               "last_affected": "2.14.4"
