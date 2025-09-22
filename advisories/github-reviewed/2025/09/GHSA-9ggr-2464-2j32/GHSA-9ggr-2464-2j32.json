@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9ggr-2464-2j32",
-  "modified": "2025-09-22T14:42:12Z",
+  "modified": "2025-09-22T20:08:32Z",
   "published": "2025-09-22T14:42:12Z",
   "aliases": [
     "CVE-2025-59420"
@@ -41,6 +41,10 @@
       "url": "https://github.com/authlib/authlib/security/advisories/GHSA-9ggr-2464-2j32"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-59420"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/authlib/authlib/commit/6b1813e4392eb7c168c276099ff7783b176479df"
     },
@@ -57,6 +61,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2025-09-22T14:42:12Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-09-22T18:15:46Z"
   }
 }
