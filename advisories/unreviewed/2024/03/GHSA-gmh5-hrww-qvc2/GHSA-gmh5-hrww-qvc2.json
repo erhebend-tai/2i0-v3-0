@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gmh5-hrww-qvc2",
-  "modified": "2024-08-27T21:31:11Z",
+  "modified": "2025-09-23T03:30:25Z",
   "published": "2024-03-28T21:30:31Z",
   "aliases": [
     "CVE-2024-28713"
@@ -46,6 +46,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/JiangXiaoBaiJia/cve/blob/main/Mblog%20blog%20system%20has%20SSTI%20template%20injection%20vulnerability.md"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/ssti-in-mblog-351-a-tale-of-a-glorified-rce-cve-2024-28713-28714"
     },
     {
       "type": "WEB",
