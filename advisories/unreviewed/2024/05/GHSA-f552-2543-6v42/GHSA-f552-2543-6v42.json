@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f552-2543-6v42",
-  "modified": "2024-05-19T09:34:47Z",
+  "modified": "2025-09-23T15:31:04Z",
   "published": "2024-05-19T09:34:47Z",
   "aliases": [
     "CVE-2024-35914"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnfsd: Fix error cleanup path in nfsd_rename()\n\nCommit a8b0026847b8 (\"rename(): avoid a deadlock in the case of parents\nhaving no common ancestor\") added an error bail out path. However this\npath does not drop the remount protection that has been acquired. Fix\nthe cleanup path to properly drop the remount protection.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-667"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-19T09:15:11Z"

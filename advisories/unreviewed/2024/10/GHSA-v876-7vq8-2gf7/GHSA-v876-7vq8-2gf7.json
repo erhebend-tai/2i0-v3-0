@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v876-7vq8-2gf7",
-  "modified": "2024-10-03T18:30:36Z",
+  "modified": "2025-09-23T15:31:04Z",
   "published": "2024-10-02T21:30:37Z",
   "aliases": [
     "CVE-2024-28888"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.foxit.com/support/security-bulletins.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.talosintelligence.com/vulnerability_reports/TALOS-2024-1967"
     }
   ],
   "database_specific": {
