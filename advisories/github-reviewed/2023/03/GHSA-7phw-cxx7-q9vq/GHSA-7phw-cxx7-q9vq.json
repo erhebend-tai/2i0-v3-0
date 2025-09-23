@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7phw-cxx7-q9vq",
-  "modified": "2024-03-14T20:52:28Z",
+  "modified": "2025-09-23T19:54:01Z",
   "published": "2023-03-28T00:34:28Z",
   "aliases": [
     "CVE-2023-20860"
@@ -38,6 +38,44 @@
       "package": {
         "ecosystem": "Maven",
         "name": "org.springframework:spring"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "5.3.0"
+            },
+            {
+              "fixed": "5.3.26"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.springframework:spring-webmvc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "6.0.0"
+            },
+            {
+              "fixed": "6.0.7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.springframework:spring-webmvc"
       },
       "ranges": [
         {
