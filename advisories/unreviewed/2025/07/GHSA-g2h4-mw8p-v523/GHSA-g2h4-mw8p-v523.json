@@ -1,13 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g2h4-mw8p-v523",
-  "modified": "2025-07-31T15:35:49Z",
+  "modified": "2025-09-23T18:30:21Z",
   "published": "2025-07-31T15:35:49Z",
   "aliases": [
     "CVE-2012-10021"
   ],
   "details": "A stack-based buffer overflow vulnerability exists in D-Link DIR-605L Wireless N300 Cloud Router firmware versions 1.12 and 1.13 via the getAuthCode() function. The flaw arises from unsafe usage of sprintf() when processing user-supplied CAPTCHA data via the FILECODE parameter in /goform/formLogin. A remote unauthenticated attacker can exploit this to execute arbitrary code with root privileges on the device.",
   "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    },
     {
       "type": "CVSS_V4",
       "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"

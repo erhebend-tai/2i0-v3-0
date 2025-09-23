@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-756h-grq9-2jvh",
+  "modified": "2025-09-23T18:30:26Z",
+  "published": "2025-09-23T18:30:26Z",
+  "aliases": [
+    "CVE-2025-55780"
+  ],
+  "details": "A null pointer dereference occurs in the function break_word_for_overflow_wrap() in MuPDF 1.26.4 when rendering a malformed EPUB document. Specifically, the function calls fz_html_split_flow() to split a FLOW_WORD node, but does not check if node->next is valid before accessing node->next->overflow_wrap, resulting in a crash if the split fails or returns a partial node chain.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-55780"
+    },
+    {
+      "type": "WEB",
+      "url": "https://bugs.ghostscript.com/show_bug.cgi?id=708720"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-09-23T18:15:34Z"
+  }
+}
