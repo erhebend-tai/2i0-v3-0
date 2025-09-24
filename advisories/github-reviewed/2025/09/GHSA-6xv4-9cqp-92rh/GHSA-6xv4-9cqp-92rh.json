@@ -1,14 +1,40 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6xv4-9cqp-92rh",
-  "modified": "2025-09-24T18:30:31Z",
+  "modified": "2025-09-24T20:11:10Z",
   "published": "2025-09-24T18:30:31Z",
   "aliases": [
     "CVE-2025-57353"
   ],
+  "summary": "messageformat prototype pollution vulnerability",
   "details": "The Runtime components of messageformat package for Node.js prior to version 3.0.1 contain a prototype pollution vulnerability. Due to insufficient validation of nested message keys during the processing of message data, an attacker can manipulate the prototype chain of JavaScript objects by providing specially crafted input. This can result in the injection of arbitrary properties into the Object.prototype, potentially leading to denial of service conditions or unexpected application behavior. The vulnerability allows attackers to alter the prototype of base objects, impacting all subsequent object instances throughout the application's lifecycle. This issue remains unaddressed in the latest available version.",
-  "severity": [],
-  "affected": [],
+  "severity": [
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N/E:U"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "@messageformat/runtime"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.0.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -21,13 +47,19 @@
     {
       "type": "WEB",
       "url": "https://github.com/VulnSageAgent/PoCs/tree/main/JavaScript/prototype-pollution/CVE-2025-57353"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/messageformat/messageformat"
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "cwe_ids": [
+      "CWE-1321"
+    ],
+    "severity": "HIGH",
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-09-24T20:11:09Z",
     "nvd_published_at": "2025-09-24T18:15:41Z"
   }
 }
