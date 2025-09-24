@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h7f8-97v8-xrfh",
-  "modified": "2024-07-16T12:30:38Z",
+  "modified": "2025-09-24T18:30:23Z",
   "published": "2024-07-16T12:30:38Z",
   "aliases": [
     "CVE-2022-48774"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndmaengine: ptdma: Fix the error handling path in pt_core_init()\n\nIn order to free resources correctly in the error handling path of\npt_core_init(), 2 goto's have to be switched. Otherwise, some resources\nwill leak and we will try to release things that have not been allocated\nyet.\n\nAlso move a dev_err() to a place where it is more meaningful.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -29,7 +34,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-07-16T12:15:02Z"
