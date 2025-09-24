@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xhh8-8jq9-8vf6",
-  "modified": "2024-05-21T18:31:21Z",
+  "modified": "2025-09-24T00:30:40Z",
   "published": "2024-05-21T18:31:21Z",
   "aliases": [
     "CVE-2023-52804"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nfs/jfs: Add validity check for db_maxag and db_agpref\n\nBoth db_maxag and db_agpref are used as the index of the\ndb_agfree array, but there is currently no validity check for\ndb_maxag and db_agpref, which can lead to errors.\n\nThe following is related bug reported by Syzbot:\n\nUBSAN: array-index-out-of-bounds in fs/jfs/jfs_dmap.c:639:20\nindex 7936 is out of range for type 'atomic_t[128]'\n\nAdd checking that the values of db_maxag and db_agpref are valid\nindexes for the db_agfree array.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -52,8 +57,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-129"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-21T16:15:18Z"
