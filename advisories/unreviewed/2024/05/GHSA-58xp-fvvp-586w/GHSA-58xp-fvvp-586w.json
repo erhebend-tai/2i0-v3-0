@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-58xp-fvvp-586w",
-  "modified": "2024-05-19T12:30:38Z",
+  "modified": "2025-09-24T21:30:29Z",
   "published": "2024-05-19T12:30:38Z",
   "aliases": [
     "CVE-2024-35924"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nusb: typec: ucsi: Limit read size on v1.2\n\nBetween UCSI 1.2 and UCSI 2.0, the size of the MESSAGE_IN region was\nincreased from 16 to 256. In order to avoid overflowing reads for older\nsystems, add a mechanism to use the read UCSI version to truncate read\nsizes on UCSI v1.2.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -29,7 +34,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-19T11:15:48Z"

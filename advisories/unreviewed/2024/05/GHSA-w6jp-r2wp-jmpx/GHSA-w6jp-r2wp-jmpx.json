@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w6jp-r2wp-jmpx",
-  "modified": "2024-06-10T18:31:03Z",
+  "modified": "2025-09-24T21:30:30Z",
   "published": "2024-05-20T12:30:27Z",
   "aliases": [
     "CVE-2024-35951"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/panfrost: Fix the error path in panfrost_mmu_map_fault_addr()\n\nSubject: [PATCH] drm/panfrost: Fix the error path in\n panfrost_mmu_map_fault_addr()\n\nIf some the pages or sgt allocation failed, we shouldn't release the\npages ref we got earlier, otherwise we will end up with unbalanced\nget/put_pages() calls. We should instead leave everything in place\nand let the BO release function deal with extra cleanup when the object\nis destroyed, or let the fault handler try again next time it's called.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -37,7 +42,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-20T10:15:10Z"

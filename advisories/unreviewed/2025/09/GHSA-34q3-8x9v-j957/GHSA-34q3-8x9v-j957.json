@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-34q3-8x9v-j957",
+  "modified": "2025-09-24T21:30:37Z",
+  "published": "2025-09-24T21:30:37Z",
+  "aliases": [
+    "CVE-2025-57328"
+  ],
+  "details": "toggle-array is a package designed to enables a property on the object at the specified index, while disabling the property on all other objects. A Prototype Pollution vulnerability in the enable and disable function of toggle-array v1.0.1 and before allows attackers to inject properties on Object.prototype via supplying a crafted payload, causing denial of service (DoS) as the minimum consequence.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-57328"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/VulnSageAgent/PoCs/blob/main/JavaScript/prototype-pollution/toggle-array%401.0.1/index.js"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/VulnSageAgent/PoCs/tree/main/JavaScript/prototype-pollution/CVE-2025-57328"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-09-24T20:15:32Z"
+  }
+}

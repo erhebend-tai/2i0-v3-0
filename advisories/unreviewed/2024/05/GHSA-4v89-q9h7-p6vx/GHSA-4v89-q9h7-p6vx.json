@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4v89-q9h7-p6vx",
-  "modified": "2024-05-22T09:31:46Z",
+  "modified": "2025-09-24T21:30:30Z",
   "published": "2024-05-22T09:31:46Z",
   "aliases": [
     "CVE-2021-47474"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ncomedi: vmk80xx: fix bulk-buffer overflow\n\nThe driver is using endpoint-sized buffers but must not assume that the\ntx and rx buffers are of equal size or a malicious device could overflow\nthe slab-allocated receive buffer when doing bulk transfers.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -52,8 +57,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-787"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-22T09:15:09Z"

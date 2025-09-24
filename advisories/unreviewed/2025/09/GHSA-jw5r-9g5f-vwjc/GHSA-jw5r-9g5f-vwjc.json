@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jw5r-9g5f-vwjc",
-  "modified": "2025-09-23T21:30:54Z",
+  "modified": "2025-09-24T21:30:36Z",
   "published": "2025-09-23T21:30:54Z",
   "aliases": [
     "CVE-2025-57637"
   ],
   "details": "Buffer overflow vulnerability in D-Link DI-7100G 2020-02-21 in the sub_451754 function of the jhttpd service in the viav4 parameter allowing attackers to cause a denial of service or execute arbitrary code.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-122"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-23T19:15:41Z"

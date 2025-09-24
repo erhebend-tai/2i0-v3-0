@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vm6h-6m45-hfp7",
-  "modified": "2024-04-04T07:42:13Z",
+  "modified": "2025-09-24T21:30:29Z",
   "published": "2023-09-15T09:30:20Z",
   "aliases": [
     "CVE-2023-4663"
   ],
-  "details": "Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS) vulnerability in Saphira Saphira Connect allows Reflected XSS.This issue affects Saphira Connect: before 9.\n\n",
+  "details": "Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS) vulnerability in Saphira Saphira Connect allows Reflected XSS.This issue affects Saphira Connect: before 9.",
   "severity": [
     {
       "type": "CVSS_V3",
