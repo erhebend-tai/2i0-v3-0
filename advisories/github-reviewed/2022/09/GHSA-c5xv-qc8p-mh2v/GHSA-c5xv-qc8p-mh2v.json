@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c5xv-qc8p-mh2v",
-  "modified": "2022-09-23T20:52:26Z",
+  "modified": "2025-09-24T20:31:16Z",
   "published": "2022-09-23T00:00:39Z",
   "aliases": [
     "CVE-2022-38398"
@@ -25,7 +25,26 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "1.0"
+              "introduced": "1.14"
+            },
+            {
+              "fixed": "1.15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.apache.xmlgraphics:batik-bridge"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.14"
             },
             {
               "fixed": "1.15"
