@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-756h-grq9-2jvh",
-  "modified": "2025-09-24T21:30:36Z",
+  "modified": "2025-09-25T15:30:23Z",
   "published": "2025-09-23T18:30:26Z",
   "aliases": [
     "CVE-2025-55780"
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://bugs.ghostscript.com/show_bug.cgi?id=708720"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cgit.ghostscript.com/cgi-bin/cgit.cgi/mupdf.git/commit/?id=bdd5d241748807378a78a622388e0312332513c5"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/ISH2YU/CVE-2025-55780/tree/main"
     }
   ],
   "database_specific": {

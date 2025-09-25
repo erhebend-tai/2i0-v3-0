@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-35hw-x784-33fr",
+  "modified": "2025-09-25T15:30:24Z",
+  "published": "2025-09-25T15:30:24Z",
+  "aliases": [
+    "CVE-2025-10542"
+  ],
+  "details": "iMonitor EAM 9.6394 ships with default administrative credentials that are also displayed within the management client’s connection dialog. If the administrator does not change these defaults, a remote attacker can authenticate to the EAM server and gain full control over monitored agents and data. This enables reading highly sensitive telemetry (including keylogger output) and issuing arbitrary actions to all connected clients.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-10542"
+    },
+    {
+      "type": "WEB",
+      "url": "https://r.sec-consult.com/imonitor"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-1392"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-09-25T15:16:09Z"
+  }
+}

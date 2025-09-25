@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-8f2w-3w4c-pwj2",
+  "modified": "2025-09-25T15:30:25Z",
+  "published": "2025-09-25T15:30:25Z",
+  "aliases": [
+    "CVE-2025-55551"
+  ],
+  "details": "An issue in the component torch.linalg.lu of pytorch v2.8.0 allows attackers to cause a Denial of Service (DoS) when performing a slice operation.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-55551"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pytorch/pytorch/issues/151401"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gist.github.com/shaoyuyoung/0e7d2a586297ae9c8ed14d8706749efc"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-09-25T15:16:12Z"
+  }
+}

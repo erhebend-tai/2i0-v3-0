@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-5q53-78f2-6gf8",
+  "modified": "2025-09-25T15:30:24Z",
+  "published": "2025-09-25T15:30:24Z",
+  "aliases": [
+    "CVE-2025-57317"
+  ],
+  "details": "apidoc-core is the core parser library to generate apidoc result following the apidoc-spec. A Prototype Pollution vulnerability in the preProcess function of apidoc-core versions thru 0.15.0 allows attackers to inject properties on Object.prototype via supplying a crafted payload, causing denial of service (DoS) as the minimum consequence.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-57317"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/OrangeShieldInfos/PoCs/tree/main/JavaScript/prototype-pollution/CVE-2025-57317"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/VulnSageAgent/PoCs/blob/main/JavaScript/prototype-pollution/apidoc-core%400.15.0/index.js"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-09-25T14:15:44Z"
+  }
+}

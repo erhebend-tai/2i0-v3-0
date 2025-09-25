@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9g8m-v378-pcg3",
-  "modified": "2025-09-24T21:30:37Z",
+  "modified": "2025-09-25T15:30:23Z",
   "published": "2025-09-24T21:30:37Z",
   "aliases": [
     "CVE-2025-57324"
   ],
   "details": "parse is a package designed to parse JavaScript SDK. A Prototype Pollution vulnerability in the SingleInstanceStateController.initializeState function of parse version 5.3.0 and before allows attackers to inject properties on Object.prototype via supplying a crafted payload, causing denial of service (DoS) as the minimum consequence.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-1321"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-24T21:15:32Z"
