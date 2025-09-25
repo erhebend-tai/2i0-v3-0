@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9h3q-32c7-r533",
-  "modified": "2025-07-23T16:01:50Z",
+  "modified": "2025-09-25T21:49:54Z",
   "published": "2025-07-23T06:33:50Z",
   "aliases": [
     "CVE-2025-8020"
   ],
   "summary": "private-ip vulnerable to Server-Side Request Forgery",
-  "details": "All versions of the package private-ip are vulnerable to Server-Side Request Forgery (SSRF) where an attacker can provide an IP or hostname that resolves to a multicast IP address (224.0.0.0/4) which is not included as part of the private IP ranges in the package's source code.",
+  "details": "All versions of the package private-ip are vulnerable to Server-Side Request Forgery (SSRF), where an attacker can provide an IP or hostname that resolves to a multicast IP address (224.0.0.0/4) which is not included as part of the private IP ranges in the package's source code.",
   "severity": [
     {
       "type": "CVSS_V3",
