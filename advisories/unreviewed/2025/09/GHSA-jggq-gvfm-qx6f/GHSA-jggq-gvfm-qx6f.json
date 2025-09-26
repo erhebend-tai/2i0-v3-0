@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jggq-gvfm-qx6f",
-  "modified": "2025-09-25T21:30:25Z",
+  "modified": "2025-09-26T21:30:28Z",
   "published": "2025-09-25T21:30:25Z",
   "aliases": [
     "CVE-2025-59402"
   ],
   "details": "Flock Safety Bravo Edge AI Compute Device BRAVO_00.00_local_20241017 accepts the default Thundercomm TurboX 6490 Firehose loader in EDL/QDL mode. This enables attackers with physical access to flash arbitrary firmware, dump partitions, and bypass bootloader and OS security controls.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:P/AC:L/PR:N/UI:R/S:U/C:L/I:H/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-616"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-25T21:15:31Z"

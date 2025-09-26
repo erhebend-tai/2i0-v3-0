@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pr7g-498h-frwf",
-  "modified": "2025-01-15T15:31:25Z",
+  "modified": "2025-09-26T21:30:26Z",
   "published": "2025-01-15T15:31:25Z",
   "aliases": [
     "CVE-2024-57893"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nALSA: seq: oss: Fix races at processing SysEx messages\n\nOSS sequencer handles the SysEx messages split in 6 bytes packets, and\nALSA sequencer OSS layer tries to combine those.  It stores the data\nin the internal buffer and this access is racy as of now, which may\nlead to the out-of-bounds access.\n\nAs a temporary band-aid fix, introduce a mutex for serializing the\nprocess of the SysEx message packets.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-362"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-01-15T13:15:13Z"
