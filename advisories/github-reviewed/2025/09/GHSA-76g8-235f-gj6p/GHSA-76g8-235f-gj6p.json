@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-76g8-235f-gj6p",
-  "modified": "2025-09-25T21:30:25Z",
+  "modified": "2025-09-26T13:04:47Z",
   "published": "2025-09-25T15:30:23Z",
   "aliases": [
     "CVE-2025-26278"
   ],
+  "summary": "dref is vulnerable to prototype pollution",
   "details": "A prototype pollution in the lib.set function of dref v0.1.2 allows attackers to cause a Denial of Service (DoS) via supplying a crafted payload.",
   "severity": [
     {
@@ -13,7 +14,27 @@
       "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "dref"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "0.1.2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -33,8 +54,8 @@
       "CWE-1321"
     ],
     "severity": "HIGH",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-09-26T13:04:47Z",
     "nvd_published_at": "2025-09-25T14:15:43Z"
   }
 }
