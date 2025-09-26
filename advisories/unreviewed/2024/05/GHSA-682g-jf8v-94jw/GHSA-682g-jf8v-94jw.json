@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-682g-jf8v-94jw",
-  "modified": "2024-05-17T15:31:09Z",
+  "modified": "2025-09-26T18:31:17Z",
   "published": "2024-05-17T15:31:09Z",
   "aliases": [
     "CVE-2024-35810"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/vmwgfx: Fix the lifetime of the bo cursor memory\n\nThe cleanup can be dispatched while the atomic update is still active,\nwhich means that the memory acquired in the atomic update needs to\nnot be invalidated by the cleanup. The buffer objects in vmw_plane_state\ninstead of using the builtin map_and_cache were trying to handle\nthe lifetime of the mapped memory themselves, leading to crashes.\n\nUse the map_and_cache instead of trying to manage the lifetime of the\nbuffer objects held by the vmw_plane_state.\n\nFixes kernel oops'es in IGT's kms_cursor_legacy forked-bo.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -33,7 +38,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-17T14:15:14Z"

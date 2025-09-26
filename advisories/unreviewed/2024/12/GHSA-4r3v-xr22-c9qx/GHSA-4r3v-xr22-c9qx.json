@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4r3v-xr22-c9qx",
-  "modified": "2024-12-27T15:31:55Z",
+  "modified": "2025-09-26T18:31:18Z",
   "published": "2024-12-27T15:31:55Z",
   "aliases": [
     "CVE-2024-56630"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nocfs2: free inode when ocfs2_get_init_inode() fails\n\nsyzbot is reporting busy inodes after unmount, for commit 9c89fe0af826\n(\"ocfs2: Handle error from dquot_initialize()\") forgot to call iput() when\nnew_inode() succeeded and dquot_initialize() failed.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -44,8 +49,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-908"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-12-27T15:15:22Z"

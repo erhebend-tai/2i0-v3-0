@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w492-g7j4-gr3w",
-  "modified": "2024-05-21T18:31:23Z",
+  "modified": "2025-09-26T18:31:17Z",
   "published": "2024-05-21T18:31:23Z",
   "aliases": [
     "CVE-2023-52871"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nsoc: qcom: llcc: Handle a second device without data corruption\n\nUsually there is only one llcc device. But if there were a second, even\na failed probe call would modify the global drv_data pointer. So check\nif drv_data is valid before overwriting it.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -45,7 +50,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-21T16:15:23Z"
