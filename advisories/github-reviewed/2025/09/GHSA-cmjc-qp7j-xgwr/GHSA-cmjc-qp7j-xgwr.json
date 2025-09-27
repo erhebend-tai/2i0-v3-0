@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cmjc-qp7j-xgwr",
-  "modified": "2025-09-23T17:38:55Z",
+  "modified": "2025-09-27T03:38:34Z",
   "published": "2025-09-23T15:31:09Z",
   "aliases": [
     "CVE-2025-4760"
   ],
   "summary": "WSO2 carbon-apimgt affected by an authenticated stored cross-site scripting (XSS) vulnerability",
-  "details": "An authenticated stored cross-site scripting (XSS) vulnerability exists in multiple WSO2 products due to improper validation of user-supplied input during API document upload in the Publisher portal. A user with publisher privileges can upload a crafted API document containing malicious JavaScript, which is later rendered in the browser when accessed by other users.\n\nA successful attack could result in redirection to malicious websites, unauthorized UI modifications, or exfiltration of browser-accessible data. However, session-related sensitive cookies are protected by the httpOnly flag, preventing session hijacking.",
+  "details": "An authenticated stored Cross-Site Scripting (XSS) vulnerability exists in WSO2 API Manager components (`carbon-apimgt`) due to insufficient validation of user-supplied input during API document upload in the Publisher portal.\n\nA user with publisher privileges can upload a crafted API document whose contents are later rendered in the UI for other users, leading to attacker-controlled script execution. Likely outcomes include redirection to malicious sites, unauthorized UI modifications, or exfiltration of data accessible to the browser; session hijacking is mitigated by the use of `HttpOnly` session cookies.\n\nTo remediate, update to version 9.31.117 or above.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -70,6 +70,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/wso2/carbon-apimgt"
+    },
+    {
+      "type": "WEB",
+      "url": "https://mvnrepository.com/artifact/org.wso2.carbon.apimgt/org.wso2.carbon.apimgt.api/9.31.117"
     },
     {
       "type": "WEB",
