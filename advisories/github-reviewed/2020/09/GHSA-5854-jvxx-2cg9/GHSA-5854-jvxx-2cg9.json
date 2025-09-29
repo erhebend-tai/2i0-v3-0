@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5854-jvxx-2cg9",
-  "modified": "2025-09-27T00:23:06Z",
+  "modified": "2025-09-29T20:49:54Z",
   "published": "2020-09-03T15:46:57Z",
   "aliases": [],
   "summary": "Denial of Service in content",
@@ -11,7 +11,7 @@
     {
       "package": {
         "ecosystem": "npm",
-        "name": "subtext"
+        "name": "content"
       },
       "ranges": [
         {
@@ -29,6 +29,10 @@
     }
   ],
   "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/hapijs/content/compare/v4.1.0...v4.1.1"
+    },
     {
       "type": "PACKAGE",
       "url": "https://github.com/hapijs/subtext"
