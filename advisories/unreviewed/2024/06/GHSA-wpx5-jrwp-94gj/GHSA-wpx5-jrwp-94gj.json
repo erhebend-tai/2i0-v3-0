@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wpx5-jrwp-94gj",
-  "modified": "2024-06-20T12:31:21Z",
+  "modified": "2025-09-29T21:30:20Z",
   "published": "2024-06-20T12:31:21Z",
   "aliases": [
     "CVE-2022-48738"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nASoC: ops: Reject out of bounds values in snd_soc_put_volsw()\n\nWe don't currently validate that the values being set are within the range\nwe advertised to userspace as being valid, do so and reject any values\nthat are out of range.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-125"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-06-20T12:15:12Z"

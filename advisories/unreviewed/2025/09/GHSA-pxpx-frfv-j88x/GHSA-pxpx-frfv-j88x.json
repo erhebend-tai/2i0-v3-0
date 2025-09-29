@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pxpx-frfv-j88x",
-  "modified": "2025-09-29T18:33:13Z",
+  "modified": "2025-09-29T21:30:25Z",
   "published": "2025-09-29T18:33:13Z",
   "aliases": [
     "CVE-2025-43400"
   ],
   "details": "An out-of-bounds write issue was addressed with improved bounds checking. This issue is fixed in macOS Sonoma 14.8.1, macOS Tahoe 26.0.1, macOS Sequoia 15.7.1, visionOS 26.0.1, iOS 26.0.1 and iPadOS 26.0.1, iOS 18.7.1 and iPadOS 18.7.1. Processing a maliciously crafted font may lead to unexpected app termination or corrupt process memory.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -40,8 +45,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-787"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-29T18:15:31Z"

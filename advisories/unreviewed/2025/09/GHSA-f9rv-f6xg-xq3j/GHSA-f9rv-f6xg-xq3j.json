@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f9rv-f6xg-xq3j",
-  "modified": "2025-09-29T18:33:14Z",
+  "modified": "2025-09-29T21:30:25Z",
   "published": "2025-09-29T18:33:14Z",
   "aliases": [
     "CVE-2025-57197"
   ],
   "details": "In the Payeer Android application 2.5.0, an improper access control vulnerability exists in the authentication flow for the PIN change feature. A local attacker with root access to the device can dynamically instrument the app to bypass the current PIN verification check and directly modify the authentication PIN. This allows unauthorized users to change PIN without knowing the original/current PIN.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-284"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-29T18:15:32Z"
