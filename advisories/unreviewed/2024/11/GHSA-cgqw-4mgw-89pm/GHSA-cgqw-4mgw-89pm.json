@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cgqw-4mgw-89pm",
-  "modified": "2024-11-18T18:30:59Z",
+  "modified": "2025-10-01T18:30:27Z",
   "published": "2024-11-18T18:30:59Z",
   "aliases": [
     "CVE-2024-44757"
   ],
   "details": "An arbitrary file download vulnerability in the component /Basics/DownloadInpFile of NUS-M9 ERP Management Software v3.0.0 allows attackers to download arbitrary files and access sensitive information via a crafted interface request.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-94"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-11-18T17:15:11Z"
