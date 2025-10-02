@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5gj6-62g7-vmgf",
-  "modified": "2023-05-26T17:56:13Z",
+  "modified": "2025-10-02T21:15:01Z",
   "published": "2023-05-22T03:30:16Z",
   "aliases": [
     "CVE-2023-33264"
@@ -25,7 +25,83 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "4.0-BETA-1"
+            },
+            {
+              "last_affected": "4.2.8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "com.hazelcast:hazelcast"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "5.0-BETA-1"
+            },
+            {
+              "fixed": "5.0.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "com.hazelcast:hazelcast"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "5.1-BETA-1"
+            },
+            {
+              "fixed": "5.1.6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "com.hazelcast:hazelcast"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "5.2-BETA-1"
+            },
+            {
+              "fixed": "5.2.4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "com.hazelcast:hazelcast"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "5.3.0-BETA-1"
             },
             {
               "fixed": "5.3.0"
