@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-whq8-5442-qhw7",
-  "modified": "2024-09-20T18:32:27Z",
+  "modified": "2025-10-02T18:30:55Z",
   "published": "2024-09-20T18:32:27Z",
   "aliases": [
     "CVE-2024-8612"
@@ -26,6 +26,14 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2313760"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gitlab.com/qemu-project/qemu/-/commit/637b0aa139565cb82a7b9269e62214f87082635c"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20241108-0006"
     }
   ],
   "database_specific": {
