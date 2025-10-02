@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4fpf-m9cc-vw8p",
-  "modified": "2025-03-05T18:32:03Z",
+  "modified": "2025-10-02T03:30:23Z",
   "published": "2025-02-28T21:32:20Z",
   "aliases": [
     "CVE-2025-25635"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-25635"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/SunnyYANGyaya/cuicuishark-sheep-fishIOT/blob/main/ToTolink/TOTOLINK-A3002R-formIpv6Setup-pppoe_dns1.md"
     },
     {
       "type": "WEB",
