@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9mp7-jx47-xv3h",
-  "modified": "2025-09-23T06:30:27Z",
+  "modified": "2025-10-02T15:31:13Z",
   "published": "2025-09-23T06:30:27Z",
   "aliases": [
     "CVE-2025-39873"
@@ -29,6 +29,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/94b050726288a56a6b8ff55aa641f2fedbd3b44c"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/e202ffd9e54538ef67ec301ebd6d9da4823466c9"
     },
     {
       "type": "WEB",
