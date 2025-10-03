@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p4h7-mjq9-xwq7",
-  "modified": "2022-05-17T04:38:52Z",
+  "modified": "2025-10-03T18:31:18Z",
   "published": "2022-05-17T04:38:52Z",
   "aliases": [
     "CVE-2014-2356"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2014-2356"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-14-189-02"
     },
     {
       "type": "WEB",

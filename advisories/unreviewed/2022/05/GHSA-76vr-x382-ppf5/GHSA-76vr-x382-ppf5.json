@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-76vr-x382-ppf5",
-  "modified": "2022-05-17T04:42:41Z",
+  "modified": "2025-10-03T18:31:18Z",
   "published": "2022-05-17T04:42:41Z",
   "aliases": [
     "CVE-2014-2352"
@@ -13,6 +13,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2014-2352"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-14-149-02"
+    },
+    {
+      "type": "WEB",
+      "url": "http://cogentdatahub.com/Download_Software.html"
     },
     {
       "type": "WEB",

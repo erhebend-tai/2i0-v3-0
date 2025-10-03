@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m782-vf42-h3fp",
-  "modified": "2022-05-17T04:42:41Z",
+  "modified": "2025-10-03T18:31:18Z",
   "published": "2022-05-17T04:42:41Z",
   "aliases": [
     "CVE-2014-2353"
@@ -16,12 +16,21 @@
     },
     {
       "type": "WEB",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-14-149-02"
+    },
+    {
+      "type": "WEB",
+      "url": "http://cogentdatahub.com/Download_Software.html"
+    },
+    {
+      "type": "WEB",
       "url": "http://ics-cert.us-cert.gov/advisories/ICSA-14-149-02"
     }
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-79"
+      "CWE-79",
+      "CWE-80"
     ],
     "severity": "MODERATE",
     "github_reviewed": false,
