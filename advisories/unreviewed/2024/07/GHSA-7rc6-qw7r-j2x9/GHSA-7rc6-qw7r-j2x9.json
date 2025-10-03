@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7rc6-qw7r-j2x9",
-  "modified": "2024-07-12T15:31:27Z",
+  "modified": "2025-10-03T15:31:13Z",
   "published": "2024-07-12T15:31:27Z",
   "aliases": [
     "CVE-2024-40908"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nbpf: Set run context for rawtp test_run callback\n\nsyzbot reported crash when rawtp program executed through the\ntest_run interface calls bpf_get_attach_cookie helper or any\nother helper that touches task->bpf_ctx pointer.\n\nSetting the run context (task->bpf_ctx pointer) for test_run\ncallback.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -37,7 +42,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-07-12T13:15:14Z"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g5wq-c47p-2h9f",
-  "modified": "2025-08-04T15:31:22Z",
+  "modified": "2025-10-03T15:31:15Z",
   "published": "2025-08-04T15:31:22Z",
   "aliases": [
     "CVE-2025-36604"
@@ -18,6 +18,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-36604"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/watchtowrlabs/watchTowr-vs-Dell-UnityVSA-PreAuth-CVE-2025-36604"
+    },
+    {
+      "type": "WEB",
+      "url": "https://labs.watchtowr.com/its-never-simple-until-it-is-dell-unityvsa-pre-auth-command-injection-cve-2025-36604"
     },
     {
       "type": "WEB",

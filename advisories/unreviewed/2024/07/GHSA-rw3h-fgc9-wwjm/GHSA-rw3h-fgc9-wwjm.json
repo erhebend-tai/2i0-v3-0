@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rw3h-fgc9-wwjm",
-  "modified": "2024-07-16T12:30:40Z",
+  "modified": "2025-10-03T15:31:13Z",
   "published": "2024-07-16T12:30:40Z",
   "aliases": [
     "CVE-2022-48799"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nperf: Fix list corruption in perf_cgroup_switch()\n\nThere's list corruption on cgrp_cpuctx_list. This happens on the\nfollowing path:\n\n  perf_cgroup_switch: list_for_each_entry(cgrp_cpuctx_list)\n      cpu_ctx_sched_in\n         ctx_sched_in\n            ctx_pinned_sched_in\n              merge_sched_in\n                  perf_cgroup_event_disable: remove the event from the list\n\nUse list_for_each_entry_safe() to allow removing an entry during\niteration.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -45,7 +50,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-07-16T12:15:04Z"
