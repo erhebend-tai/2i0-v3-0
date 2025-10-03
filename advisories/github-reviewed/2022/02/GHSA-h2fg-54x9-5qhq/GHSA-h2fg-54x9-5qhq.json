@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h2fg-54x9-5qhq",
-  "modified": "2023-02-17T22:18:36Z",
+  "modified": "2025-10-03T19:29:57Z",
   "published": "2022-02-11T23:43:13Z",
   "aliases": [
     "CVE-2020-26521"
@@ -33,25 +33,6 @@
           ]
         }
       ]
-    },
-    {
-      "package": {
-        "ecosystem": "Go",
-        "name": "github.com/nats-io/nats-server/v2"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "2.1.9"
-            }
-          ]
-        }
-      ]
     }
   ],
   "references": [
@@ -74,6 +55,10 @@
     {
       "type": "WEB",
       "url": "https://advisories.nats.io/CVE/CVE-2020-26521.txt"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/nats-io/jwt"
     },
     {
       "type": "WEB",
