@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mcv4-fgfj-mggf",
-  "modified": "2025-03-06T15:34:46Z",
+  "modified": "2025-10-03T09:30:19Z",
   "published": "2025-03-06T15:34:46Z",
   "aliases": [
     "CVE-2024-13892"
@@ -30,7 +30,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-77"
+      "CWE-77",
+      "CWE-78"
     ],
     "severity": "HIGH",
     "github_reviewed": false,

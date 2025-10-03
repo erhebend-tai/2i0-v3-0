@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q5pr-32h7-qgvw",
-  "modified": "2025-05-08T12:34:29Z",
+  "modified": "2025-10-03T09:30:19Z",
   "published": "2025-05-08T12:34:29Z",
   "aliases": [
     "CVE-2025-3758"
@@ -30,6 +30,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-256",
       "CWE-306"
     ],
     "severity": "HIGH",

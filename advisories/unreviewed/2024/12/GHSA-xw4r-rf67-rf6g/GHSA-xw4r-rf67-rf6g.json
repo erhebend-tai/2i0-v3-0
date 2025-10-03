@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xw4r-rf67-rf6g",
-  "modified": "2024-12-18T15:33:00Z",
+  "modified": "2025-10-03T09:30:19Z",
   "published": "2024-12-18T12:30:55Z",
   "aliases": [
     "CVE-2024-4996"
@@ -38,6 +38,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-259",
       "CWE-798"
     ],
     "severity": "CRITICAL",

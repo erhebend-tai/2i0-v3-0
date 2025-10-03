@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5922-vxrc-h3gf",
-  "modified": "2024-12-18T18:30:51Z",
+  "modified": "2025-10-03T09:30:19Z",
   "published": "2024-12-18T12:30:55Z",
   "aliases": [
     "CVE-2024-4995"
@@ -39,6 +39,7 @@
   "database_specific": {
     "cwe_ids": [
       "CWE-311",
+      "CWE-757",
       "CWE-922"
     ],
     "severity": "CRITICAL",
