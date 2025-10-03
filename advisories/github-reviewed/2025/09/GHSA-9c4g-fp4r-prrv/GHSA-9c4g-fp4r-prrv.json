@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9c4g-fp4r-prrv",
-  "modified": "2025-09-30T21:08:04Z",
+  "modified": "2025-10-03T18:22:21Z",
   "published": "2025-09-30T12:30:51Z",
   "aliases": [
     "CVE-2025-11148"
@@ -12,6 +12,10 @@
     {
       "type": "CVSS_V3",
       "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    },
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N"
     }
   ],
   "affected": [
