@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fmcq-989j-68j8",
-  "modified": "2024-07-12T15:31:28Z",
+  "modified": "2025-10-06T21:30:26Z",
   "published": "2024-07-12T15:31:28Z",
   "aliases": [
     "CVE-2024-40924"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/i915/dpt: Make DPT object unshrinkable\n\nIn some scenarios, the DPT object gets shrunk but\nthe actual framebuffer did not and thus its still\nthere on the DPT's vm->bound_list. Then it tries to\nrewrite the PTEs via a stale CPU mapping. This causes panic.\n\n[vsyrjala: Add TODO comment]\n(cherry picked from commit 51064d471c53dcc8eddd2333c3f1c1d9131ba36c)",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -33,7 +38,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-07-12T13:15:15Z"

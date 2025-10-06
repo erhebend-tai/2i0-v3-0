@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v4hr-6882-m274",
-  "modified": "2025-10-06T18:31:07Z",
+  "modified": "2025-10-06T21:30:45Z",
   "published": "2025-10-06T18:31:07Z",
   "aliases": [
     "CVE-2025-60959"
   ],
   "details": "OS Command Injection vulnerability in EndRun Technologies Sonoma D12 Network Time Server (GPS) F/W 6010-0071-000 Ver 4.00 allows attackers to gain sensitive information.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:H/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-78"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-06T17:16:06Z"

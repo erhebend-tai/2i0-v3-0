@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p92j-gfh9-4hjj",
-  "modified": "2024-07-12T15:31:28Z",
+  "modified": "2025-10-06T21:30:27Z",
   "published": "2024-07-12T15:31:28Z",
   "aliases": [
     "CVE-2024-40938"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nlandlock: Fix d_parent walk\n\nThe WARN_ON_ONCE() in collect_domain_accesses() can be triggered when\ntrying to link a root mount point.  This cannot work in practice because\nthis directory is mounted, but the VFS check is done after the call to\nsecurity_path_link().\n\nDo not use source directory's d_parent when the source directory is the\nmount point.\n\n[mic: Fix commit message]",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -33,7 +38,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-07-12T13:15:16Z"

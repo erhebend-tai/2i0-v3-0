@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3cf6-344v-4fmg",
-  "modified": "2024-07-12T15:31:28Z",
+  "modified": "2025-10-06T21:30:27Z",
   "published": "2024-07-12T15:31:28Z",
   "aliases": [
     "CVE-2024-40966"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ntty: add the option to have a tty reject a new ldisc\n\n... and use it to limit the virtual terminals to just N_TTY.  They are\nkind of special, and in particular, the \"con_write()\" routine violates\nthe \"writes cannot sleep\" rule that some ldiscs rely on.\n\nThis avoids the\n\n   BUG: sleeping function called from invalid context at kernel/printk/printk.c:2659\n\nwhen N_GSM has been attached to a virtual console, and gsmld_write()\ncalls con_write() while holding a spinlock, and con_write() then tries\nto get the console lock.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -33,7 +38,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-07-12T13:15:18Z"

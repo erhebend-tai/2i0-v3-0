@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-64pg-4849-m5gf",
-  "modified": "2025-10-06T18:31:07Z",
+  "modified": "2025-10-06T21:30:45Z",
   "published": "2025-10-06T18:31:07Z",
   "aliases": [
     "CVE-2025-60969"
   ],
   "details": "Directory Traversal vulnerability in EndRun Technologies Sonoma D12 Network Time Server (GPS) F/W 6010-0076-000 Ver 4.00 allows attackers to gain sensitive information.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-22"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-06T17:16:07Z"

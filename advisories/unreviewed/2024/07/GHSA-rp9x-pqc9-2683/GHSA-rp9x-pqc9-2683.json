@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rp9x-pqc9-2683",
-  "modified": "2024-07-12T15:31:29Z",
+  "modified": "2025-10-06T21:30:28Z",
   "published": "2024-07-12T15:31:29Z",
   "aliases": [
     "CVE-2024-40988"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/radeon: fix UBSAN warning in kv_dpm.c\n\nAdds bounds check for sumo_vid_mapping_entry.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-119"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-07-12T13:15:20Z"

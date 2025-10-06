@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4x56-gm9r-89mg",
-  "modified": "2024-07-12T15:31:28Z",
+  "modified": "2025-10-06T21:30:27Z",
   "published": "2024-07-12T15:31:28Z",
   "aliases": [
     "CVE-2024-40944"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nx86/kexec: Fix bug with call depth tracking\n\nThe call to cc_platform_has() triggers a fault and system crash if call depth\ntracking is active because the GS segment has been reset by load_segments() and\nGS_BASE is now 0 but call depth tracking uses per-CPU variables to operate.\n\nCall cc_platform_has() earlier in the function when GS is still valid.\n\n  [ bp: Massage. ]",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -29,7 +34,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-07-12T13:15:16Z"
