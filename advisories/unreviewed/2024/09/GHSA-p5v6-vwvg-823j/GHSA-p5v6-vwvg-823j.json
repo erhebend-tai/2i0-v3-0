@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p5v6-vwvg-823j",
-  "modified": "2024-09-18T09:30:36Z",
+  "modified": "2025-10-08T18:30:14Z",
   "published": "2024-09-18T09:30:36Z",
   "aliases": [
     "CVE-2024-46748"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ncachefiles: Set the max subreq size for cache writes to MAX_RW_COUNT\n\nSet the maximum size of a subrequest that writes to cachefiles to be\nMAX_RW_COUNT so that we don't overrun the maximum write we can make to the\nbacking filesystem.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -25,7 +30,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-09-18T08:15:03Z"
