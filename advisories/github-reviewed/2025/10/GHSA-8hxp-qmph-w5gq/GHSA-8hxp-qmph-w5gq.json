@@ -1,12 +1,13 @@
 {
   "schema_version": "1.4.0",
-  "id": "GHSA-w2wj-hw98-233h",
-  "modified": "2025-10-08T23:32:17Z",
-  "published": "2025-08-21T18:31:27Z",
-  "withdrawn": "2025-10-08T23:32:17Z",
-  "aliases": [],
-  "summary": "Duplicate Advisory: Keycloak Potential Variable Reference in Model Storage Services",
-  "details": "### Duplicate Advisory\nThis advisory has been withdrawn because it is a duplicate of GHSA-8hxp-qmph-w5gq. This link is maintained to preserve external references.\n\n### Original Description\n\nA flaw was found in org.keycloak/keycloak-model-storage-service. The KeycloakRealmImport custom resource substitutes placeholders within imported realm documents, potentially referencing environment variables. This substitution process\nallows for injection attacks when crafted realm documents are processed. An attacker can leverage this to inject malicious content during the realm import procedure. This can lead to unintended consequences within the Keycloak environment.",
+  "id": "GHSA-8hxp-qmph-w5gq",
+  "modified": "2025-10-08T23:32:36Z",
+  "published": "2025-10-08T23:32:36Z",
+  "aliases": [
+    "CVE-2025-9162"
+  ],
+  "summary": "Keycloak Potential Variable Reference in Model Storage Services",
+  "details": "A flaw was found in org.keycloak/keycloak-model-storage-service. The `KeycloakRealmImport` custom resource substitutes placeholders within imported realm documents, potentially referencing environment variables. This substitution process allows for injection attacks when crafted realm documents are processed. An attacker can leverage this to inject malicious content during the realm import procedure. This can lead to unintended consequences within the Keycloak environment.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -27,7 +28,26 @@
               "introduced": "0"
             },
             {
-              "last_affected": "26.3.3"
+              "fixed": "26.2.9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.keycloak:keycloak-model-storage-services"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "26.3.0"
+            },
+            {
+              "fixed": "26.3.4"
             }
           ]
         }
@@ -36,8 +56,8 @@
   ],
   "references": [
     {
-      "type": "ADVISORY",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-9162"
+      "type": "WEB",
+      "url": "https://github.com/keycloak/keycloak/security/advisories/GHSA-8hxp-qmph-w5gq"
     },
     {
       "type": "WEB",
@@ -90,7 +110,7 @@
     ],
     "severity": "MODERATE",
     "github_reviewed": true,
-    "github_reviewed_at": "2025-08-22T15:34:50Z",
-    "nvd_published_at": "2025-08-21T16:15:35Z"
+    "github_reviewed_at": "2025-10-08T23:32:36Z",
+    "nvd_published_at": null
   }
 }
