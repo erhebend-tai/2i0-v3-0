@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7p6j-4w59-cjvv",
-  "modified": "2024-09-04T21:30:31Z",
+  "modified": "2025-10-09T18:30:25Z",
   "published": "2024-09-04T21:30:31Z",
   "aliases": [
     "CVE-2024-44948"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nx86/mtrr: Check if fixed MTRRs exist before saving them\n\nMTRRs have an obsolete fixed variant for fine grained caching control\nof the 640K-1MB region that uses separate MSRs. This fixed variant has\na separate capability bit in the MTRR capability MSR.\n\nSo far all x86 CPUs which support MTRR have this separate bit set, so it\nwent unnoticed that mtrr_save_state() does not check the capability bit\nbefore accessing the fixed MTRR MSRs.\n\nThough on a CPU that does not support the fixed MTRR capability this\nresults in a #GP.  The #GP itself is harmless because the RDMSR fault is\nhandled gracefully, but results in a WARN_ON().\n\nAdd the missing capability check to prevent this.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -49,7 +54,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-09-04T19:15:29Z"

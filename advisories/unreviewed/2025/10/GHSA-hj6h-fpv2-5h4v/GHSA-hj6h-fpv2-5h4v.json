@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-hj6h-fpv2-5h4v",
+  "modified": "2025-10-09T18:30:36Z",
+  "published": "2025-10-09T18:30:36Z",
+  "aliases": [
+    "CVE-2025-11371"
+  ],
+  "details": "In the default installation and configuration of Gladinet CentreStack and TrioFox, there is an unauthenticated Local File Inclusion Flaw that allows unintended disclosure of system files. Exploitation of this vulnerability has been observed in the wild. \n\nThis issue impacts Gladinet CentreStack and Triofox: All versions prior to and including 16.7.10368.56560",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-11371"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.huntress.com/blog/gladinet-centrestack-triofox-local-file-inclusion-flaw"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-10-09T17:15:58Z"
+  }
+}

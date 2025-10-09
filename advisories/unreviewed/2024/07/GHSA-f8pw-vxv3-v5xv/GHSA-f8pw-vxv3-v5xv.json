@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f8pw-vxv3-v5xv",
-  "modified": "2024-07-29T15:30:42Z",
+  "modified": "2025-10-09T18:30:24Z",
   "published": "2024-07-29T15:30:42Z",
   "aliases": [
     "CVE-2024-41044"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nppp: reject claimed-as-LCP but actually malformed packets\n\nSince 'ppp_async_encode()' assumes valid LCP packets (with code\nfrom 1 to 7 inclusive), add 'ppp_check_packet()' to ensure that\nLCP packet has an actual body beyond PPP_LCP header bytes, and\nreject claimed-as-LCP but actually malformed data otherwise.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -49,7 +54,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-07-29T15:15:12Z"
