@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wc64-wmfm-46vw",
-  "modified": "2025-09-22T18:30:31Z",
+  "modified": "2025-10-09T03:30:57Z",
   "published": "2025-09-05T21:32:38Z",
   "aliases": [
     "CVE-2025-10043"
