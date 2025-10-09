@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-42jm-j2g5-xq6f",
-  "modified": "2025-08-21T18:31:28Z",
+  "modified": "2025-10-09T15:31:03Z",
   "published": "2025-08-21T18:31:28Z",
   "aliases": [
     "CVE-2024-45438"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://docs.titanhq.com/en/13161-spamtitan-release-notes.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://seclists.org/fulldisclosure/2025/Sep/15"
     },
     {
       "type": "WEB",

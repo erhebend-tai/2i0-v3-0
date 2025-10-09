@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6wqq-3x5w-9mpp",
-  "modified": "2025-10-09T00:31:07Z",
+  "modified": "2025-10-09T15:31:03Z",
   "published": "2025-10-09T00:31:07Z",
   "aliases": [
     "CVE-2025-11513"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/cxm947/CVE-report-251006"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/cxm947/CVE-report-251006/blob/main/report.md"
     },
     {
       "type": "WEB",
