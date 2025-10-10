@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8hxp-qmph-w5gq",
-  "modified": "2025-10-08T23:32:36Z",
+  "modified": "2025-10-10T14:03:37Z",
   "published": "2025-10-08T23:32:36Z",
   "aliases": [
     "CVE-2025-9162"
@@ -26,13 +26,13 @@
           "events": [
             {
               "introduced": "0"
-            },
-            {
-              "fixed": "26.2.9"
             }
           ]
         }
-      ]
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "< 26.2.9"
+      }
     },
     {
       "package": {
