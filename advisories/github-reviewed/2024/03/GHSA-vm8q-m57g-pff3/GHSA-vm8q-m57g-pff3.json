@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vm8q-m57g-pff3",
-  "modified": "2024-07-03T21:24:21Z",
+  "modified": "2025-10-13T15:42:12Z",
   "published": "2024-03-15T21:30:43Z",
   "aliases": [
     "CVE-2024-27351"
@@ -18,7 +18,7 @@
     {
       "package": {
         "ecosystem": "PyPI",
-        "name": "django"
+        "name": "Django"
       },
       "ranges": [
         {
@@ -37,7 +37,7 @@
     {
       "package": {
         "ecosystem": "PyPI",
-        "name": "django"
+        "name": "Django"
       },
       "ranges": [
         {
@@ -56,7 +56,7 @@
     {
       "package": {
         "ecosystem": "PyPI",
-        "name": "django"
+        "name": "Django"
       },
       "ranges": [
         {
