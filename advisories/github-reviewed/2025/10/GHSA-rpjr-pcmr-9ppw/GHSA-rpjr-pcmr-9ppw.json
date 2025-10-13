@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rpjr-pcmr-9ppw",
-  "modified": "2025-10-10T15:31:28Z",
+  "modified": "2025-10-13T13:23:26Z",
   "published": "2025-10-10T15:31:28Z",
   "aliases": [
     "CVE-2025-60868"
   ],
+  "summary": "Alt Redirect: Potential Authentication Bypass by Spoofing  through query-string stripping logic flaw",
   "details": "The Alt Redirect 1.6.3 addon for Statamic fails to consistently strip query string parameters when the \"Query String Strip\" feature is enabled. Case variations, encoded keys, and duplicates are not removed, allowing attackers to bypass sanitization. This may lead to cache poisoning, parameter pollution, or denial of service.",
   "severity": [
     {
@@ -13,7 +14,27 @@
       "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Packagist",
+        "name": "alt-design/alt-redirect"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "1.6.3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -22,6 +43,10 @@
     {
       "type": "WEB",
       "url": "https://gist.github.com/kasiasok/870933de18d1400fa8be88e1bcadec6c"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/alt-design/Alt-Redirect-Addon"
     },
     {
       "type": "WEB",
@@ -33,8 +58,8 @@
       "CWE-290"
     ],
     "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-10-13T13:23:26Z",
     "nvd_published_at": "2025-10-10T14:15:43Z"
   }
 }
