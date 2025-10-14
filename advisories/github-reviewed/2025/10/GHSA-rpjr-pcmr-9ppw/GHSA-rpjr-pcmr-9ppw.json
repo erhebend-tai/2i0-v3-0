@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rpjr-pcmr-9ppw",
-  "modified": "2025-10-13T13:23:26Z",
+  "modified": "2025-10-14T17:40:22Z",
   "published": "2025-10-10T15:31:28Z",
   "aliases": [
     "CVE-2025-60868"
@@ -28,7 +28,7 @@
               "introduced": "0"
             },
             {
-              "last_affected": "1.6.3"
+              "fixed": "1.6.4"
             }
           ]
         }
@@ -42,11 +42,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/alt-design/Alt-Redirect-Addon/commit/5dc6753c7151ac994c63e18914998991b1f65cbd"
+    },
+    {
+      "type": "WEB",
       "url": "https://gist.github.com/kasiasok/870933de18d1400fa8be88e1bcadec6c"
     },
     {
       "type": "PACKAGE",
       "url": "https://github.com/alt-design/Alt-Redirect-Addon"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/alt-design/Alt-Redirect-Addon/releases/tag/v1.6.4"
     },
     {
       "type": "WEB",
