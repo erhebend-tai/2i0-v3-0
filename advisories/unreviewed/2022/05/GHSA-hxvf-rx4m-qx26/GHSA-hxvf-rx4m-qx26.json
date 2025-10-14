@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hxvf-rx4m-qx26",
-  "modified": "2025-09-25T18:30:27Z",
+  "modified": "2025-10-14T00:31:01Z",
   "published": "2022-05-17T04:45:17Z",
   "aliases": [
     "CVE-2014-0786"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-14-091-01"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-14-224-01"
     },
     {
       "type": "WEB",

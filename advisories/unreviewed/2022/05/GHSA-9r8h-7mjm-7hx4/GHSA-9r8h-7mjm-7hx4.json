@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9r8h-7mjm-7hx4",
-  "modified": "2022-05-17T04:29:53Z",
+  "modified": "2025-10-14T00:31:01Z",
   "published": "2022-05-17T04:29:53Z",
   "aliases": [
     "CVE-2014-2373"
@@ -20,12 +20,17 @@
     },
     {
       "type": "WEB",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-14-275-02"
+    },
+    {
+      "type": "WEB",
       "url": "http://www.accuenergy.com/firmware-update-axm-net"
     }
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-287"
+      "CWE-287",
+      "CWE-602"
     ],
     "severity": "HIGH",
     "github_reviewed": false,

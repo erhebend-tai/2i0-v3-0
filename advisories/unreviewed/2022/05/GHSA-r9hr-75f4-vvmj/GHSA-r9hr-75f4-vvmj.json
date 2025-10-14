@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r9hr-75f4-vvmj",
-  "modified": "2022-05-17T04:37:34Z",
+  "modified": "2025-10-14T00:31:01Z",
   "published": "2022-05-17T04:37:34Z",
   "aliases": [
     "CVE-2014-2379"
@@ -17,10 +17,24 @@
     {
       "type": "WEB",
       "url": "https://ics-cert.us-cert.gov/advisories/ICSA-14-247-01"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-14-247-01a"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.sensysnetworks.com/distributors"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.sensysnetworks.com/resources-by-category/#sw"
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-311"
+    ],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
