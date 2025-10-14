@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v49x-3x5x-q43g",
-  "modified": "2025-10-14T18:30:37Z",
+  "modified": "2025-10-14T21:30:44Z",
   "published": "2025-10-14T18:30:37Z",
   "aliases": [
     "CVE-2025-57618"
   ],
   "details": "A path traversal vulnerability in FastX3 thru 3.3.67 allows an unauthenticated attacker to read arbitrary files on the server. By leveraging this vulnerability, it is possible to access the application's configuration files, which contain the secret key used to sign JSON Web Tokens as well as existing JTIs. With this information, an attacker can forge valid JWTs, impersonate the root user, and achieve remote code execution in privileged context via authenticated endpoints.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-24"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-14T18:15:36Z"
