@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gm2p-wf5c-w3pj",
-  "modified": "2025-04-23T14:41:40Z",
+  "modified": "2025-10-14T21:59:16Z",
   "published": "2025-04-21T16:19:20Z",
   "aliases": [
     "CVE-2025-3857"
@@ -59,6 +59,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/amazon-ion/ion-dotnet"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/amazon-ion/ion-dotnet/releases/tag/v1.3.1"
     }
   ],
   "database_specific": {

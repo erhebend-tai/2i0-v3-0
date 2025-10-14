@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-px37-jpqx-97q9",
-  "modified": "2025-03-31T22:36:49Z",
+  "modified": "2025-10-14T21:59:07Z",
   "published": "2025-03-31T22:36:49Z",
   "aliases": [
     "CVE-2025-3047"
@@ -59,11 +59,16 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/aws/aws-sam-cli"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/aws/aws-sam-cli/releases/tag/v1.134.0"
     }
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-22"
+      "CWE-22",
+      "CWE-61"
     ],
     "severity": "MODERATE",
     "github_reviewed": true,
