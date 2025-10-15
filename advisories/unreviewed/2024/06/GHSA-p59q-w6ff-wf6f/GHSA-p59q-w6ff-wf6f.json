@@ -1,13 +1,22 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p59q-w6ff-wf6f",
-  "modified": "2024-06-25T00:34:45Z",
+  "modified": "2025-10-15T18:31:47Z",
   "published": "2024-06-25T00:34:45Z",
   "aliases": [
     "CVE-2023-45195"
   ],
   "details": "Adminer and AdminerEvo are vulnerable to SSRF via database connection fields. This could allow an unauthenticated remote attacker to enumerate or access systems the attacker would not otherwise have access to. Adminer is no longer supported, but this issue was fixed in AdminerEvo version 4.8.4.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
+    },
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:N/SC:L/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:Y/R:X/V:X/RE:X/U:X"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +32,7 @@
     "cwe_ids": [
       "CWE-918"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-06-24T22:15:10Z"

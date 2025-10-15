@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5qq2-qmp3-f37q",
-  "modified": "2025-10-15T15:30:29Z",
+  "modified": "2025-10-15T18:31:50Z",
   "published": "2025-10-15T15:30:29Z",
   "aliases": [
     "CVE-2025-56748"
   ],
   "details": "Creativeitem Academy LMS up to and including 5.13 uses predictable password reset tokens based on Base64 encoded templates without rate limiting, allowing brute force attacks to guess valid reset tokens and compromise user accounts.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:L/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-640"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-15T15:16:04Z"

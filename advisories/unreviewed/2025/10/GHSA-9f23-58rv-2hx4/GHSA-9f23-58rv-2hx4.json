@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9f23-58rv-2hx4",
-  "modified": "2025-10-14T06:31:13Z",
+  "modified": "2025-10-15T18:31:48Z",
   "published": "2025-10-14T06:31:13Z",
   "aliases": [
     "CVE-2025-11731"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2403688"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gitlab.gnome.org/GNOME/libxslt/-/merge_requests/78"
     }
   ],
   "database_specific": {
