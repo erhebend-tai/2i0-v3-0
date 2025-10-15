@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-q2fx-pxmp-7f63",
+  "modified": "2025-10-15T09:30:17Z",
+  "published": "2025-10-15T09:30:17Z",
+  "aliases": [
+    "CVE-2025-10038"
+  ],
+  "details": "The Binary MLM Plan plugin for WordPress is vulnerable to limited Privilege Escalation in all versions up to, and including, 3.0. This is due to bmp_user role granting all users with the manage_bmp capability by default upon registration through the plugin's form. This makes it possible for unauthenticated attackers to register and manage the plugin's settings.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-10038"
+    },
+    {
+      "type": "WEB",
+      "url": "https://wordpress.org/plugins/binary-mlm-plan"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/7951c8e4-b610-4cc4-ab27-4cfa78d72302?source=cve"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-266"
+    ],
+    "severity": "MODERATE",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-10-15T09:15:36Z"
+  }
+}
