@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wr5g-q49g-548w",
-  "modified": "2024-04-04T03:38:59Z",
+  "modified": "2025-10-15T18:55:34Z",
   "published": "2023-04-24T06:31:20Z",
   "aliases": [
     "CVE-2023-28131"
   ],
+  "summary": "Expo SDK has an OAuth vulnerability",
   "details": "A vulnerability in the expo.io framework allows an attacker to take over accounts and steal credentials on an application/website that configured the \"Expo AuthSession Redirect Proxy\" for social sign-in. This can be achieved once a victim clicks a malicious link. The link itself may be sent to the victim in various ways (including email, text message, an attacker-controlled website, etc).",
   "severity": [
     {
@@ -13,7 +14,27 @@
       "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "expo"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "48.0.0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -22,6 +43,10 @@
     {
       "type": "WEB",
       "url": "https://blog.expo.dev/security-advisory-for-developers-using-authsessions-useproxy-options-and-auth-expo-io-e470fe9346df"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/expo/expo"
     },
     {
       "type": "WEB",
@@ -33,8 +58,8 @@
       "CWE-522"
     ],
     "severity": "CRITICAL",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-10-15T18:55:34Z",
     "nvd_published_at": "2023-04-24T05:15:08Z"
   }
 }
