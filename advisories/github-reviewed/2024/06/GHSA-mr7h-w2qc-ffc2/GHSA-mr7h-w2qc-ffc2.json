@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mr7h-w2qc-ffc2",
-  "modified": "2024-08-05T15:14:04Z",
+  "modified": "2025-10-15T15:48:48Z",
   "published": "2024-06-27T21:32:08Z",
   "aliases": [
     "CVE-2024-5980"
@@ -49,6 +49,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/lightning-ai/pytorch-lightning/commit/330af381de88cff17515418a341cbc1f9f127f9a"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/Lightning-AI/pytorch-lightning/releases/tag/2.3.3"
     },
     {
@@ -62,6 +66,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-22",
       "CWE-434"
     ],
     "severity": "CRITICAL",
