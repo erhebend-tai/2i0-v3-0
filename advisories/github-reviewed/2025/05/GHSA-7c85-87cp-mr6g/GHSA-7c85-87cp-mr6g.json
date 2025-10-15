@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7c85-87cp-mr6g",
-  "modified": "2025-05-12T20:16:20Z",
+  "modified": "2025-10-15T16:12:12Z",
   "published": "2025-05-10T15:30:28Z",
   "aliases": [
     "CVE-2025-1752"
@@ -55,7 +55,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-400"
+      "CWE-400",
+      "CWE-674"
     ],
     "severity": "HIGH",
     "github_reviewed": true,
