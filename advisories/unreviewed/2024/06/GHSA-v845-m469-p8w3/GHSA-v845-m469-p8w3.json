@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v845-m469-p8w3",
-  "modified": "2024-06-27T21:32:08Z",
+  "modified": "2025-10-15T15:30:19Z",
   "published": "2024-06-27T21:32:08Z",
   "aliases": [
     "CVE-2024-5714"
@@ -21,12 +21,17 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/lunary-ai/lunary/commit/43206bacac3b43ad9f2db6dafd165e61a21e6b97"
+    },
+    {
+      "type": "WEB",
       "url": "https://huntr.com/bounties/8cff4afa-131b-4a7e-9f0d-8a3c69f3d024"
     }
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-284"
+      "CWE-284",
+      "CWE-863"
     ],
     "severity": "HIGH",
     "github_reviewed": false,

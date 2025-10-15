@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cqgr-63wx-2gm4",
-  "modified": "2024-06-27T21:32:08Z",
+  "modified": "2025-10-15T15:30:19Z",
   "published": "2024-06-27T21:32:08Z",
   "aliases": [
     "CVE-2024-6086"
@@ -21,12 +21,17 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/lunary-ai/lunary/commit/3451fcd7b9d95e9091d62c515752f39f2faa6e54"
+    },
+    {
+      "type": "WEB",
       "url": "https://huntr.com/bounties/9e83f63f-c5c1-422f-8010-95c353f0c643"
     }
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-284"
+      "CWE-284",
+      "CWE-863"
     ],
     "severity": "MODERATE",
     "github_reviewed": false,

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-84rm-429m-4rw9",
-  "modified": "2024-06-04T21:32:22Z",
+  "modified": "2025-10-15T15:30:19Z",
   "published": "2024-06-04T21:32:22Z",
   "aliases": [
     "CVE-2024-4520"
@@ -21,12 +21,17 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/gaizhenbiao/chuanhuchatgpt/commit/ccc7479ace5c9e1a1d9f4daf2e794ffd3865fc2b"
+    },
+    {
+      "type": "WEB",
       "url": "https://huntr.com/bounties/0dd2da9f-998d-45aa-a646-97391f524000"
     }
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-284"
+      "CWE-284",
+      "CWE-862"
     ],
     "severity": "HIGH",
     "github_reviewed": false,

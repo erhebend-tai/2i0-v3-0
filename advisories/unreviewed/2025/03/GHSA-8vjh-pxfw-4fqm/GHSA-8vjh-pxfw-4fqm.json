@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8vjh-pxfw-4fqm",
-  "modified": "2025-03-20T12:32:43Z",
+  "modified": "2025-10-15T15:30:24Z",
   "published": "2025-03-20T12:32:43Z",
   "aliases": [
     "CVE-2024-12391"
@@ -26,6 +26,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-1333",
       "CWE-183"
     ],
     "severity": "MODERATE",

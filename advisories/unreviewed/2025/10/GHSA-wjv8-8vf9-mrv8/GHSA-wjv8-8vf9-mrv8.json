@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wjv8-8vf9-mrv8",
-  "modified": "2025-10-14T15:31:26Z",
+  "modified": "2025-10-15T15:30:27Z",
   "published": "2025-10-14T15:31:26Z",
   "aliases": [
     "CVE-2025-11720"
   ],
   "details": "The Firefox and Firefox Focus UI for the Android custom tab feature only showed the \"site\" that was loaded, not the full hostname. User supplied content hosted on a subdomain of a site could have been used to fool a user into thinking it was content from a different subdomain of that site. This vulnerability affects Firefox < 144.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-451"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-14T13:15:38Z"

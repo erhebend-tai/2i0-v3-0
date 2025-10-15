@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7gj2-fqjh-c4qg",
-  "modified": "2024-06-06T21:30:35Z",
+  "modified": "2025-10-15T15:30:19Z",
   "published": "2024-06-06T21:30:35Z",
   "aliases": [
     "CVE-2024-1873"
@@ -21,11 +21,16 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/parisneo/lollms-webui/commit/02e829b5653a1aa5dbbe9413ec84f96caa1274e8"
+    },
+    {
+      "type": "WEB",
       "url": "https://huntr.com/bounties/c1cfc0d9-517a-4d0e-bf1c-6444c1fd195d"
     }
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-22",
       "CWE-749"
     ],
     "severity": "HIGH",

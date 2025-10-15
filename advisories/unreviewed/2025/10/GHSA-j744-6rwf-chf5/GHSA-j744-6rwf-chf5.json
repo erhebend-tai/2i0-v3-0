@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-j744-6rwf-chf5",
+  "modified": "2025-10-15T15:30:28Z",
+  "published": "2025-10-15T15:30:28Z",
+  "aliases": [
+    "CVE-2025-56746"
+  ],
+  "details": "Creativeitem Academy LMS up to and including 5.13 does not regenerate session IDs upon successful authentication, enabling session fixation attacks where attackers can hijack user sessions by predetermining session identifiers.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-56746"
+    },
+    {
+      "type": "WEB",
+      "url": "https://suryadina.com/academy-lms-session-fixation-1t8v5n3q6h"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-10-15T14:15:52Z"
+  }
+}

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4jr8-64gc-wqqx",
-  "modified": "2025-03-20T12:32:39Z",
+  "modified": "2025-10-15T15:30:22Z",
   "published": "2025-03-20T12:32:39Z",
   "aliases": [
     "CVE-2024-10275"
@@ -30,7 +30,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-284"
+      "CWE-284",
+      "CWE-863"
     ],
     "severity": "HIGH",
     "github_reviewed": false,

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-98rw-7c68-7997",
-  "modified": "2025-10-14T18:30:28Z",
+  "modified": "2025-10-15T15:30:27Z",
   "published": "2025-10-14T18:30:28Z",
   "aliases": [
     "CVE-2025-8429"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/centreon/centreon/releases"
+    },
+    {
+      "type": "WEB",
+      "url": "https://thewatch.centreon.com/latest-security-bulletins-64/cve-2025-8429-centreon-web-all-versions-medium-severity-5119"
     }
   ],
   "database_specific": {
