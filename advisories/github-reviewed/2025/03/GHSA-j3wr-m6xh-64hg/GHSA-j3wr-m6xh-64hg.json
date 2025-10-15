@@ -55,7 +55,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-755"
+      "CWE-755",
+      "CWE-835"
     ],
     "severity": "HIGH",
     "github_reviewed": true,
