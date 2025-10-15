@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-53gh-p8jc-7rg8",
-  "modified": "2025-03-20T19:55:11Z",
+  "modified": "2025-10-15T16:06:56Z",
   "published": "2025-03-20T12:32:45Z",
   "aliases": [
     "CVE-2024-6825"
@@ -41,6 +41,10 @@
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-6825"
     },
     {
+      "type": "WEB",
+      "url": "https://github.com/berriai/litellm/commit/441c7275ed2715f47650a7c2e525055c804073a9"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/BerriAI/litellm"
     },
@@ -55,7 +59,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-77"
+      "CWE-77",
+      "CWE-94"
     ],
     "severity": "HIGH",
     "github_reviewed": true,

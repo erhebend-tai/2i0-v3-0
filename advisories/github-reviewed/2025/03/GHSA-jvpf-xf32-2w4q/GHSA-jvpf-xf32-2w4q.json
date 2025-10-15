@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jvpf-xf32-2w4q",
-  "modified": "2025-04-02T00:53:41Z",
+  "modified": "2025-10-15T16:08:01Z",
   "published": "2025-03-20T12:32:44Z",
   "aliases": [
     "CVE-2024-12910"
@@ -59,7 +59,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-400"
+      "CWE-400",
+      "CWE-674"
     ],
     "severity": "MODERATE",
     "github_reviewed": true,
