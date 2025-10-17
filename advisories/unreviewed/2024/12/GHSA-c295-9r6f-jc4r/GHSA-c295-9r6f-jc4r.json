@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c295-9r6f-jc4r",
-  "modified": "2024-12-30T18:30:41Z",
+  "modified": "2025-10-17T15:30:55Z",
   "published": "2024-12-30T18:30:41Z",
   "aliases": [
     "CVE-2024-46542"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-46542"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/MarioTesoro/vulnerability-research/tree/main/CVE-2024-46542"
     },
     {
       "type": "WEB",

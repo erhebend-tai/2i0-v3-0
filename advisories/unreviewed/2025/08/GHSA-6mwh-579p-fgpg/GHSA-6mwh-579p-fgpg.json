@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6mwh-579p-fgpg",
-  "modified": "2025-10-10T18:31:18Z",
+  "modified": "2025-10-17T15:30:57Z",
   "published": "2025-08-19T18:31:32Z",
   "aliases": [
     "CVE-2025-38561"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nksmbd: fix Preauh_HashValue race condition\n\nIf client send multiple session setup requests to ksmbd,\nPreauh_HashValue race condition could happen.\nThere is no need to free sess->Preauh_HashValue at session setup phase.\nIt can be freed together with session at connection termination phase.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -44,8 +49,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-362"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-08-19T17:15:32Z"
