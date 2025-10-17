@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f522-ffg8-j8r6",
-  "modified": "2024-10-02T17:16:12Z",
+  "modified": "2025-10-17T17:50:27Z",
   "published": "2017-10-24T18:33:35Z",
   "aliases": [
     "CVE-2016-2537"
   ],
   "summary": "Regular Expression Denial of Service in is-my-json-valid",
-  "details": "Version of `is-my-json-valid` before 1.4.1 or 2.17.2 are vulnerable to regular expression denial of service (ReDoS) via the email validation function.\n\n\n## Recommendation\n\nUpdate to version 1.4.1, 2.17.2 or later.",
+  "details": "Version of `is-my-json-valid` before 2.12.4 are vulnerable to regular expression denial of service (ReDoS) via the email validation function.\n\n\n## Recommendation\n\nUpdate to version 2.12.4 or later.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -28,7 +28,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "2.17.2"
+              "fixed": "2.12.4"
             }
           ]
         }
@@ -84,6 +84,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2020-06-16T21:33:36Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2016-02-23T05:59:01Z"
   }
 }

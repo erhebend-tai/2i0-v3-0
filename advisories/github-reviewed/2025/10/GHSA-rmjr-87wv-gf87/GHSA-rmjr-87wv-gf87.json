@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rmjr-87wv-gf87",
-  "modified": "2025-10-17T06:31:11Z",
+  "modified": "2025-10-17T17:50:00Z",
   "published": "2025-10-17T06:31:11Z",
   "aliases": [
     "CVE-2025-11849"
   ],
+  "summary": "Mammoth is vulnerable to Directory Traversal",
   "details": "Versions of the package mammoth from 0.3.25 and before 1.11.0; versions of the package mammoth from 0.3.25 and before 1.11.0; versions of the package mammoth before 1.11.0; versions of the package org.zwobble.mammoth:mammoth before 1.11.0 are vulnerable to Directory Traversal due to the lack of path or file type validation when processing a docx file containing an image with an external link (r:link attribute instead of embedded r:embed). The library resolves the URI to a file path and after reading, the content is encoded as base64 and included in the HTML output as a data URI. An attacker can read arbitrary files on the system where the conversion is performed or cause an excessive resources consumption by crafting a docx file that links to special device files such as /dev/random or /dev/zero.",
   "severity": [
     {
@@ -14,10 +15,87 @@
     },
     {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:P/VC:N/VI:N/VA:N/SC:H/SI:N/SA:H/E:P/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:P/VC:N/VI:N/VA:N/SC:H/SI:N/SA:H/E:P"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "mammoth"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0.3.25"
+            },
+            {
+              "fixed": "1.11.0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.zwobble.mammoth:mammoth"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.11.0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "mammoth"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0.3.25"
+            },
+            {
+              "fixed": "1.11.0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "NuGet",
+        "name": "Mammoth"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.11.0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -30,6 +108,10 @@
     {
       "type": "WEB",
       "url": "https://gist.github.com/AudunWA/4d690d9ae5efdafe7cf71d9c2ee90a10"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/mwilliamson/java-mammoth"
     },
     {
       "type": "WEB",
@@ -53,8 +135,8 @@
       "CWE-22"
     ],
     "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-10-17T17:50:00Z",
     "nvd_published_at": "2025-10-17T05:15:33Z"
   }
 }
