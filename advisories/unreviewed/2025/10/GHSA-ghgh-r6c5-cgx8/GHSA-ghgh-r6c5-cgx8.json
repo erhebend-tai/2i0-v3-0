@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ghgh-r6c5-cgx8",
-  "modified": "2025-10-15T12:30:25Z",
+  "modified": "2025-10-19T15:30:15Z",
   "published": "2025-10-15T09:30:17Z",
   "aliases": [
     "CVE-2025-39994"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-39994"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/3f876cd47ed8bca1e28d68435845949f51f90703"
     },
     {
       "type": "WEB",
