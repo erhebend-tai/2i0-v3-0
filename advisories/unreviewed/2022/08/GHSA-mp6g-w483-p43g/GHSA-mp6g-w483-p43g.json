@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mp6g-w483-p43g",
-  "modified": "2022-08-13T00:00:34Z",
+  "modified": "2025-10-20T18:30:28Z",
   "published": "2022-08-11T00:00:21Z",
   "aliases": [
     "CVE-2022-25763"

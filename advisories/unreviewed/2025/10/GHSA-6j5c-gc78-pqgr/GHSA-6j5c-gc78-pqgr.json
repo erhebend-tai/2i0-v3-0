@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6j5c-gc78-pqgr",
-  "modified": "2025-10-20T15:30:25Z",
+  "modified": "2025-10-20T18:30:32Z",
   "published": "2025-10-20T15:30:25Z",
   "aliases": [
     "CVE-2025-56224"
   ],
   "details": "A lack of rate limiting in the One-Time Password (OTP) verification endpoint of SigningHub v8.6.8 allows attackers to bypass verification via a bruteforce attack.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-305"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-20T13:15:44Z"

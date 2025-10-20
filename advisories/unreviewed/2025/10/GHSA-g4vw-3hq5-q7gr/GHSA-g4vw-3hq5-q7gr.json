@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-g4vw-3hq5-q7gr",
+  "modified": "2025-10-20T18:30:32Z",
+  "published": "2025-10-20T18:30:32Z",
+  "aliases": [
+    "CVE-2025-40005"
+  ],
+  "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nspi: cadence-quadspi: Implement refcount to handle unbind during busy\n\ndriver support indirect read and indirect write operation with\nassumption no force device removal(unbind) operation. However\nforce device removal(removal) is still available to root superuser.\n\nUnbinding driver during operation causes kernel crash. This changes\nensure driver able to handle such operation for indirect read and\nindirect write by implementing refcount to track attached devices\nto the controller and gracefully wait and until attached devices\nremove operation completed before proceed with removal operation.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-40005"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/7446284023e8ef694fb392348185349c773eefb3"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/b7ec8a2b094a33d0464958c2cbf75b8f229098b0"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-10-20T16:15:37Z"
+  }
+}
