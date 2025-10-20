@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vwfw-9fqw-jjvp",
-  "modified": "2025-09-17T06:30:22Z",
+  "modified": "2025-10-20T06:30:17Z",
   "published": "2025-09-17T06:30:22Z",
   "aliases": [
     "CVE-2025-10584"
@@ -26,6 +26,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/KarinaGante/KG-Sec/blob/main/CVEs/i-Educar/25.md"
+    },
+    {
+      "type": "WEB",
+      "url": "https://karinagante.github.io/cve-2025-10584"
+    },
+    {
+      "type": "WEB",
+      "url": "https://karinagante.github.io/cve-2025-10584/#proof-of-concept-poc"
     },
     {
       "type": "WEB",

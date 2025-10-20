@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xhc6-mmf6-vvgh",
-  "modified": "2025-09-13T18:30:56Z",
+  "modified": "2025-10-20T06:30:17Z",
   "published": "2025-09-13T18:30:56Z",
   "aliases": [
     "CVE-2025-10372"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/KarinaGante/KG-Sec/blob/main/CVEs/i-Educar/21.md"
+    },
+    {
+      "type": "WEB",
+      "url": "https://karinagante.github.io/cve-2025-10372"
     },
     {
       "type": "WEB",
