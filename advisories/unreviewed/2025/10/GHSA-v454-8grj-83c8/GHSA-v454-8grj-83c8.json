@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v454-8grj-83c8",
-  "modified": "2025-10-21T15:30:59Z",
+  "modified": "2025-10-21T18:30:34Z",
   "published": "2025-10-21T15:30:59Z",
   "aliases": [
     "CVE-2022-4981"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://shimo.im/docs/e1Azd4dDQXUgOGqW"
+    },
+    {
+      "type": "WEB",
+      "url": "https://shimo.im/docs/e1Azd4dDQXUgOGqW/read"
     },
     {
       "type": "WEB",
