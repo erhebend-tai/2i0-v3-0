@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gfc8-6qcc-3mvm",
-  "modified": "2024-10-16T15:32:08Z",
+  "modified": "2025-10-21T12:31:20Z",
   "published": "2024-10-16T15:32:08Z",
   "aliases": [
     "CVE-2024-45844"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://my.f5.com/manage/s/article/K000140061"
+    },
+    {
+      "type": "WEB",
+      "url": "https://offsec.almond.consulting/privilege-escalation-f5-CVE-2024-45844.html"
     }
   ],
   "database_specific": {
