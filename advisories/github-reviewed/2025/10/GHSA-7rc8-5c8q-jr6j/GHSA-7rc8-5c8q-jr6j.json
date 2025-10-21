@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7rc8-5c8q-jr6j",
-  "modified": "2025-10-20T20:08:45Z",
+  "modified": "2025-10-21T14:51:41Z",
   "published": "2025-10-20T20:08:45Z",
   "aliases": [
     "CVE-2025-62527"
@@ -41,6 +41,10 @@
       "url": "https://github.com/remram44/taguette/security/advisories/GHSA-7rc8-5c8q-jr6j"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62527"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/remram44/taguette"
     },
@@ -56,6 +60,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2025-10-20T20:08:45Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-10-20T20:15:37Z"
   }
 }
