@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-c6cw-fgf7-59qc",
+  "modified": "2025-10-22T15:31:14Z",
+  "published": "2025-10-22T15:31:13Z",
+  "aliases": [
+    "CVE-2025-49926"
+  ],
+  "details": "Improper Control of Generation of Code ('Code Injection') vulnerability in Laborator Kalium kalium allows Code Injection.This issue affects Kalium: from n/a through <= 3.25.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-49926"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Theme/kalium/vulnerability/wordpress-kalium-theme-3-25-arbitrary-code-execution-vulnerability"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-94"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-10-22T15:15:38Z"
+  }
+}

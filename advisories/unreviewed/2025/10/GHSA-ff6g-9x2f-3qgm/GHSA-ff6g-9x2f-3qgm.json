@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-ff6g-9x2f-3qgm",
+  "modified": "2025-10-22T15:31:17Z",
+  "published": "2025-10-22T15:31:17Z",
+  "aliases": [
+    "CVE-2025-60132"
+  ],
+  "details": "Cross-Site Request Forgery (CSRF) vulnerability in johnh10 Video Blogster Lite video-blogster-lite allows Stored XSS.This issue affects Video Blogster Lite: from n/a through <= 1.2.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-60132"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/video-blogster-lite/vulnerability/wordpress-video-blogster-lite-plugin-1-2-cross-site-request-forgery-csrf-vulnerability"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-352"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-10-22T15:15:56Z"
+  }
+}

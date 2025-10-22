@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-7whr-6g3c-2m6g",
+  "modified": "2025-10-22T15:31:18Z",
+  "published": "2025-10-22T15:31:18Z",
+  "aliases": [
+    "CVE-2025-60224"
+  ],
+  "details": "Deserialization of Untrusted Data vulnerability in wpshuffle Subscribe to Download subscribe-to-download allows Object Injection.This issue affects Subscribe to Download: from n/a through <= 2.0.9.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-60224"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/subscribe-to-download/vulnerability/wordpress-subscribe-to-download-plugin-2-0-9-php-object-injection-vulnerability"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-502"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-10-22T15:15:59Z"
+  }
+}

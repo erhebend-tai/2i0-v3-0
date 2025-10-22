@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-p323-2x9w-g358",
+  "modified": "2025-10-22T15:31:13Z",
+  "published": "2025-10-22T15:31:13Z",
+  "aliases": [
+    "CVE-2025-49906"
+  ],
+  "details": "Missing Authorization vulnerability in StellarWP WPComplete wpcomplete allows Accessing Functionality Not Properly Constrained by ACLs.This issue affects WPComplete: from n/a through <= 2.9.5.3.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-49906"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/wpcomplete/vulnerability/wordpress-wpcomplete-plugin-2-9-5-3-broken-access-control-vulnerability"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-862"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-10-22T15:15:36Z"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-pmvv-55wg-g897",
+  "modified": "2025-10-22T15:31:19Z",
+  "published": "2025-10-22T15:31:19Z",
+  "aliases": [
+    "CVE-2025-62062"
+  ],
+  "details": "Insertion of Sensitive Information Into Sent Data vulnerability in ThemeRuby Easy Post Submission easy-post-submission allows Retrieve Embedded Sensitive Data.This issue affects Easy Post Submission: from n/a through <= 1.7.0.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62062"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/easy-post-submission/vulnerability/wordpress-easy-post-submission-plugin-1-7-0-sensitive-data-exposure-vulnerability"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-201"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-10-22T15:16:05Z"
+  }
+}

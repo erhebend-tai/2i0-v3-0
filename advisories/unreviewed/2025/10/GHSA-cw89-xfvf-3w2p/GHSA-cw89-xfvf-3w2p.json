@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-cw89-xfvf-3w2p",
+  "modified": "2025-10-22T15:31:14Z",
+  "published": "2025-10-22T15:31:14Z",
+  "aliases": [
+    "CVE-2025-49945"
+  ],
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in kylegetson Shortcode Generator shortcode-generator allows Reflected XSS.This issue affects Shortcode Generator: from n/a through <= 1.1.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-49945"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/shortcode-generator/vulnerability/wordpress-shortcode-generator-plugin-1-1-cross-site-scripting-xss-vulnerability"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-10-22T15:15:40Z"
+  }
+}

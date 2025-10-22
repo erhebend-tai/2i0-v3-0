@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-3p98-p9mv-8p9f",
+  "modified": "2025-10-22T15:31:16Z",
+  "published": "2025-10-22T15:31:16Z",
+  "aliases": [
+    "CVE-2025-53428"
+  ],
+  "details": "Incorrect Privilege Assignment vulnerability in N-Media Simple User Registration wp-registration allows Privilege Escalation.This issue affects Simple User Registration: from n/a through <= 6.4.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-53428"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/wp-registration/vulnerability/wordpress-simple-user-registration-plugin-6-4-privilege-escalation-vulnerability"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-266"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-10-22T15:15:51Z"
+  }
+}

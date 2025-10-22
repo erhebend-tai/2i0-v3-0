@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-wwwh-93v4-hf5m",
+  "modified": "2025-10-22T15:31:18Z",
+  "published": "2025-10-22T15:31:18Z",
+  "aliases": [
+    "CVE-2025-60222"
+  ],
+  "details": "Incorrect Privilege Assignment vulnerability in FantasticPlugins SUMO Memberships for WooCommerce sumomemberships allows Privilege Escalation.This issue affects SUMO Memberships for WooCommerce: from n/a through <= 7.6.0.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-60222"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/sumomemberships/vulnerability/wordpress-sumo-memberships-for-woocommerce-plugin-7-6-0-privilege-escalation-vulnerability"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-266"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-10-22T15:15:59Z"
+  }
+}

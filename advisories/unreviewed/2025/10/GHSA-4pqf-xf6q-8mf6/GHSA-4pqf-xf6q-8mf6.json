@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-4pqf-xf6q-8mf6",
+  "modified": "2025-10-22T15:31:18Z",
+  "published": "2025-10-22T15:31:18Z",
+  "aliases": [
+    "CVE-2025-60217"
+  ],
+  "details": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in ypromo PT Luxa Addons pt-luxa-addons allows Path Traversal.This issue affects PT Luxa Addons: from n/a through <= 1.2.2.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-60217"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/pt-luxa-addons/vulnerability/wordpress-pt-luxa-addons-plugin-1-2-2-arbitrary-file-deletion-vulnerability"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-22"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-10-22T15:15:58Z"
+  }
+}

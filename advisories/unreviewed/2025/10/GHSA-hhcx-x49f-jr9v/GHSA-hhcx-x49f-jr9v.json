@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-hhcx-x49f-jr9v",
+  "modified": "2025-10-22T15:31:16Z",
+  "published": "2025-10-22T15:31:16Z",
+  "aliases": [
+    "CVE-2025-53232"
+  ],
+  "details": "Insertion of Sensitive Information Into Sent Data vulnerability in inkthemes WP Gmail SMTP wp-gmail-smtp allows Retrieve Embedded Sensitive Data.This issue affects WP Gmail SMTP: from n/a through <= 1.0.7.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-53232"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/wp-gmail-smtp/vulnerability/wordpress-wp-gmail-smtp-plugin-1-0-7-sensitive-data-exposure-vulnerability"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-201"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-10-22T15:15:48Z"
+  }
+}

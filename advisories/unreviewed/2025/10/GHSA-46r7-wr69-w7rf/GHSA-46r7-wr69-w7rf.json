@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-46r7-wr69-w7rf",
+  "modified": "2025-10-22T15:31:16Z",
+  "published": "2025-10-22T15:31:16Z",
+  "aliases": [
+    "CVE-2025-52763"
+  ],
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in NickDuncan Nifty Backups nifty-backups allows Reflected XSS.This issue affects Nifty Backups: from n/a through <= 1.08.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-52763"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/nifty-backups/vulnerability/wordpress-nifty-backups-plugin-1-08-cross-site-scripting-xss-vulnerability"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-10-22T15:15:46Z"
+  }
+}

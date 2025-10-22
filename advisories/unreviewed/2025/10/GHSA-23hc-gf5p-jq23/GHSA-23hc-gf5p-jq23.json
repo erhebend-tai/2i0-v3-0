@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-23hc-gf5p-jq23",
+  "modified": "2025-10-22T15:31:17Z",
+  "published": "2025-10-22T15:31:17Z",
+  "aliases": [
+    "CVE-2025-59566"
+  ],
+  "details": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in AmentoTech Workreap (theme's plugin) workreap allows Path Traversal.This issue affects Workreap (theme's plugin): from n/a through <= 3.3.5.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-59566"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/workreap/vulnerability/wordpress-workreap-theme-s-plugin-plugin-3-3-5-arbitrary-file-deletion-vulnerability"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-22"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-10-22T15:15:55Z"
+  }
+}
