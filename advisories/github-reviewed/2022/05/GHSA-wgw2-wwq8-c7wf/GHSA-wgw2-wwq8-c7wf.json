@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wgw2-wwq8-c7wf",
-  "modified": "2023-10-06T01:30:47Z",
+  "modified": "2025-10-22T17:37:09Z",
   "published": "2022-05-13T01:20:46Z",
   "aliases": [
     "CVE-2018-8298"
@@ -11,7 +11,7 @@
   "severity": [
     {
       "type": "CVSS_V3",
-      "score": "CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H"
+      "score": "CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H/E:H"
     }
   ],
   "affected": [
@@ -59,6 +59,10 @@
     {
       "type": "WEB",
       "url": "https://web.archive.org/web/20210124183835/http://www.securityfocus.com/bid/104639"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2018-8298"
     },
     {
       "type": "WEB",

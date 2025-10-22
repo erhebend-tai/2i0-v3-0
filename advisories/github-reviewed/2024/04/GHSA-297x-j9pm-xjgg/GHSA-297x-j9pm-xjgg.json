@@ -1,17 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-297x-j9pm-xjgg",
-  "modified": "2024-07-05T17:59:29Z",
+  "modified": "2025-10-22T17:37:59Z",
   "published": "2024-04-23T22:36:09Z",
   "aliases": [
     "CVE-2018-7602"
   ],
   "summary": "Drupal Core Remote Code Execution Vulnerability",
-  "details": "A remote code execution vulnerability exists within multiple subsystems of Drupal 7.x and 8.x. This potentially allows attackers to exploit multiple attack vectors on a Drupal site, which could result in the site being compromised. This vulnerability is related to Drupal core - Highly critical - Remote Code Execution - SA-CORE-2018-002. Both SA-CORE-2018-002 and this vulnerability are being exploited in the wild. ",
+  "details": "A remote code execution vulnerability exists within multiple subsystems of Drupal 7.x and 8.x. This potentially allows attackers to exploit multiple attack vectors on a Drupal site, which could result in the site being compromised. This vulnerability is related to Drupal core - Highly critical - Remote Code Execution - SA-CORE-2018-002. Both SA-CORE-2018-002 and this vulnerability are being exploited in the wild.",
   "severity": [
     {
       "type": "CVSS_V3",
-      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:H"
     }
   ],
   "affected": [
@@ -153,6 +153,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2018-7602"
+    },
+    {
+      "type": "WEB",
       "url": "https://www.debian.org/security/2018/dsa-4180"
     },
     {
@@ -166,14 +170,6 @@
     {
       "type": "WEB",
       "url": "https://www.exploit-db.com/exploits/44557"
-    },
-    {
-      "type": "WEB",
-      "url": "http://www.securityfocus.com/bid/103985"
-    },
-    {
-      "type": "WEB",
-      "url": "http://www.securitytracker.com/id/1040754"
     }
   ],
   "database_specific": {
