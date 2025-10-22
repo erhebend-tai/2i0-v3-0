@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jfh8-c2jp-5v3q",
-  "modified": "2025-05-09T12:26:01Z",
+  "modified": "2025-10-22T19:13:24Z",
   "published": "2021-12-10T00:40:56Z",
   "aliases": [
     "CVE-2021-44228"
@@ -11,7 +11,7 @@
   "severity": [
     {
       "type": "CVSS_V3",
-      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H"
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H/E:H"
     }
   ],
   "affected": [
@@ -249,11 +249,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd"
+    },
+    {
+      "type": "WEB",
       "url": "https://twitter.com/kurtseifried/status/1469345530182455296"
     },
     {
       "type": "WEB",
       "url": "https://www.bentley.com/en/common-vulnerability-exposure/be-2022-0001"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2021-44228"
     },
     {
       "type": "WEB",
@@ -338,6 +346,14 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2021/12/msg00007.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/M5CSVUNV4HWZZXGOKNSK6L7RPM7BOKIB"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/VU57UJDCFIASIO35GC55JMKSRXJMCDFM"
     },
     {
       "type": "WEB",
@@ -430,6 +446,18 @@
     {
       "type": "WEB",
       "url": "http://packetstormsecurity.com/files/171626/AD-Manager-Plus-7122-Remote-Code-Execution.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2022/Dec/2"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2022/Jul/11"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2022/Mar/23"
     },
     {
       "type": "WEB",
