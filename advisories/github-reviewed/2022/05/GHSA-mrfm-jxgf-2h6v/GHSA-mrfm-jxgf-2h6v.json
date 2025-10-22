@@ -1,14 +1,19 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mrfm-jxgf-2h6v",
-  "modified": "2025-01-06T22:28:40Z",
+  "modified": "2025-10-22T19:34:14Z",
   "published": "2022-05-17T03:28:58Z",
   "aliases": [
     "CVE-2014-3120"
   ],
   "summary": "Elasticsearch Improper Access Control vulnerability",
   "details": "The default configuration in Elasticsearch before 1.4.0.Beta1 enables dynamic scripting, which allows remote attackers to execute arbitrary MVEL expressions and Java code via the source parameter to _search.  NOTE: this only violates the vendor's intended security policy if the user does not run Elasticsearch in its own independent virtual machine.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N/E:H"
+    }
+  ],
   "affected": [
     {
       "package": {
@@ -61,6 +66,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2014-3120"
+    },
+    {
+      "type": "WEB",
       "url": "https://www.elastic.co/blog/logstash-1-4-3-released"
     },
     {
@@ -88,7 +97,7 @@
     "cwe_ids": [
       "CWE-284"
     ],
-    "severity": "MODERATE",
+    "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2025-01-06T22:28:40Z",
     "nvd_published_at": "2014-07-28T19:55:00Z"
