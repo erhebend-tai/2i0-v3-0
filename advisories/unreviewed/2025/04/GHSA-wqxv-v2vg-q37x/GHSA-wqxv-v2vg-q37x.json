@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wqxv-v2vg-q37x",
-  "modified": "2025-05-27T21:32:11Z",
+  "modified": "2025-10-22T00:33:18Z",
   "published": "2025-04-25T18:31:12Z",
   "aliases": [
     "CVE-2025-3928"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://www.bleepingcomputer.com/news/security/commvault-says-recent-breach-didnt-impact-customer-backup-data"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-3928"
     },
     {
       "type": "WEB",

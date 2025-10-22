@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p9cx-6464-94g4",
-  "modified": "2025-07-16T18:32:38Z",
+  "modified": "2025-10-22T00:33:19Z",
   "published": "2025-07-16T18:32:38Z",
   "aliases": [
     "CVE-2025-20337"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-unauth-rce-ZAd2GnJ6"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-20337"
     }
   ],
   "database_specific": {

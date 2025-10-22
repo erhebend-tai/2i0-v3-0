@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jwv5-xmf5-mp56",
-  "modified": "2025-03-12T15:32:06Z",
+  "modified": "2025-10-22T00:33:16Z",
   "published": "2025-03-12T15:32:05Z",
   "aliases": [
     "CVE-2025-21590"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://supportportal.juniper.net/JSA93446"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-21590"
     }
   ],
   "database_specific": {

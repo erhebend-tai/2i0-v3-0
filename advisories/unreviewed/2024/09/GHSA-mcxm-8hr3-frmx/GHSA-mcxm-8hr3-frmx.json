@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mcxm-8hr3-frmx",
-  "modified": "2024-09-04T18:30:58Z",
+  "modified": "2025-10-22T00:33:05Z",
   "published": "2024-09-04T18:30:58Z",
   "aliases": [
     "CVE-2024-20439"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cslu-7gHMzWmw"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2024-20439"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-whff-4x34-r5vx",
-  "modified": "2025-06-17T15:31:08Z",
+  "modified": "2025-10-22T00:33:18Z",
   "published": "2025-06-17T00:30:30Z",
   "aliases": [
     "CVE-2025-43200"
@@ -58,6 +58,10 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/en-us/122904"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-43200"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qcj6-wq2r-c3xh",
-  "modified": "2024-06-25T21:31:16Z",
+  "modified": "2025-10-22T00:33:04Z",
   "published": "2024-06-25T21:31:16Z",
   "aliases": [
     "CVE-2024-4885"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://community.progress.com/s/article/WhatsUp-Gold-Security-Bulletin-June-2024"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2024-4885"
     },
     {
       "type": "WEB",

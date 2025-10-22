@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8v67-hw4q-4844",
-  "modified": "2025-05-27T18:30:41Z",
+  "modified": "2025-10-22T00:32:44Z",
   "published": "2023-05-09T18:30:37Z",
   "aliases": [
     "CVE-2023-29336"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-29336"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2023-29336"
     },
     {
       "type": "WEB",

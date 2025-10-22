@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-29vf-j74g-gmfc",
-  "modified": "2025-02-13T18:31:52Z",
+  "modified": "2025-10-22T00:32:51Z",
   "published": "2023-09-27T15:30:35Z",
   "aliases": [
     "CVE-2023-40044"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://www.assetnote.io/resources/research/rce-in-progress-ws-ftp-ad-hoc-via-iis-http-modules-cve-2023-40044"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2023-40044"
     },
     {
       "type": "WEB",

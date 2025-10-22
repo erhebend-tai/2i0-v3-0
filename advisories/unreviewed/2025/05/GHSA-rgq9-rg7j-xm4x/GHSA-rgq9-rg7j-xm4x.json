@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rgq9-rg7j-xm4x",
-  "modified": "2025-05-13T18:30:51Z",
+  "modified": "2025-10-22T00:33:18Z",
   "published": "2025-05-13T03:31:14Z",
   "aliases": [
     "CVE-2025-42999"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://url.sap/sapsecuritypatchday"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-42999"
     }
   ],
   "database_specific": {

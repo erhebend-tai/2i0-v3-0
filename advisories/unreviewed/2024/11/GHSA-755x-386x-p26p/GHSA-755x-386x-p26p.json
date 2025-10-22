@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-755x-386x-p26p",
-  "modified": "2024-11-26T12:41:36Z",
+  "modified": "2025-10-22T00:33:11Z",
   "published": "2024-11-26T12:41:36Z",
   "aliases": [
     "CVE-2024-11680"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://vulncheck.com/advisories/projectsend-bypass"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2024-11680"
     },
     {
       "type": "WEB",

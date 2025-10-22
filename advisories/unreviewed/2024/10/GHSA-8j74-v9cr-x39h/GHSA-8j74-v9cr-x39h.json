@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8j74-v9cr-x39h",
-  "modified": "2024-10-31T00:30:36Z",
+  "modified": "2025-10-22T00:33:10Z",
   "published": "2024-10-28T00:30:49Z",
   "aliases": [
     "CVE-2024-50623"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://support.cleo.com/hc/en-us/articles/27140294267799-Cleo-Product-Security-Advisory"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2024-50623"
     }
   ],
   "database_specific": {

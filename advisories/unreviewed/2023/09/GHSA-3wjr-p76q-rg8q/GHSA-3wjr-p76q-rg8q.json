@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3wjr-p76q-rg8q",
-  "modified": "2024-06-10T18:30:50Z",
+  "modified": "2025-10-22T00:32:50Z",
   "published": "2023-09-06T00:30:15Z",
   "aliases": [
     "CVE-2023-4762"
@@ -54,6 +54,10 @@
     {
       "type": "WEB",
       "url": "https://security.gentoo.org/glsa/202401-34"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2023-4762"
     },
     {
       "type": "WEB",

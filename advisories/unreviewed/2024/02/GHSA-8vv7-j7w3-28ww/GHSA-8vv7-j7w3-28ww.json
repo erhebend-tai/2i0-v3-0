@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8vv7-j7w3-28ww",
-  "modified": "2024-02-21T18:31:02Z",
+  "modified": "2025-10-22T00:32:59Z",
   "published": "2024-02-21T18:31:02Z",
   "aliases": [
     "CVE-2024-1212"
   ],
-  "details": "Unauthenticated remote attackers can access the system through the LoadMaster management interface, enabling arbitrary system command execution.\n\n\n",
+  "details": "Unauthenticated remote attackers can access the system through the LoadMaster management interface, enabling arbitrary system command execution.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://support.kemptechnologies.com/hc/en-us/articles/24325072850573-Release-Notice-LMOS-7-2-59-2-7-2-54-8-7-2-48-10-CVE-2024-1212"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2024-1212"
     }
   ],
   "database_specific": {

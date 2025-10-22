@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2m4h-vp37-6746",
-  "modified": "2025-08-27T15:33:13Z",
+  "modified": "2025-10-22T00:33:20Z",
   "published": "2025-08-26T15:31:00Z",
   "aliases": [
     "CVE-2025-7775"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX694938"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-7775"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8rx5-xm8f-w3w5",
-  "modified": "2024-11-12T18:30:58Z",
+  "modified": "2025-10-22T00:33:11Z",
   "published": "2024-11-12T18:30:58Z",
   "aliases": [
     "CVE-2024-43451"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43451"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2024-43451"
     }
   ],
   "database_specific": {

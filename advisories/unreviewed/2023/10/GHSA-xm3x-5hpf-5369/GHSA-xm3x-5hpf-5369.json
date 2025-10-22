@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xm3x-5hpf-5369",
-  "modified": "2023-11-07T21:30:22Z",
+  "modified": "2025-10-22T00:32:52Z",
   "published": "2023-10-25T18:32:20Z",
   "aliases": [
     "CVE-2023-20273"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-iosxe-webui-privesc-j22SaA4z"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2023-20273"
     },
     {
       "type": "WEB",

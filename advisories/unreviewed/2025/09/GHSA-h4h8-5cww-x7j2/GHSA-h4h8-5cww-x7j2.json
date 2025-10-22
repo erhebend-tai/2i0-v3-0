@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h4h8-5cww-x7j2",
-  "modified": "2025-09-12T09:30:30Z",
+  "modified": "2025-10-22T00:33:20Z",
   "published": "2025-09-12T09:30:30Z",
   "aliases": [
     "CVE-2025-21043"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://security.samsungmobile.com/securityUpdate.smsb?year=2025&month=09"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-21043"
     }
   ],
   "database_specific": {

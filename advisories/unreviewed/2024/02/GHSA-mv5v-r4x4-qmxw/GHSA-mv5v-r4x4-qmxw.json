@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mv5v-r4x4-qmxw",
-  "modified": "2024-02-13T18:38:24Z",
+  "modified": "2025-10-22T00:32:59Z",
   "published": "2024-02-13T18:38:24Z",
   "aliases": [
     "CVE-2024-21410"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-21410"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2024-21410"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7v24-gjqv-fwg7",
-  "modified": "2024-08-27T18:31:36Z",
+  "modified": "2025-10-22T00:33:05Z",
   "published": "2024-08-22T21:31:29Z",
   "aliases": [
     "CVE-2024-39717"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://versa-networks.com/blog/versa-security-bulletin-update-on-cve-2024-39717-versa-director-dangerous-file-type-upload-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2024-39717"
     }
   ],
   "database_specific": {

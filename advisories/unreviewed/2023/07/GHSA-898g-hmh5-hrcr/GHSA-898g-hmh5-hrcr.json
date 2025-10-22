@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-898g-hmh5-hrcr",
-  "modified": "2024-04-04T05:46:05Z",
+  "modified": "2025-10-22T00:32:44Z",
   "published": "2023-07-06T21:15:05Z",
   "aliases": [
     "CVE-2023-2868"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.barracuda.com/company/legal/esg-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2023-2868"
     }
   ],
   "database_specific": {

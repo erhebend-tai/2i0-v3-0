@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4778-q233-jmh5",
-  "modified": "2023-03-14T18:30:18Z",
+  "modified": "2025-10-22T00:32:43Z",
   "published": "2023-03-14T18:30:18Z",
   "aliases": [
     "CVE-2023-23397"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-23397"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2023-23397"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c8qh-hq9w-qh3p",
-  "modified": "2025-01-29T00:31:52Z",
+  "modified": "2025-10-22T00:32:43Z",
   "published": "2023-03-24T15:30:21Z",
   "aliases": [
     "CVE-2022-42948"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://thesecmaster.com/how-to-fix-cve-2022-42948-a-critical-rce-vulnerability-in-cobalt-strike"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2022-42948"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-69c6-ccv7-v3g3",
-  "modified": "2025-02-17T21:31:30Z",
+  "modified": "2025-10-22T00:33:11Z",
   "published": "2024-12-17T06:30:32Z",
   "aliases": [
     "CVE-2024-12356"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.beyondtrust.com/trust-center/security-advisories/bt24-10"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2024-12356"
     },
     {
       "type": "WEB",

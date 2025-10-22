@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5cgp-g38q-m4xj",
-  "modified": "2023-03-11T03:30:16Z",
+  "modified": "2025-10-22T00:32:43Z",
   "published": "2023-03-07T00:30:25Z",
   "aliases": [
     "CVE-2019-8720"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://webkitgtk.org/security/WSA-2019-0005.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2019-8720"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-prj2-6g47-x68h",
-  "modified": "2023-03-14T15:30:16Z",
+  "modified": "2025-10-22T00:32:43Z",
   "published": "2023-03-07T18:30:38Z",
   "aliases": [
     "CVE-2022-41328"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://fortiguard.com/psirt/FG-IR-22-369"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2022-41328"
     }
   ],
   "database_specific": {

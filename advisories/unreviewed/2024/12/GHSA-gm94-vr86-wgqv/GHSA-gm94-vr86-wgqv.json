@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gm94-vr86-wgqv",
-  "modified": "2025-01-14T18:31:53Z",
+  "modified": "2025-10-22T00:33:12Z",
   "published": "2024-12-27T12:30:35Z",
   "aliases": [
     "CVE-2024-3393"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://security.paloaltonetworks.com/CVE-2024-3393"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2024-3393"
     }
   ],
   "database_specific": {

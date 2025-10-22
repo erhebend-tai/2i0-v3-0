@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g3fv-4f2h-xwv4",
-  "modified": "2024-02-13T03:30:18Z",
+  "modified": "2025-10-22T00:32:50Z",
   "published": "2023-09-22T06:30:19Z",
   "aliases": [
     "CVE-2023-43770"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://roundcube.net/news/2023/09/15/security-update-1.6.3-released"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2023-43770"
     }
   ],
   "database_specific": {

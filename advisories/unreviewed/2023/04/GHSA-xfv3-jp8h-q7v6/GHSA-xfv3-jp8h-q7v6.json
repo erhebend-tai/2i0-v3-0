@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xfv3-jp8h-q7v6",
-  "modified": "2025-02-03T15:31:59Z",
+  "modified": "2025-10-22T00:32:43Z",
   "published": "2023-04-06T18:30:21Z",
   "aliases": [
     "CVE-2023-26083"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://developer.arm.com/Arm%20Security%20Center/Mali%20GPU%20Driver%20Vulnerabilities"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2023-26083"
     },
     {
       "type": "WEB",

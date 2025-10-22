@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w7q6-mhgp-7c2h",
-  "modified": "2023-01-18T21:30:22Z",
+  "modified": "2025-10-22T00:32:39Z",
   "published": "2023-01-18T21:30:22Z",
   "aliases": [
     "CVE-2023-21608"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://helpx.adobe.com/security/products/acrobat/apsb23-01.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2023-21608"
     }
   ],
   "database_specific": {

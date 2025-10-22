@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9mp4-h7q5-2rgq",
-  "modified": "2025-05-29T15:31:05Z",
+  "modified": "2025-10-22T00:32:59Z",
   "published": "2024-02-13T18:38:24Z",
   "aliases": [
     "CVE-2024-21413"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://research.checkpoint.com/2024/the-risks-of-the-monikerlink-bug-in-microsoft-outlook-and-the-big-picture"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2024-21413"
     },
     {
       "type": "WEB",

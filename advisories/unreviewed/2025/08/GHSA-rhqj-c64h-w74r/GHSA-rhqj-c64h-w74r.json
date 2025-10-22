@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rhqj-c64h-w74r",
-  "modified": "2025-08-15T15:30:22Z",
+  "modified": "2025-10-22T00:33:19Z",
   "published": "2025-08-14T15:30:46Z",
   "aliases": [
     "CVE-2025-8875"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://status.n-able.com/2025/08/13/announcing-the-ga-of-n-central-2025-3-1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-8875"
     }
   ],
   "database_specific": {

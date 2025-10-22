@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-58rw-8pf6-2mgq",
-  "modified": "2025-09-08T21:30:57Z",
+  "modified": "2025-10-22T00:33:06Z",
   "published": "2024-09-17T21:30:33Z",
   "aliases": [
     "CVE-2024-8956"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://vulncheck.com/advisories/ptzoptics-insufficient-auth"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2024-8956"
     },
     {
       "type": "WEB",

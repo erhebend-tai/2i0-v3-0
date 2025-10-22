@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-26qv-p8cr-jxp5",
-  "modified": "2025-09-15T21:30:55Z",
+  "modified": "2025-10-22T00:33:18Z",
   "published": "2025-06-10T18:32:28Z",
   "aliases": [
     "CVE-2025-33053"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://www.bleepingcomputer.com/news/security/stealth-falcon-hackers-exploited-windows-webdav-zero-day-to-drop-malware"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-33053"
     },
     {
       "type": "WEB",

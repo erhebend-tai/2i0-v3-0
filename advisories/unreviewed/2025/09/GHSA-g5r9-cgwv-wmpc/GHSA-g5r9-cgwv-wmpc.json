@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g5r9-cgwv-wmpc",
-  "modified": "2025-09-05T03:30:20Z",
+  "modified": "2025-10-22T00:33:20Z",
   "published": "2025-09-05T03:30:20Z",
   "aliases": [
     "CVE-2025-53690"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://support.sitecore.com/kb?id=kb_article_view&sysparm_article=KB1003865"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-53690"
     }
   ],
   "database_specific": {

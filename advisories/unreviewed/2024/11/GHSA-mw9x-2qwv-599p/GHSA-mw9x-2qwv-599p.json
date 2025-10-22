@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mw9x-2qwv-599p",
-  "modified": "2024-11-29T18:34:01Z",
+  "modified": "2025-10-22T00:33:11Z",
   "published": "2024-11-18T18:30:58Z",
   "aliases": [
     "CVE-2024-0012"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://unit42.paloaltonetworks.com/cve-2024-0012-cve-2024-9474"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2024-0012"
     }
   ],
   "database_specific": {

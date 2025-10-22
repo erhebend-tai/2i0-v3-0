@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5rr9-mqhj-7cr2",
-  "modified": "2024-01-31T18:31:26Z",
+  "modified": "2025-10-22T00:32:59Z",
   "published": "2024-01-31T18:31:26Z",
   "aliases": [
     "CVE-2024-21893"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://forums.ivanti.com/s/article/CVE-2024-21888-Privilege-Escalation-for-Ivanti-Connect-Secure-and-Ivanti-Policy-Secure?language=en_US"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2024-21893"
     }
   ],
   "database_specific": {

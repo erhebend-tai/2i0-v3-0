@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xq44-wcjx-g3w9",
-  "modified": "2024-11-19T00:32:43Z",
+  "modified": "2025-10-22T00:33:11Z",
   "published": "2024-11-19T00:32:43Z",
   "aliases": [
     "CVE-2024-21287"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-21287"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2024-21287"
     },
     {
       "type": "WEB",

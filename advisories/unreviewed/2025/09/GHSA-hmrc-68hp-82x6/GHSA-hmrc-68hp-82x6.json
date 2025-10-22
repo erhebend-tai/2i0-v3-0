@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hmrc-68hp-82x6",
-  "modified": "2025-09-24T18:30:31Z",
+  "modified": "2025-10-22T00:33:20Z",
   "published": "2025-09-24T18:30:31Z",
   "aliases": [
     "CVE-2025-10585"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://issues.chromium.org/issues/445380761"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-10585"
     }
   ],
   "database_specific": {

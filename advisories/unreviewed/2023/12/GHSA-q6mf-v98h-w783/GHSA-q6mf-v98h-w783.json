@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q6mf-v98h-w783",
-  "modified": "2023-12-13T18:30:59Z",
+  "modified": "2025-10-22T00:32:57Z",
   "published": "2023-12-05T21:31:02Z",
   "aliases": [
     "CVE-2023-44221"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2023-0018"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2023-44221"
     }
   ],
   "database_specific": {

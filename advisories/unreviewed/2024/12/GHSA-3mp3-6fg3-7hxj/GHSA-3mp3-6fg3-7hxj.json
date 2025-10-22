@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3mp3-6fg3-7hxj",
-  "modified": "2025-05-15T03:31:28Z",
+  "modified": "2025-10-22T00:33:12Z",
   "published": "2024-12-27T18:30:26Z",
   "aliases": [
     "CVE-2024-12987"
@@ -54,6 +54,10 @@
     {
       "type": "WEB",
       "url": "https://vuldb.com/?submit.468795"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2024-12987"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j4xf-75rr-vvrv",
-  "modified": "2025-09-15T18:31:06Z",
+  "modified": "2025-10-22T00:33:19Z",
   "published": "2025-07-10T18:31:27Z",
   "aliases": [
     "CVE-2025-47812"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-47812"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-47812"
     },
     {
       "type": "WEB",

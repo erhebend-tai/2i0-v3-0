@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fv47-jg3j-5qf6",
-  "modified": "2024-03-19T09:30:32Z",
+  "modified": "2025-10-22T00:32:59Z",
   "published": "2024-03-12T15:32:21Z",
   "aliases": [
     "CVE-2023-48788"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://fortiguard.com/psirt/FG-IR-24-007"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2023-48788"
     }
   ],
   "database_specific": {

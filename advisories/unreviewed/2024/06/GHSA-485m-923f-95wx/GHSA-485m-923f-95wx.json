@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-485m-923f-95wx",
-  "modified": "2024-08-08T15:31:27Z",
+  "modified": "2025-10-22T00:33:03Z",
   "published": "2024-06-25T15:31:09Z",
   "aliases": [
     "CVE-2024-37085"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/24505"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2024-37085"
     }
   ],
   "database_specific": {

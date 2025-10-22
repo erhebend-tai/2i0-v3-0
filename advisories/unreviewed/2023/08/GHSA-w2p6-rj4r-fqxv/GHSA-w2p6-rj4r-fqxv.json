@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w2p6-rj4r-fqxv",
-  "modified": "2023-08-15T18:31:31Z",
+  "modified": "2025-10-22T00:32:45Z",
   "published": "2023-08-15T18:31:31Z",
   "aliases": [
     "CVE-2023-35082"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://forums.ivanti.com/s/article/CVE-2023-35082-Remote-Unauthenticated-API-Access-Vulnerability-in-MobileIron-Core-11-2-and-older?language=en_US"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2023-35082"
     }
   ],
   "database_specific": {

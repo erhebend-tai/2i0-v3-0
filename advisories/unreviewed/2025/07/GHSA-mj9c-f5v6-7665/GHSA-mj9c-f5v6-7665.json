@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mj9c-f5v6-7665",
-  "modified": "2025-07-01T15:31:09Z",
+  "modified": "2025-10-22T00:33:18Z",
   "published": "2025-07-01T00:30:32Z",
   "aliases": [
     "CVE-2025-6554"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://issues.chromium.org/issues/427663123"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-6554"
     }
   ],
   "database_specific": {

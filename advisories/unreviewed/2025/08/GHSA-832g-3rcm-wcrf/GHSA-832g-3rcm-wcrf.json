@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-832g-3rcm-wcrf",
-  "modified": "2025-09-15T15:31:10Z",
+  "modified": "2025-10-22T00:33:19Z",
   "published": "2025-08-08T12:32:17Z",
   "aliases": [
     "CVE-2025-8088"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://support.dtsearch.com/faq/dts0245.htm"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-8088"
     },
     {
       "type": "WEB",

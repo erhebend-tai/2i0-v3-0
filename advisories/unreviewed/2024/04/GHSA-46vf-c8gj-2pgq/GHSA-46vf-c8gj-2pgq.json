@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-46vf-c8gj-2pgq",
-  "modified": "2024-04-24T00:30:31Z",
+  "modified": "2025-10-22T00:33:00Z",
   "published": "2024-04-22T21:31:01Z",
   "aliases": [
     "CVE-2024-4040"
   ],
-  "details": "VFS Sandbox Escape in CrushFTP in all versions before 10.7.1 and 11.1.0 on all platforms allows remote attackers with low privileges to read files from the filesystem outside of VFS Sandbox.\n",
+  "details": "VFS Sandbox Escape in CrushFTP in all versions before 10.7.1 and 11.1.0 on all platforms allows remote attackers with low privileges to read files from the filesystem outside of VFS Sandbox.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.bleepingcomputer.com/news/security/crushftp-warns-users-to-patch-exploited-zero-day-immediately"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2024-4040"
     },
     {
       "type": "WEB",

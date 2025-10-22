@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v36x-x4cv-7vr2",
-  "modified": "2024-04-04T03:48:29Z",
+  "modified": "2025-10-22T00:32:44Z",
   "published": "2023-05-04T21:30:28Z",
   "aliases": [
     "CVE-2023-21492"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=05"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2023-21492"
     }
   ],
   "database_specific": {

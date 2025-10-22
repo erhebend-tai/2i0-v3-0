@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gfh2-2mj9-m2cx",
-  "modified": "2024-06-27T12:30:43Z",
+  "modified": "2025-10-22T00:32:59Z",
   "published": "2024-01-31T15:30:20Z",
   "aliases": [
     "CVE-2024-1086"
   ],
-  "details": "A use-after-free vulnerability in the Linux kernel's netfilter: nf_tables component can be exploited to achieve local privilege escalation.\n\nThe nft_verdict_init() function allows positive values as drop error within the hook verdict, and hence the nf_hook_slow() function can cause a double free vulnerability when NF_DROP is issued with a drop error which resembles NF_ACCEPT.\n\nWe recommend upgrading past commit f342de4e2f33e0e39165d8639387aa6c19dff660.\n\n",
+  "details": "A use-after-free vulnerability in the Linux kernel's netfilter: nf_tables component can be exploited to achieve local privilege escalation.\n\nThe nft_verdict_init() function allows positive values as drop error within the hook verdict, and hence the nf_hook_slow() function can cause a double free vulnerability when NF_DROP is issued with a drop error which resembles NF_ACCEPT.\n\nWe recommend upgrading past commit f342de4e2f33e0e39165d8639387aa6c19dff660.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -54,6 +54,10 @@
     {
       "type": "WEB",
       "url": "https://security.netapp.com/advisory/ntap-20240614-0009"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2024-1086"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v6c8-v4w6-r8wx",
-  "modified": "2024-03-12T18:31:14Z",
+  "modified": "2025-10-22T00:33:00Z",
   "published": "2024-03-12T18:31:14Z",
   "aliases": [
     "CVE-2024-26169"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-26169"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2024-26169"
     }
   ],
   "database_specific": {

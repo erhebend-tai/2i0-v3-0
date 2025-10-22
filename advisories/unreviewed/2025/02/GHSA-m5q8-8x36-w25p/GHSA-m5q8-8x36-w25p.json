@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m5q8-8x36-w25p",
-  "modified": "2025-02-12T21:31:52Z",
+  "modified": "2025-10-22T00:33:12Z",
   "published": "2025-02-06T18:31:05Z",
   "aliases": [
     "CVE-2025-0994"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://learn.assetlifecycle.trimble.com/i/1532182-cityworks-customer-communication-2025-02-05-docx/0?"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-0994"
     },
     {
       "type": "WEB",

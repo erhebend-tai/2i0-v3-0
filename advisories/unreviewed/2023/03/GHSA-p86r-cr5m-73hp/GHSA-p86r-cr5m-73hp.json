@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p86r-cr5m-73hp",
-  "modified": "2023-03-23T21:30:20Z",
+  "modified": "2025-10-22T00:32:43Z",
   "published": "2023-03-23T21:30:20Z",
   "aliases": [
     "CVE-2023-26360"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://helpx.adobe.com/security/products/coldfusion/apsb23-25.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2023-26360"
     },
     {
       "type": "WEB",

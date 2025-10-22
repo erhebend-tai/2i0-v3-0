@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3pm3-vpvc-2wpp",
-  "modified": "2024-10-01T03:30:33Z",
+  "modified": "2025-10-22T00:32:43Z",
   "published": "2023-03-16T03:30:17Z",
   "aliases": [
     "CVE-2023-25280"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/migraine-sudo/D_Link_Vuln/tree/main/cmd%20Inject%20in%20pingV4Msg"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2023-25280"
     },
     {
       "type": "WEB",

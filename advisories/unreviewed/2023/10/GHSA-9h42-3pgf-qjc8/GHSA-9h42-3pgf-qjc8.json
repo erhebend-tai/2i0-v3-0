@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9h42-3pgf-qjc8",
-  "modified": "2025-01-28T00:32:08Z",
+  "modified": "2025-10-22T00:32:52Z",
   "published": "2023-10-26T21:30:22Z",
   "aliases": [
     "CVE-2023-46748"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://my.f5.com/manage/s/article/K000137365"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2023-46748"
     },
     {
       "type": "WEB",

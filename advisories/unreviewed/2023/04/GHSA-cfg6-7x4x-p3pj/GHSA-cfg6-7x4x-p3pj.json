@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cfg6-7x4x-p3pj",
-  "modified": "2024-06-27T21:32:06Z",
+  "modified": "2025-10-22T00:32:43Z",
   "published": "2023-04-20T18:30:50Z",
   "aliases": [
     "CVE-2023-27350"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://news.sophos.com/en-us/2023/04/27/increased-exploitation-of-papercut-drawing-blood-around-the-internet"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2023-27350"
     },
     {
       "type": "WEB",

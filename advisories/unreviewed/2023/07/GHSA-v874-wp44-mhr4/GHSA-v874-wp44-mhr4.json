@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v874-wp44-mhr4",
-  "modified": "2024-01-05T15:30:23Z",
+  "modified": "2025-10-22T00:32:45Z",
   "published": "2023-07-27T00:30:57Z",
   "aliases": [
     "CVE-2023-37450"
@@ -42,6 +42,10 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/en-us/HT213848"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2023-37450"
     }
   ],
   "database_specific": {

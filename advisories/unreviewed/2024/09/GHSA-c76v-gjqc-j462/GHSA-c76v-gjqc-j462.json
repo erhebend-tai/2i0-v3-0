@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c76v-gjqc-j462",
-  "modified": "2024-12-20T18:31:30Z",
+  "modified": "2025-10-22T00:33:05Z",
   "published": "2024-09-07T18:30:24Z",
   "aliases": [
     "CVE-2024-40711"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://labs.watchtowr.com/veeam-backup-response-rce-with-auth-but-mostly-without-auth-cve-2024-40711-2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2024-40711"
     },
     {
       "type": "WEB",

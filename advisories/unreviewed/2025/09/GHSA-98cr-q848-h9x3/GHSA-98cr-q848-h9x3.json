@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-98cr-q848-h9x3",
-  "modified": "2025-09-04T21:31:38Z",
+  "modified": "2025-10-22T00:33:20Z",
   "published": "2025-09-04T21:31:38Z",
   "aliases": [
     "CVE-2025-48543"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://source.android.com/security/bulletin/2025-09-01"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-48543"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cmww-723f-496g",
-  "modified": "2025-05-13T06:30:24Z",
+  "modified": "2025-10-22T00:33:18Z",
   "published": "2025-05-13T06:30:24Z",
   "aliases": [
     "CVE-2025-4632"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://security.samsungtv.com/securityUpdates#SVP-MAY-2025"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-4632"
     }
   ],
   "database_specific": {

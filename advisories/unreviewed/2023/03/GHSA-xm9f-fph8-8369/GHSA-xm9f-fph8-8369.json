@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xm9f-fph8-8369",
-  "modified": "2023-03-28T15:30:17Z",
+  "modified": "2025-10-22T00:32:43Z",
   "published": "2023-03-24T21:30:50Z",
   "aliases": [
     "CVE-2023-20963"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://source.android.com/security/bulletin/2023-03-01"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2023-20963"
     }
   ],
   "database_specific": {

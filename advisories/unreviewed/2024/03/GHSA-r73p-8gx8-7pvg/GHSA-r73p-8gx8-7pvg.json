@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r73p-8gx8-7pvg",
-  "modified": "2024-03-18T12:30:36Z",
+  "modified": "2025-10-22T00:33:00Z",
   "published": "2024-03-18T12:30:35Z",
   "aliases": [
     "CVE-2024-20767"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://helpx.adobe.com/security/products/coldfusion/apsb24-14.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2024-20767"
     }
   ],
   "database_specific": {

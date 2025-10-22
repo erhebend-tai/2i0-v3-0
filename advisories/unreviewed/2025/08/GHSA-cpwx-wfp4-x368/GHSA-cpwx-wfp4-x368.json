@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cpwx-wfp4-x368",
-  "modified": "2025-09-16T00:30:21Z",
+  "modified": "2025-10-22T00:33:19Z",
   "published": "2025-08-21T03:30:25Z",
   "aliases": [
     "CVE-2025-43300"
@@ -50,6 +50,10 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/en-us/125142"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-43300"
     }
   ],
   "database_specific": {

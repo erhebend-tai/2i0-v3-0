@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vj55-4r38-w2gh",
-  "modified": "2023-12-13T18:30:59Z",
+  "modified": "2025-10-22T00:32:57Z",
   "published": "2023-12-08T18:30:42Z",
   "aliases": [
     "CVE-2023-47565"
   ],
-  "details": "An OS command injection vulnerability has been found to affect legacy QNAP VioStor NVR models running QVR Firmware 4.x. If exploited, the vulnerability could allow authenticated users to execute commands via a network.\n\nWe have already fixed the vulnerability in the following versions:\n\nQVR Firmware 5.0.0 and later\n\n",
+  "details": "An OS command injection vulnerability has been found to affect legacy QNAP VioStor NVR models running QVR Firmware 4.x. If exploited, the vulnerability could allow authenticated users to execute commands via a network.\n\nWe have already fixed the vulnerability in the following versions:\n\nQVR Firmware 5.0.0 and later",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-47565"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2023-47565"
     },
     {
       "type": "WEB",

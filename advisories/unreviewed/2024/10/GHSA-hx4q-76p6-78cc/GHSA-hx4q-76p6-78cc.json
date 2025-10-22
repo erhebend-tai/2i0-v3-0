@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hx4q-76p6-78cc",
-  "modified": "2024-10-23T15:31:08Z",
+  "modified": "2025-10-22T00:33:10Z",
   "published": "2024-10-23T15:31:08Z",
   "aliases": [
     "CVE-2024-47575"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://fortiguard.fortinet.com/psirt/FG-IR-24-423"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2024-47575"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pf44-j75v-mhr8",
-  "modified": "2025-05-02T03:30:34Z",
+  "modified": "2025-10-22T00:33:04Z",
   "published": "2024-07-01T21:31:14Z",
   "aliases": [
     "CVE-2024-38475"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://www.blackhat.com/us-24/briefings/schedule/index.html#confusion-attacks-exploiting-hidden-semantic-ambiguity-in-apache-http-server-pre-recorded-40227"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2024-38475"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vmqr-hrfr-7527",
-  "modified": "2025-06-03T09:32:04Z",
+  "modified": "2025-10-22T00:33:19Z",
   "published": "2025-06-03T09:32:04Z",
   "aliases": [
     "CVE-2025-21479"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://docs.qualcomm.com/product/publicresources/securitybulletin/june-2025-bulletin.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-21479"
     }
   ],
   "database_specific": {

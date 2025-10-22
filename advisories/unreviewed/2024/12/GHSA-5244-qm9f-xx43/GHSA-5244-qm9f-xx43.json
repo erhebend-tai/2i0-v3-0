@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5244-qm9f-xx43",
-  "modified": "2025-04-07T21:31:55Z",
+  "modified": "2025-10-22T00:33:12Z",
   "published": "2024-12-27T15:31:51Z",
   "aliases": [
     "CVE-2024-53197"
@@ -54,6 +54,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/b909df18ce2a998afef81d58bbd1a05dc0788c40"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2024-53197"
     }
   ],
   "database_specific": {

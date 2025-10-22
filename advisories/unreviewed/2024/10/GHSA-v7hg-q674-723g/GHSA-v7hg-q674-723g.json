@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v7hg-q674-723g",
-  "modified": "2024-10-08T18:33:14Z",
+  "modified": "2025-10-22T00:33:10Z",
   "published": "2024-10-08T18:33:14Z",
   "aliases": [
     "CVE-2024-9380"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://forums.ivanti.com/s/article/Security-Advisory-Ivanti-CSA-Cloud-Services-Appliance-CVE-2024-9379-CVE-2024-9380-CVE-2024-9381"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2024-9380"
     }
   ],
   "database_specific": {

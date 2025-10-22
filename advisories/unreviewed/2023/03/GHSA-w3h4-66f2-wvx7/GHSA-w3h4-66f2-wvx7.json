@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w3h4-66f2-wvx7",
-  "modified": "2023-03-14T18:30:21Z",
+  "modified": "2025-10-22T00:32:43Z",
   "published": "2023-03-14T18:30:21Z",
   "aliases": [
     "CVE-2023-24880"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-24880"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2023-24880"
     }
   ],
   "database_specific": {

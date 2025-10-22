@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g3m4-2wr6-2q64",
-  "modified": "2025-05-07T15:31:42Z",
+  "modified": "2025-10-22T00:33:18Z",
   "published": "2025-05-07T15:31:41Z",
   "aliases": [
     "CVE-2025-2775"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://labs.watchtowr.com/sysowned-your-friendly-rce-support-ticket"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-2775"
     }
   ],
   "database_specific": {

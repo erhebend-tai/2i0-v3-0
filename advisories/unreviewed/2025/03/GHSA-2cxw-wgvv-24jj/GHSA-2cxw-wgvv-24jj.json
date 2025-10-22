@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2cxw-wgvv-24jj",
-  "modified": "2025-04-10T21:31:07Z",
+  "modified": "2025-10-22T00:33:13Z",
   "published": "2025-03-04T12:30:32Z",
   "aliases": [
     "CVE-2025-22225"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/25390"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-22225"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xcrc-8vqv-vc8r",
-  "modified": "2025-07-22T03:30:34Z",
+  "modified": "2025-10-22T00:33:19Z",
   "published": "2025-07-20T03:30:19Z",
   "aliases": [
     "CVE-2025-53770"
@@ -50,6 +50,10 @@
     {
       "type": "WEB",
       "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-sharepoint-zero-day-exploited-in-rce-attacks-no-patch-available"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-53770"
     },
     {
       "type": "WEB",

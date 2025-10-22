@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w7rx-cmpf-jrpp",
-  "modified": "2024-09-19T18:30:53Z",
+  "modified": "2025-10-22T00:33:06Z",
   "published": "2024-09-19T18:30:53Z",
   "aliases": [
     "CVE-2024-8963"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://forums.ivanti.com/s/article/Security-Advisory-Ivanti-CSA-4-6-Cloud-Services-Appliance-CVE-2024-8963"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2024-8963"
     }
   ],
   "database_specific": {

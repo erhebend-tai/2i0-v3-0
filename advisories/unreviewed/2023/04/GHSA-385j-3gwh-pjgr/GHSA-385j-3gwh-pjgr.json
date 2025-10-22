@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-385j-3gwh-pjgr",
-  "modified": "2023-04-11T21:31:00Z",
+  "modified": "2025-10-22T00:32:43Z",
   "published": "2023-04-11T21:31:00Z",
   "aliases": [
     "CVE-2023-28252"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-28252"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2023-28252"
     },
     {
       "type": "WEB",

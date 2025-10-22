@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hp68-7f8q-r2qj",
-  "modified": "2025-02-03T15:31:59Z",
+  "modified": "2025-10-22T00:32:40Z",
   "published": "2023-02-07T18:30:16Z",
   "aliases": [
     "CVE-2022-24990"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://www.broadcom.com/support/security-center/attacksignatures/detail?asid=33732"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2022-24990"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-26r2-pm58-r4jr",
-  "modified": "2024-10-08T18:33:17Z",
+  "modified": "2025-10-22T00:33:10Z",
   "published": "2024-10-08T18:33:17Z",
   "aliases": [
     "CVE-2024-43573"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43573"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2024-43573"
     }
   ],
   "database_specific": {

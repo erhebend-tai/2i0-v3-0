@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-53wx-2f9c-xxxr",
-  "modified": "2025-01-29T18:31:07Z",
+  "modified": "2025-10-22T00:32:40Z",
   "published": "2023-02-13T21:31:04Z",
   "aliases": [
     "CVE-2023-25717"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://support.ruckuswireless.com/security_bulletins/315"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2023-25717"
     }
   ],
   "database_specific": {

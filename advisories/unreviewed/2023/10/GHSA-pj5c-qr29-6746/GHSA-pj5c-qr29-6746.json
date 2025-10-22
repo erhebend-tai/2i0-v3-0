@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pj5c-qr29-6746",
-  "modified": "2024-05-23T18:30:54Z",
+  "modified": "2025-10-22T00:32:52Z",
   "published": "2023-10-26T18:30:23Z",
   "aliases": [
     "CVE-2023-43208"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-43208"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2023-43208"
     },
     {
       "type": "WEB",

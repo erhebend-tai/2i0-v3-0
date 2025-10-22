@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w4rw-v3mm-hj8h",
-  "modified": "2024-01-17T21:30:21Z",
+  "modified": "2025-10-22T00:32:58Z",
   "published": "2024-01-17T21:30:21Z",
   "aliases": [
     "CVE-2023-6548"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://support.citrix.com/article/CTX584986/netscaler-adc-and-netscaler-gateway-security-bulletin-for-cve20236548-and-cve20236549"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2023-6548"
     }
   ],
   "database_specific": {

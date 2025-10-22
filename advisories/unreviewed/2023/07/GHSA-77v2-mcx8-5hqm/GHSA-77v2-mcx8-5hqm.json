@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-77v2-mcx8-5hqm",
-  "modified": "2024-04-04T05:28:55Z",
+  "modified": "2025-10-22T00:32:44Z",
   "published": "2023-07-06T18:30:51Z",
   "aliases": [
     "CVE-2023-34192"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://wiki.zimbra.com/wiki/Zimbra_Security_Advisories"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2023-34192"
     }
   ],
   "database_specific": {

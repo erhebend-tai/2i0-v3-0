@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-74mq-6c57-fxpx",
-  "modified": "2025-04-16T18:31:47Z",
+  "modified": "2025-10-22T00:33:16Z",
   "published": "2025-04-08T18:34:57Z",
   "aliases": [
     "CVE-2025-29824"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-29824"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-29824"
     },
     {
       "type": "WEB",

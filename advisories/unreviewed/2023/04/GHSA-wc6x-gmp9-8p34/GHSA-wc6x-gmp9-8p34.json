@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wc6x-gmp9-8p34",
-  "modified": "2023-04-12T21:30:22Z",
+  "modified": "2025-10-22T00:32:43Z",
   "published": "2023-04-03T18:32:05Z",
   "aliases": [
     "CVE-2022-43769"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://support.pentaho.com/hc/en-us/articles/14455561548301--Resolved-Pentaho-BA-Server-Failure-to-Sanitize-Special-Elements-into-a-Different-Plane-Special-Element-Injection-Versions-before-9-4-0-1-and-9-3-0-2-including-8-3-x-Impacted-CVE-2022-43769-"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2022-43769"
     },
     {
       "type": "WEB",

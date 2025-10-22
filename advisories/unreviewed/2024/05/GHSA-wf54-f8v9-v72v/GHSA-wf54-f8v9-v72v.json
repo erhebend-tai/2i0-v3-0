@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wf54-f8v9-v72v",
-  "modified": "2025-01-28T00:32:12Z",
+  "modified": "2025-10-22T00:33:02Z",
   "published": "2024-05-23T03:30:41Z",
   "aliases": [
     "CVE-2024-4978"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://twitter.com/2RunJack2/status/1775052981966377148"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2024-4978"
     },
     {
       "type": "WEB",

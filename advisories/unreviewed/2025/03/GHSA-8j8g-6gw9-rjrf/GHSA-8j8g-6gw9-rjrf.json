@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8j8g-6gw9-rjrf",
-  "modified": "2025-03-04T18:33:38Z",
+  "modified": "2025-10-22T00:33:12Z",
   "published": "2025-03-04T09:30:39Z",
   "aliases": [
     "CVE-2024-48248"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://labs.watchtowr.com/the-best-security-is-when-we-all-agree-to-keep-everything-secret-except-the-secrets-nakivo-backup-replication-cve-2024-48248"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2024-48248"
     }
   ],
   "database_specific": {

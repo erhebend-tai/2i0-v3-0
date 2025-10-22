@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hfqm-jfc6-rh2f",
-  "modified": "2025-03-26T18:30:50Z",
+  "modified": "2025-10-22T00:33:16Z",
   "published": "2025-03-26T18:30:50Z",
   "aliases": [
     "CVE-2025-2783"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://issues.chromium.org/issues/405143032"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-2783"
     }
   ],
   "database_specific": {

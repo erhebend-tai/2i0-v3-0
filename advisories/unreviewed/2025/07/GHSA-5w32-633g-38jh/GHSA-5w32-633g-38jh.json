@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5w32-633g-38jh",
-  "modified": "2025-07-15T21:31:39Z",
+  "modified": "2025-10-22T00:33:19Z",
   "published": "2025-07-15T18:31:26Z",
   "aliases": [
     "CVE-2025-6558"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://issues.chromium.org/issues/427162086"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-6558"
     }
   ],
   "database_specific": {

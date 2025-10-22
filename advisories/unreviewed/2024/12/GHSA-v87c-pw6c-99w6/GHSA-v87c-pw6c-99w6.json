@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v87c-pw6c-99w6",
-  "modified": "2024-12-16T18:31:08Z",
+  "modified": "2025-10-22T00:33:11Z",
   "published": "2024-12-13T21:30:36Z",
   "aliases": [
     "CVE-2024-55956"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://support.cleo.com/hc/en-us/articles/28408134019735-Cleo-Product-Security-Update"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2024-55956"
     },
     {
       "type": "WEB",

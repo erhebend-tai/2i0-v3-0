@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v4hq-m4wr-6pmj",
-  "modified": "2024-02-09T09:31:31Z",
+  "modified": "2025-10-22T00:32:59Z",
   "published": "2024-02-09T09:31:31Z",
   "aliases": [
     "CVE-2024-21762"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://fortiguard.com/psirt/FG-IR-24-015"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2024-21762"
     }
   ],
   "database_specific": {

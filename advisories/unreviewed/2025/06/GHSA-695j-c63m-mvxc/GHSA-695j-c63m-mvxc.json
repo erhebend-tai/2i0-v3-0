@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-695j-c63m-mvxc",
-  "modified": "2025-07-22T15:32:23Z",
+  "modified": "2025-10-22T00:33:19Z",
   "published": "2025-06-30T21:30:54Z",
   "aliases": [
     "CVE-2025-32463"
@@ -58,6 +58,10 @@
     {
       "type": "WEB",
       "url": "https://www.openwall.com/lists/oss-security/2025/06/30/3"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-32463"
     },
     {
       "type": "WEB",

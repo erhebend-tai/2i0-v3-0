@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9gqr-6728-fpv3",
-  "modified": "2025-07-01T18:30:33Z",
+  "modified": "2025-10-22T00:33:18Z",
   "published": "2025-06-26T21:31:11Z",
   "aliases": [
     "CVE-2025-6543"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX694788"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-6543"
     }
   ],
   "database_specific": {

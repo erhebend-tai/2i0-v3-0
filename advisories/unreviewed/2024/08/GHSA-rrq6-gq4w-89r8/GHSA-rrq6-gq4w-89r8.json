@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rrq6-gq4w-89r8",
-  "modified": "2024-08-13T18:31:15Z",
+  "modified": "2025-10-22T00:33:05Z",
   "published": "2024-08-13T18:31:15Z",
   "aliases": [
     "CVE-2024-38106"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38106"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2024-38106"
     }
   ],
   "database_specific": {

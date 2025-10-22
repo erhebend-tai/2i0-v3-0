@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3r8p-3x67-72v8",
-  "modified": "2024-06-26T21:32:16Z",
+  "modified": "2025-10-22T00:32:57Z",
   "published": "2023-12-05T18:30:23Z",
   "aliases": [
     "CVE-2023-6448"
   ],
-  "details": "Unitronics Vision Series PLCs and HMIs use default administrative passwords. An unauthenticated attacker with network access to a PLC or HMI can take administrative control of the system.\n",
+  "details": "Unitronics Vision Series PLCs and HMIs use default administrative passwords. An unauthenticated attacker with network access to a PLC or HMI can take administrative control of the system.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://downloads.unitronicsplc.com/Sites/plc/Visilogic/Version_Changes-Bug_Reports/VisiLogic%209.9.00%20Version%20changes.pdf"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2023-6448"
     },
     {
       "type": "WEB",

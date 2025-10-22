@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h4hx-5g7m-p3hc",
-  "modified": "2025-04-24T21:31:47Z",
+  "modified": "2025-10-22T00:33:11Z",
   "published": "2024-12-12T03:33:05Z",
   "aliases": [
     "CVE-2024-49138"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://packetstorm.news/files/id/190585"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2024-49138"
     },
     {
       "type": "WEB",

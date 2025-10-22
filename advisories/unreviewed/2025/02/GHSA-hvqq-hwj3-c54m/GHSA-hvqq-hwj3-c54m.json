@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hvqq-hwj3-c54m",
-  "modified": "2025-02-20T03:32:03Z",
+  "modified": "2025-10-22T00:33:13Z",
   "published": "2025-02-12T21:31:53Z",
   "aliases": [
     "CVE-2025-0108"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-tags-new-firewall-bug-as-exploited-in-attacks"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-0108"
     },
     {
       "type": "WEB",

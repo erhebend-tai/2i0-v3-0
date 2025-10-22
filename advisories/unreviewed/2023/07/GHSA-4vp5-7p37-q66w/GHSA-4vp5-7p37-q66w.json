@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4vp5-7p37-q66w",
-  "modified": "2024-01-09T03:30:21Z",
+  "modified": "2025-10-22T00:32:44Z",
   "published": "2023-07-20T18:33:43Z",
   "aliases": [
     "CVE-2023-38203"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://helpx.adobe.com/security/products/coldfusion/apsb23-41.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2023-38203"
     }
   ],
   "database_specific": {

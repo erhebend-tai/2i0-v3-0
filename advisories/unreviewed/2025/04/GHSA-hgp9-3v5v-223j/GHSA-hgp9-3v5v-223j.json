@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hgp9-3v5v-223j",
-  "modified": "2025-04-04T03:30:19Z",
+  "modified": "2025-10-22T00:33:16Z",
   "published": "2025-04-03T21:32:59Z",
   "aliases": [
     "CVE-2025-30406"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.centrestack.com/p/gce_latest_release.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-30406"
     }
   ],
   "database_specific": {

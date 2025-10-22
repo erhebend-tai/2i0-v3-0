@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-288r-5qm5-qp55",
-  "modified": "2024-04-04T03:40:45Z",
+  "modified": "2025-10-22T00:32:44Z",
   "published": "2023-04-25T18:30:23Z",
   "aliases": [
     "CVE-2023-29552"
@@ -42,6 +42,10 @@
     {
       "type": "WEB",
       "url": "https://www.bitsight.com/blog/new-high-severity-vulnerability-cve-2023-29552-discovered-service-location-protocol-slp"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2023-29552"
     },
     {
       "type": "WEB",

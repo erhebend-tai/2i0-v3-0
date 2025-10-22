@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pxjr-976r-24r6",
-  "modified": "2025-02-20T00:32:04Z",
+  "modified": "2025-10-22T00:33:12Z",
   "published": "2025-02-20T00:32:04Z",
   "aliases": [
     "CVE-2025-24989"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-24989"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-24989"
     }
   ],
   "database_specific": {

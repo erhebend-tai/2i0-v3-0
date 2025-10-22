@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pxpg-54ph-g5gh",
-  "modified": "2024-04-04T07:38:47Z",
+  "modified": "2025-10-22T00:32:50Z",
   "published": "2023-09-13T09:30:20Z",
   "aliases": [
     "CVE-2023-26369"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://helpx.adobe.com/security/products/acrobat/apsb23-34.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2023-26369"
     }
   ],
   "database_specific": {

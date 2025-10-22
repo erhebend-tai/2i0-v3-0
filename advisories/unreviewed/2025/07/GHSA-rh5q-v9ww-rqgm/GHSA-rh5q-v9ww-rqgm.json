@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rh5q-v9ww-rqgm",
-  "modified": "2025-09-25T18:30:30Z",
+  "modified": "2025-10-22T00:33:19Z",
   "published": "2025-07-18T21:30:30Z",
   "aliases": [
     "CVE-2025-54309"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://www.bleepingcomputer.com/news/security/crushftp-zero-day-exploited-in-attacks-to-gain-admin-access-on-servers"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-54309"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4jq7-4qmf-m333",
-  "modified": "2024-11-29T18:34:01Z",
+  "modified": "2025-10-22T00:33:05Z",
   "published": "2024-08-22T00:31:03Z",
   "aliases": [
     "CVE-2024-28987"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://support.solarwinds.com/SuccessCenter/s/article/SolarWinds-Web-Help-Desk-12-8-3-Hotfix-2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2024-28987"
     },
     {
       "type": "WEB",

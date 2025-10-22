@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8j3w-26mp-75xh",
-  "modified": "2024-07-03T18:44:16Z",
+  "modified": "2025-10-22T00:33:03Z",
   "published": "2024-06-07T06:30:29Z",
   "aliases": [
     "CVE-2024-37383"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2024/06/msg00008.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2024-37383"
     }
   ],
   "database_specific": {

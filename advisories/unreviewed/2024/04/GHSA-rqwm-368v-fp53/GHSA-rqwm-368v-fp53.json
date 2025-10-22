@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rqwm-368v-fp53",
-  "modified": "2025-07-30T03:30:33Z",
+  "modified": "2025-10-22T00:33:03Z",
   "published": "2024-04-24T21:31:55Z",
   "aliases": [
     "CVE-2024-20359"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-persist-rce-FLsNXF4h"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2024-20359"
     }
   ],
   "database_specific": {

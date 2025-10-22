@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rf94-f4r9-6gxh",
-  "modified": "2025-01-28T18:31:25Z",
+  "modified": "2025-10-22T00:33:12Z",
   "published": "2025-01-09T00:31:34Z",
   "aliases": [
     "CVE-2025-0282"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://www.cisa.gov/cisa-mitigation-instructions-cve-2025-0282"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-0282"
     },
     {
       "type": "WEB",

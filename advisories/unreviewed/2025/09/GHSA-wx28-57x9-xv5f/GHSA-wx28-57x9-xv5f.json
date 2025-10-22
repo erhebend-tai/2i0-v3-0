@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wx28-57x9-xv5f",
-  "modified": "2025-09-25T18:30:34Z",
+  "modified": "2025-10-22T00:33:23Z",
   "published": "2025-09-25T18:30:33Z",
   "aliases": [
     "CVE-2025-20362"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://sec.cloudapps.cisco.com/security/center/resources/asa_ftd_continued_attacks"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-20362"
     }
   ],
   "database_specific": {

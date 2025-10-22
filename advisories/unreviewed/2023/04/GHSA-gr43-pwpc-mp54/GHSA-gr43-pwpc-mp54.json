@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gr43-pwpc-mp54",
-  "modified": "2024-01-25T18:30:37Z",
+  "modified": "2025-10-22T00:32:43Z",
   "published": "2023-04-13T09:30:18Z",
   "aliases": [
     "CVE-2023-20118"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sbr042-multi-vuln-ej76Pke5"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2023-20118"
     }
   ],
   "database_specific": {

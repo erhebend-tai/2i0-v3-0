@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gjfw-29fg-w4vq",
-  "modified": "2025-03-05T00:30:35Z",
+  "modified": "2025-10-22T00:33:13Z",
   "published": "2025-03-05T00:30:35Z",
   "aliases": [
     "CVE-2025-1316"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-1316"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-1316"
     },
     {
       "type": "WEB",

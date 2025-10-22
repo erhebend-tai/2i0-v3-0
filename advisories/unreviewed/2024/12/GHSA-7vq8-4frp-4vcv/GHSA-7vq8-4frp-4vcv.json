@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7vq8-4frp-4vcv",
-  "modified": "2025-01-07T18:30:46Z",
+  "modified": "2025-10-22T00:33:11Z",
   "published": "2024-12-24T12:30:42Z",
   "aliases": [
     "CVE-2024-53150"
@@ -50,6 +50,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/ea0fa76f61cf8e932d1d26e6193513230816e11d"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2024-53150"
     }
   ],
   "database_specific": {

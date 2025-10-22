@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5gxv-52gp-vmhp",
-  "modified": "2024-06-27T21:32:07Z",
+  "modified": "2025-10-22T00:32:43Z",
   "published": "2023-04-14T21:30:24Z",
   "aliases": [
     "CVE-2023-2033"
@@ -54,6 +54,10 @@
     {
       "type": "WEB",
       "url": "https://security.gentoo.org/glsa/202309-17"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2023-2033"
     },
     {
       "type": "WEB",

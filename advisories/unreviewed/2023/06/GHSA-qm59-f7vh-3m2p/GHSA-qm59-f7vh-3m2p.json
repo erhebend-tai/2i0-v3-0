@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qm59-f7vh-3m2p",
-  "modified": "2024-04-04T04:47:28Z",
+  "modified": "2025-10-22T00:32:44Z",
   "published": "2023-06-13T18:30:39Z",
   "aliases": [
     "CVE-2023-20867"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://security.netapp.com/advisory/ntap-20230725-0001"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2023-20867"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6p26-7gx2-v5m2",
-  "modified": "2025-01-14T18:32:05Z",
+  "modified": "2025-10-22T00:33:12Z",
   "published": "2025-01-14T18:32:05Z",
   "aliases": [
     "CVE-2025-21335"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21335"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-21335"
     }
   ],
   "database_specific": {

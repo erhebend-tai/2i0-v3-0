@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7c63-xmgg-xrx5",
-  "modified": "2025-09-11T21:31:52Z",
+  "modified": "2025-10-22T00:33:18Z",
   "published": "2025-06-02T18:30:53Z",
   "aliases": [
     "CVE-2025-5086"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.3ds.com/vulnerability/advisories"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-5086"
     }
   ],
   "database_specific": {

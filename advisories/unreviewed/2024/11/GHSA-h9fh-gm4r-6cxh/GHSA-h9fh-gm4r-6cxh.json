@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h9fh-gm4r-6cxh",
-  "modified": "2024-12-05T21:31:51Z",
+  "modified": "2025-10-22T00:33:11Z",
   "published": "2024-11-27T12:31:53Z",
   "aliases": [
     "CVE-2024-11667"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-11667"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2024-11667"
     },
     {
       "type": "WEB",

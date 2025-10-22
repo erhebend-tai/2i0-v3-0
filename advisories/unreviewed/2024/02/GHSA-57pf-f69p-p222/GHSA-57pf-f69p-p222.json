@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-57pf-f69p-p222",
-  "modified": "2024-02-15T15:30:29Z",
+  "modified": "2025-10-22T00:32:59Z",
   "published": "2024-02-15T15:30:29Z",
   "aliases": [
     "CVE-2024-23113"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://fortiguard.com/psirt/FG-IR-24-029"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2024-23113"
     }
   ],
   "database_specific": {

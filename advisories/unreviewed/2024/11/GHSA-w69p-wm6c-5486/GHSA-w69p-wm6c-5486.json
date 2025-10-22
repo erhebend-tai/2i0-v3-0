@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w69p-wm6c-5486",
-  "modified": "2024-11-26T21:32:24Z",
+  "modified": "2025-10-22T00:33:11Z",
   "published": "2024-11-26T21:32:24Z",
   "aliases": [
     "CVE-2024-49035"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-49035"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2024-49035"
     }
   ],
   "database_specific": {

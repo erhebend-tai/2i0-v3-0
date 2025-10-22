@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m4j4-rmj5-w5gp",
-  "modified": "2025-02-13T18:31:40Z",
+  "modified": "2025-10-22T00:32:44Z",
   "published": "2023-07-19T18:30:56Z",
   "aliases": [
     "CVE-2023-3519"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://support.citrix.com/article/CTX561482/citrix-adc-and-citrix-gateway-security-bulletin-for-cve20233519-cve20233466-cve20233467"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2023-3519"
     },
     {
       "type": "WEB",

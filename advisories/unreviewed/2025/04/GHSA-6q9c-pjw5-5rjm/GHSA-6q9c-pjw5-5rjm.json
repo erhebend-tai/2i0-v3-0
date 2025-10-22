@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6q9c-pjw5-5rjm",
-  "modified": "2025-05-08T00:31:11Z",
+  "modified": "2025-10-22T00:33:17Z",
   "published": "2025-04-22T18:32:12Z",
   "aliases": [
     "CVE-2025-34028"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://labs.watchtowr.com/fire-in-the-hole-were-breaching-the-vault-commvault-remote-code-execution-cve-2025-34028"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-34028"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-63j8-q3xx-g3c2",
-  "modified": "2024-04-04T03:34:55Z",
+  "modified": "2025-10-22T00:32:43Z",
   "published": "2023-04-19T06:30:18Z",
   "aliases": [
     "CVE-2023-2136"
@@ -54,6 +54,10 @@
     {
       "type": "WEB",
       "url": "https://security.gentoo.org/glsa/202309-17"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2023-2136"
     },
     {
       "type": "WEB",

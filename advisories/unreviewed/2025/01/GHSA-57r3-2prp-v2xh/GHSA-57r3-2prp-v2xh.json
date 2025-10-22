@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-57r3-2prp-v2xh",
-  "modified": "2025-01-23T15:31:05Z",
+  "modified": "2025-10-22T00:33:12Z",
   "published": "2025-01-23T12:32:36Z",
   "aliases": [
     "CVE-2025-23006"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2025-0002"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-23006"
     }
   ],
   "database_specific": {

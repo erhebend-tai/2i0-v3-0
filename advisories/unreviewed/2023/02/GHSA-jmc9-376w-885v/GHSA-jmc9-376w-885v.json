@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jmc9-376w-885v",
-  "modified": "2023-02-24T18:30:27Z",
+  "modified": "2025-10-22T00:32:43Z",
   "published": "2023-02-16T18:30:27Z",
   "aliases": [
     "CVE-2023-23752"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://developer.joomla.org/security-centre/894-20230201-core-improper-access-check-in-webservice-endpoints.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2023-23752"
     }
   ],
   "database_specific": {
