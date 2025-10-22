@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hhx9-p69v-cx2j",
-  "modified": "2024-09-11T16:57:39Z",
+  "modified": "2025-10-22T17:56:14Z",
   "published": "2021-04-30T17:34:13Z",
   "aliases": [
     "CVE-2020-13927"
@@ -11,11 +11,11 @@
   "severity": [
     {
       "type": "CVSS_V3",
-      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:H"
     },
     {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N"
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N/E:A"
     }
   ],
   "affected": [
@@ -82,6 +82,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2020-13927"
+    },
+    {
+      "type": "WEB",
       "url": "http://packetstormsecurity.com/files/162908/Apache-Airflow-1.10.10-Remote-Code-Execution.html"
     },
     {
@@ -93,7 +97,8 @@
     "cwe_ids": [
       "CWE-1056",
       "CWE-1188",
-      "CWE-287"
+      "CWE-287",
+      "CWE-306"
     ],
     "severity": "CRITICAL",
     "github_reviewed": true,
