@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gw42-f939-fhvm",
-  "modified": "2023-07-20T18:57:26Z",
+  "modified": "2025-10-22T19:20:57Z",
   "published": "2023-05-23T19:54:30Z",
   "aliases": [
     "CVE-2023-32315"
@@ -11,7 +11,7 @@
   "severity": [
     {
       "type": "CVSS_V3",
-      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:L"
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:L/E:H"
     }
   ],
   "affected": [
@@ -90,6 +90,10 @@
     {
       "type": "WEB",
       "url": "https://igniterealtime.atlassian.net/browse/OF-2595"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2023-32315"
     },
     {
       "type": "WEB",
