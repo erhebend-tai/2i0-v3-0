@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w62w-9g5v-w3p4",
-  "modified": "2025-02-10T21:31:14Z",
+  "modified": "2025-10-22T03:30:41Z",
   "published": "2022-05-13T01:05:54Z",
   "aliases": [
     "CVE-2014-8439"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/98932"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2014-8439"
     },
     {
       "type": "WEB",

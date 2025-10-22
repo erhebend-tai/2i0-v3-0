@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9pqv-9r37-hxh7",
-  "modified": "2024-12-20T06:30:45Z",
+  "modified": "2025-10-22T03:30:34Z",
   "published": "2022-05-14T02:33:57Z",
   "aliases": [
     "CVE-2013-3163"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A17363"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2013-3163"
     },
     {
       "type": "WEB",

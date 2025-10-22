@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xwpg-vm43-3qwm",
-  "modified": "2025-02-07T15:32:04Z",
+  "modified": "2025-10-22T03:30:37Z",
   "published": "2022-05-13T01:23:13Z",
   "aliases": [
     "CVE-2014-0196"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=1094232"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2014-0196"
     },
     {
       "type": "WEB",

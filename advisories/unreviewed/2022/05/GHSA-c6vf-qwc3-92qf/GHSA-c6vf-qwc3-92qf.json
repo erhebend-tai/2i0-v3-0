@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c6vf-qwc3-92qf",
-  "modified": "2024-07-16T18:31:31Z",
+  "modified": "2025-10-22T03:30:26Z",
   "published": "2022-05-01T23:55:30Z",
   "aliases": [
     "CVE-2008-2992"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2008-2992"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2008-2992"
     },
     {
       "type": "WEB",

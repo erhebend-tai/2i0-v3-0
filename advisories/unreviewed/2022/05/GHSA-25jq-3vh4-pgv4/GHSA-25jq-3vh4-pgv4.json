@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-25jq-3vh4-pgv4",
-  "modified": "2024-07-24T15:31:23Z",
+  "modified": "2025-10-22T03:30:30Z",
   "published": "2022-05-14T03:53:15Z",
   "aliases": [
     "CVE-2011-3544"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A13947"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2011-3544"
     },
     {
       "type": "WEB",

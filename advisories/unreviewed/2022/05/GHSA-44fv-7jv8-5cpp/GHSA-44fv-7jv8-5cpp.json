@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-44fv-7jv8-5cpp",
-  "modified": "2025-05-29T15:31:02Z",
+  "modified": "2025-10-22T03:30:37Z",
   "published": "2022-05-14T02:32:18Z",
   "aliases": [
     "CVE-2014-1776"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://technet.microsoft.com/library/security/2963983"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2014-1776"
     },
     {
       "type": "WEB",

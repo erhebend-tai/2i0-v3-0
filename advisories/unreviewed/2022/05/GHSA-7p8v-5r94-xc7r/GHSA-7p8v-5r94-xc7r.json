@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7p8v-5r94-xc7r",
-  "modified": "2025-02-03T18:30:33Z",
+  "modified": "2025-10-22T03:30:35Z",
   "published": "2022-05-17T01:18:31Z",
   "aliases": [
     "CVE-2013-6282"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/torvalds/linux/commit/8404663f81d212918ff85f493649a7991209fa04"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2013-6282"
     },
     {
       "type": "WEB",

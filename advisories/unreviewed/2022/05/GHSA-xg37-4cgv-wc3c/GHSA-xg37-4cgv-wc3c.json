@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xg37-4cgv-wc3c",
-  "modified": "2024-12-20T06:30:44Z",
+  "modified": "2025-10-22T03:30:33Z",
   "published": "2022-05-17T03:13:10Z",
   "aliases": [
     "CVE-2013-2596"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/torvalds/linux/commit/fc9bbca8f650e5f738af8806317c0a041a48ae4a"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2013-2596"
     },
     {
       "type": "WEB",

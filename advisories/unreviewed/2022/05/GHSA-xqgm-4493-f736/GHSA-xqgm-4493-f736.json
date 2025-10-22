@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xqgm-4493-f736",
-  "modified": "2024-07-16T18:31:30Z",
+  "modified": "2025-10-22T03:30:26Z",
   "published": "2022-05-01T02:11:36Z",
   "aliases": [
     "CVE-2005-2773"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/21999"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2005-2773"
     },
     {
       "type": "WEB",

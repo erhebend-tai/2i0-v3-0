@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w64p-pvrc-c5w3",
-  "modified": "2025-02-10T21:31:14Z",
+  "modified": "2025-10-22T03:30:41Z",
   "published": "2022-05-14T01:02:27Z",
   "aliases": [
     "CVE-2014-6332"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://forsec.nl/wp-content/uploads/2014/11/ms14_064_ie_olerce.rb_.txt"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2014-6332"
     },
     {
       "type": "WEB",

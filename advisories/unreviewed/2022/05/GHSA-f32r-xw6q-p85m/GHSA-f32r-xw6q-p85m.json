@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f32r-xw6q-p85m",
-  "modified": "2024-07-24T18:31:10Z",
+  "modified": "2025-10-22T03:30:36Z",
   "published": "2022-05-14T02:03:51Z",
   "aliases": [
     "CVE-2014-1761"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2014/ms14-017"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2014-1761"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xpgm-72rm-72p4",
-  "modified": "2025-02-04T21:32:19Z",
+  "modified": "2025-10-22T03:30:33Z",
   "published": "2022-05-17T03:07:37Z",
   "aliases": [
     "CVE-2013-2094"
@@ -50,6 +50,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=962792"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2013-2094"
     },
     {
       "type": "WEB",

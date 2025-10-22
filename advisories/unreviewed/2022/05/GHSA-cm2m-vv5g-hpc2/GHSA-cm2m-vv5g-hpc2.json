@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cm2m-vv5g-hpc2",
-  "modified": "2025-02-10T21:31:14Z",
+  "modified": "2025-10-22T03:30:37Z",
   "published": "2022-05-14T01:03:39Z",
   "aliases": [
     "CVE-2014-1812"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2014/ms14-025"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2014-1812"
     },
     {
       "type": "WEB",

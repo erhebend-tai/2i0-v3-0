@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vcwg-4772-7rvx",
-  "modified": "2024-06-28T18:31:40Z",
+  "modified": "2025-10-22T03:30:27Z",
   "published": "2022-05-02T06:22:44Z",
   "aliases": [
     "CVE-2010-1428"
@@ -42,6 +42,10 @@
     {
       "type": "WEB",
       "url": "https://rhn.redhat.com/errata/RHSA-2010-0379.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2010-1428"
     },
     {
       "type": "WEB",

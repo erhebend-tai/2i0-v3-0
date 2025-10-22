@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-53gp-9cgv-fj68",
-  "modified": "2024-07-16T18:31:30Z",
+  "modified": "2025-10-22T03:30:26Z",
   "published": "2022-04-30T18:19:06Z",
   "aliases": [
     "CVE-2002-0367"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A76"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2002-0367"
     },
     {
       "type": "WEB",

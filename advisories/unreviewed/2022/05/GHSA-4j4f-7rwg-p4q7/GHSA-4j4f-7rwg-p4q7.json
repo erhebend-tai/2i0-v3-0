@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4j4f-7rwg-p4q7",
-  "modified": "2024-07-16T18:31:33Z",
+  "modified": "2025-10-22T03:30:33Z",
   "published": "2022-05-13T01:15:59Z",
   "aliases": [
     "CVE-2013-1347"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A16727"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2013-1347"
     },
     {
       "type": "WEB",

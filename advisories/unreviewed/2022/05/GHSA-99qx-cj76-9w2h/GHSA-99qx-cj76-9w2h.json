@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-99qx-cj76-9w2h",
-  "modified": "2024-12-19T21:31:06Z",
+  "modified": "2025-10-22T03:30:30Z",
   "published": "2022-05-04T00:28:26Z",
   "aliases": [
     "CVE-2012-0151"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A15594"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2012-0151"
     },
     {
       "type": "WEB",

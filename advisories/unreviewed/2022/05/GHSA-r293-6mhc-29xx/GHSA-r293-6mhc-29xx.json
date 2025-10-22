@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r293-6mhc-29xx",
-  "modified": "2025-02-10T21:31:10Z",
+  "modified": "2025-10-22T03:30:32Z",
   "published": "2022-05-05T02:48:59Z",
   "aliases": [
     "CVE-2013-0422"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://www-304.ibm.com/connections/blogs/PSIRT/entry/oracle_java_7_security_manager_bypass_vulnerability_cve_2013_04224?lang=en_us"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2013-0422"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pxp3-358m-6vfm",
-  "modified": "2024-07-16T18:31:30Z",
+  "modified": "2025-10-22T03:30:26Z",
   "published": "2022-05-02T00:00:06Z",
   "aliases": [
     "CVE-2008-3431"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/44202"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2008-3431"
     },
     {
       "type": "WEB",

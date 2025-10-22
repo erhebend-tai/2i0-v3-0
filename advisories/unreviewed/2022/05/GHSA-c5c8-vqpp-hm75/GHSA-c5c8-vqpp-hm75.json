@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c5c8-vqpp-hm75",
-  "modified": "2024-08-01T15:31:12Z",
+  "modified": "2025-10-22T03:30:32Z",
   "published": "2022-05-13T01:15:43Z",
   "aliases": [
     "CVE-2012-4792"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A16361"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2012-4792"
     },
     {
       "type": "WEB",

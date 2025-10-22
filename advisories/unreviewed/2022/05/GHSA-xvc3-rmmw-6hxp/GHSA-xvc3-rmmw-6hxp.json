@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xvc3-rmmw-6hxp",
-  "modified": "2024-07-02T21:31:58Z",
+  "modified": "2025-10-22T03:30:42Z",
   "published": "2022-05-17T04:15:49Z",
   "aliases": [
     "CVE-2015-0311"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://technet.microsoft.com/library/security/2755801"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2015-0311"
     },
     {
       "type": "WEB",

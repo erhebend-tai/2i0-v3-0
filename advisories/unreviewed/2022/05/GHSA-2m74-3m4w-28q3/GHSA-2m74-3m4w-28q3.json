@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2m74-3m4w-28q3",
-  "modified": "2024-06-28T18:31:41Z",
+  "modified": "2025-10-22T03:30:37Z",
   "published": "2022-05-14T02:31:31Z",
   "aliases": [
     "CVE-2014-2817"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2014/ms14-051"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2014-2817"
     },
     {
       "type": "WEB",

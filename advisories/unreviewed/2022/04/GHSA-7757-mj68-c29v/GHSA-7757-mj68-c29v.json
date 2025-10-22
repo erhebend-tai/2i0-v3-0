@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7757-mj68-c29v",
-  "modified": "2024-06-27T21:32:06Z",
+  "modified": "2025-10-22T03:30:26Z",
   "published": "2022-04-29T02:59:39Z",
   "aliases": [
     "CVE-2004-1464"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/17131"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2004-1464"
     },
     {
       "type": "WEB",

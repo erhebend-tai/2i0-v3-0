@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3p37-hv77-x3rp",
-  "modified": "2024-07-16T18:31:32Z",
+  "modified": "2025-10-22T03:30:31Z",
   "published": "2022-05-14T03:49:25Z",
   "aliases": [
     "CVE-2012-1823"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/W45DBOH56NQDRTOM2DN2LNA2FZIMC3PK"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2012-1823"
     },
     {
       "type": "WEB",

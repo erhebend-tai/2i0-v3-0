@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h3cw-j9j9-5pc4",
-  "modified": "2025-02-10T21:31:10Z",
+  "modified": "2025-10-22T03:30:32Z",
   "published": "2022-05-05T02:49:02Z",
   "aliases": [
     "CVE-2013-0431"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://wiki.mageia.org/en/Support/Advisories/MGASA-2013-0056"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2013-0431"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mm58-72w4-25hp",
-  "modified": "2024-07-16T18:31:33Z",
+  "modified": "2025-10-22T03:30:34Z",
   "published": "2022-05-17T00:35:15Z",
   "aliases": [
     "CVE-2013-4810"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2013-4810"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2013-4810"
     },
     {
       "type": "WEB",

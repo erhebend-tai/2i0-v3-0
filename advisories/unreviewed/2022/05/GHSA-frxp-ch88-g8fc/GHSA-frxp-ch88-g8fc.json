@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-frxp-ch88-g8fc",
-  "modified": "2024-07-24T18:31:10Z",
+  "modified": "2025-10-22T03:30:38Z",
   "published": "2022-05-14T01:26:21Z",
   "aliases": [
     "CVE-2014-4404"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/kb/HT6535"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2014-4404"
     },
     {
       "type": "WEB",

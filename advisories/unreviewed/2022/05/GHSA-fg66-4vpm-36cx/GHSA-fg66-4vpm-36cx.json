@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fg66-4vpm-36cx",
-  "modified": "2024-07-02T21:31:58Z",
+  "modified": "2025-10-22T03:30:42Z",
   "published": "2022-05-17T01:11:33Z",
   "aliases": [
     "CVE-2015-0313"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://technet.microsoft.com/library/security/2755801"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2015-0313"
     },
     {
       "type": "WEB",

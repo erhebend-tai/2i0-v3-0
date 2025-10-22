@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5mvv-qmf3-7p25",
-  "modified": "2024-07-16T18:31:33Z",
+  "modified": "2025-10-22T03:30:33Z",
   "published": "2022-05-17T00:57:00Z",
   "aliases": [
     "CVE-2013-0640"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A16406"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2013-0640"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xxxm-q6xf-58pf",
-  "modified": "2024-12-20T15:30:42Z",
+  "modified": "2025-10-22T03:30:32Z",
   "published": "2022-05-14T02:15:27Z",
   "aliases": [
     "CVE-2012-5054"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/78866"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2012-5054"
     },
     {
       "type": "WEB",

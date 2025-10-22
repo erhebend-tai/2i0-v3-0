@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-px5j-h582-r6p9",
-  "modified": "2024-06-28T18:31:40Z",
+  "modified": "2025-10-22T03:30:33Z",
   "published": "2022-05-05T02:48:21Z",
   "aliases": [
     "CVE-2013-0074"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A16565"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2013-0074"
     },
     {
       "type": "WEB",

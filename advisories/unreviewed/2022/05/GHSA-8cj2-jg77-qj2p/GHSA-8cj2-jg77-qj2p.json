@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8cj2-jg77-qj2p",
-  "modified": "2024-11-14T21:31:41Z",
+  "modified": "2025-10-22T03:30:35Z",
   "published": "2022-05-03T00:01:27Z",
   "aliases": [
     "CVE-2013-3900"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2013-3900"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2013-3900"
     },
     {
       "type": "WEB",

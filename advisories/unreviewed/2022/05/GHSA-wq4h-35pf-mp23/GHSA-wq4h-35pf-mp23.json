@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wq4h-35pf-mp23",
-  "modified": "2025-02-10T21:31:11Z",
+  "modified": "2025-10-22T03:30:33Z",
   "published": "2022-05-17T00:55:30Z",
   "aliases": [
     "CVE-2013-2423"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://wiki.mageia.org/en/Support/Advisories/MGASA-2013-0130"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2013-2423"
     },
     {
       "type": "WEB",

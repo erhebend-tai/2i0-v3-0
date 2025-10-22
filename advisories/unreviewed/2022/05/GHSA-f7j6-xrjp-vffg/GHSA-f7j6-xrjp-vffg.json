@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f7j6-xrjp-vffg",
-  "modified": "2024-07-24T18:31:12Z",
+  "modified": "2025-10-22T03:30:43Z",
   "published": "2022-05-13T01:05:13Z",
   "aliases": [
     "CVE-2014-7169"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.exploit-db.com/exploits/34879"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2014-7169"
     },
     {
       "type": "WEB",

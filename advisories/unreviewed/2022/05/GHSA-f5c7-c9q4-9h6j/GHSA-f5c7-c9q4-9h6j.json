@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f5c7-c9q4-9h6j",
-  "modified": "2024-12-19T18:31:33Z",
+  "modified": "2025-10-22T03:30:26Z",
   "published": "2022-05-02T03:16:36Z",
   "aliases": [
     "CVE-2009-0563"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A6133"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2009-0563"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p5xj-3764-5mhh",
-  "modified": "2025-02-11T00:31:20Z",
+  "modified": "2025-10-22T03:30:30Z",
   "published": "2022-05-14T02:15:25Z",
   "aliases": [
     "CVE-2012-0754"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A15973"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2012-0754"
     },
     {
       "type": "WEB",

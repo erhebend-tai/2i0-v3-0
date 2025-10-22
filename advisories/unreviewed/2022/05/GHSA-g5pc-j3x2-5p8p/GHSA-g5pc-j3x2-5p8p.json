@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g5pc-j3x2-5p8p",
-  "modified": "2024-07-16T18:31:31Z",
+  "modified": "2025-10-22T03:30:27Z",
   "published": "2022-05-02T06:10:50Z",
   "aliases": [
     "CVE-2010-0188"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A8697"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2010-0188"
     },
     {
       "type": "WEB",

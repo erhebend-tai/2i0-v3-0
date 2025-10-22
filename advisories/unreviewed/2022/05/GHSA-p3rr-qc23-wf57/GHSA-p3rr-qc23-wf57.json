@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p3rr-qc23-wf57",
-  "modified": "2024-07-02T21:31:58Z",
+  "modified": "2025-10-22T03:30:41Z",
   "published": "2022-05-14T02:29:38Z",
   "aliases": [
     "CVE-2015-0071"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2015/ms15-009"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2015-0071"
     },
     {
       "type": "WEB",

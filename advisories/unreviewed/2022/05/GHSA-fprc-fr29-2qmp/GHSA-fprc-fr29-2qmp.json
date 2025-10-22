@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fprc-fr29-2qmp",
-  "modified": "2025-02-10T21:31:01Z",
+  "modified": "2025-10-22T03:30:36Z",
   "published": "2022-05-14T01:03:39Z",
   "aliases": [
     "CVE-2013-7331"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://soroush.secproject.com/blog/2013/04/microsoft-xmldom-in-ie-can-divulge-information-of-local-drivenetwork-in-error-messages"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2013-7331"
     },
     {
       "type": "WEB",

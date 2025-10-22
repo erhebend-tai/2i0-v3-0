@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-59ww-48gw-2fpx",
-  "modified": "2024-07-02T21:31:57Z",
+  "modified": "2025-10-22T03:30:41Z",
   "published": "2022-05-14T02:30:04Z",
   "aliases": [
     "CVE-2015-0016"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/99516"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2015-0016"
     },
     {
       "type": "WEB",

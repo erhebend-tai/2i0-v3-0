@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wr9v-3qgm-q33g",
-  "modified": "2025-02-10T21:31:03Z",
+  "modified": "2025-10-22T03:30:26Z",
   "published": "2022-05-02T03:19:52Z",
   "aliases": [
     "CVE-2009-0927"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/49312"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2009-0927"
     },
     {
       "type": "WEB",

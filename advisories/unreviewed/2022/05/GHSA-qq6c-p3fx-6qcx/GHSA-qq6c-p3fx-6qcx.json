@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qq6c-p3fx-6qcx",
-  "modified": "2024-07-16T18:31:32Z",
+  "modified": "2025-10-22T03:30:29Z",
   "published": "2022-05-13T01:10:23Z",
   "aliases": [
     "CVE-2010-4345"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=662012"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2010-4345"
     },
     {
       "type": "WEB",

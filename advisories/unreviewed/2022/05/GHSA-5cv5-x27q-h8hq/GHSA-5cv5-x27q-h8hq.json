@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5cv5-x27q-h8hq",
-  "modified": "2024-07-16T18:31:33Z",
+  "modified": "2025-10-22T03:30:35Z",
   "published": "2022-05-14T02:33:20Z",
   "aliases": [
     "CVE-2013-3897"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A18989"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2013-3897"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ppfw-543c-9q84",
-  "modified": "2024-08-01T15:31:12Z",
+  "modified": "2025-10-22T03:30:41Z",
   "published": "2022-05-17T01:16:26Z",
   "aliases": [
     "CVE-2014-100005"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/91794"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2014-100005"
     },
     {
       "type": "WEB",

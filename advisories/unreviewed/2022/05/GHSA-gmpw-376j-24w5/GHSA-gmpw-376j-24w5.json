@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gmpw-376j-24w5",
-  "modified": "2024-07-24T15:31:23Z",
+  "modified": "2025-10-22T03:30:35Z",
   "published": "2022-05-14T02:33:18Z",
   "aliases": [
     "CVE-2013-5065"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2014/ms14-002"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2013-5065"
     },
     {
       "type": "WEB",

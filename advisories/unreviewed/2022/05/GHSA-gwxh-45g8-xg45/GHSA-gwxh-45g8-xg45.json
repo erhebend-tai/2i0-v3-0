@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gwxh-45g8-xg45",
-  "modified": "2025-02-05T00:31:09Z",
+  "modified": "2025-10-22T03:30:30Z",
   "published": "2022-05-14T02:15:26Z",
   "aliases": [
     "CVE-2012-0767"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A15933"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2012-0767"
     },
     {
       "type": "WEB",
