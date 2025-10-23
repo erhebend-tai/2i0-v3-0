@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5m8r-jcr3-wj4v",
-  "modified": "2025-10-22T15:31:16Z",
+  "modified": "2025-10-23T18:31:13Z",
   "published": "2025-10-22T15:31:16Z",
   "aliases": [
     "CVE-2025-53352"
   ],
   "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in G5Theme Grid Plus grid-plus allows Reflected XSS.This issue affects Grid Plus: from n/a through <= 3.3.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-79"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-22T15:15:49Z"

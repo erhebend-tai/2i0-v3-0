@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6wm4-jm7f-g22c",
-  "modified": "2025-10-22T18:30:39Z",
+  "modified": "2025-10-23T18:31:14Z",
   "published": "2025-10-22T18:30:39Z",
   "aliases": [
     "CVE-2025-60340"
   ],
   "details": "Multiple buffer overflows in the SetClientState function of Tenda AC6 v.15.03.06.50 allows attackers to cause a Denial of Service (DoS) via injecting a crafted payload into the limitSpeed, deviceId, and limitSpeedUp parameters.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -21,7 +26,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-22T18:15:35Z"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cff6-gmwc-m8p9",
-  "modified": "2025-10-22T15:31:15Z",
+  "modified": "2025-10-23T18:31:11Z",
   "published": "2025-10-22T15:31:15Z",
   "aliases": [
     "CVE-2025-52753"
   ],
   "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in supsystic Contact Form by Supsystic contact-form-by-supsystic allows Reflected XSS.This issue affects Contact Form by Supsystic: from n/a through <= 1.7.35.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-79"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-22T15:15:45Z"
