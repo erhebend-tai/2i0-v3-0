@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xc79-566c-j4qx",
-  "modified": "2025-10-10T23:45:21Z",
+  "modified": "2025-10-23T20:34:55Z",
   "published": "2025-10-10T23:45:20Z",
   "aliases": [],
   "summary": "Parallax is vulnerable to DoS via malicious p2p message",
@@ -49,6 +49,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/microstack-tech/parallax/releases/tag/v0.1.4"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pkg.go.dev/vuln/GO-2025-4019"
     }
   ],
   "database_specific": {

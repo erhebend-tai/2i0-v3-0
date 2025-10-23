@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w64r-2g3w-w8w4",
-  "modified": "2025-09-30T15:16:20Z",
+  "modified": "2025-10-23T20:33:23Z",
   "published": "2025-09-29T20:40:26Z",
   "aliases": [
     "CVE-2025-59956"
@@ -67,6 +67,10 @@
     {
       "type": "WEB",
       "url": "https://mcpsec.dev/advisories/2025-09-19-coder-chat-exfiltration"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pkg.go.dev/vuln/GO-2025-3991"
     }
   ],
   "database_specific": {
