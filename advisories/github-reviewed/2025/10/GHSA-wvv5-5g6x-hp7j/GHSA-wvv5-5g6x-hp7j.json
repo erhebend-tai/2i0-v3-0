@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wvv5-5g6x-hp7j",
-  "modified": "2025-10-23T21:31:44Z",
+  "modified": "2025-10-23T22:21:11Z",
   "published": "2025-10-23T21:31:43Z",
   "aliases": [
     "CVE-2025-60837"
   ],
+  "summary": "MCMS reflected cross-site scripting (XSS) vulnerability",
   "details": "A reflected cross-site scripting (XSS) vulnerability in MCMS v6.0.1 allows attackers to execute arbitrary Javascript in the context of a user's browser via a crafted payload.",
   "severity": [
     {
@@ -13,7 +14,27 @@
       "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "net.mingsoft:ms-mcms"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "6.0.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,6 +49,10 @@
       "url": "https://gitee.com/mingSoft/MCMS"
     },
     {
+      "type": "PACKAGE",
+      "url": "https://github.com/ming-soft/MCMS"
+    },
+    {
       "type": "WEB",
       "url": "http://mcms.com"
     }
@@ -37,8 +62,8 @@
       "CWE-79"
     ],
     "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-10-23T22:21:11Z",
     "nvd_published_at": "2025-10-23T19:15:50Z"
   }
 }
