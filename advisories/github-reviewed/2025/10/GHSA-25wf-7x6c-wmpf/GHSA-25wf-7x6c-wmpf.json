@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-25wf-7x6c-wmpf",
-  "modified": "2025-10-24T17:43:16Z",
+  "modified": "2025-10-24T20:29:02Z",
   "published": "2025-10-23T12:31:17Z",
   "aliases": [
     "CVE-2025-62398"
@@ -97,6 +97,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/moodle/moodle"
+    },
+    {
+      "type": "WEB",
+      "url": "https://moodle.org/mod/forum/discuss.php?d=470387"
     }
   ],
   "database_specific": {
