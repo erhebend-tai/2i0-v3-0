@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j82q-c85j-xw4w",
-  "modified": "2025-10-23T19:24:59Z",
+  "modified": "2025-10-24T19:30:31Z",
   "published": "2025-10-23T15:30:34Z",
   "aliases": [
     "CVE-2025-62256"
   ],
   "summary": "Liferay Portal and DXP do not properly restrict access to OpenAPI",
-  "details": "Liferay Portal 7.4.0 through 7.4.3.109, and Liferay DXP 2023.Q4.0 through 2023.Q4.5, 2023.Q3.1 through 2023.Q3.7, 7.4 GA through update 92, and older unsupported versions does not properly restrict access to OpenAPI in certain circumstances, which allows remote attackers to access the OpenAPI YAML file via a crafted URL.",
+  "details": "Liferay Portal 7.4.0 through 7.4.3.109, and Liferay DXP 2023.Q4.0 through 2023.Q4.5, 2023.Q3.1 through 2023.Q3.7, 7.4 GA through update 92, 7.3 GA through update 35, and older unsupported versions does not properly restrict access to OpenAPI in certain circumstances, which allows remote attackers to access the OpenAPI YAML file via a crafted URL.",
   "severity": [
     {
       "type": "CVSS_V4",
