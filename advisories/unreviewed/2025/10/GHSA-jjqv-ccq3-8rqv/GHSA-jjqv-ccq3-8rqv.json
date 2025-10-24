@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jjqv-ccq3-8rqv",
-  "modified": "2025-10-22T15:31:18Z",
+  "modified": "2025-10-24T15:31:23Z",
   "published": "2025-10-22T15:31:18Z",
   "aliases": [
     "CVE-2025-60232"
   ],
   "details": "Deserialization of Untrusted Data vulnerability in quantumcloud KBx Pro Ultimate knowledgebase-helpdesk-pro allows Object Injection.This issue affects KBx Pro Ultimate: from n/a through <= 8.0.5.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-502"
     ],
-    "severity": null,
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-22T15:16:00Z"
