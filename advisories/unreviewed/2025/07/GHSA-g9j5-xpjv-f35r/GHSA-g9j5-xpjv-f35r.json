@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g9j5-xpjv-f35r",
-  "modified": "2025-07-17T00:31:26Z",
+  "modified": "2025-10-27T21:30:25Z",
   "published": "2025-07-17T00:31:26Z",
   "aliases": [
     "CVE-2025-34132"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://blog.netlab.360.com/multiple-botnets-are-spreading-using-lilin-dvr-0-day"
+    },
+    {
+      "type": "WEB",
+      "url": "https://ducklingstudio.blog.fc2.com/blog-entry-400.html"
     },
     {
       "type": "WEB",
