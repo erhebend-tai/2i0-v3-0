@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x6gv-2rvh-qmp6",
-  "modified": "2025-08-13T23:03:26Z",
+  "modified": "2025-10-27T16:22:57Z",
   "published": "2025-08-13T23:03:26Z",
   "aliases": [],
   "summary": "m00nl1ght-dev/steam-workshop-deploy: Exposure of Version-Control Repository to an Unauthorized Control Sphere and Insufficiently Protected Credentials",
@@ -62,6 +62,10 @@
       "url": "https://github.com/BoldestDungeon/steam-workshop-deploy/commit/0ba85729da32108e1cc498d1b3d6760857b5c04d"
     },
     {
+      "type": "WEB",
+      "url": "https://github.com/m00nl1ght-dev/steam-workshop-deploy/commit/913f0844e2153d798189397036918f4ceb0911e0"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/BoldestDungeon/steam-workshop-deploy"
     },
@@ -75,7 +79,11 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-212",
+      "CWE-522",
+      "CWE-527"
+    ],
     "severity": "CRITICAL",
     "github_reviewed": true,
     "github_reviewed_at": "2025-08-13T23:03:26Z",
