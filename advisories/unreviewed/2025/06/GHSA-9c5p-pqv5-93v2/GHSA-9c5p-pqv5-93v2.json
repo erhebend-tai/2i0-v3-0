@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9c5p-pqv5-93v2",
-  "modified": "2025-06-13T18:30:35Z",
+  "modified": "2025-10-27T18:31:06Z",
   "published": "2025-06-13T15:30:32Z",
   "aliases": [
     "CVE-2025-28388"
@@ -18,6 +18,18 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-28388"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/OpenC3/cosmos/pull/1816"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/OpenC3/cosmos/pull/1816/commits/195974a019f375f7c5a35f48e4151babb40649ac"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/OpenC3/cosmos/releases/tag/v6.0.2"
     },
     {
       "type": "WEB",

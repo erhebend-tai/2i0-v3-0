@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4xjg-xwcf-8rx4",
-  "modified": "2025-10-27T03:30:37Z",
+  "modified": "2025-10-27T18:31:08Z",
   "published": "2025-10-27T03:30:37Z",
   "aliases": [
     "CVE-2025-62884"
   ],
   "details": "Missing Authorization vulnerability in Elliot Sowersby / RelyWP Coupon Affiliates woo-coupon-usage allows Accessing Functionality Not Properly Constrained by ACLs.This issue affects Coupon Affiliates: from n/a through <= 7.0.3.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-862"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-27T02:15:47Z"

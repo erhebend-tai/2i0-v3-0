@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h5wc-wh24-wmj3",
-  "modified": "2025-10-27T03:30:37Z",
+  "modified": "2025-10-27T18:31:08Z",
   "published": "2025-10-27T03:30:37Z",
   "aliases": [
     "CVE-2025-62881"
   ],
   "details": "Missing Authorization vulnerability in WP Lab WP-Lister Lite for eBay wp-lister-for-ebay allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects WP-Lister Lite for eBay: from n/a through <= 3.8.3.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-862"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-27T02:15:46Z"
