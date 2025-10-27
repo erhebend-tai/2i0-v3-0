@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-253g-qmmx-2x98",
+  "modified": "2025-10-27T03:30:38Z",
+  "published": "2025-10-27T03:30:37Z",
+  "aliases": [
+    "CVE-2025-62902"
+  ],
+  "details": "Exposure of Sensitive System Information to an Unauthorized Control Sphere vulnerability in ThemeHunk WP Popup Builder wp-popup-builder allows Retrieve Embedded Sensitive Data.This issue affects WP Popup Builder: from n/a through <= 1.3.6.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62902"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/wp-popup-builder/vulnerability/wordpress-wp-popup-builder-plugin-1-3-6-sensitive-data-exposure-vulnerability"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-497"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-10-27T02:15:49Z"
+  }
+}

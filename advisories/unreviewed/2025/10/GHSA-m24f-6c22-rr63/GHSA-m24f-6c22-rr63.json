@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-m24f-6c22-rr63",
+  "modified": "2025-10-27T03:30:38Z",
+  "published": "2025-10-27T03:30:38Z",
+  "aliases": [
+    "CVE-2025-62936"
+  ],
+  "details": "Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS) vulnerability in Jthemes xSmart xsmart allows Code Injection.This issue affects xSmart: from n/a through <= 1.2.9.4.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62936"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Theme/xsmart/vulnerability/wordpress-xsmart-theme-1-2-9-4-content-injection-vulnerability"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-80"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-10-27T02:15:53Z"
+  }
+}
