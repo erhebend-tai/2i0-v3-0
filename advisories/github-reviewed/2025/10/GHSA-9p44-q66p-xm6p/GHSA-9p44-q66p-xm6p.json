@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9p44-q66p-xm6p",
-  "modified": "2025-10-22T19:41:54Z",
+  "modified": "2025-10-27T20:01:33Z",
   "published": "2025-10-21T18:30:35Z",
   "aliases": [
     "CVE-2025-60790"
@@ -43,6 +43,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/processwire/processwire-issues/issues/2120"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NomanProdhan/security-vulnerability-research/tree/master/CVE-2025-60790"
     },
     {
       "type": "PACKAGE",
