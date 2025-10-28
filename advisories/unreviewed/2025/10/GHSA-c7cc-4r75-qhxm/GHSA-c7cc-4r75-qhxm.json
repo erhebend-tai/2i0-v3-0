@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c7cc-4r75-qhxm",
-  "modified": "2025-10-27T03:30:40Z",
+  "modified": "2025-10-28T03:30:18Z",
   "published": "2025-10-27T03:30:40Z",
   "aliases": [
     "CVE-2025-12207"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://vuldb.com/?submit.673241"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.openwall.com/lists/oss-security/2025/10/27/8"
     }
   ],
   "database_specific": {

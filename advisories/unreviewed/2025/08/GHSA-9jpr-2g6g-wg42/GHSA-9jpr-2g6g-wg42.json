@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9jpr-2g6g-wg42",
-  "modified": "2025-08-08T21:30:41Z",
+  "modified": "2025-10-28T03:30:14Z",
   "published": "2025-08-08T21:30:40Z",
   "aliases": [
     "CVE-2025-8735"
@@ -46,6 +46,10 @@
     {
       "type": "WEB",
       "url": "https://www.gnu.org"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.openwall.com/lists/oss-security/2025/10/27/12"
     }
   ],
   "database_specific": {

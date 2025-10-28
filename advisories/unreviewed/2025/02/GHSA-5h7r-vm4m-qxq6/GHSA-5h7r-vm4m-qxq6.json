@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5h7r-vm4m-qxq6",
-  "modified": "2025-02-27T21:32:17Z",
+  "modified": "2025-10-28T03:30:13Z",
   "published": "2025-02-27T21:32:17Z",
   "aliases": [
     "CVE-2025-21819"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nRevert \"drm/amd/display: Use HW lock mgr for PSR1\"\n\nThis reverts commit\na2b5a9956269 (\"drm/amd/display: Use HW lock mgr for PSR1\")\n\nBecause it may cause system hang while connect with two edp panel.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -37,7 +42,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-02-27T20:16:04Z"

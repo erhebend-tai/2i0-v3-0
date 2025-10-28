@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cjmg-wxrv-37f6",
-  "modified": "2025-10-27T03:30:36Z",
+  "modified": "2025-10-28T03:30:18Z",
   "published": "2025-10-27T03:30:36Z",
   "aliases": [
     "CVE-2025-12200"
@@ -25,6 +25,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://news.ycombinator.com/item?id=45727137"
+    },
+    {
+      "type": "WEB",
       "url": "https://shimo.im/docs/5xkGoMo0WVfY4dkX"
     },
     {
@@ -38,6 +42,10 @@
     {
       "type": "WEB",
       "url": "https://vuldb.com/?submit.673155"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.openwall.com/lists/oss-security/2025/10/27/1"
     }
   ],
   "database_specific": {

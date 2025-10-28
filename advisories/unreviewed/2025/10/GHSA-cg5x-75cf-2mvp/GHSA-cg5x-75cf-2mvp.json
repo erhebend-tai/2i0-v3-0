@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cg5x-75cf-2mvp",
-  "modified": "2025-10-27T03:30:36Z",
+  "modified": "2025-10-28T03:30:17Z",
   "published": "2025-10-27T03:30:36Z",
   "aliases": [
     "CVE-2025-12198"
@@ -25,6 +25,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://news.ycombinator.com/item?id=45727137"
+    },
+    {
+      "type": "WEB",
       "url": "https://shimo.im/docs/1d3aMVMmNmiLjg3g"
     },
     {
@@ -38,6 +42,10 @@
     {
       "type": "WEB",
       "url": "https://vuldb.com/?submit.673138"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.openwall.com/lists/oss-security/2025/10/27/1"
     }
   ],
   "database_specific": {
