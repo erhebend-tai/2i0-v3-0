@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jj73-x7vp-qmwc",
-  "modified": "2025-10-27T03:30:37Z",
+  "modified": "2025-10-28T15:30:40Z",
   "published": "2025-10-27T03:30:37Z",
   "aliases": [
     "CVE-2025-62886"
   ],
   "details": "Cross-Site Request Forgery (CSRF) vulnerability in wpdevart Pricing Table builder wpdevart-pricing-table allows Stored XSS.This issue affects Pricing Table builder: from n/a through <= 1.5.1.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-352"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-27T02:15:47Z"

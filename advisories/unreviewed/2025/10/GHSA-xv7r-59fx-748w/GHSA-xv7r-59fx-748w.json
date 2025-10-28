@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xv7r-59fx-748w",
-  "modified": "2025-10-27T03:30:37Z",
+  "modified": "2025-10-28T15:30:40Z",
   "published": "2025-10-27T03:30:37Z",
   "aliases": [
     "CVE-2025-62889"
   ],
   "details": "Missing Authorization vulnerability in KingAddons.com King Addons for Elementor king-addons allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects King Addons for Elementor: from n/a through <= 51.1.37.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-862"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-27T02:15:47Z"

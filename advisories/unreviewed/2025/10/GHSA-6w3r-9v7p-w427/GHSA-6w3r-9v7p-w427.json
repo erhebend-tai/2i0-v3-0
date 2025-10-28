@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6w3r-9v7p-w427",
-  "modified": "2025-10-27T03:30:38Z",
+  "modified": "2025-10-28T15:30:41Z",
   "published": "2025-10-27T03:30:38Z",
   "aliases": [
     "CVE-2025-62938"
   ],
   "details": "Missing Authorization vulnerability in Reoon Technology Reoon Email Verifier reoon-email-verifier allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects Reoon Email Verifier: from n/a through <= 2.0.1.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-862"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-27T02:15:53Z"

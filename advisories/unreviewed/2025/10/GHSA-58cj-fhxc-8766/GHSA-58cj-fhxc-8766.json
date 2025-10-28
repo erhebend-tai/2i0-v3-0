@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-58cj-fhxc-8766",
-  "modified": "2025-10-27T03:30:38Z",
+  "modified": "2025-10-28T15:30:41Z",
   "published": "2025-10-27T03:30:38Z",
   "aliases": [
     "CVE-2025-62930"
   ],
   "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in RomanCode MapSVG mapsvg-lite-interactive-vector-maps allows DOM-Based XSS.This issue affects MapSVG: from n/a through <= 8.7.15.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-79"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-27T02:15:52Z"
