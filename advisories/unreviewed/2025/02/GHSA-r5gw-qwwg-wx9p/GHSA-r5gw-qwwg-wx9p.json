@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r5gw-qwwg-wx9p",
-  "modified": "2025-02-27T03:34:05Z",
+  "modified": "2025-10-28T21:30:28Z",
   "published": "2025-02-27T03:34:05Z",
   "aliases": [
     "CVE-2025-21768"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: ipv6: fix dst ref loops in rpl, seg6 and ioam6 lwtunnels\n\nSome lwtunnels have a dst cache for post-transformation dst.\nIf the packet destination did not change we may end up recording\na reference to the lwtunnel in its own cache, and the lwtunnel\nstate will never be freed.\n\nDiscovered by the ioam6.sh test, kmemleak was recently fixed\nto catch per-cpu memory leaks. I'm not sure if rpl and seg6\ncan actually hit this, but in principle I don't see why not.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-02-27T03:15:17Z"

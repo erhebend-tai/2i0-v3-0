@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8pgw-76f3-w28q",
-  "modified": "2025-10-03T18:31:27Z",
+  "modified": "2025-10-28T21:30:29Z",
   "published": "2025-10-03T18:31:27Z",
   "aliases": [
     "CVE-2025-57423"
   ],
   "details": "A SQL injection vulnerability was discovered in the /articles endpoint of MyClub 0.5, affecting the query parameters Content, GroupName, PersonName, lastUpdate, pool, and title. Due to insufficient input sanitisation, an unauthenticated remote attacker could inject arbitrary SQL commands via a crafted GET request, potentially leading to information disclosure or manipulation of the database.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-89"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-03T16:16:17Z"

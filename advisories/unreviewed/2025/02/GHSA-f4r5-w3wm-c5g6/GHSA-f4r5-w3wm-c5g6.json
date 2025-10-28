@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f4r5-w3wm-c5g6",
-  "modified": "2025-02-27T03:34:04Z",
+  "modified": "2025-10-28T21:30:27Z",
   "published": "2025-02-27T03:34:04Z",
   "aliases": [
     "CVE-2025-21738"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nata: libata-sff: Ensure that we cannot write outside the allocated buffer\n\nreveliofuzzing reported that a SCSI_IOCTL_SEND_COMMAND ioctl with out_len\nset to 0xd42, SCSI command set to ATA_16 PASS-THROUGH, ATA command set to\nATA_NOP, and protocol set to ATA_PROT_PIO, can cause ata_pio_sector() to\nwrite outside the allocated buffer, overwriting random memory.\n\nWhile a ATA device is supposed to abort a ATA_NOP command, there does seem\nto be a bug either in libata-sff or QEMU, where either this status is not\nset, or the status is cleared before read by ata_sff_hsm_move().\nAnyway, that is most likely a separate bug.\n\nLooking at __atapi_pio_bytes(), it already has a safety check to ensure\nthat __atapi_pio_bytes() cannot write outside the allocated buffer.\n\nAdd a similar check to ata_pio_sector(), such that also ata_pio_sector()\ncannot write outside the allocated buffer.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -37,7 +42,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-02-27T03:15:14Z"
