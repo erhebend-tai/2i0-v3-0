@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cwfx-m26m-rjc8",
-  "modified": "2025-03-06T18:31:11Z",
+  "modified": "2025-10-29T21:30:32Z",
   "published": "2025-03-06T18:31:11Z",
   "aliases": [
     "CVE-2025-21832"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nblock: don't revert iter for -EIOCBQUEUED\n\nblkdev_read_iter() has a few odd checks, like gating the position and\ncount adjustment on whether or not the result is bigger-than-or-equal to\nzero (where bigger than makes more sense), and not checking the return\nvalue of blkdev_direct_IO() before doing an iov_iter_revert(). The\nlatter can lead to attempting to revert with a negative value, which\nwhen passed to iov_iter_revert() as an unsigned value will lead to\nthrowing a WARN_ON() because unroll is bigger than MAX_RW_COUNT.\n\nBe sane and don't revert for -EIOCBQUEUED, like what is done in other\nspots.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -37,7 +42,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-03-06T17:15:23Z"

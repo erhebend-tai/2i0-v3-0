@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-487h-mjh3-324w",
-  "modified": "2025-03-07T09:30:36Z",
+  "modified": "2025-10-29T21:30:32Z",
   "published": "2025-03-07T09:30:35Z",
   "aliases": [
     "CVE-2025-21841"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ncpufreq/amd-pstate: Fix cpufreq_policy ref counting\n\namd_pstate_update_limits() takes a cpufreq_policy reference but doesn't\ndecrement the refcount in one of the exit paths, fix that.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -29,7 +34,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-03-07T09:15:17Z"

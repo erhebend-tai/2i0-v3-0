@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9h49-4vx3-2m5r",
-  "modified": "2025-03-07T18:31:04Z",
+  "modified": "2025-10-29T21:30:32Z",
   "published": "2025-03-07T09:30:35Z",
   "aliases": [
     "CVE-2025-21838"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nusb: gadget: core: flush gadget workqueue after device removal\n\ndevice_del() can lead to new work being scheduled in gadget->work\nworkqueue. This is observed, for example, with the dwc3 driver with the\nfollowing call stack:\n  device_del()\n    gadget_unbind_driver()\n      usb_gadget_disconnect_locked()\n        dwc3_gadget_pullup()\n\t  dwc3_gadget_soft_disconnect()\n\t    usb_gadget_set_state()\n\t      schedule_work(&gadget->work)\n\nMove flush_work() after device_del() to ensure the workqueue is cleaned\nup.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -37,7 +42,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-03-07T09:15:16Z"

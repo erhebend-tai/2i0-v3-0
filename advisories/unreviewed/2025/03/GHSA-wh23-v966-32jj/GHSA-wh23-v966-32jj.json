@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wh23-v966-32jj",
-  "modified": "2025-03-07T09:30:35Z",
+  "modified": "2025-10-29T21:30:32Z",
   "published": "2025-03-07T09:30:35Z",
   "aliases": [
     "CVE-2025-21836"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nio_uring/kbuf: reallocate buf lists on upgrade\n\nIORING_REGISTER_PBUF_RING can reuse an old struct io_buffer_list if it\nwas created for legacy selected buffer and has been emptied. It violates\nthe requirement that most of the field should stay stable after publish.\nAlways reallocate it instead.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -33,7 +38,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-03-07T09:15:16Z"
