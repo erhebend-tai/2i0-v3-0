@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7pcv-gm7q-mj69",
-  "modified": "2025-08-04T12:30:41Z",
+  "modified": "2025-10-29T00:30:25Z",
   "published": "2025-08-04T12:30:41Z",
   "aliases": [
     "CVE-2025-6205"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://www.3ds.com/trust-center/security/security-advisories/cve-2025-6205"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-6205"
     }
   ],
   "database_specific": {
