@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qm9p-f9j5-w83w",
-  "modified": "2025-09-20T00:50:59Z",
+  "modified": "2025-10-29T22:16:20Z",
   "published": "2025-09-17T21:30:42Z",
   "aliases": [
     "CVE-2025-56648"
   ],
   "summary": "Parcel has an Origin Validation Error vulnerability",
-  "details": "npm parcel 2.0.0-alpha and before has an Origin Validation Error vulnerability. Malicious websites can send XMLHTTPRequests to the application's development server and read the response to steal source code when developers visit them.",
+  "details": "parcel versions 1.6.0 and above have an Origin Validation Error vulnerability. Malicious websites can send XMLHTTPRequests to the application's development server and read the response to steal source code when developers visit them.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -28,7 +28,7 @@
               "introduced": "1.6.0"
             },
             {
-              "last_affected": "2.14.4"
+              "last_affected": "2.16.0"
             }
           ]
         }
