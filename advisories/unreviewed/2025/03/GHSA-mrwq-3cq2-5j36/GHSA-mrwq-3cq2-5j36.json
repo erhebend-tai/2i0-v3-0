@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mrwq-3cq2-5j36",
-  "modified": "2025-03-27T15:31:12Z",
+  "modified": "2025-10-29T18:30:27Z",
   "published": "2025-03-27T15:31:12Z",
   "aliases": [
     "CVE-2025-21882"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet/mlx5: Fix vport QoS cleanup on error\n\nWhen enabling vport QoS fails, the scheduling node was never freed,\ncausing a leak.\n\nAdd the missing free and reset the vport scheduling node pointer to\nNULL.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-03-27T15:15:56Z"
