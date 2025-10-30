@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-v3c9-j6h9-66v4",
+  "modified": "2025-10-30T12:31:11Z",
+  "published": "2025-10-30T12:31:11Z",
+  "aliases": [
+    "CVE-2025-54941"
+  ],
+  "details": "An example dag `example_dag_decorator` had non-validated parameter that allowed the UI user to redirect the example to a malicious server and execute code on worker. This however required that the example dags are enabled in production (not default) or the example dag code copied to build your own similar dag. If you used the `example_dag_decorator` please review it and apply the changes implemented in Airflow 3.0.5 accordingly.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-54941"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.apache.org/thread/c6q6nofc6xl5bms039ks9b34v0v36df1"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-78"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-10-30T10:15:35Z"
+  }
+}
