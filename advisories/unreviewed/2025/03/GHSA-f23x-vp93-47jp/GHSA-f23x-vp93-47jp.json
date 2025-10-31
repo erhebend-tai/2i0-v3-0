@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f23x-vp93-47jp",
-  "modified": "2025-03-06T18:31:11Z",
+  "modified": "2025-10-31T18:31:10Z",
   "published": "2025-03-06T18:31:11Z",
   "aliases": [
     "CVE-2025-21828"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nwifi: mac80211: don't flush non-uploaded STAs\n\nIf STA state is pre-moved to AUTHORIZED (such as in IBSS\nscenarios) and insertion fails, the station is freed.\nIn this case, the driver never knew about the station,\nso trying to flush it is unexpected and may crash.\n\nCheck if the sta was uploaded to the driver before and\nfix this.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -33,7 +38,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-03-06T16:15:55Z"

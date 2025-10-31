@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-23x3-fcgm-qf4c",
-  "modified": "2025-03-06T18:31:11Z",
+  "modified": "2025-10-31T18:31:10Z",
   "published": "2025-03-06T18:31:11Z",
   "aliases": [
     "CVE-2024-58077"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nASoC: soc-pcm: don't use soc_pcm_ret() on .prepare callback\n\ncommit 1f5664351410 (\"ASoC: lower \"no backend DAIs enabled for ... Port\"\nlog severity\") ignores -EINVAL error message on common soc_pcm_ret().\nIt is used from many functions, ignoring -EINVAL is over-kill.\n\nThe reason why -EINVAL was ignored was it really should only be used\nupon invalid parameters coming from userspace and in that case we don't\nwant to log an error since we do not want to give userspace a way to do\na denial-of-service attack on the syslog / diskspace.\n\nSo don't use soc_pcm_ret() on .prepare callback is better idea.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -37,7 +42,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-03-06T17:15:21Z"

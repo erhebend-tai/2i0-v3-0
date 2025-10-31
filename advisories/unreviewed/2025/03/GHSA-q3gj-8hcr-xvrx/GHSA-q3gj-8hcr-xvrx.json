@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q3gj-8hcr-xvrx",
-  "modified": "2025-03-06T18:31:11Z",
+  "modified": "2025-10-31T18:31:10Z",
   "published": "2025-03-06T18:31:11Z",
   "aliases": [
     "CVE-2024-58078"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmisc: misc_minor_alloc to use ida for all dynamic/misc dynamic minors\n\nmisc_minor_alloc was allocating id using ida for minor only in case of\nMISC_DYNAMIC_MINOR but misc_minor_free was always freeing ids\nusing ida_free causing a mismatch and following warn:\n> > WARNING: CPU: 0 PID: 159 at lib/idr.c:525 ida_free+0x3e0/0x41f\n> > ida_free called for id=127 which is not allocated.\n> > <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<\n...\n> > [<60941eb4>] ida_free+0x3e0/0x41f\n> > [<605ac993>] misc_minor_free+0x3e/0xbc\n> > [<605acb82>] misc_deregister+0x171/0x1b3\n\nmisc_minor_alloc is changed to allocate id from ida for all minors\nfalling in the range of dynamic/ misc dynamic minors",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -33,7 +38,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-03-06T17:15:21Z"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p7x2-rhr6-gw9m",
-  "modified": "2025-03-06T18:31:11Z",
+  "modified": "2025-10-31T18:31:10Z",
   "published": "2025-03-06T18:31:11Z",
   "aliases": [
     "CVE-2024-58082"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmedia: nuvoton: Fix an error check in npcm_video_ece_init()\n\nWhen function of_find_device_by_node() fails, it returns NULL instead of\nan error code. So the corresponding error check logic should be modified\nto check whether the return value is NULL and set the error code to be\nreturned as -ENODEV.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -29,7 +34,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-03-06T17:15:21Z"

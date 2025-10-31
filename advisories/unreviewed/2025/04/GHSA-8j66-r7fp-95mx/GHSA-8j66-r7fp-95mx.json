@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8j66-r7fp-95mx",
-  "modified": "2025-04-01T18:30:51Z",
+  "modified": "2025-10-31T18:31:11Z",
   "published": "2025-04-01T18:30:51Z",
   "aliases": [
     "CVE-2025-21924"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: hns3: make sure ptp clock is unregister and freed if hclge_ptp_get_cycle returns an error\n\nDuring the initialization of ptp, hclge_ptp_get_cycle might return an error\nand returned directly without unregister clock and free it. To avoid that,\ncall hclge_ptp_destroy_clock to unregist and free clock if\nhclge_ptp_get_cycle failed.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -40,8 +45,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-459"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-04-01T16:15:23Z"

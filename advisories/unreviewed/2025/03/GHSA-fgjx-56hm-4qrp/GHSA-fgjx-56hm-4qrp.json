@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fgjx-56hm-4qrp",
-  "modified": "2025-03-13T15:32:54Z",
+  "modified": "2025-10-31T18:31:10Z",
   "published": "2025-03-06T18:31:11Z",
   "aliases": [
     "CVE-2024-58079"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmedia: uvcvideo: Fix crash during unbind if gpio unit is in use\n\nWe used the wrong device for the device managed functions. We used the\nusb device, when we should be using the interface device.\n\nIf we unbind the driver from the usb interface, the cleanup functions\nare never called. In our case, the IRQ is never disabled.\n\nIf an IRQ is triggered, it will try to access memory sections that are\nalready free, causing an OOPS.\n\nWe cannot use the function devm_request_threaded_irq here. The devm_*\nclean functions may be called after the main structure is released by\nuvc_delete.\n\nLuckily this bug has small impact, as it is only affected by devices\nwith gpio units and the user has to unbind the device, a disconnect will\nnot trigger this error.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -41,7 +46,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-03-06T17:15:21Z"

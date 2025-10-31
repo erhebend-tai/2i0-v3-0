@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-jmh2-7qxm-5hfc",
+  "modified": "2025-10-31T18:31:14Z",
+  "published": "2025-10-31T18:31:14Z",
+  "aliases": [
+    "CVE-2025-29270"
+  ],
+  "details": "Incorrect access control in the realtime.cgi endpoint of Deep Sea Electronics devices DSE855 v1.1.0 to v1.1.26 allows attackers to gain access to the admin panel and complete control of the device.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-29270"
+    },
+    {
+      "type": "WEB",
+      "url": "https://blog.byteray.co.uk/shadow-entry-discovery-of-authentication-bypass-vulnerability-in-dse855-communications-device-938e35d4b361"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-10-31T16:15:40Z"
+  }
+}

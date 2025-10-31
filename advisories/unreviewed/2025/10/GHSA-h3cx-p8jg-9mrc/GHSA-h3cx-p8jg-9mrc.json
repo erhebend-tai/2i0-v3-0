@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h3cx-p8jg-9mrc",
-  "modified": "2025-10-31T12:30:22Z",
+  "modified": "2025-10-31T18:31:14Z",
   "published": "2025-10-31T12:30:22Z",
   "aliases": [
     "CVE-2025-64357"
   ],
   "details": "Cross-Site Request Forgery (CSRF) vulnerability in Younes JFR. Advanced Database Cleaner advanced-database-cleaner allows Cross Site Request Forgery.This issue affects Advanced Database Cleaner: from n/a through <= 3.1.6.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-352"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-31T12:15:36Z"

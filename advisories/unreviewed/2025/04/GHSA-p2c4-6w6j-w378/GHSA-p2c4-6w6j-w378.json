@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p2c4-6w6j-w378",
-  "modified": "2025-04-01T18:30:53Z",
+  "modified": "2025-10-31T18:31:11Z",
   "published": "2025-04-01T18:30:53Z",
   "aliases": [
     "CVE-2025-21955"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nksmbd: prevent connection release during oplock break notification\n\nksmbd_work could be freed when after connection release.\nIncrement r_count of ksmbd_conn to indicate that requests\nare not finished yet and to not release the connection.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -33,7 +38,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-04-01T16:15:26Z"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4m83-xp7j-q4j9",
-  "modified": "2025-04-01T18:30:51Z",
+  "modified": "2025-10-31T18:31:11Z",
   "published": "2025-04-01T18:30:50Z",
   "aliases": [
     "CVE-2025-21909"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nwifi: nl80211: reject cooked mode if it is set along with other flags\n\nIt is possible to set both MONITOR_FLAG_COOK_FRAMES and MONITOR_FLAG_ACTIVE\nflags simultaneously on the same monitor interface from the userspace. This\ncauses a sub-interface to be created with no IEEE80211_SDATA_IN_DRIVER bit\nset because the monitor interface is in the cooked state and it takes\nprecedence over all other states. When the interface is then being deleted\nthe kernel calls WARN_ONCE() from check_sdata_in_driver() because of missing\nthat bit.\n\nFix this by rejecting MONITOR_FLAG_COOK_FRAMES if it is set along with\nother flags.\n\nFound by Linux Verification Center (linuxtesting.org) with Syzkaller.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-362"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-04-01T16:15:21Z"
