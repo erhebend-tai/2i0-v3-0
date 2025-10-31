@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w3h9-r78g-92j8",
-  "modified": "2025-10-30T21:30:46Z",
+  "modified": "2025-10-31T21:31:00Z",
   "published": "2025-10-30T21:30:46Z",
   "aliases": [
     "CVE-2025-52180"
   ],
   "details": "Cross-site scripting (XSS) vulnerability in Zucchetti Ad Hoc Infinity 4.2 and earlier allows remote unauthenticated attackers to inject arbitrary JavaScript via the pHtmlSource parameter of the /ahi/jsp/gsfr_feditorHTML.jsp?pHtmlSource endpoint.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-30T19:16:27Z"

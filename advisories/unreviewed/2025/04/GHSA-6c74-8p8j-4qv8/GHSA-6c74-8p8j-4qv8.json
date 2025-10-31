@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6c74-8p8j-4qv8",
-  "modified": "2025-04-16T15:34:43Z",
+  "modified": "2025-10-31T21:30:55Z",
   "published": "2025-04-16T15:34:42Z",
   "aliases": [
     "CVE-2025-22076"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nexfat: fix missing shutdown check\n\nxfstests generic/730 test failed because after deleting the device\nthat still had dirty data, the file could still be read without\nreturning an error. The reason is the missing shutdown check in\n->read_iter.\n\nI also noticed that shutdown checks were missing from ->write_iter,\n->splice_read, and ->mmap. This commit adds shutdown checks to all\nof them.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -33,7 +38,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-04-16T15:16:01Z"

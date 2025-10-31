@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h8h5-wj84-22hp",
-  "modified": "2025-04-16T15:34:43Z",
+  "modified": "2025-10-31T21:30:55Z",
   "published": "2025-04-16T15:34:43Z",
   "aliases": [
     "CVE-2025-22079"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nocfs2: validate l_tree_depth to avoid out-of-bounds access\n\nThe l_tree_depth field is 16-bit (__le16), but the actual maximum depth is\nlimited to OCFS2_MAX_PATH_DEPTH.\n\nAdd a check to prevent out-of-bounds access if l_tree_depth has an invalid\nvalue, which may occur when reading from a corrupted mounted disk [1].",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -52,8 +57,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-125"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-04-16T15:16:02Z"

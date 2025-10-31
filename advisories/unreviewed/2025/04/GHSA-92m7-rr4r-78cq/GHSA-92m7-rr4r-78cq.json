@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-92m7-rr4r-78cq",
-  "modified": "2025-04-16T15:34:43Z",
+  "modified": "2025-10-31T21:30:55Z",
   "published": "2025-04-16T15:34:42Z",
   "aliases": [
     "CVE-2025-22073"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nspufs: fix a leak on spufs_new_file() failure\n\nIt's called from spufs_fill_dir(), and caller of that will do\nspufs_rmdir() in case of failure.  That does remove everything\nwe'd managed to create, but... the problem dentry is still\nnegative.  IOW, it needs to be explicitly dropped.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -52,8 +57,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-04-16T15:16:01Z"

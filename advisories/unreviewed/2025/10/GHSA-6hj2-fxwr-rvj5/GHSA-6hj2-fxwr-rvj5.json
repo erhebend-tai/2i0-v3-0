@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6hj2-fxwr-rvj5",
-  "modified": "2025-10-31T15:30:31Z",
+  "modified": "2025-10-31T21:31:01Z",
   "published": "2025-10-31T15:30:31Z",
   "aliases": [
     "CVE-2025-57107"
   ],
   "details": "Kitware VTK (Visualization Toolkit) through 9.5.0 contains a heap buffer overflow vulnerability in vtkGLTFDocumentLoader. When processing specially crafted GLTF files, the copy constructor of Accessor objects fails to properly validate buffer boundaries before performing memory read operations.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-122"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-31T15:15:42Z"

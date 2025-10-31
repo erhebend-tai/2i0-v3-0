@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6hqx-m227-83p9",
-  "modified": "2025-04-16T15:34:44Z",
+  "modified": "2025-10-31T21:30:56Z",
   "published": "2025-04-16T15:34:44Z",
   "aliases": [
     "CVE-2025-22095"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nPCI: brcmstb: Fix error path after a call to regulator_bulk_get()\n\nIf the regulator_bulk_get() returns an error and no regulators\nare created, we need to set their number to zero.\n\nIf we don't do this and the PCIe link up fails, a call to the\nregulator_bulk_free() will result in a kernel panic.\n\nWhile at it, print the error value, as we cannot return an error\nupwards as the kernel will WARN() on an error from add_bus().\n\n[kwilczynski: commit log, use comma in the message to match style with\nother similar messages]",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -41,7 +46,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-04-16T15:16:03Z"

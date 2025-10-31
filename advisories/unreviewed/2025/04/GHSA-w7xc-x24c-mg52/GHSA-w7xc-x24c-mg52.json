@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w7xc-x24c-mg52",
-  "modified": "2025-04-01T18:30:54Z",
+  "modified": "2025-10-31T21:30:53Z",
   "published": "2025-04-01T18:30:54Z",
   "aliases": [
     "CVE-2025-21972"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: mctp: unshare packets when reassembling\n\nEnsure that the frag_list used for reassembly isn't shared with other\npackets. This avoids incorrect reassembly when packets are cloned, and\nprevents a memory leak due to circular references between fragments and\ntheir skb_shared_info.\n\nThe upcoming MCTP-over-USB driver uses skb_clone which can trigger the\nproblem - other MCTP drivers don't share SKBs.\n\nA kunit test is added to reproduce the issue.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-04-01T16:15:28Z"

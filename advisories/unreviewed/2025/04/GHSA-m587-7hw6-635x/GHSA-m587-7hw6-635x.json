@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m587-7hw6-635x",
-  "modified": "2025-04-16T15:34:43Z",
+  "modified": "2025-10-31T21:30:55Z",
   "published": "2025-04-16T15:34:43Z",
   "aliases": [
     "CVE-2025-22082"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\niio: backend: make sure to NULL terminate stack buffer\n\nMake sure to NULL terminate the buffer in\niio_backend_debugfs_write_reg() before passing it to sscanf(). It is a\nstack variable so we should not assume it will 0 initialized.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -33,7 +38,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-04-16T15:16:02Z"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wv2q-ghh7-v3v5",
-  "modified": "2025-04-16T15:34:42Z",
+  "modified": "2025-10-31T21:30:54Z",
   "published": "2025-04-16T15:34:41Z",
   "aliases": [
     "CVE-2025-22064"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnetfilter: nf_tables: don't unregister hook when table is dormant\n\nWhen nf_tables_updchain encounters an error, hook registration needs to\nbe rolled back.\n\nThis should only be done if the hook has been registered, which won't\nhappen when the table is flagged as dormant (inactive).\n\nJust move the assignment into the registration block.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -37,7 +42,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-04-16T15:16:00Z"

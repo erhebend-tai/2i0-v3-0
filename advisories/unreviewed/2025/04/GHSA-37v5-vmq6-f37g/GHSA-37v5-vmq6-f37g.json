@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-37v5-vmq6-f37g",
-  "modified": "2025-04-10T15:31:44Z",
+  "modified": "2025-10-31T21:30:53Z",
   "published": "2025-04-01T18:30:54Z",
   "aliases": [
     "CVE-2025-21971"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet_sched: Prevent creation of classes with TC_H_ROOT\n\nThe function qdisc_tree_reduce_backlog() uses TC_H_ROOT as a termination\ncondition when traversing up the qdisc tree to update parent backlog\ncounters. However, if a class is created with classid TC_H_ROOT, the\ntraversal terminates prematurely at this class instead of reaching the\nactual root qdisc, causing parent statistics to be incorrectly maintained.\nIn case of DRR, this could lead to a crash as reported by Mingi Cho.\n\nPrevent the creation of any Qdisc class with classid TC_H_ROOT\n(0xFFFFFFFF) across all qdisc types, as suggested by Jamal.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-835"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-04-01T16:15:28Z"

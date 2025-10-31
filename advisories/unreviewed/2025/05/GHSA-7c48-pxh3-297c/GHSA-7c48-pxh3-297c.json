@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7c48-pxh3-297c",
-  "modified": "2025-05-02T09:30:35Z",
+  "modified": "2025-10-31T21:30:57Z",
   "published": "2025-05-01T15:31:45Z",
   "aliases": [
     "CVE-2025-37796"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nwifi: at76c50x: fix use after free access in at76_disconnect\n\nThe memory pointed to by priv is freed at the end of at76_delete_device\nfunction (using ieee80211_free_hw). But the code then accesses the udev\nfield of the freed object to put the USB device. This may also lead to a\nmemory leak of the usb device. Fix this by using udev from interface.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-416"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-01T14:15:44Z"

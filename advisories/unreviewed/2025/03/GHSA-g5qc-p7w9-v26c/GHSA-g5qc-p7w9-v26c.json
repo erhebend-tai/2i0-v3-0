@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g5qc-p7w9-v26c",
-  "modified": "2025-03-27T18:31:29Z",
+  "modified": "2025-10-31T21:30:52Z",
   "published": "2025-03-27T18:31:29Z",
   "aliases": [
     "CVE-2023-53032"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnetfilter: ipset: Fix overflow before widen in the bitmap_ip_create() function.\n\nWhen first_ip is 0, last_ip is 0xFFFFFFFF, and netmask is 31, the value of\nan arithmetic expression 2 << (netmask - mask_bits - 1) is subject\nto overflow due to a failure casting operands to a larger data type\nbefore performing the arithmetic.\n\nNote that it's harmless since the value will be checked at the next step.\n\nFound by InfoTeCS on behalf of Linux Verification Center\n(linuxtesting.org) with SVACE.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -44,8 +49,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-190"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-03-27T17:15:52Z"

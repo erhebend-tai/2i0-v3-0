@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wqf7-x4xg-j697",
-  "modified": "2025-04-16T15:34:40Z",
+  "modified": "2025-10-31T21:30:53Z",
   "published": "2025-04-16T15:34:40Z",
   "aliases": [
     "CVE-2025-22046"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nuprobes/x86: Harden uretprobe syscall trampoline check\n\nJann reported a possible issue when trampoline_check_ip returns\naddress near the bottom of the address space that is allowed to\ncall into the syscall if uretprobes are not set up:\n\n   https://lore.kernel.org/bpf/202502081235.5A6F352985@keescook/T/#m9d416df341b8fbc11737dacbcd29f0054413cbbf\n\nThough the mmap minimum address restrictions will typically prevent\ncreating mappings there, let's make sure uretprobe syscall checks\nfor that.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -33,7 +38,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-04-16T15:15:58Z"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w6v4-56gc-2jmg",
-  "modified": "2025-04-16T15:34:41Z",
+  "modified": "2025-10-31T21:30:54Z",
   "published": "2025-04-16T15:34:40Z",
   "aliases": [
     "CVE-2025-22050"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nusbnet:fix NPE during rx_complete\n\nMissing usbnet_going_away Check in Critical Path.\nThe usb_submit_urb function lacks a usbnet_going_away\nvalidation, whereas __usbnet_queue_skb includes this check.\n\nThis inconsistency creates a race condition where:\nA URB request may succeed, but the corresponding SKB data\nfails to be queued.\n\nSubsequent processes:\n(e.g., rx_complete → defer_bh → __skb_unlink(skb, list))\nattempt to access skb->next, triggering a NULL pointer\ndereference (Kernel Panic).",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -44,8 +49,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-04-16T15:15:58Z"

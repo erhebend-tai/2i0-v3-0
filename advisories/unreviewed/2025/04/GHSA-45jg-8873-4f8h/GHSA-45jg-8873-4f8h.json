@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-45jg-8873-4f8h",
-  "modified": "2025-04-16T15:34:43Z",
+  "modified": "2025-10-31T21:30:55Z",
   "published": "2025-04-16T15:34:43Z",
   "aliases": [
     "CVE-2025-22078"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nstaging: vchiq_arm: Fix possible NPR of keep-alive thread\n\nIn case vchiq_platform_conn_state_changed() is never called or fails before\ndriver removal, ka_thread won't be a valid pointer to a task_struct. So\ndo the necessary checks before calling kthread_stop to avoid a crash.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -33,7 +38,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-04-16T15:16:02Z"
