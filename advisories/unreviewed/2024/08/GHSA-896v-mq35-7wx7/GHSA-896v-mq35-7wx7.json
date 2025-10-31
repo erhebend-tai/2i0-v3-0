@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-896v-mq35-7wx7",
-  "modified": "2024-08-27T18:31:37Z",
+  "modified": "2025-10-31T00:30:30Z",
   "published": "2024-08-26T15:31:15Z",
   "aliases": [
     "CVE-2024-39097"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-39097"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/gnuboard/g6/issues/557"
     },
     {
       "type": "WEB",
