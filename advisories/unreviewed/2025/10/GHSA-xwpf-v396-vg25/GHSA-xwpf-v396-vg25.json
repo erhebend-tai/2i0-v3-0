@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xwpf-v396-vg25",
-  "modified": "2025-10-28T03:30:18Z",
+  "modified": "2025-11-02T06:30:15Z",
   "published": "2025-10-27T03:30:36Z",
   "aliases": [
     "CVE-2025-12199"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-12199"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.thekelleys.org.uk/pipermail/dnsmasq-discuss/2025q4/018337.html"
     },
     {
       "type": "WEB",
