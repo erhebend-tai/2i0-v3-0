@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-85h7-m8c3-v9wc",
-  "modified": "2025-07-08T06:30:32Z",
+  "modified": "2025-11-03T21:32:13Z",
   "published": "2025-01-15T15:31:25Z",
   "aliases": [
     "CVE-2024-12084"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://kb.cert.org/vuls/id/952657"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250131-0002"
     },
     {
       "type": "WEB",

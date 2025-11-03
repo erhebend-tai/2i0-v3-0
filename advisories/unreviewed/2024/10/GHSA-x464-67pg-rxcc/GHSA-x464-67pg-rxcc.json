@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x464-67pg-rxcc",
-  "modified": "2025-04-07T09:30:22Z",
+  "modified": "2025-11-03T21:31:28Z",
   "published": "2024-10-21T21:30:54Z",
   "aliases": [
     "CVE-2024-50056"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/cedeb36c3ff4acd0f3d09918dfd8ed1df05efdd6"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/05/msg00045.html"
     }
   ],
   "database_specific": {

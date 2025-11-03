@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v4vw-f7vp-84w3",
-  "modified": "2024-04-04T08:51:22Z",
+  "modified": "2025-11-03T21:30:55Z",
   "published": "2023-10-20T15:30:29Z",
   "aliases": [
     "CVE-2023-46287"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/NagVis/nagvis/compare/nagvis-1.9.37...nagvis-1.9.38"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/05/msg00000.html"
     }
   ],
   "database_specific": {

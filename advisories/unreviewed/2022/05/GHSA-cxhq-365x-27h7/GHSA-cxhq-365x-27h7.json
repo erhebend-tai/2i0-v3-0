@@ -29,7 +29,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-200"
+      "CWE-200",
+      "CWE-260"
     ],
     "severity": "LOW",
     "github_reviewed": false,

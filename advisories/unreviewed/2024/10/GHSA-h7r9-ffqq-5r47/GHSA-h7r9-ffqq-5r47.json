@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h7r9-ffqq-5r47",
-  "modified": "2024-12-14T21:31:32Z",
+  "modified": "2025-11-03T21:31:23Z",
   "published": "2024-10-21T18:30:58Z",
   "aliases": [
     "CVE-2024-49925"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/95cdd538e0e5677efbdf8aade04ec098ab98f457"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/03/msg00001.html"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5j33-cvvr-w245",
-  "modified": "2025-08-08T18:43:35Z",
+  "modified": "2025-11-03T21:31:45Z",
   "published": "2024-12-17T15:31:43Z",
   "aliases": [
     "CVE-2024-50379"
@@ -208,6 +208,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/y6lj6q1xnp822g6ro70tn19sgtjmr80r"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/01/msg00009.html"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cm54-mprw-5279",
-  "modified": "2024-10-31T12:30:33Z",
+  "modified": "2025-11-03T21:31:29Z",
   "published": "2024-10-30T12:31:24Z",
   "aliases": [
     "CVE-2024-10525"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://gitlab.eclipse.org/security/vulnerability-reports/-/issues/190"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/02/msg00022.html"
     },
     {
       "type": "WEB",

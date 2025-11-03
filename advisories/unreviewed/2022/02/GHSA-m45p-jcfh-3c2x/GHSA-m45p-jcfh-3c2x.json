@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m45p-jcfh-3c2x",
-  "modified": "2022-03-18T00:01:35Z",
+  "modified": "2025-11-03T21:30:37Z",
   "published": "2022-02-15T00:03:20Z",
   "aliases": [
     "CVE-2022-0392"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2022/11/msg00032.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/03/msg00023.html"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9354-rmch-rmj8",
-  "modified": "2024-10-25T15:31:26Z",
+  "modified": "2025-11-03T21:31:23Z",
   "published": "2024-10-21T18:30:58Z",
   "aliases": [
     "CVE-2024-49930"
@@ -46,6 +46,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/7a552bc2f3efe2aaf77a85cb34cdf4a63d81a1a7"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/03/msg00002.html"
     }
   ],
   "database_specific": {

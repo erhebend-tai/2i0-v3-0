@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vv62-jfwq-693v",
-  "modified": "2024-08-22T21:31:28Z",
+  "modified": "2025-11-03T21:31:05Z",
   "published": "2024-05-14T18:30:50Z",
   "aliases": [
     "CVE-2024-34459"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://gitlab.gnome.org/GNOME/libxml2/-/releases/v2.12.7"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/07/msg00014.html"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2398-v7wm-x7gr",
-  "modified": "2025-01-06T21:30:51Z",
+  "modified": "2025-11-03T21:32:02Z",
   "published": "2024-12-29T12:30:41Z",
   "aliases": [
     "CVE-2024-56756"
@@ -50,6 +50,14 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/fb96d5cfa97a7363245b3dd523f475b04296d87b"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/03/msg00001.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/03/msg00002.html"
     }
   ],
   "database_specific": {

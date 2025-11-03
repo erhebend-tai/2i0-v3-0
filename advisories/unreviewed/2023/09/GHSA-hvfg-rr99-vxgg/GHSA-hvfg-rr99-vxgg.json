@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hvfg-rr99-vxgg",
-  "modified": "2023-09-05T21:30:20Z",
+  "modified": "2025-11-03T21:30:54Z",
   "published": "2023-09-05T21:30:20Z",
   "aliases": [
     "CVE-2023-4781"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2023/09/msg00035.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/03/msg00023.html"
     },
     {
       "type": "WEB",

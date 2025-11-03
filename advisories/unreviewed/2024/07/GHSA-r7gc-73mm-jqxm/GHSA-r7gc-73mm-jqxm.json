@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r7gc-73mm-jqxm",
-  "modified": "2025-10-07T21:31:03Z",
+  "modified": "2025-11-03T21:31:11Z",
   "published": "2024-07-29T09:36:14Z",
   "aliases": [
     "CVE-2024-41016"
@@ -50,6 +50,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/e8f9c4af7af7e9e4cd09c0251c7936593147419f"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/03/msg00002.html"
     }
   ],
   "database_specific": {

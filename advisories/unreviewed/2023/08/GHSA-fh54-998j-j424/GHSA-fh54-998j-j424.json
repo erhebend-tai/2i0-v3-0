@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fh54-998j-j424",
-  "modified": "2023-12-08T21:30:29Z",
+  "modified": "2025-11-03T21:30:53Z",
   "published": "2023-08-22T21:30:26Z",
   "aliases": [
     "CVE-2022-37051"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2023/10/msg00022.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/04/msg00037.html"
     }
   ],
   "database_specific": {

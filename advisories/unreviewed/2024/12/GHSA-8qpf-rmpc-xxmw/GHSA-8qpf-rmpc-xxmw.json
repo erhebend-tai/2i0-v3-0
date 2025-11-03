@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8qpf-rmpc-xxmw",
-  "modified": "2025-01-06T18:31:00Z",
+  "modified": "2025-11-03T21:31:50Z",
   "published": "2024-12-27T15:31:52Z",
   "aliases": [
     "CVE-2024-53230"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/f05ef81db63889f6f14eb77fd140dac6cedb6f7f"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/03/msg00001.html"
     }
   ],
   "database_specific": {

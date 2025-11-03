@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h3r6-368v-w6xc",
-  "modified": "2022-03-17T00:06:23Z",
+  "modified": "2025-11-03T21:30:36Z",
   "published": "2021-12-28T00:00:33Z",
   "aliases": [
     "CVE-2021-4173"
@@ -26,6 +26,18 @@
     {
       "type": "WEB",
       "url": "https://huntr.dev/bounties/a1b236b9-89fb-4ccf-9689-ba11b471e766"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/03/msg00023.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/2EY2VFBU3YGGWI5BW4XKT3F37MYGEQUD"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/3FH2J57GDA2WMBS6J56F6QQRA6BXQQFZ"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-27g3-5ffj-8mw8",
-  "modified": "2022-05-26T00:01:21Z",
+  "modified": "2025-11-03T21:30:40Z",
   "published": "2022-05-17T00:01:46Z",
   "aliases": [
     "CVE-2022-30767"
@@ -25,7 +25,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/05/msg00001.html"
+    },
+    {
+      "type": "WEB",
       "url": "https://lists.denx.de/pipermail/u-boot/2022-May/483952.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/DF62MVMH3QUGMBDCB3DY2ERQ6EBHTADB"
     },
     {
       "type": "WEB",

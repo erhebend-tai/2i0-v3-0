@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5pq7-gc86-75cp",
-  "modified": "2024-11-18T21:30:43Z",
+  "modified": "2025-11-03T21:31:04Z",
   "published": "2024-05-05T21:30:31Z",
   "aliases": [
     "CVE-2024-34509"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2024/06/msg00022.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/01/msg00032.html"
     },
     {
       "type": "WEB",

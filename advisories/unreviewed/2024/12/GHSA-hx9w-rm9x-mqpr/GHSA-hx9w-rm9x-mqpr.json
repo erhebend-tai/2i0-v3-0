@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hx9w-rm9x-mqpr",
-  "modified": "2025-01-14T18:31:53Z",
+  "modified": "2025-11-03T21:31:48Z",
   "published": "2024-12-27T15:31:51Z",
   "aliases": [
     "CVE-2024-53206"
@@ -42,6 +42,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/d0eb14cb8c08b00c36a3d5dc57a6f428b301f721"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/03/msg00001.html"
     }
   ],
   "database_specific": {

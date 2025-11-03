@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r642-x62f-jqhp",
-  "modified": "2024-11-26T21:32:23Z",
+  "modified": "2025-11-03T21:31:36Z",
   "published": "2024-11-12T15:30:44Z",
   "aliases": [
     "CVE-2024-51566"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://security.freebsd.org/advisories/FreeBSD-SA-24:17.bhyve.asc"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250207-0008"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8gxc-83hw-9578",
-  "modified": "2024-06-18T00:31:25Z",
+  "modified": "2025-11-03T21:30:31Z",
   "published": "2022-05-24T17:18:58Z",
   "aliases": [
     "CVE-2020-10136"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://www.digi.com/resources/security"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.kb.cert.org/vuls/id/199397"
     },
     {
       "type": "WEB",

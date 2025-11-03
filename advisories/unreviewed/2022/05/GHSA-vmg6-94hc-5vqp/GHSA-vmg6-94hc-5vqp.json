@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vmg6-94hc-5vqp",
-  "modified": "2022-05-13T01:50:27Z",
+  "modified": "2025-11-03T21:30:30Z",
   "published": "2022-05-13T01:50:27Z",
   "aliases": [
     "CVE-2018-16790"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://jira.mongodb.org/browse/CDRIVER-2819"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/05/msg00012.html"
     }
   ],
   "database_specific": {

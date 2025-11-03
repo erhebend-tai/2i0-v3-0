@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rj75-2px6-36w6",
-  "modified": "2022-09-09T00:01:00Z",
+  "modified": "2025-11-03T21:30:42Z",
   "published": "2022-09-03T00:00:18Z",
   "aliases": [
     "CVE-2020-22669"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2023/01/msg00033.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/08/msg00004.html"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6v56-9m73-2rm4",
-  "modified": "2024-07-22T15:32:40Z",
+  "modified": "2025-11-03T21:31:11Z",
   "published": "2024-07-22T15:32:40Z",
   "aliases": [
     "CVE-2024-39601"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://cert-portal.siemens.com/productcert/html/ssa-071402.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/Feb/19"
     }
   ],
   "database_specific": {

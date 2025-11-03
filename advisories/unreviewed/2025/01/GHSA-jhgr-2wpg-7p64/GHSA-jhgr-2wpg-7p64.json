@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jhgr-2wpg-7p64",
-  "modified": "2025-01-21T18:31:05Z",
+  "modified": "2025-11-03T21:32:10Z",
   "published": "2025-01-15T15:31:24Z",
   "aliases": [
     "CVE-2024-36476"
@@ -42,6 +42,14 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/fb514b31395946022f13a08e06a435f53cf9e8b3"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/03/msg00001.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/03/msg00002.html"
     }
   ],
   "database_specific": {

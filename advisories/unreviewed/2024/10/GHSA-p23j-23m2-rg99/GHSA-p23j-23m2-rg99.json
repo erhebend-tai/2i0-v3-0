@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p23j-23m2-rg99",
-  "modified": "2024-10-09T15:32:21Z",
+  "modified": "2025-11-03T21:31:15Z",
   "published": "2024-10-09T15:32:21Z",
   "aliases": [
     "CVE-2024-7840"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://docs.telerik.com/reporting/knowledge-base/command-injection-cve-2024-7840"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250425-0004"
     }
   ],
   "database_specific": {

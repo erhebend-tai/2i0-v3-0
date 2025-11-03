@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h288-5fq8-5pfw",
-  "modified": "2025-01-31T15:30:43Z",
+  "modified": "2025-11-03T21:31:42Z",
   "published": "2024-12-11T09:32:03Z",
   "aliases": [
     "CVE-2024-11053"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://security.netapp.com/advisory/ntap-20250131-0003"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250131-0004"
     },
     {
       "type": "WEB",

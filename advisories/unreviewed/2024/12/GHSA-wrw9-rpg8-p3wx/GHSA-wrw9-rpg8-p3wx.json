@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wrw9-rpg8-p3wx",
-  "modified": "2025-01-16T18:30:58Z",
+  "modified": "2025-11-03T21:31:56Z",
   "published": "2024-12-27T15:31:55Z",
   "aliases": [
     "CVE-2024-56615"
@@ -46,6 +46,14 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/ad34306ac6836e5dd096b7d0ad4aa20cb7c8d9e5"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/03/msg00001.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/03/msg00002.html"
     }
   ],
   "database_specific": {

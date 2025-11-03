@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fwff-cx6h-wxmq",
-  "modified": "2024-06-29T06:31:38Z",
+  "modified": "2025-11-03T21:30:41Z",
   "published": "2022-06-29T00:00:55Z",
   "aliases": [
     "CVE-2021-41688"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2024/06/msg00022.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/01/msg00032.html"
     }
   ],
   "database_specific": {

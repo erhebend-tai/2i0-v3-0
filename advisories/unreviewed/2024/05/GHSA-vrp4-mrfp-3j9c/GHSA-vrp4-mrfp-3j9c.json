@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vrp4-mrfp-3j9c",
-  "modified": "2024-07-04T09:32:48Z",
+  "modified": "2025-11-03T21:31:05Z",
   "published": "2024-05-14T18:30:59Z",
   "aliases": [
     "CVE-2024-31486"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "http://seclists.org/fulldisclosure/2024/Jul/4"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/Feb/19"
     }
   ],
   "database_specific": {

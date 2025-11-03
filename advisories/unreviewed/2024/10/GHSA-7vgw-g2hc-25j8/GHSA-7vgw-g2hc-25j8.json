@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7vgw-g2hc-25j8",
-  "modified": "2024-10-15T12:30:37Z",
+  "modified": "2025-11-03T21:31:16Z",
   "published": "2024-10-15T12:30:37Z",
   "aliases": [
     "CVE-2024-45274"
@@ -26,6 +26,14 @@
     {
       "type": "WEB",
       "url": "https://cert.vde.com/en/advisories/VDE-2024-066"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.syss.de/fileadmin/dokumente/Publikationen/Advisories/SYSS-2024-063.txt"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/Jul/38"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cfm7-f9p7-7m2w",
-  "modified": "2025-04-07T18:30:35Z",
+  "modified": "2025-11-03T21:30:46Z",
   "published": "2023-01-17T18:30:43Z",
   "aliases": [
     "CVE-2022-41860"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://freeradius.org/security"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/06/msg00030.html"
     }
   ],
   "database_specific": {

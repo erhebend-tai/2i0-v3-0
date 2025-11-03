@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j822-w26r-9cxf",
-  "modified": "2024-04-04T07:52:48Z",
+  "modified": "2025-11-03T21:30:55Z",
   "published": "2023-09-27T15:30:35Z",
   "aliases": [
     "CVE-2023-40403"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-40403"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/09/msg00024.html"
     },
     {
       "type": "WEB",

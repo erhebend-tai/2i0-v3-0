@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j8m6-95xp-pmp6",
-  "modified": "2024-04-04T03:05:51Z",
+  "modified": "2025-11-03T21:30:31Z",
   "published": "2022-05-24T17:46:36Z",
   "aliases": [
     "CVE-2020-36309"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/openresty/lua-nginx-module/compare/v0.10.15...v0.10.16"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/06/msg00026.html"
     },
     {
       "type": "WEB",

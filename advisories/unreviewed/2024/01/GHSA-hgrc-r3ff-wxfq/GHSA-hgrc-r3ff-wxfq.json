@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hgrc-r3ff-wxfq",
-  "modified": "2024-01-31T18:31:23Z",
+  "modified": "2025-11-03T21:30:59Z",
   "published": "2024-01-24T00:30:32Z",
   "aliases": [
     "CVE-2023-36177"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-36177"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/07/msg00015.html"
     },
     {
       "type": "WEB",

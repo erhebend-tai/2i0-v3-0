@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xwfr-m7mh-vp2j",
-  "modified": "2025-10-08T15:32:25Z",
+  "modified": "2025-11-03T21:31:53Z",
   "published": "2024-12-27T15:31:54Z",
   "aliases": [
     "CVE-2024-56594"
@@ -46,6 +46,14 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/ff0346a74627a5f607a33a3852586f8c7f678329"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/03/msg00001.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/03/msg00002.html"
     }
   ],
   "database_specific": {

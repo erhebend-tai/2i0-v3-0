@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h2wx-vrp7-wvmw",
-  "modified": "2024-12-19T21:31:08Z",
+  "modified": "2025-11-03T21:31:05Z",
   "published": "2024-05-19T09:34:46Z",
   "aliases": [
     "CVE-2024-35870"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/755fe68cd4b59e1d2a2dd3286177fd4404f57fed"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/03/msg00001.html"
     }
   ],
   "database_specific": {

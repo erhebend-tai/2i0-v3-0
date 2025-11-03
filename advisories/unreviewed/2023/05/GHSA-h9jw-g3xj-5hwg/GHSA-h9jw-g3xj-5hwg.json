@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h9jw-g3xj-5hwg",
-  "modified": "2023-12-22T12:31:44Z",
+  "modified": "2025-11-03T21:30:49Z",
   "published": "2023-05-26T18:30:21Z",
   "aliases": [
     "CVE-2023-2283"
@@ -50,6 +50,10 @@
     {
       "type": "WEB",
       "url": "http://packetstormsecurity.com/files/172861/libssh-0.9.6-0.10.4-pki_verify_data_signature-Authorization-Bypass.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/Feb/18"
     }
   ],
   "database_specific": {

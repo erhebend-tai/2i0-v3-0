@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6wff-g5m3-3vrq",
-  "modified": "2024-12-02T18:31:55Z",
+  "modified": "2025-11-03T21:31:39Z",
   "published": "2024-11-29T21:31:04Z",
   "aliases": [
     "CVE-2024-35367"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/FFmpeg/FFmpeg/blob/n6.1.1/libavcodec/ppc/vp8dsp_altivec.c#L53"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/02/msg00000.html"
     }
   ],
   "database_specific": {

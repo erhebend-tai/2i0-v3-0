@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rc98-5pqj-mhgj",
-  "modified": "2022-06-17T00:01:28Z",
+  "modified": "2025-11-03T21:30:40Z",
   "published": "2022-06-09T00:00:25Z",
   "aliases": [
     "CVE-2022-30552"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/u-boot/u-boot/tags"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/05/msg00001.html"
     },
     {
       "type": "WEB",

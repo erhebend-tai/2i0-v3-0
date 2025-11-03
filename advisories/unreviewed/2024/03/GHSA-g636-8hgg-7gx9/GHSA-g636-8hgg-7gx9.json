@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g636-8hgg-7gx9",
-  "modified": "2024-11-12T18:30:50Z",
+  "modified": "2025-11-03T21:31:01Z",
   "published": "2024-03-18T15:30:48Z",
   "aliases": [
     "CVE-2023-7250"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2244707"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/01/msg00027.html"
     }
   ],
   "database_specific": {

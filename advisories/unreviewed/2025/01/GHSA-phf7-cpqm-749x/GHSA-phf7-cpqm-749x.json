@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-phf7-cpqm-749x",
-  "modified": "2025-01-09T21:31:29Z",
+  "modified": "2025-11-03T21:32:05Z",
   "published": "2025-01-08T18:30:48Z",
   "aliases": [
     "CVE-2024-56774"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/db66fb87c21e8ae724886e6a464dcbac562a64c6"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/03/msg00001.html"
     }
   ],
   "database_specific": {

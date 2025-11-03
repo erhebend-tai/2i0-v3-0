@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2gpq-mc93-wwwp",
-  "modified": "2025-04-10T15:31:40Z",
+  "modified": "2025-11-03T21:32:13Z",
   "published": "2025-01-19T12:31:25Z",
   "aliases": [
     "CVE-2025-21640"
@@ -50,6 +50,14 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/f0bb3935470684306e4e04793a20ac4c4b08de0b"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/03/msg00001.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/03/msg00002.html"
     }
   ],
   "database_specific": {

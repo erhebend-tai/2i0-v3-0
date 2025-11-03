@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x77r-6xxm-wjmx",
-  "modified": "2024-02-13T03:30:19Z",
+  "modified": "2025-11-03T21:31:00Z",
   "published": "2024-02-04T18:30:19Z",
   "aliases": [
     "CVE-2024-25062"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://gitlab.gnome.org/GNOME/libxml2/-/tags"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/02/msg00028.html"
     }
   ],
   "database_specific": {

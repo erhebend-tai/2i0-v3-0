@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wm9w-rjj3-j356",
-  "modified": "2025-08-08T18:36:14Z",
+  "modified": "2025-11-03T21:31:11Z",
   "published": "2024-07-03T21:39:44Z",
   "aliases": [
     "CVE-2024-34750"
@@ -196,6 +196,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/4kqf0bc9gxymjc2x7v3p7dvplnl77y8l"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/07/msg00009.html"
     },
     {
       "type": "WEB",

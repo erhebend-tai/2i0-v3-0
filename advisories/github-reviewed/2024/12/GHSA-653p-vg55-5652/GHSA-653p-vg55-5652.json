@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-653p-vg55-5652",
-  "modified": "2025-08-08T18:45:05Z",
+  "modified": "2025-11-03T21:31:45Z",
   "published": "2024-12-17T15:31:43Z",
   "aliases": [
     "CVE-2024-54677"
@@ -195,6 +195,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250131-0006"
+    },
+    {
+      "type": "WEB",
       "url": "https://tomcat.apache.org/security-11.html#Fixed_in_Apache_Tomcat_11.0.2"
     },
     {
@@ -203,7 +207,7 @@
     },
     {
       "type": "WEB",
-      "url": "https://security.netapp.com/advisory/ntap-20250131-0006"
+      "url": "https://lists.debian.org/debian-lts-announce/2025/07/msg00009.html"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-75jh-69xw-fw3p",
-  "modified": "2025-05-13T12:31:35Z",
+  "modified": "2025-11-03T21:32:07Z",
   "published": "2025-01-09T06:30:23Z",
   "aliases": [
     "CVE-2024-56826"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2335172"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/04/msg00002.html"
     }
   ],
   "database_specific": {

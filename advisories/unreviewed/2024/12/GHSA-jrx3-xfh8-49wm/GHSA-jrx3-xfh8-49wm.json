@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jrx3-xfh8-49wm",
-  "modified": "2025-10-08T15:32:25Z",
+  "modified": "2025-11-03T21:31:46Z",
   "published": "2024-12-27T15:31:50Z",
   "aliases": [
     "CVE-2024-53172"
@@ -54,6 +54,14 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/ef52b7191ac41e68b1bf070d00c5b04ed16e4920"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/03/msg00001.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/03/msg00002.html"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xcpr-7mr4-h4xq",
-  "modified": "2025-08-08T18:41:30Z",
+  "modified": "2025-11-03T21:31:37Z",
   "published": "2024-11-18T12:30:43Z",
   "aliases": [
     "CVE-2024-52316"
@@ -100,6 +100,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/lopzlqh91jj9n334g02om08sbysdb928"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/01/msg00009.html"
     },
     {
       "type": "WEB",

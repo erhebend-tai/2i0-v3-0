@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wmpx-6wwp-cvc6",
-  "modified": "2025-02-03T15:32:00Z",
+  "modified": "2025-11-03T21:31:50Z",
   "published": "2024-12-27T15:31:52Z",
   "aliases": [
     "CVE-2024-53239"
@@ -54,6 +54,14 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/f2d06d4e129e2508e356136f99bb20a332ff1a00"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/03/msg00001.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/03/msg00002.html"
     }
   ],
   "database_specific": {

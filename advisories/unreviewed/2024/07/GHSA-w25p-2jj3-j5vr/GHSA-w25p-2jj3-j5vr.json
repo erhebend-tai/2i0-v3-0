@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w25p-2jj3-j5vr",
-  "modified": "2024-07-04T00:37:45Z",
+  "modified": "2025-11-03T21:31:10Z",
   "published": "2024-07-04T00:37:45Z",
   "aliases": [
     "CVE-2024-6383"
@@ -22,6 +22,18 @@
     {
       "type": "WEB",
       "url": "https://jira.mongodb.org/browse/CDRIVER-5628"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/05/msg00012.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/05/msg00027.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20241004-0001"
     }
   ],
   "database_specific": {

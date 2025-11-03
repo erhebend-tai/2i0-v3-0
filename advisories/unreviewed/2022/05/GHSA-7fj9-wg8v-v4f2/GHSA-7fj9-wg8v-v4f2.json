@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7fj9-wg8v-v4f2",
-  "modified": "2022-05-17T04:14:09Z",
+  "modified": "2025-11-03T21:30:28Z",
   "published": "2022-05-17T04:14:09Z",
   "aliases": [
     "CVE-2014-5403"
@@ -16,11 +16,21 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2015/icsa-15-090-03.json"
+    },
+    {
+      "type": "WEB",
       "url": "https://ics-cert.us-cert.gov/advisories/ICSA-15-090-03"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-15-090-03"
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-321"
+    ],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,

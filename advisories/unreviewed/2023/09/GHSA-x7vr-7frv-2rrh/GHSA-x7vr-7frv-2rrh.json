@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x7vr-7frv-2rrh",
-  "modified": "2023-09-02T21:30:21Z",
+  "modified": "2025-11-03T21:30:54Z",
   "published": "2023-09-02T21:30:21Z",
   "aliases": [
     "CVE-2023-4738"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://huntr.dev/bounties/9fc7dced-a7bb-4479-9718-f956df20f612"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/03/msg00023.html"
     },
     {
       "type": "WEB",

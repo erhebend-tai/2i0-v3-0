@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x49m-v7mv-3wvx",
-  "modified": "2025-05-05T18:32:31Z",
+  "modified": "2025-11-03T21:30:46Z",
   "published": "2023-01-11T15:30:26Z",
   "aliases": [
     "CVE-2022-4415"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://www.openwall.com/lists/oss-security/2022/12/21/3"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/Jun/9"
     }
   ],
   "database_specific": {

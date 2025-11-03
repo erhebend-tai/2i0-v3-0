@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3886-rc87-ccgx",
-  "modified": "2025-04-07T18:30:36Z",
+  "modified": "2025-11-03T21:30:46Z",
   "published": "2023-01-17T18:30:43Z",
   "aliases": [
     "CVE-2022-41861"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://freeradius.org/security"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/06/msg00030.html"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g527-g4q2-57xc",
-  "modified": "2022-10-24T19:00:19Z",
+  "modified": "2025-11-03T21:30:36Z",
   "published": "2021-12-24T00:00:21Z",
   "aliases": [
     "CVE-2021-3621"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2023/05/msg00028.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/02/msg00008.html"
     },
     {
       "type": "WEB",

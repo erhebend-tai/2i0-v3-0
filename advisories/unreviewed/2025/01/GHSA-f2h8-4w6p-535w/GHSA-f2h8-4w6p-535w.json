@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f2h8-4w6p-535w",
-  "modified": "2025-01-06T18:31:02Z",
+  "modified": "2025-11-03T21:32:03Z",
   "published": "2025-01-06T15:31:00Z",
   "aliases": [
     "CVE-2024-5594"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://community.openvpn.net/openvpn/wiki/CVE-2024-5594"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/03/msg00005.html"
     },
     {
       "type": "WEB",

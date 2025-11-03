@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qqqj-6rp2-5pw4",
-  "modified": "2023-11-30T06:33:24Z",
+  "modified": "2025-11-03T21:30:56Z",
   "published": "2023-11-28T00:30:33Z",
   "aliases": [
     "CVE-2023-42364"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://bugs.busybox.net/show_bug.cgi?id=15868"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/01/msg00012.html"
     }
   ],
   "database_specific": {

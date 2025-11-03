@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6gmm-x3pr-vhmf",
-  "modified": "2025-03-07T18:31:02Z",
+  "modified": "2025-11-03T21:31:46Z",
   "published": "2024-12-27T15:31:50Z",
   "aliases": [
     "CVE-2024-53166"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/e8b8344de3980709080d86c157d24e7de07d70ad"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/05/msg00045.html"
     }
   ],
   "database_specific": {

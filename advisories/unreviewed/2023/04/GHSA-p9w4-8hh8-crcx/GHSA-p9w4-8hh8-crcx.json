@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p9w4-8hh8-crcx",
-  "modified": "2024-04-04T03:28:56Z",
+  "modified": "2025-11-03T21:30:48Z",
   "published": "2023-04-15T00:30:37Z",
   "aliases": [
     "CVE-2023-29383"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/shadow-maint/shadow/commit/e5905c4b84d4fb90aefcd96ee618411ebfac663d"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/04/msg00026.html"
     },
     {
       "type": "WEB",

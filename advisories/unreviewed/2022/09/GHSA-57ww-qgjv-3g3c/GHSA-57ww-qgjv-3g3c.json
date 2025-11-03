@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-57ww-qgjv-3g3c",
-  "modified": "2022-09-30T00:00:44Z",
+  "modified": "2025-11-03T21:30:44Z",
   "published": "2022-09-25T00:00:26Z",
   "aliases": [
     "CVE-2022-2347"
@@ -21,11 +21,16 @@
     },
     {
       "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/05/msg00001.html"
+    },
+    {
+      "type": "WEB",
       "url": "https://seclists.org/oss-sec/2022/q3/41"
     }
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-122",
       "CWE-787"
     ],
     "severity": "HIGH",

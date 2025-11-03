@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9fj4-8443-vg2m",
-  "modified": "2024-03-21T03:35:41Z",
+  "modified": "2025-11-03T21:30:53Z",
   "published": "2023-08-29T18:31:53Z",
   "aliases": [
     "CVE-2023-39615"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://gitlab.gnome.org/GNOME/libxml2/-/issues/535"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/02/msg00028.html"
     }
   ],
   "database_specific": {

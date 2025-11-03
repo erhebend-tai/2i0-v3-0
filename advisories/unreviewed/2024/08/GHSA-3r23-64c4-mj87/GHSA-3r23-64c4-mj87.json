@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3r23-64c4-mj87",
-  "modified": "2025-01-22T18:31:52Z",
+  "modified": "2025-11-03T21:31:11Z",
   "published": "2024-08-14T15:31:19Z",
   "aliases": [
     "CVE-2024-7347"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-7347"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/03/msg00017.html"
     },
     {
       "type": "WEB",

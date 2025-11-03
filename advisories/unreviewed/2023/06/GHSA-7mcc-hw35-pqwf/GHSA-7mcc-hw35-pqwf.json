@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7mcc-hw35-pqwf",
-  "modified": "2025-02-13T18:31:39Z",
+  "modified": "2025-11-03T21:30:49Z",
   "published": "2023-06-19T12:30:22Z",
   "aliases": [
     "CVE-2023-3316"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2023/07/msg00034.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/01/msg00019.html"
     },
     {
       "type": "WEB",

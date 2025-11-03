@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xvcj-qw55-xx42",
-  "modified": "2025-03-07T03:31:32Z",
+  "modified": "2025-11-03T21:31:06Z",
   "published": "2024-05-30T21:33:37Z",
   "aliases": [
     "CVE-2024-1298"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-1298"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/06/msg00007.html"
     },
     {
       "type": "WEB",

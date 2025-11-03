@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j3vw-4g3g-wvjc",
-  "modified": "2022-03-17T00:03:22Z",
+  "modified": "2025-11-03T21:30:38Z",
   "published": "2022-03-05T00:00:43Z",
   "aliases": [
     "CVE-2021-3575"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=1957616"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/04/msg00002.html"
     },
     {
       "type": "WEB",

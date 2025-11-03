@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-95qf-v6r5-2v3v",
-  "modified": "2024-03-19T00:33:48Z",
+  "modified": "2025-11-03T21:30:31Z",
   "published": "2022-05-05T00:29:41Z",
   "aliases": [
     "CVE-2013-20001"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2024/03/msg00019.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/04/msg00009.html"
     }
   ],
   "database_specific": {

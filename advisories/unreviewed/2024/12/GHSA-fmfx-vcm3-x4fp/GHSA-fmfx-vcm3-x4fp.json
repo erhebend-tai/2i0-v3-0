@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fmfx-vcm3-x4fp",
-  "modified": "2025-01-09T21:31:29Z",
+  "modified": "2025-11-03T21:32:02Z",
   "published": "2024-12-29T12:30:40Z",
   "aliases": [
     "CVE-2024-56725"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/b99db02209ca4c2e2f53b82049ea3cbc82b54895"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/03/msg00001.html"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cx5c-hrvr-85gj",
-  "modified": "2024-10-31T18:31:16Z",
+  "modified": "2025-11-03T21:31:04Z",
   "published": "2024-05-01T15:30:36Z",
   "aliases": [
     "CVE-2024-27072"
@@ -42,6 +42,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/dea46e246ef0f98d89d59a4229157cd9ffb636bf"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/03/msg00002.html"
     }
   ],
   "database_specific": {

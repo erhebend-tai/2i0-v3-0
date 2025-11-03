@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vxmc-5x29-h64v",
-  "modified": "2025-09-25T20:26:05Z",
+  "modified": "2025-11-03T21:31:10Z",
   "published": "2024-07-11T18:31:14Z",
   "aliases": [
     "CVE-2024-6485"
@@ -43,6 +43,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/twbs/bootstrap"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/04/msg00020.html"
     },
     {
       "type": "WEB",

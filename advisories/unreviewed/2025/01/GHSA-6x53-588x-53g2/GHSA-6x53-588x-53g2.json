@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6x53-588x-53g2",
-  "modified": "2025-01-07T12:31:02Z",
+  "modified": "2025-11-03T21:32:04Z",
   "published": "2025-01-07T12:31:02Z",
   "aliases": [
     "CVE-2024-12425"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-12425"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/01/msg00013.html"
     },
     {
       "type": "WEB",

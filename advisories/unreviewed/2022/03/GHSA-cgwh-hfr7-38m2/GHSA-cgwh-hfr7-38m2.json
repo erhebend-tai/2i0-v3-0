@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cgwh-hfr7-38m2",
-  "modified": "2022-03-31T00:00:36Z",
+  "modified": "2025-11-03T21:30:38Z",
   "published": "2022-03-25T00:00:32Z",
   "aliases": [
     "CVE-2021-43666"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2022/12/msg00036.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/06/msg00034.html"
     }
   ],
   "database_specific": {

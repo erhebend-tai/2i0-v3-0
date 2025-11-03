@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v5cx-w2w4-m488",
-  "modified": "2024-08-27T18:31:36Z",
+  "modified": "2025-11-03T21:31:11Z",
   "published": "2024-08-25T00:30:31Z",
   "aliases": [
     "CVE-2024-45236"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-45236"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/02/msg00030.html"
     },
     {
       "type": "WEB",

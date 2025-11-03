@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-747h-x2cf-7vm7",
-  "modified": "2024-04-04T04:55:55Z",
+  "modified": "2025-11-03T21:30:49Z",
   "published": "2023-06-19T06:30:41Z",
   "aliases": [
     "CVE-2023-35852"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/OISF/suricata/compare/suricata-6.0.12...suricata-6.0.13"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/03/msg00029.html"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mf23-wm84-g9x3",
-  "modified": "2025-01-14T21:31:48Z",
+  "modified": "2025-11-03T21:32:09Z",
   "published": "2025-01-14T21:31:48Z",
   "aliases": [
     "CVE-2025-23018"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://papers.mathyvanhoef.com/usenix2025-tunnels.pdf"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.kb.cert.org/vuls/id/199397"
     },
     {
       "type": "WEB",

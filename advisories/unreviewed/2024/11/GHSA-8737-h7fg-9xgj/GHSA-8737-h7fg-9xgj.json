@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8737-h7fg-9xgj",
-  "modified": "2025-03-01T06:30:53Z",
+  "modified": "2025-11-03T21:31:39Z",
   "published": "2024-11-27T15:31:46Z",
   "aliases": [
     "CVE-2024-53920"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://git.savannah.gnu.org/cgit/emacs.git/tree/etc/NEWS?h=emacs-30.1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/02/msg00033.html"
     },
     {
       "type": "WEB",

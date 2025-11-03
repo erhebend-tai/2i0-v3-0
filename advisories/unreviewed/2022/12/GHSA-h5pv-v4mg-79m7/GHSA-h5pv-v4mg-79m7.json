@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h5pv-v4mg-79m7",
-  "modified": "2024-06-29T06:31:39Z",
+  "modified": "2025-11-03T21:30:45Z",
   "published": "2022-12-02T18:30:28Z",
   "aliases": [
     "CVE-2022-43272"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2024/06/msg00022.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/01/msg00032.html"
     },
     {
       "type": "WEB",

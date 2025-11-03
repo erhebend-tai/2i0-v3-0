@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pg55-3wrh-jwh5",
-  "modified": "2024-12-10T15:32:31Z",
+  "modified": "2025-11-03T21:31:42Z",
   "published": "2024-12-10T15:32:31Z",
   "aliases": [
     "CVE-2024-53832"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://cert-portal.siemens.com/productcert/html/ssa-128393.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/Feb/19"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g6fj-g9qm-g5xw",
-  "modified": "2022-05-24T19:17:36Z",
+  "modified": "2025-11-03T21:30:34Z",
   "published": "2022-05-24T19:17:36Z",
   "aliases": [
     "CVE-2021-33178"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-33178"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/05/msg00000.html"
     },
     {
       "type": "WEB",

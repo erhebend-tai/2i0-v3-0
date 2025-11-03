@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m6jw-rg4f-jw25",
-  "modified": "2022-08-03T00:00:55Z",
+  "modified": "2025-11-03T21:30:42Z",
   "published": "2022-07-21T00:00:34Z",
   "aliases": [
     "CVE-2022-33967"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://jvn.jp/en/vu/JVNVU97846460/index.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/05/msg00001.html"
     },
     {
       "type": "WEB",

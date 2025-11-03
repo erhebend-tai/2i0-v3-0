@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ffph-g3pc-8r3g",
-  "modified": "2025-06-02T15:31:21Z",
+  "modified": "2025-11-03T21:32:09Z",
   "published": "2025-01-14T18:32:00Z",
   "aliases": [
     "CVE-2024-12088"
@@ -46,6 +46,10 @@
     {
       "type": "WEB",
       "url": "https://kb.cert.org/vuls/id/952657"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250131-0002"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-48x4-xr25-pcvw",
-  "modified": "2025-01-06T21:30:50Z",
+  "modified": "2025-11-03T21:31:59Z",
   "published": "2024-12-27T15:31:56Z",
   "aliases": [
     "CVE-2024-56662"
@@ -42,6 +42,14 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/e08dc2dc3c3f7938df0e4476fe3e6fdec5583c1d"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/03/msg00001.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/03/msg00002.html"
     }
   ],
   "database_specific": {

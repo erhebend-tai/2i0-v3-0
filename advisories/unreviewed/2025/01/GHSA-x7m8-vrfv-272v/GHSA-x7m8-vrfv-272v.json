@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x7m8-vrfv-272v",
-  "modified": "2025-01-07T15:31:47Z",
+  "modified": "2025-11-03T21:32:04Z",
   "published": "2025-01-07T15:31:46Z",
   "aliases": [
     "CVE-2024-12426"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-12426"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/01/msg00013.html"
     },
     {
       "type": "WEB",

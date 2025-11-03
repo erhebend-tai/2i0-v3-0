@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4796-5527-wm9m",
-  "modified": "2025-01-13T18:31:55Z",
+  "modified": "2025-11-03T21:32:08Z",
   "published": "2025-01-13T15:30:50Z",
   "aliases": [
     "CVE-2024-47796"
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://git.dcmtk.org/?p=dcmtk.git;a=commit;h=89a6e399f1e17d08a8bc8cdaa05b2ac9a50cd4f6"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/01/msg00032.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/06/msg00025.html"
     },
     {
       "type": "WEB",

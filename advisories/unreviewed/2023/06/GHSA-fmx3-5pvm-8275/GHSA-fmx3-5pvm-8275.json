@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fmx3-5pvm-8275",
-  "modified": "2024-07-04T09:32:48Z",
+  "modified": "2025-11-03T21:30:48Z",
   "published": "2023-06-13T09:30:20Z",
   "aliases": [
     "CVE-2023-33919"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "http://seclists.org/fulldisclosure/2024/Jul/4"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/Feb/19"
     }
   ],
   "database_specific": {

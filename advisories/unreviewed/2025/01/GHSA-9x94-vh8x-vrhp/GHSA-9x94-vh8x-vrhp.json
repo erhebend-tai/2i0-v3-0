@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9x94-vh8x-vrhp",
-  "modified": "2025-02-03T15:32:01Z",
+  "modified": "2025-11-03T21:32:07Z",
   "published": "2025-01-11T15:30:29Z",
   "aliases": [
     "CVE-2024-57798"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/f61b2e5e7821f868d6afc22382a66a30ee780ba0"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/03/msg00001.html"
     }
   ],
   "database_specific": {

@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5v8x-xh64-m4xp",
-  "modified": "2024-02-05T09:30:28Z",
+  "modified": "2025-11-03T21:31:00Z",
   "published": "2024-02-05T09:30:28Z",
   "aliases": [
     "CVE-2024-24855"
   ],
-  "details": "A race condition was found in the Linux kernel's scsi device driver in lpfc_unregister_fcf_rescan() function. This can result in a null pointer dereference issue, possibly leading to a kernel panic or denial of service issue.\n\n\n\n\n",
+  "details": "A race condition was found in the Linux kernel's scsi device driver in lpfc_unregister_fcf_rescan() function. This can result in a null pointer dereference issue, possibly leading to a kernel panic or denial of service issue.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.openanolis.cn/show_bug.cgi?id=8149"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/05/msg00045.html"
     }
   ],
   "database_specific": {

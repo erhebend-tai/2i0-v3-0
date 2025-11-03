@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-px6h-65pj-6gq3",
-  "modified": "2025-04-23T21:30:30Z",
+  "modified": "2025-11-03T21:30:36Z",
   "published": "2021-11-17T19:13:08Z",
   "aliases": [
     "CVE-2021-42385"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://jfrog.com/blog/unboxing-busybox-14-new-vulnerabilities-uncovered-by-claroty-and-jfrog"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/01/msg00012.html"
     },
     {
       "type": "WEB",

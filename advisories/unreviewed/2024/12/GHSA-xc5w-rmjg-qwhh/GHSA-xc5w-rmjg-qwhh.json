@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xc5w-rmjg-qwhh",
-  "modified": "2024-12-19T15:31:11Z",
+  "modified": "2025-11-03T21:31:44Z",
   "published": "2024-12-19T15:31:11Z",
   "aliases": [
     "CVE-2024-47093"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/NagVis/nagvis/commit/b5b1164007439de526df7d54d5c02d7732ba1c42"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/05/msg00000.html"
     },
     {
       "type": "WEB",

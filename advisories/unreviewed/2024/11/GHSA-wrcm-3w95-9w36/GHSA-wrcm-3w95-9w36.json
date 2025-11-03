@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wrcm-3w95-9w36",
-  "modified": "2025-01-09T18:32:12Z",
+  "modified": "2025-11-03T21:31:31Z",
   "published": "2024-11-05T18:32:12Z",
   "aliases": [
     "CVE-2024-50121"
@@ -42,6 +42,14 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/f965dc0f099a54fca100acf6909abe52d0c85328"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/03/msg00001.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/03/msg00002.html"
     }
   ],
   "database_specific": {

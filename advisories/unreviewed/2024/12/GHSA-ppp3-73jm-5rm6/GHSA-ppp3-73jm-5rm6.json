@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ppp3-73jm-5rm6",
-  "modified": "2025-01-06T15:30:59Z",
+  "modified": "2025-11-03T21:32:01Z",
   "published": "2024-12-27T15:31:56Z",
   "aliases": [
     "CVE-2024-56675"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/f9f85df30118f3f4112761e6682fc60ebcce23e5"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/03/msg00001.html"
     }
   ],
   "database_specific": {
