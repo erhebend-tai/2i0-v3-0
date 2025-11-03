@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rqvx-2c23-x225",
-  "modified": "2025-02-20T21:30:51Z",
+  "modified": "2025-11-03T21:32:46Z",
   "published": "2025-02-19T00:31:19Z",
   "aliases": [
     "CVE-2025-25475"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://git.dcmtk.org/?p=dcmtk.git;a=commit;h=bffa3e9116abb7038b432443f16b1bd390e80245"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/06/msg00025.html"
     }
   ],
   "database_specific": {

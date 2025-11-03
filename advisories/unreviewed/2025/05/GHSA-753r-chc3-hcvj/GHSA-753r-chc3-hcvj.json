@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-753r-chc3-hcvj",
-  "modified": "2025-05-02T09:30:34Z",
+  "modified": "2025-11-03T21:33:45Z",
   "published": "2025-05-01T15:31:44Z",
   "aliases": [
     "CVE-2025-37773"
@@ -45,6 +45,14 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/f6ec52710dc5e156b774cbef5d0f5c99b1c53a80"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/05/msg00030.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/05/msg00045.html"
     }
   ],
   "database_specific": {

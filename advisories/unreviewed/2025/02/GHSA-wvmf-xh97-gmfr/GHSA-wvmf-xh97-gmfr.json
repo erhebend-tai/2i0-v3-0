@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wvmf-xh97-gmfr",
-  "modified": "2025-03-13T15:32:48Z",
+  "modified": "2025-11-03T21:32:57Z",
   "published": "2025-02-27T03:34:02Z",
   "aliases": [
     "CVE-2025-21727"
@@ -46,6 +46,14 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/f78170bee51469734b1a306a74fc5f777bb22ba6"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/03/msg00028.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/05/msg00030.html"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5828-2c94-235c",
-  "modified": "2025-04-30T15:30:44Z",
+  "modified": "2025-11-03T21:32:59Z",
   "published": "2025-02-27T03:34:05Z",
   "aliases": [
     "CVE-2025-21756"
@@ -50,6 +50,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/hoefler02/CVE-2025-21756/blob/main/x.c"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/05/msg00030.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/05/msg00045.html"
     }
   ],
   "database_specific": {

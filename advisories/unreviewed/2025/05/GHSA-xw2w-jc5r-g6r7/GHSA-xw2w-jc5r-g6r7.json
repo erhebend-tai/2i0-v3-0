@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xw2w-jc5r-g6r7",
-  "modified": "2025-05-21T18:33:29Z",
+  "modified": "2025-11-03T21:33:57Z",
   "published": "2025-05-21T18:33:29Z",
   "aliases": [
     "CVE-2025-27804"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://r.sec-consult.com/echarge"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/May/23"
     }
   ],
   "database_specific": {

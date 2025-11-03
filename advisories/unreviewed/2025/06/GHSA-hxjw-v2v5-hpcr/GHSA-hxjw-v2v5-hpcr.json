@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hxjw-v2v5-hpcr",
-  "modified": "2025-06-29T12:31:06Z",
+  "modified": "2025-11-03T21:34:05Z",
   "published": "2025-06-29T12:31:06Z",
   "aliases": [
     "CVE-2025-5878"
@@ -42,6 +42,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/uglory-gll/javasec/blob/main/ESAPI.md"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/07/msg00010.html"
     },
     {
       "type": "WEB",

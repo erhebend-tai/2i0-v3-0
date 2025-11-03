@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2jfq-9qf9-jmjj",
-  "modified": "2025-05-28T18:33:29Z",
+  "modified": "2025-11-03T21:33:58Z",
   "published": "2025-05-28T18:33:29Z",
   "aliases": [
     "CVE-2025-30087"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://docs.bestpractical.com/release-notes/rt/index.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/05/msg00009.html"
     }
   ],
   "database_specific": {

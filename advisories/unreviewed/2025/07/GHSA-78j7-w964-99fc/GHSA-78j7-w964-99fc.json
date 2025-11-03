@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-78j7-w964-99fc",
-  "modified": "2025-07-05T03:30:23Z",
+  "modified": "2025-11-03T21:34:05Z",
   "published": "2025-07-05T03:30:23Z",
   "aliases": [
     "CVE-2025-53603"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/Alinto/sope/compare/SOGo-2.0.1...SOGo-2.0.2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/08/msg00001.html"
     },
     {
       "type": "WEB",

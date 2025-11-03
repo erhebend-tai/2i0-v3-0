@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x65r-3hpg-f998",
-  "modified": "2025-05-01T15:31:44Z",
+  "modified": "2025-11-03T21:33:45Z",
   "published": "2025-05-01T15:31:44Z",
   "aliases": [
     "CVE-2025-37769"
@@ -33,6 +33,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/fc9d55377353321e78f9e108d15f72a17e8c6ee2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/05/msg00045.html"
     }
   ],
   "database_specific": {

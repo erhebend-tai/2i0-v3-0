@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hvr4-ppmm-c7fp",
-  "modified": "2025-05-02T15:31:48Z",
+  "modified": "2025-11-03T21:33:47Z",
   "published": "2025-05-02T15:31:48Z",
   "aliases": [
     "CVE-2025-37797"
@@ -45,6 +45,14 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/fcc8ede663569c704fb00a702973bd6c00373283"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/05/msg00030.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/05/msg00045.html"
     }
   ],
   "database_specific": {

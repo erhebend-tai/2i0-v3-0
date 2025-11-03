@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jpmq-5hpp-xf83",
-  "modified": "2025-05-09T09:33:19Z",
+  "modified": "2025-11-03T21:33:47Z",
   "published": "2025-05-09T09:33:19Z",
   "aliases": [
     "CVE-2025-37852"
@@ -37,6 +37,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/f8693e1bae9c08233a2f535c3f412e157df32b33"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/05/msg00045.html"
     }
   ],
   "database_specific": {

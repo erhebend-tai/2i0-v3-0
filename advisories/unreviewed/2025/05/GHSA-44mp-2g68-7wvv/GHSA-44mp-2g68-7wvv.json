@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-44mp-2g68-7wvv",
-  "modified": "2025-05-16T06:30:24Z",
+  "modified": "2025-11-03T21:33:54Z",
   "published": "2025-05-16T06:30:24Z",
   "aliases": [
     "CVE-2025-48175"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/AOMediaCodec/libavif/commit/64d956ed5a602f78cebf29da023280944ee92efd"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/05/msg00031.html"
     }
   ],
   "database_specific": {

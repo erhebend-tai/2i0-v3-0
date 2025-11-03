@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qpwf-m697-v547",
-  "modified": "2025-03-13T21:31:18Z",
+  "modified": "2025-11-03T21:33:10Z",
   "published": "2025-03-12T12:30:59Z",
   "aliases": [
     "CVE-2025-21864"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/f1d5e6a5e468308af7759cf5276779d3155c5e98"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/05/msg00045.html"
     }
   ],
   "database_specific": {

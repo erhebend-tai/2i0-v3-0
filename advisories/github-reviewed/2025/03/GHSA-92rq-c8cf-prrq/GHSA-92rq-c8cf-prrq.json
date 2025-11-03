@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-92rq-c8cf-prrq",
-  "modified": "2025-09-13T04:49:44Z",
+  "modified": "2025-11-03T21:33:11Z",
   "published": "2025-03-12T20:16:50Z",
   "aliases": [
     "CVE-2025-25293"
@@ -102,6 +102,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/ruby-saml/CVE-2025-25293.yml"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/04/msg00011.html"
     },
     {
       "type": "WEB",

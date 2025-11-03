@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f734-p3hx-8cw4",
-  "modified": "2025-07-24T18:33:17Z",
+  "modified": "2025-11-03T21:34:05Z",
   "published": "2025-07-07T18:32:27Z",
   "aliases": [
     "CVE-2024-25177"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://gist.github.com/pwnhacker0x18/a73f560d79f2c3d4011d6c5a2676f04a"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/08/msg00022.html"
     }
   ],
   "database_specific": {

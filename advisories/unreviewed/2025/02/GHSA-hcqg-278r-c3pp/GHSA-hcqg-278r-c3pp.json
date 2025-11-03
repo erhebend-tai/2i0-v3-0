@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hcqg-278r-c3pp",
-  "modified": "2025-02-20T00:32:03Z",
+  "modified": "2025-11-03T21:32:46Z",
   "published": "2025-02-19T00:31:19Z",
   "aliases": [
     "CVE-2025-22919"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-22919"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/02/msg00037.html"
     },
     {
       "type": "WEB",

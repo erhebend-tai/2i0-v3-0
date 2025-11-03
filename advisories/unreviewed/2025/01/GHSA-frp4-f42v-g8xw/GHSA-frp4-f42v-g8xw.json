@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-frp4-f42v-g8xw",
-  "modified": "2025-01-23T00:33:59Z",
+  "modified": "2025-11-03T21:32:15Z",
   "published": "2025-01-21T12:30:48Z",
   "aliases": [
     "CVE-2024-57938"
@@ -46,6 +46,14 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/f9c3adb083d3278f065a83c3f667f1246c74c31f"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/03/msg00001.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/03/msg00002.html"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fm29-2487-rchf",
-  "modified": "2025-05-20T18:30:55Z",
+  "modified": "2025-11-03T21:33:55Z",
   "published": "2025-05-20T18:30:55Z",
   "aliases": [
     "CVE-2025-37937"
@@ -49,6 +49,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/e63d465f59011dede0a0f1d21718b59a64c3ff5c"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/05/msg00045.html"
     }
   ],
   "database_specific": {

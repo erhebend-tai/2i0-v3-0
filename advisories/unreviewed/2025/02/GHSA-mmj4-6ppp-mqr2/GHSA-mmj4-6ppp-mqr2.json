@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mmj4-6ppp-mqr2",
-  "modified": "2025-04-10T15:31:42Z",
+  "modified": "2025-11-03T21:33:01Z",
   "published": "2025-02-27T03:34:06Z",
   "aliases": [
     "CVE-2025-21779"
@@ -46,6 +46,14 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/ca29f58ca374c40a0e69c5306fc5c940a0069074"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/03/msg00028.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/05/msg00030.html"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j58c-ww9w-pwp5",
-  "modified": "2025-04-30T14:18:11Z",
+  "modified": "2025-11-03T21:33:41Z",
   "published": "2025-04-29T18:30:59Z",
   "aliases": [
     "CVE-2025-0716"
@@ -51,6 +51,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/angular/angular.js"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/07/msg00005.html"
     },
     {
       "type": "WEB",

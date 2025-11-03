@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jx2m-wgq5-5qcj",
-  "modified": "2025-08-18T18:30:34Z",
+  "modified": "2025-11-03T21:33:59Z",
   "published": "2025-05-30T15:30:31Z",
   "aliases": [
     "CVE-2025-4598"
@@ -37,11 +37,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/07/msg00022.html"
+    },
+    {
+      "type": "WEB",
       "url": "https://www.openwall.com/lists/oss-security/2025/05/29/3"
     },
     {
       "type": "WEB",
       "url": "https://www.openwall.com/lists/oss-security/2025/08/18/3"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/Jun/9"
     },
     {
       "type": "WEB",

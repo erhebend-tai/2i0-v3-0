@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9rpp-w235-gxvg",
-  "modified": "2025-06-13T21:31:10Z",
+  "modified": "2025-11-03T21:34:00Z",
   "published": "2025-06-13T21:31:10Z",
   "aliases": [
     "CVE-2025-25050"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://www.dell.com/support/kbdoc/en-us/000276106/dsa-2025-053"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.talosintelligence.com/vulnerability_reports/TALOS-2025-2137"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-237v-gpwr-jc57",
-  "modified": "2025-02-06T15:32:52Z",
+  "modified": "2025-11-03T21:32:35Z",
   "published": "2025-02-05T00:31:13Z",
   "aliases": [
     "CVE-2024-13722"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://korelogic.com/Resources/Advisories/KL-001-2025-001.txt"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/05/msg00000.html"
     },
     {
       "type": "WEB",

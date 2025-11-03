@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5vpp-hj53-v2pr",
-  "modified": "2025-04-10T18:32:00Z",
+  "modified": "2025-11-03T21:33:24Z",
   "published": "2025-04-01T18:30:52Z",
   "aliases": [
     "CVE-2025-21936"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/dc516e66fb28c61b248b393e2ddd63bd7f104969"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/05/msg00045.html"
     }
   ],
   "database_specific": {

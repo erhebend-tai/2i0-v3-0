@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4j4j-rc2f-g9m5",
-  "modified": "2025-03-11T15:30:58Z",
+  "modified": "2025-11-03T21:33:09Z",
   "published": "2025-03-10T21:31:11Z",
   "aliases": [
     "CVE-2024-44192"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-44192"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/06/msg00016.html"
     },
     {
       "type": "WEB",

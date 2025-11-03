@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3cqv-h6hf-3729",
-  "modified": "2025-04-15T21:31:44Z",
+  "modified": "2025-11-03T21:33:31Z",
   "published": "2025-04-15T21:31:44Z",
   "aliases": [
     "CVE-2025-21579"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-21579"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250502-0006"
     },
     {
       "type": "WEB",

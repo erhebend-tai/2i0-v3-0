@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vc63-6wjr-qvp6",
-  "modified": "2025-04-02T15:31:21Z",
+  "modified": "2025-11-03T21:33:19Z",
   "published": "2025-04-01T00:30:38Z",
   "aliases": [
     "CVE-2025-24221"
@@ -30,6 +30,18 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/en-us/122378"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/Apr/12"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/Apr/4"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/Apr/5"
     }
   ],
   "database_specific": {

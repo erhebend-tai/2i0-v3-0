@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3jpv-h4fh-v8h9",
-  "modified": "2025-05-15T15:31:22Z",
+  "modified": "2025-11-03T21:33:50Z",
   "published": "2025-05-13T00:31:14Z",
   "aliases": [
     "CVE-2025-31215"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-31215"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/06/msg00016.html"
     },
     {
       "type": "WEB",
@@ -46,6 +50,30 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/en-us/122722"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/May/10"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/May/12"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/May/13"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/May/5"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/May/6"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/May/7"
     }
   ],
   "database_specific": {

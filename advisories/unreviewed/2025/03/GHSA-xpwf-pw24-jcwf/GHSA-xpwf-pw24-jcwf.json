@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xpwf-pw24-jcwf",
-  "modified": "2025-05-02T09:30:30Z",
+  "modified": "2025-11-03T21:32:52Z",
   "published": "2025-03-17T21:30:32Z",
   "aliases": [
     "CVE-2022-49309"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/f89f6c3ebf69623b8ea48200bd690e9e210335a1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/05/msg00030.html"
     }
   ],
   "database_specific": {

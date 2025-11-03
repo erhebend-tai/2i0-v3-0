@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2rmv-pmj6-727m",
-  "modified": "2025-05-13T21:30:55Z",
+  "modified": "2025-11-03T21:33:53Z",
   "published": "2025-05-13T21:30:55Z",
   "aliases": [
     "CVE-2025-20012"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://intel.com/content/www/us/en/security-center/advisory/intel-sa-01322.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/05/msg00021.html"
     }
   ],
   "database_specific": {

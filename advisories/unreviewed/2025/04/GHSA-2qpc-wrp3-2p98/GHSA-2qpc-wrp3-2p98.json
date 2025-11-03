@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2qpc-wrp3-2p98",
-  "modified": "2025-10-31T18:31:11Z",
+  "modified": "2025-11-03T21:33:22Z",
   "published": "2025-04-01T18:30:50Z",
   "aliases": [
     "CVE-2025-21913"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/ebf6a763904e42dabeb2e270ceb0bbe0f825d7ae"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/05/msg00045.html"
     }
   ],
   "database_specific": {

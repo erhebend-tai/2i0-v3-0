@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8cj5-5rvv-wf4v",
-  "modified": "2025-08-14T19:26:16Z",
+  "modified": "2025-11-03T21:33:59Z",
   "published": "2025-06-03T06:14:25Z",
   "aliases": [
     "CVE-2025-48387"
@@ -93,6 +93,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/mafintosh/tar-fs"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/06/msg00012.html"
     }
   ],
   "database_specific": {

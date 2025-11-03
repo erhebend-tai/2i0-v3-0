@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gc8h-qjvm-5f2g",
-  "modified": "2025-01-21T21:30:56Z",
+  "modified": "2025-11-03T21:32:21Z",
   "published": "2025-01-21T21:30:56Z",
   "aliases": [
     "CVE-2025-21555"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-21555"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250131-0004"
     },
     {
       "type": "WEB",

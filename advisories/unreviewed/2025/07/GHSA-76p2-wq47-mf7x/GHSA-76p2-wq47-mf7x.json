@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-76p2-wq47-mf7x",
-  "modified": "2025-11-03T18:31:23Z",
+  "modified": "2025-11-03T21:34:05Z",
   "published": "2025-07-08T18:31:43Z",
   "aliases": [
     "CVE-2024-36357"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://www.amd.com/en/resources/product-security/bulletin/amd-sb-7029.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://xenbits.xen.org/xsa/advisory-471.html"
     }
   ],
   "database_specific": {

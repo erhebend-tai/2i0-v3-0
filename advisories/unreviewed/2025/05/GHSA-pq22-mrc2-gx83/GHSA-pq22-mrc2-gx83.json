@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pq22-mrc2-gx83",
-  "modified": "2025-05-20T18:30:55Z",
+  "modified": "2025-11-03T21:33:55Z",
   "published": "2025-05-20T18:30:55Z",
   "aliases": [
     "CVE-2025-37928"
@@ -33,6 +33,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/f45108257280e0a1cc951ce254853721b40c0812"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/08/msg00010.html"
     }
   ],
   "database_specific": {

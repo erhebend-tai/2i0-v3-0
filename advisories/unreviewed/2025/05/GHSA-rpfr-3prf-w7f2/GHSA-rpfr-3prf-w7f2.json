@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rpfr-3prf-w7f2",
-  "modified": "2025-05-08T09:30:24Z",
+  "modified": "2025-11-03T21:33:47Z",
   "published": "2025-05-08T09:30:24Z",
   "aliases": [
     "CVE-2025-37810"
@@ -45,6 +45,14 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/c4d80e41cb42008dceb35e5dbf52574d93beac0d"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/05/msg00030.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/05/msg00045.html"
     }
   ],
   "database_specific": {

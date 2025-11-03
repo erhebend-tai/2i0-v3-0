@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x3pm-6vfp-j66v",
-  "modified": "2025-08-22T00:30:31Z",
+  "modified": "2025-11-03T21:33:58Z",
   "published": "2025-05-27T09:30:32Z",
   "aliases": [
     "CVE-2024-47090"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-47090"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/06/msg00031.html"
     },
     {
       "type": "WEB",

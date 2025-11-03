@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4q2r-xgxr-vvqm",
-  "modified": "2025-03-22T03:30:32Z",
+  "modified": "2025-11-03T21:33:13Z",
   "published": "2025-03-22T03:30:32Z",
   "aliases": [
     "CVE-2025-30472"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/corosync/corosync/blob/73ba225cc48ebb1903897c792065cb5e876613b0/exec/totemsrp.c#L4677"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/09/msg00023.html"
     }
   ],
   "database_specific": {

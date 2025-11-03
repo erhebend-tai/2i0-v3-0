@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v2hx-rxf2-p233",
-  "modified": "2025-10-30T18:31:03Z",
+  "modified": "2025-11-03T21:33:13Z",
   "published": "2025-03-27T15:31:11Z",
   "aliases": [
     "CVE-2025-21881"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/c4cb2bfa99513311886c1eb5c1c2ac26f3338a6e"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/05/msg00045.html"
     }
   ],
   "database_specific": {

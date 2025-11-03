@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rcv8-vxjp-vqcw",
-  "modified": "2025-05-30T18:31:01Z",
+  "modified": "2025-11-03T21:33:57Z",
   "published": "2025-05-21T15:30:33Z",
   "aliases": [
     "CVE-2025-48416"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://r.sec-consult.com/echarge"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/May/23"
     }
   ],
   "database_specific": {

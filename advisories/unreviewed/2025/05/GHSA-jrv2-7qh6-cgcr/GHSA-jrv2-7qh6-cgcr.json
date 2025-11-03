@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jrv2-7qh6-cgcr",
-  "modified": "2025-05-09T09:33:20Z",
+  "modified": "2025-11-03T21:33:48Z",
   "published": "2025-05-09T09:33:20Z",
   "aliases": [
     "CVE-2025-37885"
@@ -41,6 +41,14 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/e5f2dee9f7fcd2ff4b97869f3c66a0d89c167769"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/05/msg00030.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/05/msg00045.html"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g8xg-6v3j-w97f",
-  "modified": "2025-03-09T00:30:52Z",
+  "modified": "2025-11-03T21:33:09Z",
   "published": "2025-03-09T00:30:52Z",
   "aliases": [
     "CVE-2023-52970"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://jira.mariadb.org/browse/MDEV-32086"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/05/msg00006.html"
     }
   ],
   "database_specific": {

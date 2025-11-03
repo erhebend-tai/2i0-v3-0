@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fv2p-m3fq-rq6h",
-  "modified": "2025-05-13T21:30:56Z",
+  "modified": "2025-11-03T21:33:54Z",
   "published": "2025-05-13T21:30:56Z",
   "aliases": [
     "CVE-2025-20623"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://intel.com/content/www/us/en/security-center/advisory/intel-sa-01247.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/05/msg00021.html"
     }
   ],
   "database_specific": {

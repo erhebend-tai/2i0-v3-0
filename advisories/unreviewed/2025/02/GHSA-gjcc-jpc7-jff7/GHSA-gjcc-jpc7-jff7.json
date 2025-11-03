@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gjcc-jpc7-jff7",
-  "modified": "2025-02-21T18:31:08Z",
+  "modified": "2025-11-03T21:32:35Z",
   "published": "2025-02-10T18:30:46Z",
   "aliases": [
     "CVE-2025-21688"
@@ -50,6 +50,14 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/a9401cd5d1bb5a0b8d2bef09623ca43551cd6e8a"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/03/msg00001.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/03/msg00002.html"
     }
   ],
   "database_specific": {

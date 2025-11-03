@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fm6j-mfpf-prfq",
-  "modified": "2025-03-13T21:31:18Z",
+  "modified": "2025-11-03T21:33:10Z",
   "published": "2025-03-12T12:30:59Z",
   "aliases": [
     "CVE-2025-21862"
@@ -50,6 +50,14 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/fcfc00bfec7bb6661074cb21356d05a4c9470a3c"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/05/msg00030.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/05/msg00045.html"
     }
   ],
   "database_specific": {

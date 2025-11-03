@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-52hm-37gj-qx5h",
-  "modified": "2025-02-06T18:31:05Z",
+  "modified": "2025-11-03T21:32:35Z",
   "published": "2025-02-05T18:34:46Z",
   "aliases": [
     "CVE-2024-7595"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://datatracker.ietf.org/doc/html/rfc2784"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.kb.cert.org/vuls/id/199397"
     },
     {
       "type": "WEB",

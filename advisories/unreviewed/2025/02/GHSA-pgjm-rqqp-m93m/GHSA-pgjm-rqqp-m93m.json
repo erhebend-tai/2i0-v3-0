@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pgjm-rqqp-m93m",
-  "modified": "2025-03-13T15:32:53Z",
+  "modified": "2025-11-03T21:33:02Z",
   "published": "2025-02-27T21:32:17Z",
   "aliases": [
     "CVE-2025-21820"
@@ -42,6 +42,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/e22a97700901ba5e8bf8db68056a0d50f9440cae"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/03/msg00028.html"
     }
   ],
   "database_specific": {

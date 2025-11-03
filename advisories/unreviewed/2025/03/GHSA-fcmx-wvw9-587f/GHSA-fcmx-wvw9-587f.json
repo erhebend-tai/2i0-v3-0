@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fcmx-wvw9-587f",
-  "modified": "2025-04-14T21:32:23Z",
+  "modified": "2025-11-03T21:33:13Z",
   "published": "2025-03-27T15:31:12Z",
   "aliases": [
     "CVE-2025-21891"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/e2a4f76a2d8a44816ecd25bcbdb47b786d621974"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/05/msg00045.html"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7jpp-9623-r487",
-  "modified": "2025-02-13T00:33:05Z",
+  "modified": "2025-11-03T21:32:41Z",
   "published": "2025-02-13T00:33:05Z",
   "aliases": [
     "CVE-2024-31157"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://intel.com/content/www/us/en/security-center/advisory/intel-sa-01139.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/03/msg00021.html"
     }
   ],
   "database_specific": {

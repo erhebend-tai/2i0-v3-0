@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5qjr-cj9f-phrx",
-  "modified": "2025-03-14T12:31:59Z",
+  "modified": "2025-11-03T21:32:30Z",
   "published": "2025-01-31T18:31:08Z",
   "aliases": [
     "CVE-2025-0938"
@@ -50,6 +50,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/python/cpython/commit/ff4e5c25666f63544071a6b075ae8b25c98b7a32"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/03/msg00013.html"
     },
     {
       "type": "WEB",

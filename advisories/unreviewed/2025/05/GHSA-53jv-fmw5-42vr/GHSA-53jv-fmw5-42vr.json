@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-53jv-fmw5-42vr",
-  "modified": "2025-05-14T15:31:36Z",
+  "modified": "2025-11-03T21:33:53Z",
   "published": "2025-05-13T00:31:15Z",
   "aliases": [
     "CVE-2025-31250"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/en-us/122716"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/May/7"
     }
   ],
   "database_specific": {

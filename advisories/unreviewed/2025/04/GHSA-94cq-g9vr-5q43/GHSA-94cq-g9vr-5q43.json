@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-94cq-g9vr-5q43",
-  "modified": "2025-04-15T15:30:53Z",
+  "modified": "2025-11-03T21:33:31Z",
   "published": "2025-04-15T15:30:53Z",
   "aliases": [
     "CVE-2025-32103"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://www.crushftp.com"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/Apr/17"
     }
   ],
   "database_specific": {

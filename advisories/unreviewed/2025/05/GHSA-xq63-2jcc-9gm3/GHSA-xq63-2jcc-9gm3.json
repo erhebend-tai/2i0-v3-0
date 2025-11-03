@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xq63-2jcc-9gm3",
-  "modified": "2025-05-13T18:30:51Z",
+  "modified": "2025-11-03T21:33:48Z",
   "published": "2025-05-13T00:31:12Z",
   "aliases": [
     "CVE-2025-24258"
@@ -30,6 +30,14 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/en-us/122718"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/May/8"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/May/9"
     }
   ],
   "database_specific": {

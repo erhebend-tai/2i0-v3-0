@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6j5q-p9xp-3cc6",
-  "modified": "2025-01-22T18:31:56Z",
+  "modified": "2025-11-03T21:32:22Z",
   "published": "2025-01-22T18:31:55Z",
   "aliases": [
     "CVE-2025-20128"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://blog.clamav.net/2025/01/clamav-142-and-108-security-patch.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/09/msg00006.html"
     },
     {
       "type": "WEB",

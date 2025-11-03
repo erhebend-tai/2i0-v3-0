@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j6h7-76gh-2j3r",
-  "modified": "2025-06-14T00:30:22Z",
+  "modified": "2025-11-03T21:34:00Z",
   "published": "2025-06-14T00:30:22Z",
   "aliases": [
     "CVE-2025-25215"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://www.dell.com/support/kbdoc/en-us/000276106/dsa-2025-053"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.talosintelligence.com/vulnerability_reports/TALOS-2024-2129"
     }
   ],
   "database_specific": {

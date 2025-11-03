@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4c8w-67qj-c8vp",
-  "modified": "2025-05-30T18:31:16Z",
+  "modified": "2025-11-03T21:33:59Z",
   "published": "2025-05-30T18:31:16Z",
   "aliases": [
     "CVE-2025-5054"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://www.qualys.com/2025/05/29/apport-coredump/apport-coredump.txt"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/Jun/9"
     }
   ],
   "database_specific": {

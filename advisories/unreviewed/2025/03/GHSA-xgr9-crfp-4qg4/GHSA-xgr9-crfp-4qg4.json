@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xgr9-crfp-4qg4",
-  "modified": "2025-05-02T09:30:30Z",
+  "modified": "2025-11-03T21:33:09Z",
   "published": "2025-03-12T12:30:58Z",
   "aliases": [
     "CVE-2025-21853"
@@ -46,6 +46,14 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/d95607a5f2f9bb08194c9deaf4a5f3e8ba59a9d4"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/05/msg00030.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/05/msg00045.html"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hv64-fpvc-rw9x",
-  "modified": "2025-02-14T15:31:02Z",
+  "modified": "2025-11-03T21:32:41Z",
   "published": "2025-02-12T15:31:59Z",
   "aliases": [
     "CVE-2025-21697"
@@ -46,6 +46,14 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/e4b5ccd392b92300a2b341705cc4805681094e49"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/03/msg00001.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/03/msg00002.html"
     }
   ],
   "database_specific": {

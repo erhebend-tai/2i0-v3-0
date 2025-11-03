@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wwcc-hw3c-mqv5",
-  "modified": "2025-05-09T09:33:19Z",
+  "modified": "2025-11-03T21:33:47Z",
   "published": "2025-05-09T09:33:18Z",
   "aliases": [
     "CVE-2025-37836"
@@ -45,6 +45,14 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/f9208aec86226524ec1cb68a09ac70e974ea6536"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/05/msg00030.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/05/msg00045.html"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r24q-wpfh-2vqx",
-  "modified": "2025-10-31T21:30:55Z",
+  "modified": "2025-11-03T21:33:36Z",
   "published": "2025-04-16T15:34:43Z",
   "aliases": [
     "CVE-2025-22071"
@@ -54,6 +54,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/d04600f43569d48262e1328eaa1592fcefa2c19c"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/05/msg00045.html"
     }
   ],
   "database_specific": {

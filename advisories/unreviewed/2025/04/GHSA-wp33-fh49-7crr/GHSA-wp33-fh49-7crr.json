@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wp33-fh49-7crr",
-  "modified": "2025-04-01T21:31:09Z",
+  "modified": "2025-11-03T21:33:20Z",
   "published": "2025-04-01T00:30:43Z",
   "aliases": [
     "CVE-2025-30467"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/en-us/122379"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/Apr/13"
     }
   ],
   "database_specific": {

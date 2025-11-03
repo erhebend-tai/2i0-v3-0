@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3w5w-m35v-rfp7",
-  "modified": "2025-04-21T00:30:20Z",
+  "modified": "2025-11-03T21:33:41Z",
   "published": "2025-04-21T00:30:19Z",
   "aliases": [
     "CVE-2025-43963"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/LibRaw/LibRaw/compare/0.21.3...0.21.4"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/04/msg00038.html"
     },
     {
       "type": "WEB",

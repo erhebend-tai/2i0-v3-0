@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-268v-p5rc-rhmv",
-  "modified": "2025-09-02T21:30:56Z",
+  "modified": "2025-11-03T21:32:42Z",
   "published": "2025-02-13T15:31:27Z",
   "aliases": [
     "CVE-2025-21701"
@@ -42,6 +42,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/b382ab9b885cbb665e0e70a727f101c981b4edf3"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/03/msg00028.html"
     }
   ],
   "database_specific": {

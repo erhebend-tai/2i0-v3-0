@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h28c-39h5-c348",
-  "modified": "2025-08-02T00:31:08Z",
+  "modified": "2025-11-03T21:33:47Z",
   "published": "2025-05-05T18:32:53Z",
   "aliases": [
     "CVE-2025-0217"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.beyondtrust.com/trust-center/security-advisories/bt25-03"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/May/1"
     }
   ],
   "database_specific": {

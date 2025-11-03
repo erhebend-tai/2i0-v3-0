@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vwr6-5rc9-p4cw",
-  "modified": "2025-03-17T03:30:23Z",
+  "modified": "2025-11-03T21:33:11Z",
   "published": "2025-03-17T03:30:23Z",
   "aliases": [
     "CVE-2025-2357"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-2357"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/06/msg00025.html"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mpgh-fjjh-gjv4",
-  "modified": "2025-02-21T00:31:08Z",
+  "modified": "2025-11-03T21:32:46Z",
   "published": "2025-02-19T00:31:19Z",
   "aliases": [
     "CVE-2025-25474"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://git.dcmtk.org/?p=dcmtk.git;a=commit;h=1d205bcd307164c99e0d4bbf412110372658d847"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/06/msg00025.html"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-69gq-2xc5-f33j",
-  "modified": "2025-04-07T15:31:12Z",
+  "modified": "2025-11-03T21:33:30Z",
   "published": "2025-04-07T15:31:11Z",
   "aliases": [
     "CVE-2025-32364"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://gitlab.freedesktop.org/poppler/poppler/-/issues/1574"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/04/msg00037.html"
     }
   ],
   "database_specific": {

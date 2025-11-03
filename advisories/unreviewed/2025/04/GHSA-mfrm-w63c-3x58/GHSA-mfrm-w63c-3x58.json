@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mfrm-w63c-3x58",
-  "modified": "2025-04-08T03:32:37Z",
+  "modified": "2025-11-03T21:33:30Z",
   "published": "2025-04-08T03:32:37Z",
   "aliases": [
     "CVE-2025-32414"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://gitlab.gnome.org/GNOME/libxml2/-/issues/889"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/04/msg00041.html"
     }
   ],
   "database_specific": {

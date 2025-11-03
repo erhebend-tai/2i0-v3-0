@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c2cr-w322-fppq",
-  "modified": "2025-04-10T15:31:48Z",
+  "modified": "2025-11-03T21:33:30Z",
   "published": "2025-04-08T09:31:12Z",
   "aliases": [
     "CVE-2025-22010"
@@ -46,6 +46,14 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/efe544462fc0b499725364f90bd0f8bbf16f861a"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/05/msg00030.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/05/msg00045.html"
     }
   ],
   "database_specific": {

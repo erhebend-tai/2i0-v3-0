@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qfr5-98gw-pmcj",
-  "modified": "2025-05-13T15:32:16Z",
+  "modified": "2025-11-03T21:33:53Z",
   "published": "2025-05-13T00:31:15Z",
   "aliases": [
     "CVE-2025-31239"
@@ -50,6 +50,34 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/en-us/122722"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/May/11"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/May/12"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/May/5"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/May/6"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/May/7"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/May/8"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/May/9"
     }
   ],
   "database_specific": {

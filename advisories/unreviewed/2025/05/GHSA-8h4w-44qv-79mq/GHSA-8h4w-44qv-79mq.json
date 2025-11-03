@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8h4w-44qv-79mq",
-  "modified": "2025-05-23T18:32:12Z",
+  "modified": "2025-11-03T21:33:57Z",
   "published": "2025-05-23T18:32:12Z",
   "aliases": [
     "CVE-2023-53154"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/DaveGamble/cJSON/compare/v1.7.17...v1.7.18"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/06/msg00014.html"
     }
   ],
   "database_specific": {

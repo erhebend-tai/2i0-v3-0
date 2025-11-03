@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vp37-f5jx-gpcx",
-  "modified": "2025-06-05T15:31:22Z",
+  "modified": "2025-11-03T21:33:47Z",
   "published": "2025-05-08T09:30:23Z",
   "aliases": [
     "CVE-2025-37801"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/951a04ab3a2db4029debfa48d380ef834b93207e"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/05/msg00045.html"
     }
   ],
   "database_specific": {

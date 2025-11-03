@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2c99-hrrc-j3vh",
-  "modified": "2025-03-28T18:33:37Z",
+  "modified": "2025-11-03T21:33:13Z",
   "published": "2025-03-28T18:33:37Z",
   "aliases": [
     "CVE-2025-31162"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-31162"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/04/msg00030.html"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-65gg-hq36-f232",
-  "modified": "2025-04-29T15:31:21Z",
+  "modified": "2025-11-03T21:33:41Z",
   "published": "2025-04-18T15:31:38Z",
   "aliases": [
     "CVE-2025-39728"
@@ -50,6 +50,14 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/d974e177369c034984cece9d7d4fada9f8b9c740"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/05/msg00030.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/05/msg00045.html"
     }
   ],
   "database_specific": {

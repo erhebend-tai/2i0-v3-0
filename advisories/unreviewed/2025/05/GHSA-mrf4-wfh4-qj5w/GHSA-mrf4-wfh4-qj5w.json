@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mrf4-wfh4-qj5w",
-  "modified": "2025-10-31T21:30:57Z",
+  "modified": "2025-11-03T21:33:46Z",
   "published": "2025-05-01T15:31:45Z",
   "aliases": [
     "CVE-2025-37794"
@@ -50,6 +50,14 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/c74b84544dee27298a71715b3ce2c40d372b5a23"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/05/msg00030.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/05/msg00045.html"
     }
   ],
   "database_specific": {

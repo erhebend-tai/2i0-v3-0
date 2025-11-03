@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q358-6958-pqcv",
-  "modified": "2025-05-29T15:31:09Z",
+  "modified": "2025-11-03T21:33:58Z",
   "published": "2025-05-29T15:31:09Z",
   "aliases": [
     "CVE-2025-33043"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://go.ami.com/hubfs/Security%20Advisories/2025/AMI-SA-2025005.pdf"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.kb.cert.org/vuls/id/209095"
     }
   ],
   "database_specific": {

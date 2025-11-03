@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-646x-rjhr-jf76",
-  "modified": "2025-09-25T12:31:04Z",
+  "modified": "2025-11-03T21:33:38Z",
   "published": "2025-04-16T15:34:45Z",
   "aliases": [
     "CVE-2025-22106"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nvmxnet3: unregister xdp rxq info in the reset path\n\nvmxnet3 does not unregister xdp rxq info in the\nvmxnet3_reset_work() code path as vmxnet3_rq_destroy()\nis not invoked in this code path. So, we get below message with a\nbacktrace.\n\nMissing unregister, handled but fix driver\nWARNING: CPU:48 PID: 500 at net/core/xdp.c:182\n__xdp_rxq_info_reg+0x93/0xf0\n\nThis patch fixes the problem by moving the unregister\ncode of XDP from vmxnet3_rq_destroy() to vmxnet3_rq_cleanup().",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -33,7 +38,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-04-16T15:16:04Z"

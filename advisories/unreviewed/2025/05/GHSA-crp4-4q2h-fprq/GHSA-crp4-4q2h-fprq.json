@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-crp4-4q2h-fprq",
-  "modified": "2025-05-01T15:31:39Z",
+  "modified": "2025-11-03T21:33:41Z",
   "published": "2025-05-01T15:31:39Z",
   "aliases": [
     "CVE-2025-23141"
@@ -37,6 +37,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/f5cbe725b7477b4cd677be1b86b4e08f90572997"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/05/msg00045.html"
     }
   ],
   "database_specific": {

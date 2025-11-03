@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q92j-grw3-h492",
-  "modified": "2025-03-24T14:49:01Z",
+  "modified": "2025-11-03T21:33:11Z",
   "published": "2025-03-12T19:28:00Z",
   "aliases": [
     "CVE-2025-27407"
@@ -224,6 +224,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/graphql/CVE-2025-27407.yml"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/08/msg00002.html"
     }
   ],
   "database_specific": {

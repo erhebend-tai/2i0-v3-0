@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g8fv-r98j-937r",
-  "modified": "2025-03-14T03:31:24Z",
+  "modified": "2025-11-03T21:33:11Z",
   "published": "2025-03-14T03:31:24Z",
   "aliases": [
     "CVE-2024-55549"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://gitlab.gnome.org/GNOME/libxslt/-/issues/127"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/03/msg00015.html"
     }
   ],
   "database_specific": {

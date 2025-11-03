@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gphm-c4cj-h98g",
-  "modified": "2025-05-14T15:31:36Z",
+  "modified": "2025-11-03T21:33:52Z",
   "published": "2025-05-13T00:31:14Z",
   "aliases": [
     "CVE-2025-31227"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/en-us/122404"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/May/5"
     }
   ],
   "database_specific": {

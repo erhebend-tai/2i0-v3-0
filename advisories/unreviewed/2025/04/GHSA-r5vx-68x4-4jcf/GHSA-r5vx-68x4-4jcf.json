@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r5vx-68x4-4jcf",
-  "modified": "2025-04-11T18:31:07Z",
+  "modified": "2025-11-03T21:33:30Z",
   "published": "2025-04-11T18:31:07Z",
   "aliases": [
     "CVE-2025-32072"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://gerrit.wikimedia.org/r/c/mediawiki/core/+/1120134"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/07/msg00012.html"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ccfr-2656-2j6h",
-  "modified": "2025-10-15T15:30:21Z",
+  "modified": "2025-11-03T21:32:14Z",
   "published": "2025-01-21T12:30:48Z",
   "aliases": [
     "CVE-2024-57931"
@@ -46,6 +46,14 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/f70e4b9ec69d9a74b84c17767a9a4eda8c901021"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/03/msg00001.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/03/msg00002.html"
     }
   ],
   "database_specific": {

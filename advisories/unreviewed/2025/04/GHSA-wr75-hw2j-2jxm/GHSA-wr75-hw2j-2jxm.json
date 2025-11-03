@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wr75-hw2j-2jxm",
-  "modified": "2025-04-01T15:31:33Z",
+  "modified": "2025-11-03T21:33:20Z",
   "published": "2025-04-01T00:30:43Z",
   "aliases": [
     "CVE-2025-30454"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/en-us/122377"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/Apr/13"
     }
   ],
   "database_specific": {

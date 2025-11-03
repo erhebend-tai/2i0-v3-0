@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3ffg-fcmm-x4pp",
-  "modified": "2025-03-13T18:32:20Z",
+  "modified": "2025-11-03T21:33:09Z",
   "published": "2025-03-12T12:30:58Z",
   "aliases": [
     "CVE-2025-21848"
@@ -50,6 +50,14 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/e976ea6c5e1b005c64467cbf94a8577aae9c7d81"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/05/msg00030.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/05/msg00045.html"
     }
   ],
   "database_specific": {

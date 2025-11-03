@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m885-h2wc-h2w3",
-  "modified": "2025-06-11T12:30:36Z",
+  "modified": "2025-11-03T21:33:58Z",
   "published": "2025-05-27T15:31:27Z",
   "aliases": [
     "CVE-2025-5268"
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.mozilla.org/buglist.cgi?bug_id=1950136%2C1958121%2C1960499%2C1962634"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/05/msg00043.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/05/msg00046.html"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j68v-9w62-948r",
-  "modified": "2025-04-15T21:31:45Z",
+  "modified": "2025-11-03T21:33:31Z",
   "published": "2025-04-15T21:31:45Z",
   "aliases": [
     "CVE-2025-21585"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-21585"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250502-0006"
     },
     {
       "type": "WEB",

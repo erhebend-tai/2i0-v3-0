@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h3gc-qfqq-6h8f",
-  "modified": "2025-08-08T19:00:50Z",
+  "modified": "2025-11-03T21:34:01Z",
   "published": "2025-06-16T15:32:28Z",
   "aliases": [
     "CVE-2025-48988"
@@ -214,6 +214,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/nzkqsok8t42qofgqfmck536mtyzygp18"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/07/msg00009.html"
     },
     {
       "type": "WEB",

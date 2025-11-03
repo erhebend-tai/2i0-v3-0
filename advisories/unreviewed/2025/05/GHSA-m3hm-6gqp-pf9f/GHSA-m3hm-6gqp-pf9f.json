@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m3hm-6gqp-pf9f",
-  "modified": "2025-05-14T15:31:37Z",
+  "modified": "2025-11-03T21:33:54Z",
   "published": "2025-05-13T21:30:54Z",
   "aliases": [
     "CVE-2024-45332"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://intel.com/content/www/us/en/security-center/advisory/intel-sa-01247.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/05/msg00021.html"
     },
     {
       "type": "WEB",

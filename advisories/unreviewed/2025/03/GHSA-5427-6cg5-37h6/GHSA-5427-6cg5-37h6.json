@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5427-6cg5-37h6",
-  "modified": "2025-03-13T00:30:29Z",
+  "modified": "2025-11-03T21:33:04Z",
   "published": "2025-03-04T15:31:49Z",
   "aliases": [
     "CVE-2025-1937"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.mozilla.org/buglist.cgi?bug_id=1938471%2C1940716"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/03/msg00006.html"
     },
     {
       "type": "WEB",

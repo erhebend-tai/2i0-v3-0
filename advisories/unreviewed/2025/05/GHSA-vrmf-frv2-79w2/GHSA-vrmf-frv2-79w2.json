@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vrmf-frv2-79w2",
-  "modified": "2025-08-22T00:30:31Z",
+  "modified": "2025-11-03T21:33:58Z",
   "published": "2025-05-27T09:30:32Z",
   "aliases": [
     "CVE-2024-38866"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/NagVis/nagvis/pull/398/commits/8d5d07e22dfca78df7420ac81cffff6f45ca9694"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/06/msg00031.html"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ghxc-pm62-h5fx",
-  "modified": "2025-04-10T15:31:46Z",
+  "modified": "2025-11-03T21:33:28Z",
   "published": "2025-04-02T15:31:37Z",
   "aliases": [
     "CVE-2025-21993"
@@ -50,6 +50,14 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/f763c82db8166e28f45b7cc4a5398a7859665940"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/05/msg00030.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/05/msg00045.html"
     }
   ],
   "database_specific": {

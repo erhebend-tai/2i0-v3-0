@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vwcg-r7w2-v8qc",
-  "modified": "2025-04-01T21:31:03Z",
+  "modified": "2025-11-03T21:33:19Z",
   "published": "2025-04-01T00:30:37Z",
   "aliases": [
     "CVE-2025-24208"
@@ -21,11 +21,23 @@
     },
     {
       "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/06/msg00016.html"
+    },
+    {
+      "type": "WEB",
       "url": "https://support.apple.com/en-us/122371"
     },
     {
       "type": "WEB",
       "url": "https://support.apple.com/en-us/122379"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/Apr/2"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/Apr/4"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cg86-m5xc-jqrm",
-  "modified": "2025-03-13T15:32:46Z",
+  "modified": "2025-11-03T21:32:46Z",
   "published": "2025-02-18T15:31:09Z",
   "aliases": [
     "CVE-2025-21703"
@@ -50,6 +50,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/e395fec75ac2dbffc99b4bce57b7f1f3c5449f2c"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/03/msg00028.html"
     }
   ],
   "database_specific": {

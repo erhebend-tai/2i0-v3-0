@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g6fh-mr9f-jrcx",
-  "modified": "2025-04-15T21:31:46Z",
+  "modified": "2025-11-03T21:33:33Z",
   "published": "2025-04-15T21:31:46Z",
   "aliases": [
     "CVE-2025-30696"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-30696"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250502-0006"
     },
     {
       "type": "WEB",

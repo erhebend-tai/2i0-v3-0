@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fp4x-j6ch-w8q5",
-  "modified": "2025-06-17T12:31:14Z",
+  "modified": "2025-11-03T21:33:31Z",
   "published": "2025-04-15T18:31:45Z",
   "aliases": [
     "CVE-2025-32911"
@@ -70,6 +70,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2359355"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/04/msg00036.html"
     }
   ],
   "database_specific": {
