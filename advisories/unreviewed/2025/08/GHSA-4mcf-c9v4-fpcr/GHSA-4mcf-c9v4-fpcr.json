@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4mcf-c9v4-fpcr",
-  "modified": "2025-08-29T21:32:02Z",
+  "modified": "2025-11-03T06:30:26Z",
   "published": "2025-08-29T21:32:02Z",
   "aliases": [
     "CVE-2023-41471"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/9001/copyparty"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/9001/copyparty/releases/tag/v1.9.2"
     },
     {
       "type": "WEB",
