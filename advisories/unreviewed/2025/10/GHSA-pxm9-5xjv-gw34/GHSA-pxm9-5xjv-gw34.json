@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pxm9-5xjv-gw34",
-  "modified": "2025-10-29T15:31:56Z",
+  "modified": "2025-11-03T03:30:25Z",
   "published": "2025-10-29T15:31:56Z",
   "aliases": [
     "CVE-2025-40084"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/2dc125f5da134c0915a840b62565c60a595673dd"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/6f40e50ceb99fc8ef37e5c56e2ec1d162733fef0"
     },
     {
       "type": "WEB",
