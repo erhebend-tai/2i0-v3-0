@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cr74-mw42-hr4j",
-  "modified": "2025-10-06T00:30:18Z",
+  "modified": "2025-11-03T15:30:28Z",
   "published": "2025-10-06T00:30:18Z",
   "aliases": [
     "CVE-2025-11310"
@@ -42,7 +42,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-74"
+      "CWE-74",
+      "CWE-89"
     ],
     "severity": "MODERATE",
     "github_reviewed": false,

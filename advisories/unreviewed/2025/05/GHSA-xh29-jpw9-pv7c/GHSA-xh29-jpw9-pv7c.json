@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xh29-jpw9-pv7c",
-  "modified": "2025-05-01T15:31:47Z",
+  "modified": "2025-11-03T15:30:27Z",
   "published": "2025-05-01T15:31:47Z",
   "aliases": [
     "CVE-2022-49794"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\niio: adc: at91_adc: fix possible memory leak in at91_adc_allocate_trigger()\n\nIf iio_trigger_register() returns error, it should call iio_trigger_free()\nto give up the reference that hold in iio_trigger_alloc(), so that it can\ncall iio_trig_release() to free memory when the refcount hit to 0.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-01T15:16:02Z"
