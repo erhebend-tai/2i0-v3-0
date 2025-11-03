@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jvfv-hrrc-6q72",
-  "modified": "2022-03-18T21:12:35Z",
+  "modified": "2025-11-03T22:28:08Z",
   "published": "2022-03-05T00:00:45Z",
   "aliases": [
     "CVE-2022-0839"
@@ -55,6 +55,10 @@
     {
       "type": "WEB",
       "url": "https://www.oracle.com/security-alerts/cpujul2022.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/Apr/14"
     }
   ],
   "database_specific": {
