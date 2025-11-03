@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g8m5-722r-8whq",
-  "modified": "2024-10-14T21:08:39Z",
+  "modified": "2025-11-03T22:49:11Z",
   "published": "2024-10-14T21:08:38Z",
   "aliases": [
     "CVE-2024-8184"
@@ -124,6 +124,10 @@
     {
       "type": "WEB",
       "url": "https://gitlab.eclipse.org/security/cve-assignement/-/issues/30"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/04/msg00001.html"
     }
   ],
   "database_specific": {
