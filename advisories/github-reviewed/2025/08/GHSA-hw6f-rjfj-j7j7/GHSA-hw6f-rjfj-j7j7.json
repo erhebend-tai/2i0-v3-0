@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hw6f-rjfj-j7j7",
-  "modified": "2025-09-01T20:05:28Z",
+  "modified": "2025-11-04T16:22:43Z",
   "published": "2025-08-29T20:08:24Z",
   "aliases": [
     "CVE-2025-58068"
@@ -55,6 +55,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/eventlet/eventlet"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/09/msg00003.html"
     }
   ],
   "database_specific": {

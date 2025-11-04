@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mmxm-8w33-wc4h",
-  "modified": "2025-08-21T14:01:19Z",
+  "modified": "2025-11-04T16:21:21Z",
   "published": "2025-08-20T20:52:17Z",
   "aliases": [
     "CVE-2025-5115"
@@ -170,6 +170,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/jetty/jetty.project/releases/tag/jetty-9.4.58.v20250814"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/09/msg00014.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.kb.cert.org/vuls/id/767506"
     }
   ],
   "database_specific": {
