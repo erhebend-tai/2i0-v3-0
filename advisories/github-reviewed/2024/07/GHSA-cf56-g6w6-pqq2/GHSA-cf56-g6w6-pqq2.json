@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cf56-g6w6-pqq2",
-  "modified": "2024-09-11T21:37:53Z",
+  "modified": "2025-11-04T16:51:18Z",
   "published": "2024-07-29T17:29:36Z",
   "aliases": [
     "CVE-2024-41810"
@@ -62,6 +62,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/twisted/twisted"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/11/msg00028.html"
     }
   ],
   "database_specific": {

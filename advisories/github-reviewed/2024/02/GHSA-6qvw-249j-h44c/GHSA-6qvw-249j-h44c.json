@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6qvw-249j-h44c",
-  "modified": "2024-08-14T22:14:48Z",
+  "modified": "2025-11-04T16:50:03Z",
   "published": "2024-02-29T03:33:14Z",
   "aliases": [
     "CVE-2023-51775"
@@ -47,6 +47,10 @@
     {
       "type": "WEB",
       "url": "https://bitbucket.org/b_c/jose4j/issues/212"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20241108-0002"
     }
   ],
   "database_specific": {

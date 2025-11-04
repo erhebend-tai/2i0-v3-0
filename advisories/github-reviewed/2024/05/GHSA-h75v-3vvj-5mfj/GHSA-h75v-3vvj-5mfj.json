@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h75v-3vvj-5mfj",
-  "modified": "2024-06-10T18:30:57Z",
+  "modified": "2025-11-04T16:50:23Z",
   "published": "2024-05-06T14:20:59Z",
   "aliases": [
     "CVE-2024-34064"
@@ -51,6 +51,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/pallets/jinja"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/12/msg00009.html"
     },
     {
       "type": "WEB",
