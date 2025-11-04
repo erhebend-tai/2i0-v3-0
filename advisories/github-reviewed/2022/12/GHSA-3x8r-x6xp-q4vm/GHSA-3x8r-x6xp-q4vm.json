@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3x8r-x6xp-q4vm",
-  "modified": "2022-12-13T17:40:50Z",
+  "modified": "2025-11-04T16:41:06Z",
   "published": "2022-12-13T17:40:50Z",
   "aliases": [
     "CVE-2022-23516"
   ],
   "summary": "Uncontrolled Recursion in Loofah",
-  "details": "## Summary\n\nLoofah `>= 2.2.0, < 2.19.1` uses recursion for sanitizing `CDATA` sections, making it susceptible to stack exhaustion and raising a `SystemStackError` exception.  This may lead to a denial of service through CPU resource consumption.\n\n\n## Mitigation\n\nUpgrade to Loofah `>= 2.19.1`.\n\nUsers who are unable to upgrade may be able to mitigate this vulnerability by limiting the length of the strings that are sanitized.\n\n\n## Severity\n\nThe Loofah maintainers have evaluated this as [High Severity 7.5 (CVSS3.1)](https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H).\n\n\n## References\n\n- [CWE - CWE-674: Uncontrolled Recursion (4.9)](https://cwe.mitre.org/data/definitions/674.html)\n",
+  "details": "## Summary\n\nLoofah `>= 2.2.0, < 2.19.1` uses recursion for sanitizing `CDATA` sections, making it susceptible to stack exhaustion and raising a `SystemStackError` exception.  This may lead to a denial of service through CPU resource consumption.\n\n\n## Mitigation\n\nUpgrade to Loofah `>= 2.19.1`.\n\nUsers who are unable to upgrade may be able to mitigate this vulnerability by limiting the length of the strings that are sanitized.\n\n\n## Severity\n\nThe Loofah maintainers have evaluated this as [High Severity 7.5 (CVSS3.1)](https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H).\n\n\n## References\n\n- [CWE - CWE-674: Uncontrolled Recursion (4.9)](https://cwe.mitre.org/data/definitions/674.html)",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -59,6 +59,10 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2023/09/msg00011.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/09/msg00044.html"
     }
   ],
   "database_specific": {

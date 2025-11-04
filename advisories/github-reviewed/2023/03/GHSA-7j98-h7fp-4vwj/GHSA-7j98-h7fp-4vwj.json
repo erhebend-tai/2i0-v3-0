@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7j98-h7fp-4vwj",
-  "modified": "2023-03-29T18:31:35Z",
+  "modified": "2025-11-04T16:42:43Z",
   "published": "2023-03-29T18:31:35Z",
   "aliases": [
     "CVE-2023-28447"
   ],
   "summary": "smarty Cross-site Scripting vulnerability in Javascript escaping ",
-  "details": "### Impact\nAn attacker could exploit this vulnerability to execute arbitrary JavaScript code in the context of the user's browser session. This may lead to unauthorized access to sensitive user data, manipulation of the web application's behavior, or unauthorized actions performed on behalf of the user.\n\n### Patches\nPlease upgrade to the most recent version of Smarty v3 or v4.\n\n### For more information\nIf you have any questions or comments about this advisory please open an issue in [the Smarty repo](https://github.com/smarty-php/smarty)\n",
+  "details": "### Impact\nAn attacker could exploit this vulnerability to execute arbitrary JavaScript code in the context of the user's browser session. This may lead to unauthorized access to sensitive user data, manipulation of the web application's behavior, or unauthorized actions performed on behalf of the user.\n\n### Patches\nPlease upgrade to the most recent version of Smarty v3 or v4.\n\n### For more information\nIf you have any questions or comments about this advisory please open an issue in [the Smarty repo](https://github.com/smarty-php/smarty)",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -74,6 +74,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/smarty-php/smarty"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/11/msg00013.html"
     },
     {
       "type": "WEB",

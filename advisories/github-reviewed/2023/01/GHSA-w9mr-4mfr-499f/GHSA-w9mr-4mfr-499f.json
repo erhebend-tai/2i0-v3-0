@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w9mr-4mfr-499f",
-  "modified": "2023-01-11T23:00:55Z",
+  "modified": "2025-11-04T16:42:14Z",
   "published": "2023-01-05T12:30:27Z",
   "aliases": [
     "CVE-2017-20162"
@@ -55,6 +55,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/vercel/ms/releases/tag/2.0.0"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20241108-0002"
     },
     {
       "type": "WEB",
