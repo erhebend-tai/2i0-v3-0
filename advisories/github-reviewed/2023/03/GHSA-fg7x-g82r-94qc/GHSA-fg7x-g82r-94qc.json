@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fg7x-g82r-94qc",
-  "modified": "2023-06-06T17:12:32Z",
+  "modified": "2025-11-04T19:37:42Z",
   "published": "2023-03-31T06:30:15Z",
   "aliases": [
     "CVE-2023-28756"
@@ -60,56 +60,8 @@
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-28756"
     },
     {
-      "type": "PACKAGE",
-      "url": "https://github.com/ruby/time"
-    },
-    {
       "type": "WEB",
-      "url": "https://github.com/ruby/time/releases"
-    },
-    {
-      "type": "WEB",
-      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/time/CVE-2023-28756.yml"
-    },
-    {
-      "type": "WEB",
-      "url": "https://lists.debian.org/debian-lts-announce/2023/04/msg00033.html"
-    },
-    {
-      "type": "WEB",
-      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/FFZANOQA4RYX7XCB42OO3P24DQKWHEKA"
-    },
-    {
-      "type": "WEB",
-      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/G76GZG3RAGYF4P75YY7J7TGYAU7Z5E2T"
-    },
-    {
-      "type": "WEB",
-      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/WMIOPLBAAM3FEQNAXA2L7BDKOGSVUT5Z"
-    },
-    {
-      "type": "WEB",
-      "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/FFZANOQA4RYX7XCB42OO3P24DQKWHEKA"
-    },
-    {
-      "type": "WEB",
-      "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/G76GZG3RAGYF4P75YY7J7TGYAU7Z5E2T"
-    },
-    {
-      "type": "WEB",
-      "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/WMIOPLBAAM3FEQNAXA2L7BDKOGSVUT5Z"
-    },
-    {
-      "type": "WEB",
-      "url": "https://security.gentoo.org/glsa/202401-27"
-    },
-    {
-      "type": "WEB",
-      "url": "https://security.netapp.com/advisory/ntap-20230526-0004"
-    },
-    {
-      "type": "WEB",
-      "url": "https://www.ruby-lang.org/en/downloads/releases"
+      "url": "https://www.ruby-lang.org/en/news/2023/03/30/redos-in-time-cve-2023-28756"
     },
     {
       "type": "WEB",
@@ -117,7 +69,59 @@
     },
     {
       "type": "WEB",
-      "url": "https://www.ruby-lang.org/en/news/2023/03/30/redos-in-time-cve-2023-28756"
+      "url": "https://www.ruby-lang.org/en/downloads/releases"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20230526-0004"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.gentoo.org/glsa/202401-27"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/WMIOPLBAAM3FEQNAXA2L7BDKOGSVUT5Z"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/G76GZG3RAGYF4P75YY7J7TGYAU7Z5E2T"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/FFZANOQA4RYX7XCB42OO3P24DQKWHEKA"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/WMIOPLBAAM3FEQNAXA2L7BDKOGSVUT5Z"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/G76GZG3RAGYF4P75YY7J7TGYAU7Z5E2T"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/FFZANOQA4RYX7XCB42OO3P24DQKWHEKA"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/09/msg00000.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2023/04/msg00033.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/time/CVE-2023-28756.yml"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/ruby/time/releases"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/ruby/time"
     }
   ],
   "database_specific": {

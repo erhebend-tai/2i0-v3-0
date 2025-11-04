@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cggh-pq45-6h9x",
-  "modified": "2025-02-13T19:00:49Z",
+  "modified": "2025-11-04T19:38:24Z",
   "published": "2023-07-01T00:30:46Z",
   "aliases": [
     "CVE-2023-30589"
@@ -51,6 +51,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/nodejs/llhttp/releases/tag/release%2Fv8.1.1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/09/msg00029.html"
     },
     {
       "type": "WEB",
