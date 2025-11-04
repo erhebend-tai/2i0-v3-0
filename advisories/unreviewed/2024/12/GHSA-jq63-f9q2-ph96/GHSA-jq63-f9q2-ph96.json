@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jq63-f9q2-ph96",
-  "modified": "2024-12-12T03:33:01Z",
+  "modified": "2025-11-04T00:32:09Z",
   "published": "2024-12-11T18:30:42Z",
   "aliases": [
     "CVE-2024-28140"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.imageaccess.de/?page=SupportPortal&lang=en"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2024/Dec/2"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m7m7-c2p8-w63c",
-  "modified": "2024-12-20T18:31:31Z",
+  "modified": "2025-11-04T00:32:15Z",
   "published": "2024-12-20T06:30:45Z",
   "aliases": [
     "CVE-2024-44293"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/en-us/121564"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2024/Oct/11"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r79x-wgrg-2v77",
-  "modified": "2025-11-03T21:31:38Z",
+  "modified": "2025-11-04T00:32:03Z",
   "published": "2024-11-19T03:31:08Z",
   "aliases": [
     "CVE-2024-50280"
@@ -42,6 +42,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/d154b333a5667b6c1b213a11a41ad7aaccd10c3d"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/01/msg00001.html"
     },
     {
       "type": "WEB",

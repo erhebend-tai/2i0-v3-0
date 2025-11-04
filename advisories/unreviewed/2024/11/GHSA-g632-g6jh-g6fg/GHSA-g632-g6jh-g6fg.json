@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g632-g6jh-g6fg",
-  "modified": "2024-11-08T18:30:50Z",
+  "modified": "2025-11-04T00:31:58Z",
   "published": "2024-11-08T12:31:13Z",
   "aliases": [
     "CVE-2024-50590"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://r.sec-consult.com/hasomed"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2024/Nov/3"
     }
   ],
   "database_specific": {

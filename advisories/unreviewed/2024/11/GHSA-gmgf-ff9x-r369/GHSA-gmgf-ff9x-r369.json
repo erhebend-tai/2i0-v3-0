@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gmgf-ff9x-r369",
-  "modified": "2025-11-03T21:31:34Z",
+  "modified": "2025-11-04T00:32:00Z",
   "published": "2024-11-09T12:30:49Z",
   "aliases": [
     "CVE-2024-50251"
@@ -54,6 +54,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/slavin-ayu/CVE-2024-50251-PoC"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/01/msg00001.html"
     },
     {
       "type": "WEB",

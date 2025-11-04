@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cpxj-fx45-9pgm",
-  "modified": "2024-11-27T18:34:03Z",
+  "modified": "2025-11-04T00:32:07Z",
   "published": "2024-11-26T15:31:01Z",
   "aliases": [
     "CVE-2024-11692"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.mozilla.org/show_bug.cgi?id=1909535"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/11/msg00029.html"
     },
     {
       "type": "WEB",

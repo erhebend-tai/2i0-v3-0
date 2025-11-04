@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-67jx-fcjg-p4rh",
-  "modified": "2024-12-18T18:30:50Z",
+  "modified": "2025-11-04T00:32:11Z",
   "published": "2024-12-12T03:33:06Z",
   "aliases": [
     "CVE-2024-44245"
@@ -38,6 +38,22 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/en-us/121845"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2024/Dec/12"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2024/Dec/6"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2024/Dec/7"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2024/Dec/8"
     }
   ],
   "database_specific": {

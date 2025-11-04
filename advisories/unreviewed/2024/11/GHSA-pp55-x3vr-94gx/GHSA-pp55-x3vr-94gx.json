@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pp55-x3vr-94gx",
-  "modified": "2025-11-03T21:31:39Z",
+  "modified": "2025-11-04T00:32:04Z",
   "published": "2024-11-19T18:31:06Z",
   "aliases": [
     "CVE-2024-53042"
@@ -42,6 +42,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/e2742758c9c85c84e077ede5f916479f724e11c2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/01/msg00001.html"
     },
     {
       "type": "WEB",

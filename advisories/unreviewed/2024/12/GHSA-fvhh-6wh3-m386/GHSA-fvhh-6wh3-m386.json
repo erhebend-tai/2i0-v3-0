@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fvhh-6wh3-m386",
-  "modified": "2024-12-14T21:31:33Z",
+  "modified": "2025-11-04T00:32:08Z",
   "published": "2024-12-02T15:31:39Z",
   "aliases": [
     "CVE-2024-53120"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/e99c6873229fe0482e7ceb7d5600e32d623ed9d9"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/01/msg00001.html"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m92w-x6j2-5gc5",
-  "modified": "2025-11-03T21:33:03Z",
+  "modified": "2025-11-04T00:32:21Z",
   "published": "2025-03-01T00:31:55Z",
   "aliases": [
     "CVE-2025-26466"
@@ -58,6 +58,10 @@
     {
       "type": "WEB",
       "url": "https://www.qualys.com/2025/02/18/openssh-mitm-dos.txt"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/Feb/18"
     },
     {
       "type": "WEB",

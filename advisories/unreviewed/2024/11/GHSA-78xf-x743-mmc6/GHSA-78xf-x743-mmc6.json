@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-78xf-x743-mmc6",
-  "modified": "2025-11-03T21:31:39Z",
+  "modified": "2025-11-04T00:32:05Z",
   "published": "2024-11-19T18:31:07Z",
   "aliases": [
     "CVE-2024-53061"
@@ -50,6 +50,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/f54e8e1e39dacccebcfb9a9a36f0552a0a97e2ef"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/01/msg00001.html"
     },
     {
       "type": "WEB",

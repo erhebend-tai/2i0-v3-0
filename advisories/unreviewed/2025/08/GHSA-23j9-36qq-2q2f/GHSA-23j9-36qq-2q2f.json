@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-23j9-36qq-2q2f",
-  "modified": "2025-08-26T03:44:56Z",
+  "modified": "2025-11-04T00:32:06Z",
   "published": "2025-08-26T03:44:56Z",
   "aliases": [
     "CVE-2024-28025"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://talosintelligence.com/vulnerability_reports/TALOS-2024-1953"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.talosintelligence.com/vulnerability_reports/TALOS-2024-1953"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m9m6-wcr9-hh75",
-  "modified": "2025-11-03T21:32:46Z",
+  "modified": "2025-11-04T00:32:20Z",
   "published": "2025-02-19T00:31:19Z",
   "aliases": [
     "CVE-2025-27113"
@@ -25,11 +25,43 @@
     },
     {
       "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/02/msg00028.html"
+    },
+    {
+      "type": "WEB",
       "url": "https://security.netapp.com/advisory/ntap-20250306-0004"
     },
     {
       "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/Apr/10"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/Apr/11"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/Apr/12"
+    },
+    {
+      "type": "WEB",
       "url": "http://seclists.org/fulldisclosure/2025/Apr/13"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/Apr/4"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/Apr/5"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/Apr/8"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/Apr/9"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rcqh-96hr-hv69",
-  "modified": "2025-11-03T21:31:38Z",
+  "modified": "2025-11-04T00:32:03Z",
   "published": "2024-11-19T03:31:07Z",
   "aliases": [
     "CVE-2024-50268"
@@ -42,6 +42,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/d76923164705821aa1b01b8d9d1741f20c654ab4"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/01/msg00001.html"
     },
     {
       "type": "WEB",

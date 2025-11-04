@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7q4p-93g6-4wf9",
-  "modified": "2025-05-17T00:30:25Z",
+  "modified": "2025-11-04T00:32:21Z",
   "published": "2025-02-25T18:31:24Z",
   "aliases": [
     "CVE-2025-26600"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://security.netapp.com/advisory/ntap-20250516-0005"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/02/msg00036.html"
     },
     {
       "type": "WEB",

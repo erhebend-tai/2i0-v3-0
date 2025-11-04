@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w9j2-h8vr-446x",
-  "modified": "2024-11-12T21:30:50Z",
+  "modified": "2025-11-04T00:32:01Z",
   "published": "2024-11-11T00:30:43Z",
   "aliases": [
     "CVE-2024-46955"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/ArtifexSoftware/ghostpdl/blob/master/doc/News.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/11/msg00023.html"
     },
     {
       "type": "WEB",

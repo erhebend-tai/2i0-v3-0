@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7c65-3hqv-hvmm",
-  "modified": "2024-12-03T15:31:22Z",
+  "modified": "2025-11-04T00:32:04Z",
   "published": "2024-11-19T18:31:06Z",
   "aliases": [
     "CVE-2024-48990"
@@ -25,6 +25,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/11/msg00014.html"
+    },
+    {
+      "type": "WEB",
       "url": "https://www.cve.org/CVERecord?id=CVE-2024-48990"
     },
     {
@@ -34,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://www.qualys.com/2024/11/19/needrestart/needrestart.txt"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2024/Nov/17"
     }
   ],
   "database_specific": {

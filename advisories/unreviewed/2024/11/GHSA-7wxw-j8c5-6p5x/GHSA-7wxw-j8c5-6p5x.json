@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7wxw-j8c5-6p5x",
-  "modified": "2024-11-22T21:32:18Z",
+  "modified": "2025-11-04T00:32:06Z",
   "published": "2024-11-22T21:32:18Z",
   "aliases": [
     "CVE-2024-8805"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-8805"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/01/msg00001.html"
     },
     {
       "type": "WEB",

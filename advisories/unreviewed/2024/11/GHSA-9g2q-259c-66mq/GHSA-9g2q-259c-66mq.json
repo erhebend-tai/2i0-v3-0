@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9g2q-259c-66mq",
-  "modified": "2024-11-27T15:31:45Z",
+  "modified": "2025-11-04T00:32:08Z",
   "published": "2024-11-26T15:31:02Z",
   "aliases": [
     "CVE-2024-11699"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.mozilla.org/buglist.cgi?bug_id=1880582%2C1929911"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/11/msg00029.html"
     },
     {
       "type": "WEB",

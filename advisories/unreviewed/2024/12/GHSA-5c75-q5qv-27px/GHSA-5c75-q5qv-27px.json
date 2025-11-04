@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5c75-q5qv-27px",
-  "modified": "2025-10-31T21:30:52Z",
+  "modified": "2025-11-04T00:32:09Z",
   "published": "2024-12-10T18:31:07Z",
   "aliases": [
     "CVE-2024-55545"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://cyberdanube.com/security-research/st-polten-uas-multiple-vulnerabilities-in-oring-iap"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2024/Dec/3"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qxg5-mcmp-m3m9",
-  "modified": "2025-04-12T00:30:26Z",
+  "modified": "2025-11-04T00:32:03Z",
   "published": "2024-11-13T00:30:48Z",
   "aliases": [
     "CVE-2024-11168"
@@ -46,6 +46,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/python/cpython/commit/ddca2953191c67a12b1f19d6bca41016c6ae7132"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/12/msg00000.html"
     },
     {
       "type": "WEB",

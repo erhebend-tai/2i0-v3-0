@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fg92-6xpx-v2x4",
-  "modified": "2025-11-03T21:31:39Z",
+  "modified": "2025-11-04T00:32:08Z",
   "published": "2024-12-02T09:39:12Z",
   "aliases": [
     "CVE-2024-53104"
@@ -54,6 +54,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/faff5bbb2762c44ec7426037b3000e77a11d6773"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/01/msg00001.html"
     },
     {
       "type": "WEB",

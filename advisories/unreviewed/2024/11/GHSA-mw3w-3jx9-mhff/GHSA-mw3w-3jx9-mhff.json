@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mw3w-3jx9-mhff",
-  "modified": "2024-11-29T15:37:53Z",
+  "modified": "2025-11-04T00:32:08Z",
   "published": "2024-11-29T06:35:29Z",
   "aliases": [
     "CVE-2024-48651"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/proftpd/proftpd/commit/cec01cc0a2523453e5da5a486bc6d977c3768db1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/11/msg00032.html"
     }
   ],
   "database_specific": {

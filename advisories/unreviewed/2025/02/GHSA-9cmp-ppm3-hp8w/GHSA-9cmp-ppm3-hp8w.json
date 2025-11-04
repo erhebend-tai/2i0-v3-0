@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9cmp-ppm3-hp8w",
-  "modified": "2025-02-18T18:33:15Z",
+  "modified": "2025-11-04T00:32:19Z",
   "published": "2025-02-11T12:30:53Z",
   "aliases": [
     "CVE-2025-26409"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://support.wattsense.com/hc/en-150/articles/13366066529437-Release-Notes"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/Feb/9"
     }
   ],
   "database_specific": {

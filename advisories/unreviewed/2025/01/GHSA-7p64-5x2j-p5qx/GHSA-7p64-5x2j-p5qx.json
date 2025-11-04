@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7p64-5x2j-p5qx",
-  "modified": "2025-01-14T15:30:56Z",
+  "modified": "2025-11-04T00:32:15Z",
   "published": "2025-01-14T15:30:56Z",
   "aliases": [
     "CVE-2024-39761"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://talosintelligence.com/vulnerability_reports/TALOS-2024-2018"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.talosintelligence.com/vulnerability_reports/TALOS-2024-2018"
     }
   ],
   "database_specific": {
