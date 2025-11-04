@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gpqq-952q-5327",
-  "modified": "2022-10-04T21:36:19Z",
+  "modified": "2025-11-04T19:36:07Z",
   "published": "2021-10-26T14:55:12Z",
   "aliases": [
     "CVE-2021-41184"
@@ -176,6 +176,10 @@
     {
       "type": "WEB",
       "url": "https://blog.jqueryui.com/2021/10/jquery-ui-1-13-0-released"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2024/Aug/37"
     }
   ],
   "database_specific": {
