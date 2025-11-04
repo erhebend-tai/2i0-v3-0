@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gp5f-42gx-q2fq",
-  "modified": "2025-11-04T03:30:29Z",
+  "modified": "2025-11-04T18:31:53Z",
   "published": "2025-11-04T03:30:29Z",
   "aliases": [
     "CVE-2025-43500"
   ],
   "details": "A privacy issue was addressed with improved handling of user preferences. This issue is fixed in watchOS 26.1, iOS 26.1 and iPadOS 26.1, visionOS 26.1. An app may be able to access sensitive user data.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-359"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-11-04T02:15:53Z"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w8qw-wpmq-q46h",
-  "modified": "2024-08-08T18:31:20Z",
+  "modified": "2025-11-04T18:31:17Z",
   "published": "2024-08-08T18:31:20Z",
   "aliases": [
     "CVE-2024-0107"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://nvidia.custhelp.com/app/answers/detail/a_id/5557"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.talosintelligence.com/vulnerability_reports/TALOS-2024-1956"
     }
   ],
   "database_specific": {

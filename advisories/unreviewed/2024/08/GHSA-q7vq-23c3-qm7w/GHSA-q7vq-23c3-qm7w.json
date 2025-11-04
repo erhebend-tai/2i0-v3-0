@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q7vq-23c3-qm7w",
-  "modified": "2024-08-14T18:32:43Z",
+  "modified": "2025-11-04T18:31:17Z",
   "published": "2024-08-14T18:32:43Z",
   "aliases": [
     "CVE-2024-35152"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/292639"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20240912-0003"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-784x-7qm2-gp97",
-  "modified": "2024-08-30T15:31:30Z",
+  "modified": "2025-11-04T18:31:18Z",
   "published": "2024-08-30T03:30:44Z",
   "aliases": [
     "CVE-2024-45491"
@@ -26,6 +26,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/libexpat/libexpat/pull/891"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/09/msg00036.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20241018-0003"
     }
   ],
   "database_specific": {

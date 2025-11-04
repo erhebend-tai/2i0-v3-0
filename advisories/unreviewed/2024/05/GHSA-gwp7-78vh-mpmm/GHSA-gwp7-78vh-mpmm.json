@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gwp7-78vh-mpmm",
-  "modified": "2024-07-03T18:38:57Z",
+  "modified": "2025-11-04T18:30:55Z",
   "published": "2024-05-05T21:30:31Z",
   "aliases": [
     "CVE-2024-34507"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/FU2FGUXXK6TMV6R52VRECLC6XCSQQISY"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/FU2FGUXXK6TMV6R52VRECLC6XCSQQISY"
     },
     {
       "type": "WEB",

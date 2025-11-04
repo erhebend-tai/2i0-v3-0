@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9pmj-3qpr-77vh",
-  "modified": "2024-07-17T00:32:54Z",
+  "modified": "2025-11-04T18:31:07Z",
   "published": "2024-07-17T00:32:54Z",
   "aliases": [
     "CVE-2024-21125"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-21125"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20240801-0001"
     },
     {
       "type": "WEB",

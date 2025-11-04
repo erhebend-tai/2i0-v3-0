@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-839c-8x38-qf59",
-  "modified": "2022-03-17T00:04:01Z",
+  "modified": "2025-11-04T18:30:38Z",
   "published": "2022-03-04T00:00:22Z",
   "aliases": [
     "CVE-2021-3658"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://gitlab.gnome.org/GNOME/gnome-bluetooth/-/issues/89"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/09/msg00022.html"
     },
     {
       "type": "WEB",

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c7x8-xx5v-964j",
-  "modified": "2025-11-03T21:33:43Z",
+  "modified": "2025-11-04T18:31:32Z",
   "published": "2025-05-01T15:31:42Z",
   "aliases": [
     "CVE-2025-37740"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\njfs: add sanity check for agwidth in dbMount\n\nThe width in dmapctl of the AG is zero, it trigger a divide error when\ncalculating the control page level in dbAllocAG.\n\nTo avoid this issue, add a check for agwidth in dbAllocAG.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -60,8 +65,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-369"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-01T13:15:52Z"

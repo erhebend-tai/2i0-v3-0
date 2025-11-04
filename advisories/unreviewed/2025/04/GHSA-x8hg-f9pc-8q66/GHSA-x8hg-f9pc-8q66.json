@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x8hg-f9pc-8q66",
-  "modified": "2025-07-06T12:30:25Z",
+  "modified": "2025-11-04T18:31:31Z",
   "published": "2025-04-16T15:34:44Z",
   "aliases": [
     "CVE-2025-22101"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: libwx: fix Tx L4 checksum\n\nThe hardware only supports L4 checksum offload for TCP/UDP/SCTP protocol.\nThere was a bug to set Tx checksum flag for the other protocol that results\nin Tx ring hang. Fix to compute software checksum for these packets.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -29,7 +34,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-04-16T15:16:04Z"

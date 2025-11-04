@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wfv7-gj87-q7qv",
-  "modified": "2024-04-04T06:58:05Z",
+  "modified": "2025-11-04T18:30:41Z",
   "published": "2023-08-15T18:31:32Z",
   "aliases": [
     "CVE-2023-4345"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://www.broadcom.com/support/resources/product-security-center"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00926.html"
     }
   ],
   "database_specific": {

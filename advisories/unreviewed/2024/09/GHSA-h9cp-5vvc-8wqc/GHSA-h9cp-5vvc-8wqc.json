@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h9cp-5vvc-8wqc",
-  "modified": "2025-11-04T00:31:26Z",
+  "modified": "2025-11-04T18:31:21Z",
   "published": "2024-09-17T00:31:04Z",
   "aliases": [
     "CVE-2024-40866"
@@ -30,6 +30,14 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/en-us/121241"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2024/Sep/33"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2024/Sep/37"
     }
   ],
   "database_specific": {

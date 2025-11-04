@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fvf4-jv3j-73mq",
-  "modified": "2024-04-04T04:04:47Z",
+  "modified": "2025-11-04T18:30:40Z",
   "published": "2023-05-12T21:30:15Z",
   "aliases": [
     "CVE-2023-2088"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://bugs.launchpad.net/bugs/2004555"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/09/msg00015.html"
     },
     {
       "type": "WEB",

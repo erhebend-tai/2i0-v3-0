@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-79c6-5cw9-rpwc",
-  "modified": "2024-09-17T21:30:31Z",
+  "modified": "2025-11-04T18:31:19Z",
   "published": "2024-09-17T00:31:04Z",
   "aliases": [
     "CVE-2024-40825"
@@ -26,6 +26,14 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/en-us/121249"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2024/Sep/33"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2024/Sep/36"
     }
   ],
   "database_specific": {

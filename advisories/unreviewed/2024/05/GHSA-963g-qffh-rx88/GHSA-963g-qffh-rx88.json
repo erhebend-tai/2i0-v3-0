@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-963g-qffh-rx88",
-  "modified": "2024-05-01T18:30:41Z",
+  "modified": "2025-11-04T18:30:55Z",
   "published": "2024-05-01T18:30:41Z",
   "aliases": [
     "CVE-2023-47166"
@@ -22,11 +22,16 @@
     {
       "type": "WEB",
       "url": "https://talosintelligence.com/vulnerability_reports/TALOS-2023-1852"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.talosintelligence.com/vulnerability_reports/TALOS-2023-1852"
     }
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-285"
+      "CWE-285",
+      "CWE-306"
     ],
     "severity": "HIGH",
     "github_reviewed": false,

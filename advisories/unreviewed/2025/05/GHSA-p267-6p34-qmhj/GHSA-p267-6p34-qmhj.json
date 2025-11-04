@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p267-6p34-qmhj",
-  "modified": "2025-11-03T21:33:44Z",
+  "modified": "2025-11-04T18:31:33Z",
   "published": "2025-05-01T15:31:43Z",
   "aliases": [
     "CVE-2025-37757"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ntipc: fix memory leak in tipc_link_xmit\n\nIn case the backlog transmit queue for system-importance messages is overloaded,\ntipc_link_xmit() returns -ENOBUFS but the skb list is not purged. This leads to\nmemory leak and failure when a skb is allocated.\n\nThis commit fixes this issue by purging the skb list before tipc_link_xmit()\nreturns.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -60,8 +65,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-01T13:15:54Z"

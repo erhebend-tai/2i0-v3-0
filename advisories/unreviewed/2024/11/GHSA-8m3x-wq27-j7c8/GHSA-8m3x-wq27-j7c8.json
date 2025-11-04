@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8m3x-wq27-j7c8",
-  "modified": "2025-02-11T00:31:42Z",
+  "modified": "2025-11-04T18:31:30Z",
   "published": "2024-11-07T21:31:43Z",
   "aliases": [
     "CVE-2019-20462"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.alecto.nl"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2024/Jul/14"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9mhc-h3vf-83fw",
-  "modified": "2024-06-26T12:32:03Z",
+  "modified": "2025-11-04T18:30:34Z",
   "published": "2022-05-24T17:03:59Z",
   "aliases": [
     "CVE-2019-1387"
@@ -42,6 +42,10 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2024/06/msg00018.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/09/msg00009.html"
     },
     {
       "type": "WEB",

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pf5r-v475-xg7p",
-  "modified": "2025-04-16T15:34:44Z",
+  "modified": "2025-11-04T18:31:31Z",
   "published": "2025-04-16T15:34:44Z",
   "aliases": [
     "CVE-2025-22096"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/msm/gem: Fix error code msm_parse_deps()\n\nThe SUBMIT_ERROR() macro turns the error code negative.  This extra '-'\noperation turns it back to positive EINVAL again.  The error code is\npassed to ERR_PTR() and since positive values are not an IS_ERR() it\neventually will lead to an oops.  Delete the '-'.\n\nPatchwork: https://patchwork.freedesktop.org/patch/637625/",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -25,7 +30,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-04-16T15:16:03Z"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g5qj-pfmg-p3jp",
-  "modified": "2025-01-30T00:31:03Z",
+  "modified": "2025-11-04T18:31:03Z",
   "published": "2024-07-02T21:32:15Z",
   "aliases": [
     "CVE-2024-39894"
@@ -46,6 +46,10 @@
     {
       "type": "WEB",
       "url": "https://www.openwall.com/lists/oss-security/2024/07/02/1"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2024/Sep/33"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jjhp-92wf-mgrg",
-  "modified": "2024-08-05T15:30:52Z",
+  "modified": "2025-11-04T18:31:16Z",
   "published": "2024-08-05T15:30:52Z",
   "aliases": [
     "CVE-2024-7396"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://cyberdanube.com/de/en-multiple-vulnerabilities-in-korenix-jetport"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2024/Aug/2"
     }
   ],
   "database_specific": {

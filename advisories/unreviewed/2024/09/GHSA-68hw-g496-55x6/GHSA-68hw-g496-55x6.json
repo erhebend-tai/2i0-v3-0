@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-68hw-g496-55x6",
-  "modified": "2024-09-18T09:30:35Z",
+  "modified": "2025-11-04T18:31:20Z",
   "published": "2024-09-17T00:31:04Z",
   "aliases": [
     "CVE-2024-40862"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/en-us/121239"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2024/Sep/38"
     }
   ],
   "database_specific": {

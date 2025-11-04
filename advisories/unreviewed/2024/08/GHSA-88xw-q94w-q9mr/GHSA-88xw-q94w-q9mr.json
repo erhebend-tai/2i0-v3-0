@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-88xw-q94w-q9mr",
-  "modified": "2024-08-21T15:30:50Z",
+  "modified": "2025-11-04T18:31:18Z",
   "published": "2024-08-19T03:30:48Z",
   "aliases": [
     "CVE-2024-44070"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/FRRouting/frr/pull/16497"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/09/msg00007.html"
     }
   ],
   "database_specific": {

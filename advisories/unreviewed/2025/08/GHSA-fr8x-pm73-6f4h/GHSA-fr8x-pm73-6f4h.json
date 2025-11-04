@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fr8x-pm73-6f4h",
-  "modified": "2025-09-09T21:30:25Z",
+  "modified": "2025-11-04T18:31:34Z",
   "published": "2025-08-28T18:30:38Z",
   "aliases": [
     "CVE-2024-13986"
@@ -33,7 +33,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://www.nagios.com/changelog/nagios-xi"
+    },
+    {
+      "type": "WEB",
       "url": "https://www.nagios.com/products/security"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.nagios.com/products/security/#nagios-xi"
     }
   ],
   "database_specific": {

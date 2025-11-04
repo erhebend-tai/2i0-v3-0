@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9jvg-8527-r4jp",
-  "modified": "2025-11-04T03:30:27Z",
+  "modified": "2025-11-04T18:31:52Z",
   "published": "2025-11-04T03:30:27Z",
   "aliases": [
     "CVE-2025-43396"
   ],
   "details": "A logic issue was addressed with improved checks. This issue is fixed in macOS Sonoma 14.8.2, macOS Sequoia 15.7.2. A sandboxed app may be able to access sensitive user data.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-284"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-11-04T02:15:46Z"

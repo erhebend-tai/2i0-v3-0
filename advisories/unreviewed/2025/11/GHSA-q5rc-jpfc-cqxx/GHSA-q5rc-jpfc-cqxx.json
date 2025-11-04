@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q5rc-jpfc-cqxx",
-  "modified": "2025-11-04T03:30:27Z",
+  "modified": "2025-11-04T18:31:52Z",
   "published": "2025-11-04T03:30:26Z",
   "aliases": [
     "CVE-2025-43323"
   ],
   "details": "This issue was addressed with additional entitlement checks. This issue is fixed in visionOS 26, tvOS 26, iOS 26 and iPadOS 26, watchOS 26. An app may be able to fingerprint the user.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-200"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-11-04T02:15:39Z"

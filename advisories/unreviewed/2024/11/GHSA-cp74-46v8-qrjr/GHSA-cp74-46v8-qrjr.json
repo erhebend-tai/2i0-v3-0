@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cp74-46v8-qrjr",
-  "modified": "2024-11-08T18:30:49Z",
+  "modified": "2025-11-04T18:31:30Z",
   "published": "2024-11-07T18:31:24Z",
   "aliases": [
     "CVE-2019-20457"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://support.brother.com/g/s/security/en/index.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2024/Jul/14"
     }
   ],
   "database_specific": {

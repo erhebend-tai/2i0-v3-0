@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m89m-g26p-rqjp",
-  "modified": "2024-08-01T15:32:14Z",
+  "modified": "2025-11-04T18:31:13Z",
   "published": "2024-07-30T00:34:27Z",
   "aliases": [
     "CVE-2024-40828"
@@ -30,6 +30,18 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/en-us/HT214120"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/kb/HT214118"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/kb/HT214119"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/kb/HT214120"
     },
     {
       "type": "WEB",

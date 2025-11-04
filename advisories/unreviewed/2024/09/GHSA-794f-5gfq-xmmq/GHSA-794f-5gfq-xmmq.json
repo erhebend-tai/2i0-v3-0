@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-794f-5gfq-xmmq",
-  "modified": "2024-09-06T18:31:28Z",
+  "modified": "2025-11-04T18:31:18Z",
   "published": "2024-09-03T15:30:46Z",
   "aliases": [
     "CVE-2024-8383"
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.mozilla.org/show_bug.cgi?id=1908496"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/09/msg00012.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/09/msg00025.html"
     },
     {
       "type": "WEB",

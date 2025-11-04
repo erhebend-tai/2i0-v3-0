@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6vgq-8qjq-h578",
-  "modified": "2025-11-04T00:32:03Z",
+  "modified": "2025-11-04T18:31:30Z",
   "published": "2024-11-13T12:32:12Z",
   "aliases": [
     "CVE-2024-4741"
@@ -46,6 +46,10 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2024/11/msg00000.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20240621-0004"
     },
     {
       "type": "WEB",

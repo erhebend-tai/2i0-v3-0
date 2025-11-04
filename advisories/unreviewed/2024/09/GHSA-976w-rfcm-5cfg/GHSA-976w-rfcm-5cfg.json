@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-976w-rfcm-5cfg",
-  "modified": "2024-09-17T21:30:31Z",
+  "modified": "2025-11-04T18:31:19Z",
   "published": "2024-09-17T00:31:03Z",
   "aliases": [
     "CVE-2024-27876"
@@ -42,6 +42,30 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/en-us/121250"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2024/Sep/32"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2024/Sep/33"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2024/Sep/36"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2024/Sep/39"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2024/Sep/40"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2024/Sep/41"
     }
   ],
   "database_specific": {

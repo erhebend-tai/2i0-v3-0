@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f3q5-vrp5-crqj",
-  "modified": "2025-03-13T18:31:54Z",
+  "modified": "2025-11-04T18:30:46Z",
   "published": "2024-04-07T21:30:28Z",
   "aliases": [
     "CVE-2024-31949"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2024/04/msg00019.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/09/msg00007.html"
     }
   ],
   "database_specific": {

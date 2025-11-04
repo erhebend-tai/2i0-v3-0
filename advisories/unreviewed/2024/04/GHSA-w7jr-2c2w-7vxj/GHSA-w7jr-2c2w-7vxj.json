@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w7jr-2c2w-7vxj",
-  "modified": "2024-04-17T00:30:55Z",
+  "modified": "2025-11-04T18:30:47Z",
   "published": "2024-04-17T00:30:55Z",
   "aliases": [
     "CVE-2024-21057"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-21057"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20240426-0011"
     },
     {
       "type": "WEB",

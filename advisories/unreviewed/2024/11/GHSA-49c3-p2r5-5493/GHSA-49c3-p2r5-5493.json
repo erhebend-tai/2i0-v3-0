@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-49c3-p2r5-5493",
-  "modified": "2024-11-08T18:30:49Z",
+  "modified": "2025-11-04T18:31:30Z",
   "published": "2024-11-07T21:31:43Z",
   "aliases": [
     "CVE-2019-20469"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.one2track.nl"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2024/Jul/14"
     }
   ],
   "database_specific": {

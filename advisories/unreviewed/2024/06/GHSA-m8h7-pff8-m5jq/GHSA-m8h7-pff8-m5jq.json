@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m8h7-pff8-m5jq",
-  "modified": "2024-07-03T18:46:12Z",
+  "modified": "2025-11-04T18:31:01Z",
   "published": "2024-06-20T15:31:18Z",
   "aliases": [
     "CVE-2023-49112"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.kiuwan.com/docs/display/K5/%5B2024-05-30%5D+Change+Log"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2024/Jun/3"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9q4j-4jmg-xr2j",
-  "modified": "2024-09-03T21:31:11Z",
+  "modified": "2025-11-04T18:31:15Z",
   "published": "2024-08-02T18:31:10Z",
   "aliases": [
     "CVE-2024-33893"
@@ -34,6 +34,14 @@
     {
       "type": "WEB",
       "url": "https://www.hms-networks.com/cyber-security"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2024/Aug/19"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2024/Aug/22"
     }
   ],
   "database_specific": {

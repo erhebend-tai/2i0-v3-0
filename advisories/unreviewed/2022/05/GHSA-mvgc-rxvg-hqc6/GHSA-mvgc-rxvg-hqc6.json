@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mvgc-rxvg-hqc6",
-  "modified": "2022-05-20T00:00:42Z",
+  "modified": "2025-11-04T18:30:38Z",
   "published": "2022-05-10T00:00:17Z",
   "aliases": [
     "CVE-2022-28739"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2023/06/msg00012.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/09/msg00000.html"
     },
     {
       "type": "WEB",

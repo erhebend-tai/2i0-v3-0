@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3jrg-7968-639r",
-  "modified": "2024-07-08T18:31:18Z",
+  "modified": "2025-11-04T18:31:07Z",
   "published": "2024-07-08T18:31:18Z",
   "aliases": [
     "CVE-2023-50330"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://talosintelligence.com/vulnerability_reports/TALOS-2023-1903"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.talosintelligence.com/vulnerability_reports/TALOS-2023-1903"
     }
   ],
   "database_specific": {

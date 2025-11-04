@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6w5w-27h7-6r2x",
-  "modified": "2024-04-28T09:30:29Z",
+  "modified": "2025-11-04T18:30:38Z",
   "published": "2022-03-04T00:00:17Z",
   "aliases": [
     "CVE-2022-26128"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2024/04/msg00019.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/09/msg00007.html"
     }
   ],
   "database_specific": {

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mqr8-57q4-g3p3",
-  "modified": "2025-11-03T18:31:52Z",
+  "modified": "2025-11-04T18:31:47Z",
   "published": "2025-11-03T18:31:52Z",
   "aliases": [
     "CVE-2025-60785"
   ],
   "details": "A remote code execution (RCE) vulnerability in the Postgres Drivers component of iceScrum v7.54 Pro On-prem allows attackers to execute arbitrary code via a crafted HTML page.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-94"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-11-03T16:15:35Z"

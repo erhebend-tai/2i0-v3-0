@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rhxj-qx46-rqjg",
-  "modified": "2024-03-14T18:30:30Z",
+  "modified": "2025-11-04T18:30:45Z",
   "published": "2024-03-14T18:30:30Z",
   "aliases": [
     "CVE-2023-32633"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-32633"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20240912-0004"
     },
     {
       "type": "WEB",

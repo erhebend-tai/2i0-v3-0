@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7q4j-f74f-6h5j",
-  "modified": "2025-03-20T15:30:26Z",
+  "modified": "2025-11-04T18:31:04Z",
   "published": "2024-07-05T03:30:41Z",
   "aliases": [
     "CVE-2023-52340"
@@ -26,6 +26,14 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit?id=af6d10345ca76670c1b7c37799f0d5576ccef277"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/06/msg00016.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/06/msg00020.html"
     },
     {
       "type": "WEB",

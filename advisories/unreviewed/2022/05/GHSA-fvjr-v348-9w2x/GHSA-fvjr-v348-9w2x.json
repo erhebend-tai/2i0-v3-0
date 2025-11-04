@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fvjr-v348-9w2x",
-  "modified": "2022-05-17T03:25:30Z",
+  "modified": "2025-11-04T18:30:33Z",
   "published": "2022-05-17T03:25:30Z",
   "aliases": [
     "CVE-2015-7928"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "http://seclists.org/fulldisclosure/2015/Dec/118"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2024/Aug/20"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6rfx-fjhv-r26f",
-  "modified": "2025-11-03T21:34:42Z",
+  "modified": "2025-11-04T18:31:47Z",
   "published": "2025-11-03T15:30:29Z",
   "aliases": [
     "CVE-2024-51317"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/Fysac/netsurf-disclosure/tree/main/CVE-2024-51317"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.netsurf-browser.org"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-52jr-7fqr-h29h",
-  "modified": "2024-09-30T15:30:44Z",
+  "modified": "2025-11-04T18:31:25Z",
   "published": "2024-09-25T03:30:36Z",
   "aliases": [
     "CVE-2024-8878"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://cyberdanube.com/en/en-multiple-vulnerabilities-in-riello-netman-204/index.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2024/Sep/50"
     }
   ],
   "database_specific": {

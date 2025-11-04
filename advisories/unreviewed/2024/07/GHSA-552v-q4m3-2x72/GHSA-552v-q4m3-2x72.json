@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-552v-q4m3-2x72",
-  "modified": "2024-08-15T18:31:44Z",
+  "modified": "2025-11-04T18:31:11Z",
   "published": "2024-07-30T00:34:27Z",
   "aliases": [
     "CVE-2024-40786"
@@ -30,6 +30,18 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/en-us/HT214120"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/kb/HT214116"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/kb/HT214117"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/kb/HT214120"
     },
     {
       "type": "WEB",

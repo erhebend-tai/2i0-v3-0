@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fmwx-pf24-4xr8",
-  "modified": "2025-01-24T21:31:28Z",
+  "modified": "2025-11-04T18:31:30Z",
   "published": "2025-01-24T21:31:28Z",
   "aliases": [
     "CVE-2025-0708"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r8x8-rv8c-j266",
-  "modified": "2024-08-08T18:31:19Z",
+  "modified": "2025-11-04T18:30:57Z",
   "published": "2024-05-18T21:30:35Z",
   "aliases": [
     "CVE-2024-36048"
@@ -38,6 +38,14 @@
     {
       "type": "WEB",
       "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ZPHAI3DKDCIU6XLNS6PV6GFS2PHH3GZM"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/RGB6KUPJFQWUBKXVDPJUMAD6KNJJEWPW"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZPHAI3DKDCIU6XLNS6PV6GFS2PHH3GZM"
     }
   ],
   "database_specific": {

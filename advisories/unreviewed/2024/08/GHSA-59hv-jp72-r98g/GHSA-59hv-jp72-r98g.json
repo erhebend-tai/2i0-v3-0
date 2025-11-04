@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-59hv-jp72-r98g",
-  "modified": "2024-08-19T09:30:21Z",
+  "modified": "2025-11-04T18:31:18Z",
   "published": "2024-08-19T09:30:21Z",
   "aliases": [
     "CVE-2024-25582"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://software.open-xchange.com/products/appsuite/doc/Release_Notes_for_Patch_Release_6277_7.10.6_2024-05-06.pdf"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2024/Aug/37"
     }
   ],
   "database_specific": {

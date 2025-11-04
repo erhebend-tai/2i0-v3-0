@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xgf8-98pj-cm5c",
-  "modified": "2022-10-24T19:00:24Z",
+  "modified": "2025-11-04T18:30:35Z",
   "published": "2022-05-24T19:19:54Z",
   "aliases": [
     "CVE-2021-43400"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2022/10/msg00026.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/09/msg00022.html"
     }
   ],
   "database_specific": {

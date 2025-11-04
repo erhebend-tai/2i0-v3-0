@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fx77-mj6g-j23r",
-  "modified": "2025-11-03T21:33:44Z",
+  "modified": "2025-11-04T18:31:33Z",
   "published": "2025-05-01T15:31:43Z",
   "aliases": [
     "CVE-2025-37758"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nata: pata_pxa: Fix potential NULL pointer dereference in pxa_ata_probe()\n\ndevm_ioremap() returns NULL on error. Currently, pxa_ata_probe() does\nnot check for this case, which can result in a NULL pointer dereference.\n\nAdd NULL check after devm_ioremap() to prevent this issue.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -56,8 +61,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-01T13:15:54Z"

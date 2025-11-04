@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7c8w-c4x7-8gxf",
-  "modified": "2025-04-16T15:34:44Z",
+  "modified": "2025-11-04T18:31:31Z",
   "published": "2025-04-16T15:34:44Z",
   "aliases": [
     "CVE-2025-22100"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/panthor: Fix race condition when gathering fdinfo group samples\n\nCommit e16635d88fa0 (\"drm/panthor: add DRM fdinfo support\") failed to\nprotect access to groups with an xarray lock, which could lead to\nuse-after-free errors.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-362"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-04-16T15:16:04Z"

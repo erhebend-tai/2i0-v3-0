@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h3r7-x4mp-2c39",
-  "modified": "2022-09-22T00:00:23Z",
+  "modified": "2025-11-04T18:30:39Z",
   "published": "2022-09-20T00:00:29Z",
   "aliases": [
     "CVE-2022-40468"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/tinyproxy/tinyproxy/blob/84f203fb1c4733608c7283bbe794005a469c4b00/src/reqs.c#L346"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/09/msg00035.html"
     },
     {
       "type": "WEB",

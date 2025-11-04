@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8jp5-89m5-6xp3",
-  "modified": "2024-04-28T09:30:30Z",
+  "modified": "2025-11-04T18:30:44Z",
   "published": "2023-11-06T06:30:26Z",
   "aliases": [
     "CVE-2023-38406"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2024/04/msg00019.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/09/msg00007.html"
     }
   ],
   "database_specific": {

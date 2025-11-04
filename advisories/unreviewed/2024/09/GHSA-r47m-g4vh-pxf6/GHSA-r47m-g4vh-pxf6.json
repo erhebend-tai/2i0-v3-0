@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r47m-g4vh-pxf6",
-  "modified": "2024-09-12T15:33:00Z",
+  "modified": "2025-11-04T18:31:19Z",
   "published": "2024-09-10T21:31:39Z",
   "aliases": [
     "CVE-2024-8504"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.vicidial.org/vicidial.php"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2024/Sep/26"
     }
   ],
   "database_specific": {

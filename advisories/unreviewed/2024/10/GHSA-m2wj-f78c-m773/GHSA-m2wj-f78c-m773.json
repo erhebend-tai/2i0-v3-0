@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m2wj-f78c-m773",
-  "modified": "2024-10-23T03:31:11Z",
+  "modified": "2025-11-04T18:31:30Z",
   "published": "2024-10-23T03:31:11Z",
   "aliases": [
     "CVE-2024-31880"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-31880"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20240912-0005"
     },
     {
       "type": "WEB",

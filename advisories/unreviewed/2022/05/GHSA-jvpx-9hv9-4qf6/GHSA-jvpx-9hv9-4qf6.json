@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jvpx-9hv9-4qf6",
-  "modified": "2022-05-17T02:56:50Z",
+  "modified": "2025-11-04T18:30:33Z",
   "published": "2022-05-17T02:56:50Z",
   "aliases": [
     "CVE-2016-7406"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://security.gentoo.org/glsa/201702-23"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2024/Aug/35"
     },
     {
       "type": "WEB",

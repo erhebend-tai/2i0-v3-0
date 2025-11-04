@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6c2x-4jg4-673c",
-  "modified": "2025-11-03T18:31:52Z",
+  "modified": "2025-11-04T18:31:48Z",
   "published": "2025-11-03T18:31:52Z",
   "aliases": [
     "CVE-2025-63453"
   ],
   "details": "Car-Booking-System-PHP v.1.0 is vulnerable to SQL Injection in /carlux/contact.php.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-89"
+    ],
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-11-03T16:15:37Z"
