@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hj5v-574p-mj7c",
-  "modified": "2024-10-21T21:03:12Z",
+  "modified": "2025-11-04T16:34:14Z",
   "published": "2021-04-20T16:39:57Z",
   "aliases": [
     "CVE-2020-29651"
@@ -67,6 +67,18 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/pytest-dev/py"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/11/msg00024.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/AYWNYEV3FGDHPIHX4DDUDMFZ6NLCQRC4"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/CHDTINIBJZ67T3W74QTBIY5LPKAXEOGR"
     },
     {
       "type": "WEB",

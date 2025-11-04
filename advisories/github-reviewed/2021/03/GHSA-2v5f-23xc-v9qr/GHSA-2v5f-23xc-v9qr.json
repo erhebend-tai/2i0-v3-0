@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2v5f-23xc-v9qr",
-  "modified": "2023-09-13T22:25:15Z",
+  "modified": "2025-11-04T16:33:40Z",
   "published": "2021-03-11T22:50:39Z",
   "aliases": [
     "CVE-2021-3377"
@@ -47,6 +47,10 @@
     {
       "type": "WEB",
       "url": "https://doyensec.com/resources/Doyensec_Advisory_ansi_up4_XSS.pdf"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20241108-0002"
     }
   ],
   "database_specific": {

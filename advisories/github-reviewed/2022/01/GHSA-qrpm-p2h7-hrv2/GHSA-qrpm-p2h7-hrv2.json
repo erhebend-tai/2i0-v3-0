@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qrpm-p2h7-hrv2",
-  "modified": "2022-03-18T13:15:55Z",
+  "modified": "2025-11-04T16:35:00Z",
   "published": "2022-01-21T23:57:06Z",
   "aliases": [
     "CVE-2021-23566"
@@ -58,12 +58,25 @@
     },
     {
       "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/12/msg00025.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/01/msg00006.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARSNPM-2332550"
+    },
+    {
+      "type": "WEB",
       "url": "https://snyk.io/vuln/SNYK-JS-NANOID-2332193"
     }
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-200"
+      "CWE-200",
+      "CWE-704"
     ],
     "severity": "MODERATE",
     "github_reviewed": true,
