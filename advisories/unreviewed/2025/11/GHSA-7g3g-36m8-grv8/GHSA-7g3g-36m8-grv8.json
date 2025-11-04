@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7g3g-36m8-grv8",
-  "modified": "2025-11-04T03:30:29Z",
+  "modified": "2025-11-04T15:31:33Z",
   "published": "2025-11-04T03:30:29Z",
   "aliases": [
     "CVE-2025-43450"
   ],
   "details": "A logic issue was addressed with improved checks. This issue is fixed in iOS 26.1 and iPadOS 26.1. An app may be able to learn information about the current camera view before being granted camera access.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-284"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-11-04T02:15:50Z"

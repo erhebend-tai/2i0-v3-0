@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8gf8-fqww-vr2c",
-  "modified": "2025-11-04T03:30:28Z",
+  "modified": "2025-11-04T15:31:32Z",
   "published": "2025-11-04T03:30:28Z",
   "aliases": [
     "CVE-2025-43426"
   ],
   "details": "A logging issue was addressed with improved data redaction. This issue is fixed in iOS 26.1 and iPadOS 26.1. An app may be able to access sensitive user data.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -21,7 +26,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-11-04T02:15:48Z"

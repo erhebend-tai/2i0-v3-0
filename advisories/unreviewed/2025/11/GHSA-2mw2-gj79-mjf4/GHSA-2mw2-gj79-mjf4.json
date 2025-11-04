@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2mw2-gj79-mjf4",
-  "modified": "2025-11-04T03:30:29Z",
+  "modified": "2025-11-04T15:31:34Z",
   "published": "2025-11-04T03:30:29Z",
   "aliases": [
     "CVE-2025-43478"
   ],
   "details": "A use after free issue was addressed with improved memory management. This issue is fixed in macOS Sonoma 14.8.2, macOS Sequoia 15.7.2. An app may be able to cause unexpected system termination.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-416"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-11-04T02:15:52Z"

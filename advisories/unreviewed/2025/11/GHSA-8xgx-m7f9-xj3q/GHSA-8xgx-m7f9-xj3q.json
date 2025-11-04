@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8xgx-m7f9-xj3q",
-  "modified": "2025-11-04T03:30:27Z",
+  "modified": "2025-11-04T15:31:31Z",
   "published": "2025-11-04T03:30:27Z",
   "aliases": [
     "CVE-2025-43379"
   ],
   "details": "This issue was addressed with improved validation of symlinks. This issue is fixed in visionOS 26.1, macOS Sonoma 14.8.2, macOS Sequoia 15.7.2, watchOS 26.1, iOS 26.1 and iPadOS 26.1, tvOS 26.1. An app may be able to access protected user data.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -40,8 +45,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-59"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-11-04T02:15:45Z"
