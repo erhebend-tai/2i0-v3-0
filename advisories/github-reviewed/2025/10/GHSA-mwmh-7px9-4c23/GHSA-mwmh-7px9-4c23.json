@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mwmh-7px9-4c23",
-  "modified": "2025-10-29T22:20:50Z",
+  "modified": "2025-11-04T17:05:59Z",
   "published": "2025-10-29T22:20:50Z",
   "aliases": [
     "CVE-2025-64101"
@@ -25,10 +25,29 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "2.0.0"
             },
             {
               "fixed": "2.71.18"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Go",
+        "name": "github.com/zitadel/zitadel/v2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.80.0-v2.20.0.20251029090537-72a5c33e6ac3"
             }
           ]
         }
