@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xc8x-vp79-p3wm",
-  "modified": "2024-11-18T23:16:54Z",
+  "modified": "2025-11-04T16:46:32Z",
   "published": "2023-10-25T21:15:13Z",
   "aliases": [
     "CVE-2023-46137"
@@ -55,6 +55,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/twisted/twisted"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/11/msg00028.html"
     }
   ],
   "database_specific": {

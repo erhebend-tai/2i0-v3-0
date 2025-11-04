@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g644-9gfx-q4q4",
-  "modified": "2023-07-24T20:03:41Z",
+  "modified": "2025-11-04T16:44:48Z",
   "published": "2023-07-13T17:01:58Z",
   "aliases": [
     "CVE-2023-37903"
@@ -51,6 +51,10 @@
     {
       "type": "WEB",
       "url": "https://security.netapp.com/advisory/ntap-20230831-0007"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20241108-0002"
     }
   ],
   "database_specific": {

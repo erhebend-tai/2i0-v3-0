@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xfrj-6vvc-3xm2",
-  "modified": "2025-02-13T19:18:15Z",
+  "modified": "2025-11-04T16:46:02Z",
   "published": "2023-10-20T12:31:04Z",
   "aliases": [
     "CVE-2023-44483"
@@ -89,6 +89,10 @@
     {
       "type": "WEB",
       "url": "https://santuario.apache.org/secadv.data/CVE-2023-44483.txt.asc?version=1&modificationDate=1697782758000&api=v2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20241108-0002"
     },
     {
       "type": "WEB",

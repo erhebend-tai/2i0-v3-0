@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cwvm-v4w8-q58c",
-  "modified": "2024-11-19T19:31:26Z",
+  "modified": "2025-11-04T16:45:32Z",
   "published": "2023-08-30T20:09:36Z",
   "aliases": [
     "CVE-2023-41040"
@@ -79,6 +79,10 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2023/09/msg00036.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/10/msg00030.html"
     }
   ],
   "database_specific": {
