@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vg46-2rrj-3647",
-  "modified": "2024-11-25T19:26:05Z",
+  "modified": "2025-11-04T16:39:47Z",
   "published": "2022-10-26T22:08:39Z",
   "aliases": [
     "CVE-2022-39348"
@@ -63,6 +63,10 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2022/11/msg00038.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/11/msg00028.html"
     },
     {
       "type": "WEB",
