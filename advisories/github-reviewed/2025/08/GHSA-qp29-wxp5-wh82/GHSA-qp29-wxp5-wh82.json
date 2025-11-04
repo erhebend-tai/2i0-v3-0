@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qp29-wxp5-wh82",
-  "modified": "2025-11-03T21:34:21Z",
+  "modified": "2025-11-04T16:20:46Z",
   "published": "2025-08-25T16:23:09Z",
   "aliases": [
     "CVE-2025-55154"
@@ -377,7 +377,7 @@
     },
     {
       "type": "WEB",
-      "url": "https://goo.gle/bigsleep"
+      "url": "https://issuetracker.google.com/savedsearches/7155917"
     },
     {
       "type": "WEB",
