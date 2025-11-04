@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hfrc-jq43-4m6c",
-  "modified": "2024-04-04T06:06:44Z",
+  "modified": "2025-11-04T00:30:38Z",
   "published": "2023-07-13T09:30:28Z",
   "aliases": [
     "CVE-2023-29450"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2023/08/msg00027.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/10/msg00000.html"
     },
     {
       "type": "WEB",

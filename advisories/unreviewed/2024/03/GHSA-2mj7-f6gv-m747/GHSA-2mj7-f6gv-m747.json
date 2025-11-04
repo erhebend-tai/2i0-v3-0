@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2mj7-f6gv-m747",
-  "modified": "2024-03-31T12:30:36Z",
+  "modified": "2025-11-04T00:30:48Z",
   "published": "2024-03-31T12:30:36Z",
   "aliases": [
     "CVE-2024-25027"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.ibm.com/support/pages/node/7145400"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2024/Nov/0"
     }
   ],
   "database_specific": {

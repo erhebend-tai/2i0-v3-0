@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-36wr-w868-hx2g",
-  "modified": "2025-09-25T21:30:19Z",
+  "modified": "2025-11-04T00:30:59Z",
   "published": "2024-07-29T15:30:40Z",
   "aliases": [
     "CVE-2024-41030"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/e2e33caa5dc2eae7bddf88b22ce11ec3d760e5cd"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/01/msg00001.html"
     }
   ],
   "database_specific": {

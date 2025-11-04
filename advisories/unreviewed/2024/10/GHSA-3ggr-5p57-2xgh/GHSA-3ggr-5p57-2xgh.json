@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3ggr-5p57-2xgh",
-  "modified": "2025-03-17T18:31:44Z",
+  "modified": "2025-11-04T00:31:34Z",
   "published": "2024-10-15T09:30:31Z",
   "aliases": [
     "CVE-2024-47943"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.rittal.com/de-de/products/deep/3124300"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2024/Oct/4"
     }
   ],
   "database_specific": {

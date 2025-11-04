@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pmc4-9968-jrp7",
-  "modified": "2022-03-26T00:01:09Z",
+  "modified": "2025-11-04T00:30:30Z",
   "published": "2021-12-31T00:00:19Z",
   "aliases": [
     "CVE-2021-4190"
@@ -26,6 +26,18 @@
     {
       "type": "WEB",
       "url": "https://gitlab.com/wireshark/wireshark/-/issues/17811"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/09/msg00049.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/Q6XGBKWSQFCVYUN4ZK3O3NJIFP3OAFVT"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/R5AEK3XTOIOGCGUILUFISMGX54YJXWGJ"
     },
     {
       "type": "WEB",

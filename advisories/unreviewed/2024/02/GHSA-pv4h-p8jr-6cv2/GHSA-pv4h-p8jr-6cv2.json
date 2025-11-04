@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pv4h-p8jr-6cv2",
-  "modified": "2025-05-12T15:30:37Z",
+  "modified": "2025-11-04T00:30:47Z",
   "published": "2024-02-14T18:30:25Z",
   "aliases": [
     "CVE-2023-50868"
@@ -74,6 +74,10 @@
     {
       "type": "WEB",
       "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/6FV5O347JTX7P5OZA6NGO4MKTXRXMKOZ"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/11/msg00035.html"
     },
     {
       "type": "WEB",

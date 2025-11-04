@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-crg9-44h2-xw35",
-  "modified": "2025-10-22T19:22:19Z",
+  "modified": "2025-11-04T00:30:41Z",
   "published": "2023-10-27T15:30:20Z",
   "aliases": [
     "CVE-2023-46604"
@@ -199,31 +199,7 @@
     },
     {
       "type": "WEB",
-      "url": "https://activemq.apache.org/security-advisories.data/CVE-2023-46604"
-    },
-    {
-      "type": "WEB",
-      "url": "https://activemq.apache.org/security-advisories.data/CVE-2023-46604-announcement.txt"
-    },
-    {
-      "type": "PACKAGE",
-      "url": "https://github.com/apache/activemq"
-    },
-    {
-      "type": "WEB",
-      "url": "https://issues.apache.org/jira/browse/AMQ-9370"
-    },
-    {
-      "type": "WEB",
-      "url": "https://lists.debian.org/debian-lts-announce/2023/11/msg00013.html"
-    },
-    {
-      "type": "WEB",
-      "url": "https://packetstormsecurity.com/files/175676/Apache-ActiveMQ-Unauthenticated-Remote-Code-Execution.html"
-    },
-    {
-      "type": "WEB",
-      "url": "https://security.netapp.com/advisory/ntap-20231110-0010"
+      "url": "https://www.openwall.com/lists/oss-security/2023/10/27/5"
     },
     {
       "type": "WEB",
@@ -231,7 +207,35 @@
     },
     {
       "type": "WEB",
-      "url": "https://www.openwall.com/lists/oss-security/2023/10/27/5"
+      "url": "https://security.netapp.com/advisory/ntap-20231110-0010"
+    },
+    {
+      "type": "WEB",
+      "url": "https://packetstormsecurity.com/files/175676/Apache-ActiveMQ-Unauthenticated-Remote-Code-Execution.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/10/msg00027.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2023/11/msg00013.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://issues.apache.org/jira/browse/AMQ-9370"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/apache/activemq"
+    },
+    {
+      "type": "WEB",
+      "url": "https://activemq.apache.org/security-advisories.data/CVE-2023-46604-announcement.txt"
+    },
+    {
+      "type": "WEB",
+      "url": "https://activemq.apache.org/security-advisories.data/CVE-2023-46604"
     },
     {
       "type": "WEB",

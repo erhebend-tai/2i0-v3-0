@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cpc3-2882-hfpf",
-  "modified": "2025-11-03T21:31:22Z",
+  "modified": "2025-11-04T00:31:38Z",
   "published": "2024-10-21T15:32:26Z",
   "aliases": [
     "CVE-2024-47740"
@@ -54,6 +54,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/f3bfac2cabf5333506b263bc0c8497c95302f32d"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/01/msg00001.html"
     },
     {
       "type": "WEB",

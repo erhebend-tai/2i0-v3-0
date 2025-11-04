@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f3wc-386p-mwc3",
-  "modified": "2025-11-03T21:31:20Z",
+  "modified": "2025-11-04T00:31:37Z",
   "published": "2024-10-21T15:32:26Z",
   "aliases": [
     "CVE-2024-47723"
@@ -54,6 +54,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/ead82533278502428883085a787d5a00f15e5eb9"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/01/msg00001.html"
     },
     {
       "type": "WEB",

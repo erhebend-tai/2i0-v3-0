@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jgxc-8mwq-9xqw",
-  "modified": "2024-01-31T14:55:29Z",
+  "modified": "2025-11-04T00:30:44Z",
   "published": "2024-01-22T06:30:32Z",
   "aliases": [
     "CVE-2017-20189"
@@ -63,6 +63,10 @@
     {
       "type": "WEB",
       "url": "https://hackmd.io/%40fe1w0/HyefvRQKp"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20241108-0002"
     },
     {
       "type": "WEB",

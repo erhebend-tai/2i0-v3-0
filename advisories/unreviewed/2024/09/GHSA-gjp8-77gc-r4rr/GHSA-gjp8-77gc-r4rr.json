@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gjp8-77gc-r4rr",
-  "modified": "2024-09-06T18:31:29Z",
+  "modified": "2025-11-04T00:31:23Z",
   "published": "2024-09-04T21:30:33Z",
   "aliases": [
     "CVE-2024-45006"
@@ -50,6 +50,14 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/ef0a0e616b2789bb804a0ce5e161db03170a85b6"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/10/msg00003.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/01/msg00001.html"
     }
   ],
   "database_specific": {

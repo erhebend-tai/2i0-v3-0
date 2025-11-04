@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wj55-vqcq-gxcp",
-  "modified": "2022-03-17T00:01:57Z",
+  "modified": "2025-11-04T00:30:31Z",
   "published": "2022-03-11T00:02:31Z",
   "aliases": [
     "CVE-2021-3733"
@@ -42,6 +42,10 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2023/06/msg00039.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/12/msg00000.html"
     },
     {
       "type": "WEB",

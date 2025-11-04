@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mmm5-wgvp-wp8r",
-  "modified": "2025-01-31T21:32:44Z",
+  "modified": "2025-11-04T00:31:20Z",
   "published": "2024-09-03T15:30:44Z",
   "aliases": [
     "CVE-2024-6232"
@@ -54,6 +54,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/python/cpython/commit/ed3a49ea734ada357ff4442996fd4ae71d253373"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/12/msg00000.html"
     },
     {
       "type": "WEB",

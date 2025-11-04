@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r3v6-c98w-p4j5",
-  "modified": "2025-10-22T00:31:55Z",
+  "modified": "2025-11-04T00:30:29Z",
   "published": "2022-05-24T17:17:27Z",
   "aliases": [
     "CVE-2020-4428"
@@ -30,6 +30,14 @@
     {
       "type": "WEB",
       "url": "https://www.ibm.com/support/pages/node/6206875"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2024/Nov/0"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2024/Nov/1"
     }
   ],
   "database_specific": {

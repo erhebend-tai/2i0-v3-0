@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h72q-rx75-mpgf",
-  "modified": "2024-10-23T18:33:06Z",
+  "modified": "2025-11-04T00:31:33Z",
   "published": "2024-10-09T15:32:20Z",
   "aliases": [
     "CVE-2024-47665"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/e2d14bfda9eb5393f8a17008afe2aa7fe0a29815"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/01/msg00001.html"
     }
   ],
   "database_specific": {

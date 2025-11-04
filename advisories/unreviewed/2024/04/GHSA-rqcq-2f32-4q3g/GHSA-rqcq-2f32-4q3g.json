@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rqcq-2f32-4q3g",
-  "modified": "2024-04-10T18:30:47Z",
+  "modified": "2025-11-04T00:30:48Z",
   "published": "2024-04-10T18:30:47Z",
   "aliases": [
     "CVE-2024-31873"
   ],
-  "details": "IBM Security Verify Access Appliance 10.0.0 through 10.0.7 contains hard-coded credentials which it uses for its own inbound authentication that could be obtained by a malicious actor.  IBM X-Force ID:  287317.\n\n",
+  "details": "IBM Security Verify Access Appliance 10.0.0 through 10.0.7 contains hard-coded credentials which it uses for its own inbound authentication that could be obtained by a malicious actor.  IBM X-Force ID:  287317.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.ibm.com/support/pages/node/7147932"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2024/Nov/1"
     }
   ],
   "database_specific": {

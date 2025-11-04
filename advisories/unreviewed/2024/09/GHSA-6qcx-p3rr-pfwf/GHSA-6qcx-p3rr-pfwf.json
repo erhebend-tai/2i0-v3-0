@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6qcx-p3rr-pfwf",
-  "modified": "2024-09-05T00:31:22Z",
+  "modified": "2025-11-04T00:31:23Z",
   "published": "2024-09-05T00:31:22Z",
   "aliases": [
     "CVE-2024-20505"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://blog.clamav.net/2024/09/clamav-141-132-107-and-010312-security.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/12/msg00004.html"
     }
   ],
   "database_specific": {

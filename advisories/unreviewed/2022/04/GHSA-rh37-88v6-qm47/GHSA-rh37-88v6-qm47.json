@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rh37-88v6-qm47",
-  "modified": "2022-04-26T00:00:51Z",
+  "modified": "2025-11-04T00:30:31Z",
   "published": "2022-04-19T00:00:49Z",
   "aliases": [
     "CVE-2021-42778"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2016083"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/12/msg00026.html"
     },
     {
       "type": "WEB",

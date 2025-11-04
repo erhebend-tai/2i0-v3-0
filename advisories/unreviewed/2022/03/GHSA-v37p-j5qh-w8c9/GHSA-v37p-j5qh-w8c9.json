@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v37p-j5qh-w8c9",
-  "modified": "2022-04-06T00:02:03Z",
+  "modified": "2025-11-04T00:30:31Z",
   "published": "2022-03-30T00:00:31Z",
   "aliases": [
     "CVE-2022-26280"
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/libarchive/libarchive/issues/1672"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/11/msg00007.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/SBYGJICQ7FKDZ2IIOAH423IHWQ6MNONQ"
     },
     {
       "type": "WEB",

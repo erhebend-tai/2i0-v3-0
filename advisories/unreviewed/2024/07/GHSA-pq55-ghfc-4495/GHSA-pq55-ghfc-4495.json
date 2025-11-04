@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pq55-ghfc-4495",
-  "modified": "2025-09-17T18:31:15Z",
+  "modified": "2025-11-04T00:30:51Z",
   "published": "2024-07-12T15:31:26Z",
   "aliases": [
     "CVE-2024-39499"
@@ -50,6 +50,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/f70ff737346744633e7b655c1fb23e1578491ff3"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/01/msg00001.html"
     }
   ],
   "database_specific": {

@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xxxm-cq2q-5v69",
-  "modified": "2024-04-04T07:09:20Z",
+  "modified": "2025-11-04T00:30:39Z",
   "published": "2023-08-22T21:30:28Z",
   "aliases": [
     "CVE-2023-33850"
   ],
-  "details": "\nIBM GSKit-Crypto could allow a remote attacker to obtain sensitive information, caused by a timing-based side channel in the RSA Decryption implementation. By sending an overly large number of trial messages for decryption, an attacker could exploit this vulnerability to obtain sensitive information. IBM X-Force ID: 257132.\n\n",
+  "details": "IBM GSKit-Crypto could allow a remote attacker to obtain sensitive information, caused by a timing-based side channel in the RSA Decryption implementation. By sending an overly large number of trial messages for decryption, an attacker could exploit this vulnerability to obtain sensitive information. IBM X-Force ID: 257132.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/257132"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20241108-0002"
     },
     {
       "type": "WEB",

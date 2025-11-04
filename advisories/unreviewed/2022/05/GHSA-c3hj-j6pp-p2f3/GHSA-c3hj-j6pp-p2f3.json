@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c3hj-j6pp-p2f3",
-  "modified": "2025-11-03T21:30:32Z",
+  "modified": "2025-11-04T00:30:29Z",
   "published": "2022-05-24T19:06:44Z",
   "aliases": [
     "CVE-2021-36085"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/google/oss-fuzz-vulns/blob/main/vulns/selinux/OSV-2021-421.yaml"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/10/msg00021.html"
     },
     {
       "type": "WEB",

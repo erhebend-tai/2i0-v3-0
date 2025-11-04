@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hm3j-qgpw-pj98",
-  "modified": "2025-10-22T00:33:10Z",
+  "modified": "2025-11-04T00:31:33Z",
   "published": "2024-10-09T15:32:18Z",
   "aliases": [
     "CVE-2024-9680"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2024/10/msg00005.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/10/msg00006.html"
     },
     {
       "type": "WEB",

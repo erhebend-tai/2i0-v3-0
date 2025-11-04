@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wq9h-7v97-wgcp",
-  "modified": "2024-10-09T15:32:18Z",
+  "modified": "2025-11-04T00:31:23Z",
   "published": "2024-09-04T21:30:32Z",
   "aliases": [
     "CVE-2024-44991"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/f6fd2dbf584a4047ba88d1369ff91c9851261ec1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/01/msg00001.html"
     }
   ],
   "database_specific": {

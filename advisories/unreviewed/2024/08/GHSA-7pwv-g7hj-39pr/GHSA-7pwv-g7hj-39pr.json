@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7pwv-g7hj-39pr",
-  "modified": "2025-01-31T21:32:44Z",
+  "modified": "2025-11-04T00:31:17Z",
   "published": "2024-08-19T21:35:10Z",
   "aliases": [
     "CVE-2024-7592"
@@ -54,6 +54,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/python/cpython/commit/dcc3eaef98cd94d6cb6cb0f44bd1c903d04f33b1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/12/msg00000.html"
     },
     {
       "type": "WEB",

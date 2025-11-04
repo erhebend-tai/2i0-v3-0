@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vc2g-hqvc-wcmf",
-  "modified": "2024-10-04T18:31:09Z",
+  "modified": "2025-11-04T00:31:21Z",
   "published": "2024-09-04T21:30:31Z",
   "aliases": [
     "CVE-2024-44960"
@@ -50,6 +50,14 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/df8e734ae5e605348aa0ca2498aedb73e815f244"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/10/msg00003.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/01/msg00001.html"
     }
   ],
   "database_specific": {

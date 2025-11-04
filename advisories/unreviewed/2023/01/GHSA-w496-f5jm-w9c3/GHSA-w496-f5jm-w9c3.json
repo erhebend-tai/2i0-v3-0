@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w496-f5jm-w9c3",
-  "modified": "2025-03-28T15:31:43Z",
+  "modified": "2025-11-04T00:30:35Z",
   "published": "2023-01-30T09:30:40Z",
   "aliases": [
     "CVE-2023-22332"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://jvn.jp/en/jp/JVN72418815"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/12/msg00015.html"
     },
     {
       "type": "WEB",

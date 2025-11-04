@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wmww-v28q-953g",
-  "modified": "2025-09-18T18:30:21Z",
+  "modified": "2025-11-04T00:30:48Z",
   "published": "2024-05-14T15:32:53Z",
   "aliases": [
     "CVE-2024-27397"
@@ -50,6 +50,14 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/f8dfda798650241c1692058713ca4fef8e429061"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/10/msg00003.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/01/msg00001.html"
     }
   ],
   "database_specific": {

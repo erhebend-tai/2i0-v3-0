@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j2jm-9cr2-x48x",
-  "modified": "2024-09-05T18:30:51Z",
+  "modified": "2025-11-04T00:31:18Z",
   "published": "2024-08-26T12:31:20Z",
   "aliases": [
     "CVE-2024-43914"
@@ -50,6 +50,14 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/c384dd4f1fb3b14a2fd199360701cc163ea88705"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/10/msg00003.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/01/msg00001.html"
     }
   ],
   "database_specific": {

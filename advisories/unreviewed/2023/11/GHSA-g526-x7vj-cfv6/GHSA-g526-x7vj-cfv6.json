@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g526-x7vj-cfv6",
-  "modified": "2024-06-21T21:33:58Z",
+  "modified": "2025-11-04T00:30:42Z",
   "published": "2023-11-28T21:30:25Z",
   "aliases": [
     "CVE-2023-30588"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://security.netapp.com/advisory/ntap-20240621-0006"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20241101-0011"
     }
   ],
   "database_specific": {

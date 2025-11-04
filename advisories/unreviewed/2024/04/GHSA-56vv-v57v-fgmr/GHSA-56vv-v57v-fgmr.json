@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-56vv-v57v-fgmr",
-  "modified": "2024-07-03T18:34:48Z",
+  "modified": "2025-11-04T00:30:48Z",
   "published": "2024-04-17T15:30:42Z",
   "aliases": [
     "CVE-2024-31578"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://gist.github.com/1047524396/45400cce5859d78dcd3a62010df8d179"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/10/msg00019.html"
     },
     {
       "type": "WEB",

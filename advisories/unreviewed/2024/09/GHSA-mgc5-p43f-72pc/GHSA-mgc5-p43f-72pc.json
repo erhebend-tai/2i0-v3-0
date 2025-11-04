@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mgc5-p43f-72pc",
-  "modified": "2024-09-10T15:31:04Z",
+  "modified": "2025-11-04T00:31:23Z",
   "published": "2024-09-10T15:31:04Z",
   "aliases": [
     "CVE-2024-8443"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2310494"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/12/msg00026.html"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mh6q-v4mp-2cc7",
-  "modified": "2024-08-30T00:31:23Z",
+  "modified": "2025-11-04T00:30:49Z",
   "published": "2024-06-17T15:30:54Z",
   "aliases": [
     "CVE-2024-4032"
@@ -50,6 +50,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/python/cpython/commit/f86b17ac511e68192ba71f27e752321a3252cee3"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/12/msg00000.html"
     },
     {
       "type": "WEB",

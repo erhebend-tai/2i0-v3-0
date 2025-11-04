@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5v8j-jfmm-6x86",
-  "modified": "2024-06-21T21:33:53Z",
+  "modified": "2025-11-04T00:30:37Z",
   "published": "2023-04-29T00:30:28Z",
   "aliases": [
     "CVE-2023-31484"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://blog.hackeriet.no/perl-http-tiny-insecure-tls-default-affects-cpan-modules"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/10/msg00017.html"
     },
     {
       "type": "WEB",

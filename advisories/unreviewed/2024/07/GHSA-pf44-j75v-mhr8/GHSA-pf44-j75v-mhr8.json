@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pf44-j75v-mhr8",
-  "modified": "2025-10-22T00:33:04Z",
+  "modified": "2025-11-04T00:30:50Z",
   "published": "2024-07-01T21:31:14Z",
   "aliases": [
     "CVE-2024-38475"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://httpd.apache.org/security/vulnerabilities_24.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2024-0018"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m849-gvp2-qmmr",
-  "modified": "2024-09-20T18:32:25Z",
+  "modified": "2025-11-04T00:31:29Z",
   "published": "2024-09-18T09:30:37Z",
   "aliases": [
     "CVE-2024-46795"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/9914f1bd61d5e838bb1ab15a71076d37a6db65d1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/01/msg00001.html"
     }
   ],
   "database_specific": {

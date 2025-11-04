@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p9v2-frmw-64xc",
-  "modified": "2025-10-02T18:30:55Z",
+  "modified": "2025-11-04T00:31:12Z",
   "published": "2024-08-17T09:30:24Z",
   "aliases": [
     "CVE-2024-42273"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/8cb1f4080dd91c6e6b01dbea013a3f42341cb6a1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/01/msg00001.html"
     }
   ],
   "database_specific": {

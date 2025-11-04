@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pr22-x636-xp32",
-  "modified": "2024-08-26T15:31:14Z",
+  "modified": "2025-11-04T00:31:05Z",
   "published": "2024-07-29T18:30:42Z",
   "aliases": [
     "CVE-2024-42090"
@@ -50,6 +50,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/e65a0dc2e85efb28e182aca50218e8a056d0ce04"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/01/msg00001.html"
     }
   ],
   "database_specific": {

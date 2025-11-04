@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5gxm-744m-qfgp",
-  "modified": "2024-08-06T06:30:38Z",
+  "modified": "2025-11-04T00:31:10Z",
   "published": "2024-08-06T06:30:38Z",
   "aliases": [
     "CVE-2024-7055"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/CookedMelon/ReportCVE/tree/main/FFmpeg/poc3"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/10/msg00019.html"
     },
     {
       "type": "WEB",

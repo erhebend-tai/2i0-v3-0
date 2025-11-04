@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hm67-jh95-48xh",
-  "modified": "2024-04-04T04:02:07Z",
+  "modified": "2025-11-04T00:30:37Z",
   "published": "2023-05-11T06:30:21Z",
   "aliases": [
     "CVE-2023-32668"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://gitlab.lisn.upsaclay.fr/texlive/luatex/-/tags/1.17.0"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/10/msg00032.html"
     },
     {
       "type": "WEB",

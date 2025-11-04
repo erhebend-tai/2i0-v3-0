@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gpgf-w78r-4pvj",
-  "modified": "2024-03-27T18:32:38Z",
+  "modified": "2025-11-04T00:30:33Z",
   "published": "2022-11-22T03:30:56Z",
   "aliases": [
     "CVE-2022-36227"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2023/01/msg00034.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/11/msg00007.html"
     },
     {
       "type": "WEB",

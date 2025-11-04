@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-554m-v42f-hcq9",
-  "modified": "2024-09-03T18:31:31Z",
+  "modified": "2025-11-04T00:30:44Z",
   "published": "2024-01-31T15:30:20Z",
   "aliases": [
     "CVE-2023-5992"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/OpenSC/OpenSC/wiki/CVE-2023-5992"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/12/msg00026.html"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mcj2-pgr8-h65p",
-  "modified": "2025-02-03T18:30:38Z",
+  "modified": "2025-11-04T00:30:54Z",
   "published": "2024-07-12T15:31:28Z",
   "aliases": [
     "CVE-2024-40947"
@@ -42,6 +42,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/a6176a802c4bfb83bf7524591aa75f44a639a853"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/01/msg00001.html"
     }
   ],
   "database_specific": {

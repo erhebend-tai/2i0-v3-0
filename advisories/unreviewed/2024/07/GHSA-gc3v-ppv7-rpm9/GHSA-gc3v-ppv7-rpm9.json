@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gc3v-ppv7-rpm9",
-  "modified": "2024-07-24T21:31:30Z",
+  "modified": "2025-11-04T00:30:51Z",
   "published": "2024-07-12T15:31:26Z",
   "aliases": [
     "CVE-2024-39496"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/a0cc006f4214b87e70983c692e05bb36c59b5752"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/01/msg00001.html"
     }
   ],
   "database_specific": {

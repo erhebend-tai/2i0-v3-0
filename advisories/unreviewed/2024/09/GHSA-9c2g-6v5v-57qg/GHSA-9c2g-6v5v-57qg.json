@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9c2g-6v5v-57qg",
-  "modified": "2024-09-04T00:31:16Z",
+  "modified": "2025-11-04T00:31:20Z",
   "published": "2024-09-04T00:31:16Z",
   "aliases": [
     "CVE-2024-45620"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2309289"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/12/msg00026.html"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wc8x-f5rv-3653",
-  "modified": "2022-04-01T00:00:49Z",
+  "modified": "2025-11-04T00:30:31Z",
   "published": "2022-03-27T00:00:38Z",
   "aliases": [
     "CVE-2022-22995"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2024/01/msg00000.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/11/msg00026.html"
     },
     {
       "type": "WEB",

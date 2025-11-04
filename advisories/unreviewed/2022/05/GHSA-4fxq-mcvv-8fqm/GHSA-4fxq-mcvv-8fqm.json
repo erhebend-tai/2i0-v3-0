@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4fxq-mcvv-8fqm",
-  "modified": "2024-03-27T18:32:38Z",
+  "modified": "2025-11-04T00:30:30Z",
   "published": "2022-05-24T19:08:29Z",
   "aliases": [
     "CVE-2021-36976"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/google/oss-fuzz-vulns/blob/main/vulns/libarchive/OSV-2021-557.yaml"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/11/msg00007.html"
     },
     {
       "type": "WEB",

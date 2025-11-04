@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-797f-63wg-8chv",
-  "modified": "2024-06-10T18:30:53Z",
+  "modified": "2025-11-04T00:30:48Z",
   "published": "2024-03-19T18:31:59Z",
   "aliases": [
     "CVE-2023-6597"
   ],
-  "details": "An issue was found in the CPython `tempfile.TemporaryDirectory` class affecting versions 3.12.2, 3.11.8, 3.10.13, 3.9.18, and 3.8.18 and prior.\n\nThe tempfile.TemporaryDirectory class would dereference symlinks during cleanup of permissions-related errors. This means users which can run privileged programs are potentially able to modify permissions of files referenced by symlinks in some circumstances.\n",
+  "details": "An issue was found in the CPython `tempfile.TemporaryDirectory` class affecting versions 3.12.2, 3.11.8, 3.10.13, 3.9.18, and 3.8.18 and prior.\n\nThe tempfile.TemporaryDirectory class would dereference symlinks during cleanup of permissions-related errors. This means users which can run privileged programs are potentially able to modify permissions of files referenced by symlinks in some circumstances.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -50,6 +50,14 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2024/03/msg00025.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/11/msg00005.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/12/msg00000.html"
     },
     {
       "type": "WEB",

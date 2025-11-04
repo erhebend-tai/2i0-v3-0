@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xrhf-cccw-cpm8",
-  "modified": "2025-11-03T21:31:24Z",
+  "modified": "2025-11-04T00:31:43Z",
   "published": "2024-10-21T18:30:58Z",
   "aliases": [
     "CVE-2024-49960"
@@ -46,6 +46,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/fa78fb51d396f4f2f80f8e96a3b1516f394258be"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/01/msg00001.html"
     },
     {
       "type": "WEB",

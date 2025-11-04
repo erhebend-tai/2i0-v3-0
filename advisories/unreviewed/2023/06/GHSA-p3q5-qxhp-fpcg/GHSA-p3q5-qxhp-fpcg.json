@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p3q5-qxhp-fpcg",
-  "modified": "2024-04-04T04:38:58Z",
+  "modified": "2025-11-04T00:30:37Z",
   "published": "2023-06-07T03:30:23Z",
   "aliases": [
     "CVE-2023-0666"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://gitlab.com/wireshark/wireshark/-/issues/19085"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/09/msg00049.html"
     },
     {
       "type": "WEB",

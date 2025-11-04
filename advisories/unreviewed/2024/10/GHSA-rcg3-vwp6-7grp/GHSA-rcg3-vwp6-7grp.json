@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rcg3-vwp6-7grp",
-  "modified": "2025-11-03T21:31:22Z",
+  "modified": "2025-11-04T00:31:40Z",
   "published": "2024-10-21T18:30:57Z",
   "aliases": [
     "CVE-2024-49889"
@@ -46,6 +46,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/d483c7cc1796bd6a80e7b3a8fd494996260f6b67"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/01/msg00001.html"
     },
     {
       "type": "WEB",

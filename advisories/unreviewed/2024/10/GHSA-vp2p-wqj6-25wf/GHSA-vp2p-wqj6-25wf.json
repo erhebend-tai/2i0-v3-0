@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vp2p-wqj6-25wf",
-  "modified": "2025-11-03T21:31:23Z",
+  "modified": "2025-11-04T00:31:42Z",
   "published": "2024-10-21T18:30:58Z",
   "aliases": [
     "CVE-2024-49936"
@@ -50,6 +50,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/efcff6ce7467f01f0753609f420333f3f2ceceda"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/01/msg00001.html"
     },
     {
       "type": "WEB",

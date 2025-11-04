@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9477-m2w2-6wg3",
-  "modified": "2024-11-01T09:30:44Z",
+  "modified": "2025-11-04T00:31:19Z",
   "published": "2024-08-28T06:30:31Z",
   "aliases": [
     "CVE-2023-45896"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=013ff63b649475f0ee134e2c8d0c8e65284ede50"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/01/msg00001.html"
     }
   ],
   "database_specific": {

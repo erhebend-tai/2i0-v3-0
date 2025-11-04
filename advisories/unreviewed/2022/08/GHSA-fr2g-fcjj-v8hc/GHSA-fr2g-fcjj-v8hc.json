@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fr2g-fcjj-v8hc",
-  "modified": "2022-08-29T20:06:48Z",
+  "modified": "2025-11-04T00:30:32Z",
   "published": "2022-08-27T00:00:44Z",
   "aliases": [
     "CVE-2021-3669"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=1986473"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/10/msg00003.html"
     },
     {
       "type": "WEB",

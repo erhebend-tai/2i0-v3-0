@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qf32-pvhj-vvx7",
-  "modified": "2024-12-14T21:31:32Z",
+  "modified": "2025-11-04T00:31:33Z",
   "published": "2024-10-09T15:32:19Z",
   "aliases": [
     "CVE-2024-46871"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/e1896f381d27466c26cb44b4450eae05cd59dfd0"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/01/msg00001.html"
     }
   ],
   "database_specific": {

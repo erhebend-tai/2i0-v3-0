@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hg7f-3vww-rc69",
-  "modified": "2022-05-13T01:22:40Z",
+  "modified": "2025-11-04T00:30:29Z",
   "published": "2022-05-13T01:22:40Z",
   "aliases": [
     "CVE-2019-6285"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/jbeder/yaml-cpp/issues/660"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2024/Nov/0"
     }
   ],
   "database_specific": {

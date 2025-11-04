@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hqrm-rrc5-v8pg",
-  "modified": "2024-09-30T15:30:43Z",
+  "modified": "2025-11-04T00:31:15Z",
   "published": "2024-08-17T12:30:32Z",
   "aliases": [
     "CVE-2024-43829"
@@ -46,6 +46,14 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/f28b353c0c6c7831a70ccca881bf2db5e6785cdd"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/10/msg00003.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/01/msg00001.html"
     }
   ],
   "database_specific": {

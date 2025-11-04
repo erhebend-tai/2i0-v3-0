@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2jcw-rxcr-pwmp",
-  "modified": "2024-07-19T18:31:20Z",
+  "modified": "2025-11-04T00:30:58Z",
   "published": "2024-07-15T09:36:30Z",
   "aliases": [
     "CVE-2024-41007"
@@ -50,6 +50,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/e113cddefa27bbf5a79f72387b8fbd432a61a466"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/01/msg00001.html"
     }
   ],
   "database_specific": {

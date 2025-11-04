@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gcpr-pgrp-45fp",
-  "modified": "2024-09-06T18:31:29Z",
+  "modified": "2025-11-04T00:31:23Z",
   "published": "2024-09-04T21:30:32Z",
   "aliases": [
     "CVE-2024-45000"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/f71aa06398aabc2e3eaac25acdf3d62e0094ba70"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/01/msg00001.html"
     }
   ],
   "database_specific": {

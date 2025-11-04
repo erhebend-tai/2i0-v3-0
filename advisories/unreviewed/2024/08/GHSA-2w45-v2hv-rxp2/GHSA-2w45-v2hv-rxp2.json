@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2w45-v2hv-rxp2",
-  "modified": "2024-09-03T15:30:38Z",
+  "modified": "2025-11-04T00:31:17Z",
   "published": "2024-08-21T00:30:29Z",
   "aliases": [
     "CVE-2024-43861"
@@ -50,6 +50,14 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/f2c353227de14b0289298ffc3ba92058c4768384"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/10/msg00003.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/01/msg00001.html"
     }
   ],
   "database_specific": {

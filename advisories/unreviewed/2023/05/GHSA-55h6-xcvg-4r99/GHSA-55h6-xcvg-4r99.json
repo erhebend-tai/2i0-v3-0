@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-55h6-xcvg-4r99",
-  "modified": "2024-04-04T04:21:17Z",
+  "modified": "2025-11-04T00:30:37Z",
   "published": "2023-05-26T18:30:21Z",
   "aliases": [
     "CVE-2023-1981"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2185911"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/12/msg00011.html"
     }
   ],
   "database_specific": {

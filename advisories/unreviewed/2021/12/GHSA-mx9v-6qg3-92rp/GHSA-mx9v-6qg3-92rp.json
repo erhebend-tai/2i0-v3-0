@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mx9v-6qg3-92rp",
-  "modified": "2022-04-02T00:00:54Z",
+  "modified": "2025-11-04T00:30:30Z",
   "published": "2021-12-14T00:00:33Z",
   "aliases": [
     "CVE-2020-16156"
@@ -22,6 +22,18 @@
     {
       "type": "WEB",
       "url": "https://blog.hackeriet.no/cpan-signature-verification-vulnerabilities"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/10/msg00017.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/SD6RYOJII7HRJ6WVORFNVTYNOFY5JDXN"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/SZ32AJIV4RHJMLWLU5QULGKMMIHYOMDC"
     },
     {
       "type": "WEB",

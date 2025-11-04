@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vmr8-6pr2-r534",
-  "modified": "2024-09-16T14:37:24Z",
+  "modified": "2025-11-04T00:31:07Z",
   "published": "2024-07-30T09:32:02Z",
   "aliases": [
     "CVE-2024-42137"
@@ -42,6 +42,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/e6e200b264271f62a3fadb51ada9423015ece37b"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/01/msg00001.html"
     }
   ],
   "database_specific": {

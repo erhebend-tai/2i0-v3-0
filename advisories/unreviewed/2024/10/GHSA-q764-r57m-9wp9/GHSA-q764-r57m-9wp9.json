@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q764-r57m-9wp9",
-  "modified": "2024-11-08T18:30:44Z",
+  "modified": "2025-11-04T00:31:35Z",
   "published": "2024-10-16T18:31:47Z",
   "aliases": [
     "CVE-2024-9143"
@@ -45,11 +45,36 @@
     },
     {
       "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/10/msg00033.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/11/msg00000.html"
+    },
+    {
+      "type": "WEB",
       "url": "https://openssl-library.org/news/secadv/20241016.txt"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20241101-0001"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2024/10/16/1"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2024/10/23/1"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2024/10/24/1"
     }
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-125",
       "CWE-787"
     ],
     "severity": "MODERATE",

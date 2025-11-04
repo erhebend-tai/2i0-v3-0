@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cfcv-vwxf-fg7x",
-  "modified": "2024-04-04T06:08:12Z",
+  "modified": "2025-11-04T00:30:38Z",
   "published": "2023-07-14T09:30:17Z",
   "aliases": [
     "CVE-2023-3649"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://gitlab.com/wireshark/wireshark/-/issues/19164"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/09/msg00049.html"
     },
     {
       "type": "WEB",

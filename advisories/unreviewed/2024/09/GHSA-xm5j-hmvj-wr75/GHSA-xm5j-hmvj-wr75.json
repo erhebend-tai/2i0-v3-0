@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xm5j-hmvj-wr75",
-  "modified": "2024-10-04T18:31:09Z",
+  "modified": "2025-11-04T00:31:30Z",
   "published": "2024-09-27T15:30:33Z",
   "aliases": [
     "CVE-2024-46810"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/e1b121f21bbc56a6ae035aa5b77daac62bfb9be5"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/01/msg00001.html"
     }
   ],
   "database_specific": {

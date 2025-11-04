@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rp86-8ghx-v767",
-  "modified": "2025-09-17T15:30:25Z",
+  "modified": "2025-11-04T00:30:52Z",
   "published": "2024-07-12T15:31:26Z",
   "aliases": [
     "CVE-2024-39509"
@@ -50,6 +50,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/f9db5fbeffb951cac3f0fb1c2eeffb79785399ca"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/01/msg00001.html"
     }
   ],
   "database_specific": {

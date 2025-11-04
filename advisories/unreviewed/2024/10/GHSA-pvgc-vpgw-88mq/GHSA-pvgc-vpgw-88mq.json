@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pvgc-vpgw-88mq",
-  "modified": "2025-11-03T21:31:22Z",
+  "modified": "2025-11-04T00:31:40Z",
   "published": "2024-10-21T18:30:56Z",
   "aliases": [
     "CVE-2024-49881"
@@ -50,6 +50,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/f55ecc58d07a6c1f6d6d5b5af125c25f8da0bda2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/01/msg00001.html"
     },
     {
       "type": "WEB",

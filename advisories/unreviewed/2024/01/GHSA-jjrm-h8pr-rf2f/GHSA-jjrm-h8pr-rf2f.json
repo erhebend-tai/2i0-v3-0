@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jjrm-h8pr-rf2f",
-  "modified": "2024-03-25T18:30:56Z",
+  "modified": "2025-11-04T00:30:44Z",
   "published": "2024-01-23T15:30:57Z",
   "aliases": [
     "CVE-2024-0743"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2024/03/msg00028.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/10/msg00028.html"
     },
     {
       "type": "WEB",

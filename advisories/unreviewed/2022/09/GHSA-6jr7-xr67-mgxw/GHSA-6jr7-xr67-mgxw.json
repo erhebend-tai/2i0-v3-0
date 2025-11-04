@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6jr7-xr67-mgxw",
-  "modified": "2022-09-16T00:00:34Z",
+  "modified": "2025-11-04T00:30:34Z",
   "published": "2022-09-10T00:00:26Z",
   "aliases": [
     "CVE-2020-10735"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2022:6766"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/V7ZUJDHK7KNG6SLIFXW7MNZ6O2PUJYK6"
     },
     {
       "type": "WEB",
@@ -137,6 +141,14 @@
     },
     {
       "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/11/msg00024.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/12/msg00000.html"
+    },
+    {
+      "type": "WEB",
       "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/2VCU6EVQDIXNCEDJUCTFIER2WVNNDTYZ"
     },
     {
@@ -202,10 +214,6 @@
     {
       "type": "WEB",
       "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/UBPDVCDIUCEBE7C4NAGNA2KQJYOTPBAZ"
-    },
-    {
-      "type": "WEB",
-      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/V7ZUJDHK7KNG6SLIFXW7MNZ6O2PUJYK6"
     },
     {
       "type": "WEB",

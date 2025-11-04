@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j2gx-qfwv-h2pp",
-  "modified": "2025-03-06T15:34:37Z",
+  "modified": "2025-11-04T00:30:57Z",
   "published": "2024-07-12T15:31:29Z",
   "aliases": [
     "CVE-2024-40984"
@@ -50,6 +50,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/e21a4c9129c72fa54dd00f5ebf71219b41d43c04"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/01/msg00001.html"
     }
   ],
   "database_specific": {

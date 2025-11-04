@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-67xf-xphq-9mcc",
-  "modified": "2022-08-29T20:06:55Z",
+  "modified": "2025-11-04T00:30:32Z",
   "published": "2022-08-25T00:00:27Z",
   "aliases": [
     "CVE-2021-4189"
@@ -42,6 +42,10 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2023/06/msg00039.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/12/msg00000.html"
     },
     {
       "type": "WEB",

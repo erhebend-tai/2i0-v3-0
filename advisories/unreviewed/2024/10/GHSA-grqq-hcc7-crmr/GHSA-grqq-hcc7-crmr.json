@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-grqq-hcc7-crmr",
-  "modified": "2025-04-26T00:30:23Z",
+  "modified": "2025-11-04T00:31:47Z",
   "published": "2024-10-22T18:32:12Z",
   "aliases": [
     "CVE-2024-9287"
@@ -54,6 +54,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/python/cpython/commit/e52095a0c1005a87eed2276af7a1f2f66e2b6483"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/11/msg00024.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/12/msg00000.html"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6f4g-hm4f-cqp3",
-  "modified": "2022-07-15T00:00:15Z",
+  "modified": "2025-11-04T00:30:32Z",
   "published": "2022-07-07T00:00:28Z",
   "aliases": [
     "CVE-2022-35230"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2023/04/msg00013.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/10/msg00000.html"
     },
     {
       "type": "WEB",

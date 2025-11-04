@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4r2r-cf85-vmc7",
-  "modified": "2023-12-02T06:30:32Z",
+  "modified": "2025-11-04T00:30:42Z",
   "published": "2023-11-28T03:30:21Z",
   "aliases": [
     "CVE-2023-30585"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://nodejs.org/en/blog/vulnerability/june-2023-security-releases"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20241101-0011"
     }
   ],
   "database_specific": {

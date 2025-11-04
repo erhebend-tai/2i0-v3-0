@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g877-jjjq-5fjc",
-  "modified": "2024-08-22T18:31:20Z",
+  "modified": "2025-11-04T00:31:16Z",
   "published": "2024-08-17T12:30:33Z",
   "aliases": [
     "CVE-2024-43856"
@@ -50,6 +50,14 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/fe2d246080f035e0af5793cb79067ba125e4fb63"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/10/msg00003.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/01/msg00001.html"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pgpc-54gc-3694",
-  "modified": "2025-11-03T21:31:19Z",
+  "modified": "2025-11-04T00:31:37Z",
   "published": "2024-10-21T12:30:55Z",
   "aliases": [
     "CVE-2024-47712"
@@ -50,6 +50,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/bf090f4fe935294361eabd9dc5a949fdd77d3d1b"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/01/msg00001.html"
     },
     {
       "type": "WEB",

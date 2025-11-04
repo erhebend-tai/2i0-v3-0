@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6qgc-vw4g-mxw4",
-  "modified": "2022-05-26T00:01:13Z",
+  "modified": "2025-11-04T00:30:31Z",
   "published": "2022-05-18T00:00:23Z",
   "aliases": [
     "CVE-2022-30688"
@@ -42,6 +42,14 @@
     {
       "type": "WEB",
       "url": "https://www.openwall.com/lists/oss-security/2022/05/17/9"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2024/Nov/15"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2024/Nov/17"
     },
     {
       "type": "WEB",

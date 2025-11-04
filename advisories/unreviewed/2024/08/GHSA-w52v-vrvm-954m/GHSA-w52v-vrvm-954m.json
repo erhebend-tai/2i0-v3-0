@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w52v-vrvm-954m",
-  "modified": "2024-08-08T21:32:01Z",
+  "modified": "2025-11-04T00:31:11Z",
   "published": "2024-08-07T18:30:44Z",
   "aliases": [
     "CVE-2024-42250"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/cf5bb09e742a9cf6349127e868329a8f69b7a014"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/01/msg00001.html"
     }
   ],
   "database_specific": {

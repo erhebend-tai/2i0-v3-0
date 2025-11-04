@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mwj6-494m-mx84",
-  "modified": "2024-08-27T15:32:42Z",
+  "modified": "2025-11-04T00:31:05Z",
   "published": "2024-07-29T18:30:43Z",
   "aliases": [
     "CVE-2024-42094"
@@ -50,6 +50,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/d85ca8179a54ff8cf1e1f8c3c9e3799831319bae"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/01/msg00001.html"
     }
   ],
   "database_specific": {

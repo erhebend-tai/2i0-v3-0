@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x2r9-jfjp-jvp9",
-  "modified": "2022-05-13T01:06:55Z",
+  "modified": "2025-11-04T00:30:27Z",
   "published": "2022-05-13T01:06:55Z",
   "aliases": [
     "CVE-2010-4756"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2010-4756"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20241108-0002"
     },
     {
       "type": "WEB",

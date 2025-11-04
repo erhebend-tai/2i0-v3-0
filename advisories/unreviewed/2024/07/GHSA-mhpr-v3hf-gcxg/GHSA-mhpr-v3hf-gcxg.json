@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mhpr-v3hf-gcxg",
-  "modified": "2025-08-28T15:30:32Z",
+  "modified": "2025-11-04T00:31:05Z",
   "published": "2024-07-29T18:30:40Z",
   "aliases": [
     "CVE-2024-42085"
@@ -42,6 +42,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/f1274cfab183e69a7c7bafffcb4f50703c876276"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/01/msg00001.html"
     }
   ],
   "database_specific": {

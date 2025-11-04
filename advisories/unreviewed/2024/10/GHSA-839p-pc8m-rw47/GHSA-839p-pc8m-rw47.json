@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-839p-pc8m-rw47",
-  "modified": "2025-11-03T21:31:17Z",
+  "modified": "2025-11-04T00:31:37Z",
   "published": "2024-10-21T12:30:55Z",
   "aliases": [
     "CVE-2024-47699"
@@ -54,6 +54,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/f68523e0f26faade18833fbef577a4295d8e2c94"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/01/msg00001.html"
     },
     {
       "type": "WEB",
