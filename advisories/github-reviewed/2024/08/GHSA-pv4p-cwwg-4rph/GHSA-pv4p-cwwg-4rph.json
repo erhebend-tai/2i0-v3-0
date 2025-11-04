@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pv4p-cwwg-4rph",
-  "modified": "2024-09-03T21:53:30Z",
+  "modified": "2025-11-04T19:50:49Z",
   "published": "2024-08-07T15:30:42Z",
   "aliases": [
     "CVE-2024-42005"
@@ -86,6 +86,10 @@
     {
       "type": "WEB",
       "url": "https://groups.google.com/forum/#%21forum/django-announce"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20240905-0007"
     },
     {
       "type": "WEB",
