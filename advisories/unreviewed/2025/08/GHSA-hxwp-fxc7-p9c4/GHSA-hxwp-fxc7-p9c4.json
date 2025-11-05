@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hxwp-fxc7-p9c4",
-  "modified": "2025-08-20T09:30:42Z",
+  "modified": "2025-11-05T15:31:02Z",
   "published": "2025-08-20T09:30:41Z",
   "aliases": [
     "CVE-2025-9225"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://a.storyblok.com/f/230581/x/82d4989368/msa-14.pdf"
+    },
+    {
+      "type": "WEB",
+      "url": "https://mobile-industrial-robots.com/security-advisories/cross-site-scripting"
     },
     {
       "type": "WEB",

@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9w96-529w-5xrx",
-  "modified": "2024-03-22T00:31:15Z",
+  "modified": "2025-11-05T15:31:01Z",
   "published": "2024-03-22T00:31:15Z",
   "aliases": [
     "CVE-2024-28045"
   ],
-  "details": "\nImproper neutralization of input within the affected product could lead to cross-site scripting.\n\n",
+  "details": "Improper neutralization of input within the affected product could lead to cross-site scripting.",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mgcc-v376-cqg5",
-  "modified": "2024-03-22T00:31:15Z",
+  "modified": "2025-11-05T15:31:00Z",
   "published": "2024-03-22T00:31:15Z",
   "aliases": [
     "CVE-2024-25567"
   ],
-  "details": "\nPath traversal attack is possible and write outside of the intended directory and may access sensitive information. If a file name is specified that already exists on the file system, then the original file will be overwritten.\n\n",
+  "details": "Path traversal attack is possible and write outside of the intended directory and may access sensitive information. If a file name is specified that already exists on the file system, then the original file will be overwritten.",
   "severity": [
     {
       "type": "CVSS_V3",
