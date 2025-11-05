@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fj2x-735w-74vq",
-  "modified": "2025-10-30T17:10:40Z",
+  "modified": "2025-11-05T22:15:15Z",
   "published": "2025-10-30T17:10:40Z",
   "aliases": [],
   "summary": "gnark-crypto allows unchecked memory allocation during vector deserialization",
@@ -71,6 +71,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/Consensys/gnark-crypto"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pkg.go.dev/vuln/GO-2025-4087"
     }
   ],
   "database_specific": {

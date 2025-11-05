@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f9f4-5859-29mf",
-  "modified": "2025-10-31T17:55:40Z",
+  "modified": "2025-11-05T22:15:57Z",
   "published": "2025-10-30T21:30:46Z",
   "aliases": [
     "CVE-2025-61141"
@@ -45,6 +45,10 @@
     {
       "type": "WEB",
       "url": "https://lukmanern.github.io/CVE-2025-61141.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pkg.go.dev/vuln/GO-2025-4088"
     }
   ],
   "database_specific": {

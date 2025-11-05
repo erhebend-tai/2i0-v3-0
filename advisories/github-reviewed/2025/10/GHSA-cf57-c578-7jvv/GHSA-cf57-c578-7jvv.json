@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cf57-c578-7jvv",
-  "modified": "2025-10-30T17:08:12Z",
+  "modified": "2025-11-05T22:14:39Z",
   "published": "2025-10-30T17:08:12Z",
   "aliases": [],
   "summary": "Anubis vulnerable to possible XSS via redir parameter when using subrequest auth mode",
@@ -45,6 +45,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/TecharoHQ/anubis"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pkg.go.dev/vuln/GO-2025-4086"
     }
   ],
   "database_specific": {
