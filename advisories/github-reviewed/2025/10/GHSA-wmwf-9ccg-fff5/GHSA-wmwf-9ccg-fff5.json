@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wmwf-9ccg-fff5",
-  "modified": "2025-10-29T10:22:01Z",
+  "modified": "2025-11-05T20:50:12Z",
   "published": "2025-10-27T18:31:13Z",
   "aliases": [
     "CVE-2025-55752"
@@ -280,6 +280,10 @@
     {
       "type": "WEB",
       "url": "https://tomcat.apache.org/security-9.html#Fixed_in_Apache_Tomcat_9.0.109"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/10/27/4"
     }
   ],
   "database_specific": {

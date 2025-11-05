@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4mjw-xr5x-prpc",
-  "modified": "2025-10-16T21:05:01Z",
+  "modified": "2025-11-05T20:49:05Z",
   "published": "2025-10-16T09:30:24Z",
   "aliases": [
     "CVE-2025-54539"
@@ -47,6 +47,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/9k684j07ljrshy3hxwhj5m0xjmkz1g2n"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/10/15/3"
     }
   ],
   "database_specific": {

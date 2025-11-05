@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9m49-p2j3-c6xm",
-  "modified": "2025-10-16T21:14:47Z",
+  "modified": "2025-11-05T20:49:23Z",
   "published": "2025-10-16T09:30:25Z",
   "aliases": [
     "CVE-2025-61581"
@@ -47,6 +47,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/mx2jxgnlop2f4vbqnvmrldh4pqmobxvp"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/10/16/3"
     }
   ],
   "database_specific": {
