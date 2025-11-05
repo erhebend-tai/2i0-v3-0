@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xjhf-7833-3pm5",
-  "modified": "2025-08-28T18:52:10Z",
+  "modified": "2025-11-05T20:41:12Z",
   "published": "2025-08-28T15:34:28Z",
   "aliases": [
     "CVE-2025-58047"
@@ -124,6 +124,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/plone/volto/releases/tag/19.0.0-alpha.4"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/08/28/3"
     }
   ],
   "database_specific": {

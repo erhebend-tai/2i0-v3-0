@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mmxm-8w33-wc4h",
-  "modified": "2025-11-04T16:21:21Z",
+  "modified": "2025-11-05T20:40:34Z",
   "published": "2025-08-20T20:52:17Z",
   "aliases": [
     "CVE-2025-5115"
@@ -178,6 +178,14 @@
     {
       "type": "WEB",
       "url": "https://www.kb.cert.org/vuls/id/767506"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/08/20/4"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/09/17/1"
     }
   ],
   "database_specific": {
