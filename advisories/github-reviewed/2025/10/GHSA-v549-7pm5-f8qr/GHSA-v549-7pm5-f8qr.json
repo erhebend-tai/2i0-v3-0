@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v549-7pm5-f8qr",
-  "modified": "2025-10-29T22:10:40Z",
+  "modified": "2025-11-05T20:54:36Z",
   "published": "2025-10-29T15:31:57Z",
   "aliases": [
     "CVE-2025-64148"
@@ -47,6 +47,10 @@
     {
       "type": "WEB",
       "url": "https://www.jenkins.io/security/advisory/2025-10-29/#SECURITY-3570"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/10/29/2"
     }
   ],
   "database_specific": {

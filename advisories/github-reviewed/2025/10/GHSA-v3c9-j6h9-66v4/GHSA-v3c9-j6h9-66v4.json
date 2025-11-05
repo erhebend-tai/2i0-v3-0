@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v3c9-j6h9-66v4",
-  "modified": "2025-10-30T17:09:19Z",
+  "modified": "2025-11-05T20:55:04Z",
   "published": "2025-10-30T12:31:11Z",
   "aliases": [
     "CVE-2025-54941"
@@ -47,6 +47,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/c6q6nofc6xl5bms039ks9b34v0v36df1"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/10/29/6"
     }
   ],
   "database_specific": {
