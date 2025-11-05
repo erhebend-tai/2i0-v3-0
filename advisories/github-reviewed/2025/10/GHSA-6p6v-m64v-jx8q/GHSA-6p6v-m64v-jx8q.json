@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6p6v-m64v-jx8q",
-  "modified": "2025-10-15T18:58:35Z",
+  "modified": "2025-11-05T20:48:50Z",
   "published": "2025-10-15T09:30:17Z",
   "aliases": [
     "CVE-2025-55039"
@@ -104,6 +104,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/zrgyy9l85nm2c7vk36vr7bkyorg3w4qq"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/10/14/11"
     }
   ],
   "database_specific": {

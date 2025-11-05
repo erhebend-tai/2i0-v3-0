@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w595-4975-gm3h",
-  "modified": "2025-10-14T20:29:02Z",
+  "modified": "2025-11-05T20:48:31Z",
   "published": "2025-10-14T15:31:27Z",
   "aliases": [
     "CVE-2024-44088"
@@ -47,6 +47,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/161r34nokmcc0w74mnf04lskgb8g1d3g"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/10/14/5"
     }
   ],
   "database_specific": {

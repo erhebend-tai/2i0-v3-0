@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wqm3-w3p6-xjgm",
-  "modified": "2025-10-09T20:53:40Z",
+  "modified": "2025-11-05T20:48:11Z",
   "published": "2025-10-09T15:31:03Z",
   "aliases": [
     "CVE-2025-62228"
@@ -131,6 +131,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/3dn0hc1wbc5sj0jbgdg33gtnwlw7qrl3"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/10/09/2"
     }
   ],
   "database_specific": {

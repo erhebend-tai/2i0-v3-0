@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p86w-w5rh-m3hx",
-  "modified": "2025-10-02T21:03:33Z",
+  "modified": "2025-11-05T20:47:49Z",
   "published": "2025-10-02T12:31:06Z",
   "aliases": [
     "CVE-2025-61734"
@@ -173,6 +173,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/z705g7sn3g0bkchlqbo1hz1tyqorn4d2"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/09/30/8"
     }
   ],
   "database_specific": {

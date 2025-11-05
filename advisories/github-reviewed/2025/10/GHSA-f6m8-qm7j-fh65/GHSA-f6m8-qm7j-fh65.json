@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f6m8-qm7j-fh65",
-  "modified": "2025-10-02T21:46:51Z",
+  "modified": "2025-11-05T20:47:58Z",
   "published": "2025-10-02T12:31:06Z",
   "aliases": [
     "CVE-2025-61735"
@@ -173,6 +173,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/yscobmx869zvprsykb94r24jtmb58ckh"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/09/30/9"
     }
   ],
   "database_specific": {

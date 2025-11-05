@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vx84-xvr8-w24c",
-  "modified": "2025-09-24T18:59:04Z",
+  "modified": "2025-11-05T20:46:06Z",
   "published": "2025-09-24T09:30:19Z",
   "aliases": [
     "CVE-2025-48392"
@@ -47,6 +47,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/1rn0637hptglmctf8cqd9425bj4q21td"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/09/24/9"
     }
   ],
   "database_specific": {

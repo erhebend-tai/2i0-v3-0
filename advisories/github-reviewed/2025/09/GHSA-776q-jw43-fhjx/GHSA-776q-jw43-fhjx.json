@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-776q-jw43-fhjx",
-  "modified": "2025-09-27T02:28:53Z",
+  "modified": "2025-11-05T20:46:18Z",
   "published": "2025-09-24T09:30:19Z",
   "aliases": [
     "CVE-2025-48459"
@@ -59,6 +59,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/mr84n19nv8d0bmcrfsj3mm5ff5qn4q2f"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/09/24/8"
     }
   ],
   "database_specific": {
