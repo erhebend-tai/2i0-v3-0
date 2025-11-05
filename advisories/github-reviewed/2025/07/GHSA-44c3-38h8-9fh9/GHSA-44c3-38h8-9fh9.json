@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-44c3-38h8-9fh9",
-  "modified": "2025-07-14T21:18:10Z",
+  "modified": "2025-11-05T20:30:55Z",
   "published": "2025-07-14T12:30:27Z",
   "aliases": [
     "CVE-2025-53689"
@@ -146,6 +146,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/5pf9n76ny13pzzk765og2h3gxdxw7p24"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/07/14/1"
     }
   ],
   "database_specific": {

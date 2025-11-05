@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j288-q9x7-2f5v",
-  "modified": "2025-11-03T21:34:05Z",
+  "modified": "2025-11-05T20:30:31Z",
   "published": "2025-07-11T15:31:37Z",
   "aliases": [
     "CVE-2025-48924"
@@ -82,6 +82,14 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2025/09/msg00032.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/09/msg00036.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/07/11/1"
     }
   ],
   "database_specific": {

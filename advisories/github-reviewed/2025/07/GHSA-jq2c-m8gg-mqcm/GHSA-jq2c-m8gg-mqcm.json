@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jq2c-m8gg-mqcm",
-  "modified": "2025-07-21T19:38:17Z",
+  "modified": "2025-11-05T20:31:21Z",
   "published": "2025-07-21T12:30:34Z",
   "aliases": [
     "CVE-2025-49656"
@@ -55,6 +55,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/qmm21som8zct813vx6dfd1phnfro6mwq"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/07/21/1"
     }
   ],
   "database_specific": {
