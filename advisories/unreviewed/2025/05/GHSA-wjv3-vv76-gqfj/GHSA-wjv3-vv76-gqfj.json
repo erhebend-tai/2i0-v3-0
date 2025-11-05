@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wjv3-vv76-gqfj",
-  "modified": "2025-05-19T18:30:46Z",
+  "modified": "2025-11-05T00:31:18Z",
   "published": "2025-05-19T18:30:46Z",
   "aliases": [
     "CVE-2025-24189"
@@ -42,6 +42,10 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/en-us/122074"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/08/02/1"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4wq8-9vvh-c555",
-  "modified": "2025-08-13T21:30:30Z",
+  "modified": "2025-11-05T00:31:24Z",
   "published": "2025-08-13T21:30:30Z",
   "aliases": [
     "CVE-2025-34154"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://unform.com/download/uf101_readme.txt"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vulncheck.com/advisories/unform-server-manager-unauthenticated-arbitrary-file-read"
     }
   ],
   "database_specific": {

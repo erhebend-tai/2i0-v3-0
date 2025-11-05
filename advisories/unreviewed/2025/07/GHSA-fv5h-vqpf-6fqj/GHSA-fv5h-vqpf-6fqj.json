@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fv5h-vqpf-6fqj",
-  "modified": "2025-11-03T21:34:05Z",
+  "modified": "2025-11-05T00:31:19Z",
   "published": "2025-07-10T09:32:27Z",
   "aliases": [
     "CVE-2025-32988"
@@ -54,6 +54,10 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2025/08/msg00005.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/07/11/3"
     }
   ],
   "database_specific": {

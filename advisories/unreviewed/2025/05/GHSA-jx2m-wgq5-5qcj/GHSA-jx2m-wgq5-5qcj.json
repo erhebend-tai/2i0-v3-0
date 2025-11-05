@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jx2m-wgq5-5qcj",
-  "modified": "2025-11-03T21:33:59Z",
+  "modified": "2025-11-05T00:31:18Z",
   "published": "2025-05-30T15:30:31Z",
   "aliases": [
     "CVE-2025-4598"
@@ -58,6 +58,10 @@
     {
       "type": "WEB",
       "url": "http://www.openwall.com/lists/oss-security/2025/06/05/3"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/08/18/3"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8j4g-7p6h-w548",
-  "modified": "2025-07-22T15:32:51Z",
+  "modified": "2025-11-05T00:31:22Z",
   "published": "2025-07-22T15:32:50Z",
   "aliases": [
     "CVE-2025-34140"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.etq.com/product-overview"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vulncheck.com/advisories/etq-reliance-cg-nxg-api-authorization-bypass-via-localized-text-uri-suffix"
     }
   ],
   "database_specific": {

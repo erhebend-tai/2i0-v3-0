@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6q5r-8qc5-j49x",
-  "modified": "2025-04-12T13:05:56Z",
+  "modified": "2025-11-05T00:31:12Z",
   "published": "2022-05-13T01:17:05Z",
   "aliases": [
     "CVE-2016-5597"
@@ -78,6 +78,10 @@
     {
       "type": "WEB",
       "url": "http://www.debian.org/security/2016/dsa-3707"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/10/29/2"
     },
     {
       "type": "WEB",

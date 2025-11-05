@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xmrh-m77m-3pg7",
-  "modified": "2025-08-04T18:30:38Z",
+  "modified": "2025-11-05T00:31:24Z",
   "published": "2025-08-04T18:30:38Z",
   "aliases": [
     "CVE-2025-34147"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.aliexpress.us/item/3256806767641280.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vulncheck.com/advisories/shenzhen-aitemi-m300-wifi-repeater-os-command-injection-via-ssid"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-396v-898v-98hg",
-  "modified": "2025-10-31T09:30:26Z",
+  "modified": "2025-11-05T00:31:32Z",
   "published": "2025-10-31T09:30:26Z",
   "aliases": [
     "CVE-2025-30189"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "http://seclists.org/fulldisclosure/2025/Oct/29"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/10/29/4"
     }
   ],
   "database_specific": {

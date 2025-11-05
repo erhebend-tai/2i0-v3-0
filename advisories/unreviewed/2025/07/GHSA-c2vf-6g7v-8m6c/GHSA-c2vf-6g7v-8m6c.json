@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c2vf-6g7v-8m6c",
-  "modified": "2025-11-03T21:34:05Z",
+  "modified": "2025-11-05T00:31:20Z",
   "published": "2025-07-10T18:31:29Z",
   "aliases": [
     "CVE-2025-53020"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2025/08/msg00009.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/07/10/10"
     }
   ],
   "database_specific": {

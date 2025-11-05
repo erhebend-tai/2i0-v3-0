@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vx3h-cj8w-2h2c",
-  "modified": "2025-11-04T21:31:14Z",
+  "modified": "2025-11-05T00:31:17Z",
   "published": "2024-02-28T15:30:56Z",
   "aliases": [
     "CVE-2024-21886"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-21886"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/TZ2IJJDHJETNE76VUX4G7UI5EG5HYFEH"
     },
     {
       "type": "WEB",

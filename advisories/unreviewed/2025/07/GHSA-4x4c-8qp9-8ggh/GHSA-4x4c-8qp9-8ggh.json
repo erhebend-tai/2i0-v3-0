@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4x4c-8qp9-8ggh",
-  "modified": "2025-07-16T18:32:38Z",
+  "modified": "2025-11-05T00:31:21Z",
   "published": "2025-07-16T18:32:38Z",
   "aliases": [
     "CVE-2025-40777"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://kb.isc.org/docs/cve-2025-40777"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/07/16/6"
     }
   ],
   "database_specific": {

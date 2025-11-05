@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pxpx-frfv-j88x",
-  "modified": "2025-11-04T03:30:26Z",
+  "modified": "2025-11-05T00:31:28Z",
   "published": "2025-09-29T18:33:13Z",
   "aliases": [
     "CVE-2025-43400"
@@ -50,6 +50,14 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/en-us/125639"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/Sep/73"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/Sep/76"
     },
     {
       "type": "WEB",

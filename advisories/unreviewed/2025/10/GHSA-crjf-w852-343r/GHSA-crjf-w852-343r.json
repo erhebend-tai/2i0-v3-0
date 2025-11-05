@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-crjf-w852-343r",
-  "modified": "2025-10-03T18:31:25Z",
+  "modified": "2025-11-05T00:31:29Z",
   "published": "2025-10-03T12:33:15Z",
   "aliases": [
     "CVE-2025-10547"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://www.draytek.com/about/security-advisory/use-of-uninitialized-variable-vulnerabilities"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.kb.cert.org/vuls/id/294418"
     }
   ],
   "database_specific": {

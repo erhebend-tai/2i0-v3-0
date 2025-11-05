@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4qjf-x9px-pc8w",
-  "modified": "2025-11-03T21:34:14Z",
+  "modified": "2025-11-05T00:31:23Z",
   "published": "2025-07-30T00:32:21Z",
   "aliases": [
     "CVE-2025-43211"
@@ -66,6 +66,10 @@
     {
       "type": "WEB",
       "url": "http://seclists.org/fulldisclosure/2025/Jul/36"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/08/02/1"
     }
   ],
   "database_specific": {

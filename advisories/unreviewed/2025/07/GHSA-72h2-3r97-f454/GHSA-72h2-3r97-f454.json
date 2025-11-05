@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-72h2-3r97-f454",
-  "modified": "2025-11-03T21:34:05Z",
+  "modified": "2025-11-05T00:31:20Z",
   "published": "2025-07-10T18:31:28Z",
   "aliases": [
     "CVE-2025-49630"
@@ -26,6 +26,14 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2025/08/msg00009.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/07/10/2"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/07/10/7"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2qmj-q2xc-85v8",
-  "modified": "2025-08-13T15:30:35Z",
+  "modified": "2025-11-05T00:31:24Z",
   "published": "2025-08-13T15:30:35Z",
   "aliases": [
     "CVE-2025-53859"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://my.f5.com/manage/s/article/K000152786"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/08/13/5"
     }
   ],
   "database_specific": {

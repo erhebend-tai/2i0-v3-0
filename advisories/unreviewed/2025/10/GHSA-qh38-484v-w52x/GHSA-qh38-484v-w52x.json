@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qh38-484v-w52x",
-  "modified": "2025-10-30T21:30:45Z",
+  "modified": "2025-11-05T00:31:32Z",
   "published": "2025-10-30T00:31:03Z",
   "aliases": [
     "CVE-2025-61725"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://pkg.go.dev/vuln/GO-2025-4006"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/10/08/1"
     }
   ],
   "database_specific": {

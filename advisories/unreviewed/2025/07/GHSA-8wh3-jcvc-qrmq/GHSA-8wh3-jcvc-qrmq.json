@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8wh3-jcvc-qrmq",
-  "modified": "2025-07-02T12:32:12Z",
+  "modified": "2025-11-05T00:31:18Z",
   "published": "2025-07-02T12:32:12Z",
   "aliases": [
     "CVE-2024-35164"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/sgs8lplbkrpvd3hrvcnnxh3028h4py70"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/07/01/2"
     }
   ],
   "database_specific": {

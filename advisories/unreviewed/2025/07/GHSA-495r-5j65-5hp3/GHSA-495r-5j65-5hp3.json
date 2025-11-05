@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-495r-5j65-5hp3",
-  "modified": "2025-07-02T21:31:59Z",
+  "modified": "2025-11-05T00:31:18Z",
   "published": "2025-07-02T12:32:12Z",
   "aliases": [
     "CVE-2025-46647"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/yrpp2cd3o4qkxlrh421mq8gsrt0k4x0w"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/07/02/1"
     }
   ],
   "database_specific": {

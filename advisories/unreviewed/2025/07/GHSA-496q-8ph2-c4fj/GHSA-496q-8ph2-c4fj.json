@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-496q-8ph2-c4fj",
-  "modified": "2025-08-07T12:30:25Z",
+  "modified": "2025-11-05T00:31:21Z",
   "published": "2025-07-16T15:32:32Z",
   "aliases": [
     "CVE-2025-40918"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://security.metacpan.org/patches/A/Authen-SASL/2.1800/CVE-2025-40918-r1.patch"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/07/16/5"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8249-348w-qmmh",
-  "modified": "2025-09-17T15:30:26Z",
+  "modified": "2025-11-05T00:31:18Z",
   "published": "2025-07-01T18:30:36Z",
   "aliases": [
     "CVE-2025-34080"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://jvn.jp/en/vu/JVNVU92266386"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vulncheck.com/advisories/conprosys-hmi-system-reflected-xss"
     }
   ],
   "database_specific": {

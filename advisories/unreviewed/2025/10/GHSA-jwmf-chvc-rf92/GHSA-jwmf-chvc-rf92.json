@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jwmf-chvc-rf92",
-  "modified": "2025-10-30T15:32:34Z",
+  "modified": "2025-11-05T00:31:31Z",
   "published": "2025-10-30T00:31:02Z",
   "aliases": [
     "CVE-2025-58185"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://pkg.go.dev/vuln/GO-2025-4011"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/10/08/1"
     }
   ],
   "database_specific": {

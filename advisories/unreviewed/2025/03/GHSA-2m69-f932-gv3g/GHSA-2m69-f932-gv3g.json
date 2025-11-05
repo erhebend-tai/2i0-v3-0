@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2m69-f932-gv3g",
-  "modified": "2025-11-04T18:31:31Z",
+  "modified": "2025-11-05T00:31:17Z",
   "published": "2025-03-31T18:31:07Z",
   "aliases": [
     "CVE-2025-2794"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://devnet.kentico.com/download/hotfixes"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vulncheck.com/advisories/kentico-xperience-unsafe-reflection"
     }
   ],
   "database_specific": {

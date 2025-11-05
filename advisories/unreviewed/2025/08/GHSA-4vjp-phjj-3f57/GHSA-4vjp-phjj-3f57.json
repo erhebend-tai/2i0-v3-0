@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4vjp-phjj-3f57",
-  "modified": "2025-08-13T18:31:24Z",
+  "modified": "2025-11-05T00:31:24Z",
   "published": "2025-08-13T18:31:24Z",
   "aliases": [
     "CVE-2025-34153"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://www.hyland.com/en/internal/onbase-unity-client"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vulncheck.com/advisories/hyland-onbase-net-remoting-tcp-channel-unauthenticated-rce"
     }
   ],
   "database_specific": {

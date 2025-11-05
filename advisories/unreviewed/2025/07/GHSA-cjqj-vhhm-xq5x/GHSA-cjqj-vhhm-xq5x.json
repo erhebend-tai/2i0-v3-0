@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cjqj-vhhm-xq5x",
-  "modified": "2025-11-03T21:34:11Z",
+  "modified": "2025-11-05T00:31:22Z",
   "published": "2025-07-23T15:31:13Z",
   "aliases": [
     "CVE-2025-54090"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://news.ycombinator.com/item?id=44666896"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/07/24/2"
     }
   ],
   "database_specific": {

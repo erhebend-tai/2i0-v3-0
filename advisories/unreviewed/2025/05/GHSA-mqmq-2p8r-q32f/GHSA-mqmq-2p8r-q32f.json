@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mqmq-2p8r-q32f",
-  "modified": "2025-05-14T18:30:45Z",
+  "modified": "2025-11-05T00:31:18Z",
   "published": "2025-05-12T12:30:25Z",
   "aliases": [
     "CVE-2025-22247"
@@ -34,6 +34,14 @@
     {
       "type": "WEB",
       "url": "http://www.openwall.com/lists/oss-security/2025/05/13/2"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/09/24/3"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/09/25/3"
     }
   ],
   "database_specific": {

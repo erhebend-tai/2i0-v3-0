@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f9vh-cwpr-5m8f",
-  "modified": "2025-07-28T18:31:29Z",
+  "modified": "2025-11-05T00:31:22Z",
   "published": "2025-07-28T18:31:29Z",
   "aliases": [
     "CVE-2025-43023"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://support.hp.com/us-en/document/ish_12804224-12804228-16/hpsbpi04033"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/08/22/4"
     }
   ],
   "database_specific": {

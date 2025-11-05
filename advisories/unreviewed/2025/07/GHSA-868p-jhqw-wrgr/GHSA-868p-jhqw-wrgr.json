@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-868p-jhqw-wrgr",
-  "modified": "2025-07-16T21:30:35Z",
+  "modified": "2025-11-05T00:31:21Z",
   "published": "2025-07-16T15:32:32Z",
   "aliases": [
     "CVE-2025-40923"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://security.metacpan.org/docs/guides/random-data-for-security.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/07/16/4"
     }
   ],
   "database_specific": {

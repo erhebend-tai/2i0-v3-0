@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p7fp-v35q-pm7j",
-  "modified": "2025-11-03T21:34:27Z",
+  "modified": "2025-11-05T00:31:26Z",
   "published": "2025-09-10T09:30:58Z",
   "aliases": [
     "CVE-2025-9943"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://shibboleth.net/downloads/service-provider/3.5.1"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/Sep/40"
     }
   ],
   "database_specific": {

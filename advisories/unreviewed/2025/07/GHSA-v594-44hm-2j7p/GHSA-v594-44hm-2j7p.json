@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v594-44hm-2j7p",
-  "modified": "2025-09-24T18:30:23Z",
+  "modified": "2025-11-05T00:31:23Z",
   "published": "2025-07-28T21:31:35Z",
   "aliases": [
     "CVE-2025-8194"
@@ -62,6 +62,14 @@
     {
       "type": "WEB",
       "url": "https://mail.python.org/archives/list/security-announce@python.org/thread/ZULLF3IZ726XP5EY7XJ7YIN3K5MDYR2D"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/07/28/1"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/07/28/2"
     }
   ],
   "database_specific": {

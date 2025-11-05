@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x33r-pvvq-wjrh",
-  "modified": "2025-07-19T00:32:31Z",
+  "modified": "2025-11-05T00:31:22Z",
   "published": "2025-07-19T00:32:31Z",
   "aliases": [
     "CVE-2025-27210"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://nodejs.org/en/blog/vulnerability/july-2025-security-releases"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/07/22/2"
     }
   ],
   "database_specific": {

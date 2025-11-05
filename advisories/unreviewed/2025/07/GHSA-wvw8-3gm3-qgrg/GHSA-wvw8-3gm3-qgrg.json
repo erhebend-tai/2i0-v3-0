@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wvw8-3gm3-qgrg",
-  "modified": "2025-11-03T21:34:11Z",
+  "modified": "2025-11-05T00:31:23Z",
   "published": "2025-07-30T00:32:19Z",
   "aliases": [
     "CVE-2025-31273"
@@ -62,6 +62,10 @@
     {
       "type": "WEB",
       "url": "http://seclists.org/fulldisclosure/2025/Jul/36"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/08/02/1"
     }
   ],
   "database_specific": {

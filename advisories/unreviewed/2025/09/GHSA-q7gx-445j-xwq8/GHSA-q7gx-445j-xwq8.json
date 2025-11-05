@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q7gx-445j-xwq8",
-  "modified": "2025-11-03T21:34:26Z",
+  "modified": "2025-11-05T00:31:26Z",
   "published": "2025-09-08T15:37:45Z",
   "aliases": [
     "CVE-2025-40929"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://metacpan.org/release/RURBAN/Cpanel-JSON-XS-4.40/changes"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/09/08/1"
     }
   ],
   "database_specific": {

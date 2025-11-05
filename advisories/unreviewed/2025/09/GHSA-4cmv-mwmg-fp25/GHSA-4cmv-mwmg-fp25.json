@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4cmv-mwmg-fp25",
-  "modified": "2025-09-10T18:30:16Z",
+  "modified": "2025-11-05T00:31:26Z",
   "published": "2025-09-10T18:30:16Z",
   "aliases": [
     "CVE-2025-8696"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://kb.isc.org/docs/cve-2025-8696"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/09/10/5"
     }
   ],
   "database_specific": {

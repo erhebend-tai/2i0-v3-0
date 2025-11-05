@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-78j7-w964-99fc",
-  "modified": "2025-11-03T21:34:05Z",
+  "modified": "2025-11-05T00:31:18Z",
   "published": "2025-07-05T03:30:23Z",
   "aliases": [
     "CVE-2025-53603"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://www.openwall.com/lists/oss-security/2025/07/02/3"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/07/05/1"
     }
   ],
   "database_specific": {

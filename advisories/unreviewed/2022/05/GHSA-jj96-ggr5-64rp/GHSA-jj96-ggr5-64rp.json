@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jj96-ggr5-64rp",
-  "modified": "2022-05-17T03:46:06Z",
+  "modified": "2025-11-05T00:31:12Z",
   "published": "2022-05-17T03:46:06Z",
   "aliases": [
     "CVE-2014-5414"
@@ -21,7 +21,27 @@
     },
     {
       "type": "WEB",
+      "url": "https://download.beckhoff.com/download/document/product-security/Advisories/advisory-2014-001.pdf"
+    },
+    {
+      "type": "WEB",
+      "url": "https://download.beckhoff.com/download/document/product-security/Advisories/advisory-2014-002.pdf"
+    },
+    {
+      "type": "WEB",
+      "url": "https://download.beckhoff.com/download/document/product-security/Advisories/advisory-2014-003.pdf"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2016/icsa-16-278-02.json"
+    },
+    {
+      "type": "WEB",
       "url": "https://ics-cert.us-cert.gov/advisories/ICSA-16-278-02"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-16-278-02"
     },
     {
       "type": "WEB",
@@ -29,7 +49,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-307"
+    ],
     "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,

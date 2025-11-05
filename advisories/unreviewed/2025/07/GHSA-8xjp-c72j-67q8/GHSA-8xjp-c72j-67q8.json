@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8xjp-c72j-67q8",
-  "modified": "2025-07-23T21:36:46Z",
+  "modified": "2025-11-05T00:31:22Z",
   "published": "2025-07-23T21:36:45Z",
   "aliases": [
     "CVE-2025-8058"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://sourceware.org/git/?p=glibc.git;a=commit;h=3ff17af18c38727b88d9115e536c069e6b5d601f"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/07/23/1"
     }
   ],
   "database_specific": {

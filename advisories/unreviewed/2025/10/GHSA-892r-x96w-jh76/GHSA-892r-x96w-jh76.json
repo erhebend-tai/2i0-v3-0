@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-892r-x96w-jh76",
-  "modified": "2025-11-04T12:30:19Z",
+  "modified": "2025-11-05T00:31:32Z",
   "published": "2025-10-30T06:30:54Z",
   "aliases": [
     "CVE-2025-62230"
@@ -54,6 +54,10 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2025/10/msg00033.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/10/28/7"
     }
   ],
   "database_specific": {

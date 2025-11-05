@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7h4g-fv39-cwf4",
-  "modified": "2022-05-17T04:10:18Z",
+  "modified": "2025-11-05T00:31:11Z",
   "published": "2022-05-17T04:10:18Z",
   "aliases": [
     "CVE-2014-5417"
@@ -16,7 +16,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2014/icsa-14-275-01.json"
+    },
+    {
+      "type": "WEB",
       "url": "https://ics-cert.us-cert.gov/advisories/ICSA-14-275-01"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-14-275-01"
+    },
+    {
+      "type": "WEB",
+      "url": "http://news.meinberg.de/259"
     },
     {
       "type": "WEB",

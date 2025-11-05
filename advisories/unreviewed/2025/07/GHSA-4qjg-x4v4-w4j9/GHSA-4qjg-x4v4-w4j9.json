@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4qjg-x4v4-w4j9",
-  "modified": "2025-11-03T21:34:08Z",
+  "modified": "2025-11-05T00:31:21Z",
   "published": "2025-07-15T21:31:44Z",
   "aliases": [
     "CVE-2025-30761"
@@ -26,6 +26,18 @@
     {
       "type": "WEB",
       "url": "https://www.oracle.com/security-alerts/cpujul2025.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/07/16/1"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/07/21/3"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/07/24/1"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mr85-g3h9-44r6",
-  "modified": "2025-08-13T18:31:12Z",
+  "modified": "2025-11-05T00:31:24Z",
   "published": "2025-08-04T21:30:43Z",
   "aliases": [
     "CVE-2025-55014"
@@ -50,6 +50,10 @@
     {
       "type": "WEB",
       "url": "https://www.openwall.com/lists/oss-security/2025/08/04/1"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/08/08/2"
     }
   ],
   "database_specific": {

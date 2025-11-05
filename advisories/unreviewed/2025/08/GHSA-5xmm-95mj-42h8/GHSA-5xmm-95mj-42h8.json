@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5xmm-95mj-42h8",
-  "modified": "2025-08-28T15:30:38Z",
+  "modified": "2025-11-05T00:31:24Z",
   "published": "2025-08-11T21:31:40Z",
   "aliases": [
     "CVE-2025-40920"
@@ -42,6 +42,10 @@
     {
       "type": "WEB",
       "url": "https://security.metacpan.org/patches/C/Catalyst-Authentication-Credential-HTTP/1.018/CVE-2025-40920-r1.patch"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/08/12/1"
     }
   ],
   "database_specific": {

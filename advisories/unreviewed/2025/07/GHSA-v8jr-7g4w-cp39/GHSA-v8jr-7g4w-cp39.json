@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v8jr-7g4w-cp39",
-  "modified": "2025-07-22T15:32:51Z",
+  "modified": "2025-11-05T00:31:22Z",
   "published": "2025-07-22T15:32:51Z",
   "aliases": [
     "CVE-2025-34142"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://www.etq.com/product-overview"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vulncheck.com/advisories/etq-reliance-cg-xxe-injection-in-sso-saml-handler-copy"
     }
   ],
   "database_specific": {
