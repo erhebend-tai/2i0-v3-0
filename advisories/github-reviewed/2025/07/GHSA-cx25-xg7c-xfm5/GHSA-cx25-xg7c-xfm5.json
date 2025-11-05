@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cx25-xg7c-xfm5",
-  "modified": "2025-07-30T20:02:07Z",
+  "modified": "2025-11-05T20:32:10Z",
   "published": "2025-07-30T18:31:36Z",
   "aliases": [
     "CVE-2025-54656"
@@ -47,6 +47,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/so5cn07j2zn9vlf1xnfqp630wts719rr"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/07/30/1"
     }
   ],
   "database_specific": {

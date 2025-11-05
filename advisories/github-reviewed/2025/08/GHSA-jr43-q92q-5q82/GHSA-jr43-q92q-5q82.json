@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jr43-q92q-5q82",
-  "modified": "2025-08-04T16:23:06Z",
+  "modified": "2025-11-05T20:33:26Z",
   "published": "2025-08-03T12:30:30Z",
   "aliases": [
     "CVE-2024-52279"
@@ -59,6 +59,10 @@
     {
       "type": "WEB",
       "url": "https://www.cve.org/CVERecord?id=CVE-2024-31864"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/08/03/3"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p288-459w-jxj6",
-  "modified": "2025-08-04T16:32:19Z",
+  "modified": "2025-11-05T20:33:42Z",
   "published": "2025-08-03T12:30:30Z",
   "aliases": [
     "CVE-2024-41177"
@@ -55,6 +55,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/nwh8vh9f3pnvt04n8z4g2kbddh62blr6"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/08/03/4"
     }
   ],
   "database_specific": {
