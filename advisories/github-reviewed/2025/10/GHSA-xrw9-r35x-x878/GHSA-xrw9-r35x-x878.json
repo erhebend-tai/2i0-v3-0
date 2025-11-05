@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xrw9-r35x-x878",
-  "modified": "2025-11-04T17:11:43Z",
+  "modified": "2025-11-05T22:13:38Z",
   "published": "2025-10-29T22:21:05Z",
   "aliases": [
     "CVE-2025-64102"
@@ -70,6 +70,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/zitadel/zitadel"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pkg.go.dev/vuln/GO-2025-4085"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qh7p-pfq3-677h",
-  "modified": "2025-10-29T15:40:11Z",
+  "modified": "2025-11-05T22:12:37Z",
   "published": "2025-10-28T21:30:33Z",
   "aliases": [
     "CVE-2025-11375"
@@ -59,6 +59,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/hashicorp/consul/releases/tag/v1.22.0"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pkg.go.dev/vuln/GO-2025-4082"
     }
   ],
   "database_specific": {
