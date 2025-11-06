@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c227-62wj-h696",
-  "modified": "2025-10-23T21:31:42Z",
+  "modified": "2025-11-06T21:31:18Z",
   "published": "2025-10-16T18:30:25Z",
   "aliases": [
     "CVE-2025-34519"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://www.vulncheck.com/advisories/ilevia-eve-x1-server-insecure-hashing-algorithm"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.zeroscience.mk/en/vulnerabilities/ZSL-2025-5964.php"
     }
   ],
   "database_specific": {

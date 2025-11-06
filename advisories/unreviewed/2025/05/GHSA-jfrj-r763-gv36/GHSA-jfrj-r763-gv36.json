@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jfrj-r763-gv36",
-  "modified": "2025-05-01T15:31:43Z",
+  "modified": "2025-11-06T21:31:17Z",
   "published": "2025-05-01T15:31:42Z",
   "aliases": [
     "CVE-2025-37755"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: libwx: handle page_pool_dev_alloc_pages error\n\npage_pool_dev_alloc_pages could return NULL. There was a WARN_ON(!page)\nbut it would still proceed to use the NULL pointer and then crash.\n\nThis is similar to commit 001ba0902046\n(\"net: fec: handle page_pool_dev_alloc_pages error\").\n\nThis is found by our static analysis tool KNighter.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -36,8 +41,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-01T13:15:54Z"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-82fj-7wxx-cmrc",
-  "modified": "2025-11-04T00:32:27Z",
+  "modified": "2025-11-06T21:31:19Z",
   "published": "2025-11-04T00:32:27Z",
   "aliases": [
     "CVE-2021-47698"
