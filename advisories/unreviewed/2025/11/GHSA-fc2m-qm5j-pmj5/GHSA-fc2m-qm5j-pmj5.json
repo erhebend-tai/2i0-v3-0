@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-fc2m-qm5j-pmj5",
+  "modified": "2025-11-06T18:32:53Z",
+  "published": "2025-11-06T18:32:53Z",
+  "aliases": [
+    "CVE-2025-53214"
+  ],
+  "details": "Missing Authorization vulnerability in sertifier Sertifier Certificate & Badge Maker sertifier-certificates-open-badges allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects Sertifier Certificate & Badge Maker: from n/a through <= 1.21.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-53214"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/sertifier-certificates-open-badges/vulnerability/wordpress-sertifier-certificate-badge-maker-plugin-1-19-broken-access-control-vulnerability"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-862"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-11-06T16:15:55Z"
+  }
+}

@@ -1,13 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gpq7-64xq-65r5",
-  "modified": "2025-10-31T00:30:33Z",
+  "modified": "2025-11-06T18:32:47Z",
   "published": "2025-10-31T00:30:33Z",
   "aliases": [
     "CVE-2023-7322"
   ],
   "details": "Nagios Log Server versions prior to 2024R1 contain an incorrect authorization vulnerability. Users who lacked the required API permission were nevertheless able to invoke API endpoints, resulting in unintended access to data and actions exposed via the API. This incorrect authorization check could allow authenticated but non-privileged users to read or modify resources beyond their intended rights.",
   "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N"
+    },
     {
       "type": "CVSS_V4",
       "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"

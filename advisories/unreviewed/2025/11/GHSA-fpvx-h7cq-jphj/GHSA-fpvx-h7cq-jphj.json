@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-fpvx-h7cq-jphj",
+  "modified": "2025-11-06T18:32:54Z",
+  "published": "2025-11-06T18:32:54Z",
+  "aliases": [
+    "CVE-2025-53573"
+  ],
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in jegtheme Epic Review epic-review allows Reflected XSS.This issue affects Epic Review: from n/a through <= 1.0.2.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-53573"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/epic-review/vulnerability/wordpress-epic-review-plugin-1-0-2-cross-site-scripting-xss-vulnerability"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-11-06T16:15:56Z"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-4gh8-cr63-898j",
+  "modified": "2025-11-06T18:32:54Z",
+  "published": "2025-11-06T18:32:54Z",
+  "aliases": [
+    "CVE-2025-58972"
+  ],
+  "details": "Path Traversal: '.../...//' vulnerability in Dmitry V. (CEO of \"UKR Solution\") Barcode Scanner with Inventory & Order Manager barcode-scanner-lite-pos-to-manage-products-inventory-and-orders allows Path Traversal.This issue affects Barcode Scanner with Inventory & Order Manager: from n/a through <= 1.10.4.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-58972"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/barcode-scanner-lite-pos-to-manage-products-inventory-and-orders/vulnerability/wordpress-barcode-scanner-with-inventory-order-manager-plugin-1-10-4-path-traversal-vulnerability"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-35"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-11-06T16:16:00Z"
+  }
+}

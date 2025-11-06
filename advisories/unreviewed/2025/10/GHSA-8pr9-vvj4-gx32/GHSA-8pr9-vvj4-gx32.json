@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8pr9-vvj4-gx32",
-  "modified": "2025-11-06T15:31:02Z",
+  "modified": "2025-11-06T18:32:45Z",
   "published": "2025-10-31T00:30:30Z",
   "aliases": [
     "CVE-2011-10037"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://www.vulncheck.com/advisories/nagios-xi-xss-via-xiwindow-variables-affecting-permalinks"
+    },
+    {
+      "type": "WEB",
+      "url": "http://0a29.blogspot.com/2011/12/0a29-11-3-cross-site-scripting.html"
     }
   ],
   "database_specific": {

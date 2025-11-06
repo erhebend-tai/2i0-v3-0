@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ppqc-p99x-6f72",
-  "modified": "2025-07-21T21:31:42Z",
+  "modified": "2025-11-06T18:32:45Z",
   "published": "2025-07-21T21:31:42Z",
   "aliases": [
     "CVE-2025-7938"
@@ -42,7 +42,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-285"
+      "CWE-285",
+      "CWE-639"
     ],
     "severity": "MODERATE",
     "github_reviewed": false,

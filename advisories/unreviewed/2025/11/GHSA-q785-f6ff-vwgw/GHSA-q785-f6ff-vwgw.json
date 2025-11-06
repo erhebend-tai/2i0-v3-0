@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-q785-f6ff-vwgw",
+  "modified": "2025-11-06T18:32:56Z",
+  "published": "2025-11-06T18:32:56Z",
+  "aliases": [
+    "CVE-2025-62014"
+  ],
+  "details": "Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion') vulnerability in ApusTheme ITok itok.This issue affects ITok: from n/a through <= 1.1.42.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62014"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Theme/itok/vulnerability/wordpress-itok-theme-1-1-42-local-file-inclusion-vulnerability"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-98"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-11-06T16:16:08Z"
+  }
+}

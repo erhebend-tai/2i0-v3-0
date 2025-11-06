@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-p9fc-5f3m-4xpv",
+  "modified": "2025-11-06T18:32:56Z",
+  "published": "2025-11-06T18:32:56Z",
+  "aliases": [
+    "CVE-2025-62032"
+  ],
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in tagDiv tagDiv Cloud Library td-cloud-library allows DOM-Based XSS.This issue affects tagDiv Cloud Library: from n/a through < 3.9.2.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62032"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/td-cloud-library/vulnerability/wordpress-tagdiv-cloud-library-plugin-3-9-cross-site-scripting-xss-vulnerability"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-11-06T16:16:09Z"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-2jj7-5phw-h5ch",
+  "modified": "2025-11-06T18:32:54Z",
+  "published": "2025-11-06T18:32:54Z",
+  "aliases": [
+    "CVE-2025-53586"
+  ],
+  "details": "Deserialization of Untrusted Data vulnerability in NooTheme WeMusic noo-wemusic allows Object Injection.This issue affects WeMusic: from n/a through <= 1.9.1.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-53586"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Theme/noo-wemusic/vulnerability/wordpress-wemusic-theme-1-9-1-php-object-injection-vulnerability"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-502"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-11-06T16:15:57Z"
+  }
+}
