@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4m27-833c-75q4",
-  "modified": "2025-02-06T18:31:05Z",
+  "modified": "2025-11-06T15:31:01Z",
   "published": "2025-02-06T06:31:26Z",
   "aliases": [
     "CVE-2024-57520"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-57520"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/asterisk/asterisk/issues/1122"
     },
     {
       "type": "WEB",
