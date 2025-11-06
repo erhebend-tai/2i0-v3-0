@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-w832-gg5g-x44m",
+  "modified": "2025-11-06T15:13:34Z",
+  "published": "2025-11-06T15:13:33Z",
+  "aliases": [],
+  "summary": "Open redirect endpoint in Datasette",
+  "details": "### Impact\n\nDeployed instances of Datasette prior to `0.65.2` and `1.0a21` include an open redirect vulnerability.\n\nHits to the path `//example.com/foo/bar/` (the trailing slash is required) will redirect the user to `https://example.com/foo/bar`.\n\n### Patches\n\nThis problem has been patched in both Datasette `0.65.2` and `1.0a21`.\n\n### Workarounds\n\nIf Datasette is running behind a proxy that proxy could be configured to replace `//` with `/` in incoming request URLs.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:N"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "datasette"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.65.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "datasette"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.0a0"
+            },
+            {
+              "fixed": "1.0a21"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "< 1.0a20"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/simonw/datasette/security/advisories/GHSA-w832-gg5g-x44m"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/simonw/datasette/issues/2429"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/simonw/datasette/commit/f257ca6edb64848c3b04b54d41e347c54fe57c05"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/simonw/datasette"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-601"
+    ],
+    "severity": "LOW",
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-11-06T15:13:33Z",
+    "nvd_published_at": null
+  }
+}
