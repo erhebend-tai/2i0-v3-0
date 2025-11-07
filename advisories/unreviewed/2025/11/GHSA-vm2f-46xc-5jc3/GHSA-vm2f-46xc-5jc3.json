@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-vm2f-46xc-5jc3",
+  "modified": "2025-11-07T18:30:31Z",
+  "published": "2025-11-07T18:30:31Z",
+  "aliases": [
+    "CVE-2025-57697"
+  ],
+  "details": "AstrBot Project v3.5.22 has an arbitrary file read vulnerability in function _encode_image_bs64. Since the _encode_image_bs64 function defined in entities.py opens the image specified by the user in the request body and returns the image content as a base64-encoded string without checking the legitimacy of the image path, attackers can construct a series of malicious URLs to read any specified file, resulting in sensitive data leakage.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-57697"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/DYX217/vulnerability-explore/blob/main/1/README.md"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-11-07T18:15:36Z"
+  }
+}

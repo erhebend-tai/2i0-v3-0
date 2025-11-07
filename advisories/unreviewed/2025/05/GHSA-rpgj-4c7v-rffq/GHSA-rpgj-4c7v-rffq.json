@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rpgj-4c7v-rffq",
-  "modified": "2025-05-01T15:31:46Z",
+  "modified": "2025-11-07T18:30:26Z",
   "published": "2025-05-01T15:31:46Z",
   "aliases": [
     "CVE-2022-49785"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nx86/sgx: Add overflow check in sgx_validate_offset_length()\n\nsgx_validate_offset_length() function verifies \"offset\" and \"length\"\narguments provided by userspace, but was missing an overflow check on\ntheir addition. Add it.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -29,7 +34,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-01T15:16:01Z"

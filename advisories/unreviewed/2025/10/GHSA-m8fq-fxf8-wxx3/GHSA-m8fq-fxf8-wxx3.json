@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m8fq-fxf8-wxx3",
-  "modified": "2025-10-30T12:31:11Z",
+  "modified": "2025-11-07T18:30:26Z",
   "published": "2025-10-30T12:31:11Z",
   "aliases": [
     "CVE-2025-39663"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/sbaresearch/advisories/tree/82fd27e4570433464c30b35150b197db9a850f4e/2025/SBA-ADV-20250729-01_Checkmk_Cross_Site_Scripting"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/Nov/0"
     }
   ],
   "database_specific": {
