@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-prf7-7jvx-hxj5",
-  "modified": "2025-11-05T00:31:19Z",
+  "modified": "2025-11-07T00:30:27Z",
   "published": "2025-07-10T18:31:26Z",
   "aliases": [
     "CVE-2025-6395"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2025:16116"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:17181"
     },
     {
       "type": "WEB",

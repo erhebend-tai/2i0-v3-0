@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-43gf-2x57-fwxf",
-  "modified": "2025-05-01T15:31:43Z",
+  "modified": "2025-11-07T00:30:26Z",
   "published": "2025-05-01T15:31:43Z",
   "aliases": [
     "CVE-2025-37762"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/virtio: Fix missed dmabuf unpinning in error path of prepare_fb()\n\nCorrect error handling in prepare_fb() to fix leaking resources when\nerror happens.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -25,7 +30,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-01T14:15:38Z"

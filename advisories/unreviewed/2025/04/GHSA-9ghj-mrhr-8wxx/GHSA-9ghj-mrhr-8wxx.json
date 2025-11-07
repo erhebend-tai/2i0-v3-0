@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9ghj-mrhr-8wxx",
-  "modified": "2025-11-03T21:33:41Z",
+  "modified": "2025-11-07T00:30:26Z",
   "published": "2025-04-18T15:31:38Z",
   "aliases": [
     "CVE-2025-38637"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet_sched: skbprio: Remove overly strict queue assertions\n\nIn the current implementation, skbprio enqueue/dequeue contains an assertion\nthat fails under certain conditions when SKBPRIO is used as a child qdisc under\nTBF with specific parameters. The failure occurs because TBF sometimes peeks at\npackets in the child qdisc without actually dequeuing them when tokens are\nunavailable.\n\nThis peek operation creates a discrepancy between the parent and child qdisc\nqueue length counters. When TBF later receives a high-priority packet,\nSKBPRIO's queue length may show a different value than what's reflected in its\ninternal priority queue tracking, triggering the assertion.\n\nThe fix removes this overly strict assertions in SKBPRIO, they are not\nnecessary at all.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -60,8 +65,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-617"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-04-18T07:15:43Z"
