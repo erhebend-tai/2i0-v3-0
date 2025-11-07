@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xmcw-mv9p-7pq2",
-  "modified": "2025-10-16T22:34:39Z",
+  "modified": "2025-11-07T12:31:11Z",
   "published": "2025-09-05T21:32:38Z",
   "withdrawn": "2025-10-16T22:34:39Z",
   "aliases": [],
@@ -103,6 +103,14 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2025:16400"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:19923"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:19925"
     },
     {
       "type": "WEB",
