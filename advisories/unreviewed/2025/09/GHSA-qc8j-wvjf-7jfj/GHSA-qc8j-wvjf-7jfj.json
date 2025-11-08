@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qc8j-wvjf-7jfj",
-  "modified": "2025-11-07T00:30:28Z",
+  "modified": "2025-11-08T00:31:00Z",
   "published": "2025-09-23T18:30:24Z",
   "aliases": [
     "CVE-2025-9900"
@@ -21,51 +21,19 @@
     },
     {
       "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2025:17651"
+      "url": "https://lists.debian.org/debian-lts-announce/2025/09/msg00031.html"
     },
     {
       "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2025:17675"
+      "url": "https://libtiff.gitlab.io/libtiff/releases/v4.7.1.html"
     },
     {
       "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2025:17710"
+      "url": "https://gitlab.com/libtiff/libtiff/-/merge_requests/732"
     },
     {
       "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2025:17738"
-    },
-    {
-      "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2025:17739"
-    },
-    {
-      "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2025:17740"
-    },
-    {
-      "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2025:19113"
-    },
-    {
-      "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2025:19156"
-    },
-    {
-      "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2025:19276"
-    },
-    {
-      "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2025:19906"
-    },
-    {
-      "type": "WEB",
-      "url": "https://access.redhat.com/security/cve/CVE-2025-9900"
-    },
-    {
-      "type": "WEB",
-      "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2392784"
+      "url": "https://gitlab.com/libtiff/libtiff/-/issues/704"
     },
     {
       "type": "WEB",
@@ -73,7 +41,51 @@
     },
     {
       "type": "WEB",
-      "url": "https://lists.debian.org/debian-lts-announce/2025/09/msg00031.html"
+      "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2392784"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/security/cve/CVE-2025-9900"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:19906"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:19276"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:19156"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:19113"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:17740"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:17739"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:17738"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:17710"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:17675"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:17651"
     },
     {
       "type": "WEB",
