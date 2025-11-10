@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5j92-w6xv-qp2m",
-  "modified": "2025-05-02T18:31:37Z",
+  "modified": "2025-11-10T18:30:29Z",
   "published": "2025-05-02T18:31:37Z",
   "aliases": [
     "CVE-2023-53116"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnvmet: avoid potential UAF in nvmet_req_complete()\n\nAn nvme target ->queue_response() operation implementation may free the\nrequest passed as argument. Such implementation potentially could result\nin a use after free of the request pointer when percpu_ref_put() is\ncalled in nvmet_req_complete().\n\nAvoid such problem by using a local variable to save the sq pointer\nbefore calling __nvmet_req_complete(), thus avoiding dereferencing the\nreq pointer after that function call.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-416"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-02T16:15:30Z"

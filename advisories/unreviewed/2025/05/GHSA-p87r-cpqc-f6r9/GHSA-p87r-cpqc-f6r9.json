@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p87r-cpqc-f6r9",
-  "modified": "2025-05-02T18:31:36Z",
+  "modified": "2025-11-10T18:30:29Z",
   "published": "2025-05-02T18:31:36Z",
   "aliases": [
     "CVE-2023-53106"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnfc: st-nci: Fix use after free bug in ndlc_remove due to race condition\n\nThis bug influences both st_nci_i2c_remove and st_nci_spi_remove.\nTake st_nci_i2c_remove as an example.\n\nIn st_nci_i2c_probe, it called ndlc_probe and bound &ndlc->sm_work\nwith llt_ndlc_sm_work.\n\nWhen it calls ndlc_recv or timeout handler, it will finally call\nschedule_work to start the work.\n\nWhen we call st_nci_i2c_remove to remove the driver, there\nmay be a sequence as follows:\n\nFix it by finishing the work before cleanup in ndlc_remove\n\nCPU0                  CPU1\n\n                    |llt_ndlc_sm_work\nst_nci_i2c_remove   |\n  ndlc_remove       |\n     st_nci_remove  |\n     nci_free_device|\n     kfree(ndev)    |\n//free ndlc->ndev   |\n                    |llt_ndlc_rcv_queue\n                    |nci_recv_frame\n                    |//use ndlc->ndev",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-416"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-02T16:15:29Z"

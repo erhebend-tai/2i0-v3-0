@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-45q6-6mh9-vrvp",
-  "modified": "2025-05-02T18:31:37Z",
+  "modified": "2025-11-10T18:30:29Z",
   "published": "2025-05-02T18:31:37Z",
   "aliases": [
     "CVE-2023-53117"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nfs: prevent out-of-bounds array speculation when closing a file descriptor\n\nGoogle-Bug-Id: 114199369",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-125"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-02T16:15:30Z"

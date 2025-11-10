@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-726g-xghf-35vc",
-  "modified": "2025-05-02T18:31:37Z",
+  "modified": "2025-11-10T18:30:29Z",
   "published": "2025-05-02T18:31:37Z",
   "aliases": [
     "CVE-2023-53124"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nscsi: mpt3sas: Fix NULL pointer access in mpt3sas_transport_port_add()\n\nPort is allocated by sas_port_alloc_num() and rphy is allocated by either\nsas_end_device_alloc() or sas_expander_alloc(), all of which may return\nNULL. So we need to check the rphy to avoid possible NULL pointer access.\n\nIf sas_rphy_add() returned with failure, rphy is set to NULL. We would\naccess the rphy in the following lines which would also result NULL pointer\naccess.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -40,8 +45,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-02T16:15:31Z"

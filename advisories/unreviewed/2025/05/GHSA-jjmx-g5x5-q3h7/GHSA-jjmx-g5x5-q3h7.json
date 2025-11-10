@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jjmx-g5x5-q3h7",
-  "modified": "2025-05-02T18:31:37Z",
+  "modified": "2025-11-10T18:30:30Z",
   "published": "2025-05-02T18:31:37Z",
   "aliases": [
     "CVE-2023-53131"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nSUNRPC: Fix a server shutdown leak\n\nFix a race where kthread_stop() may prevent the threadfn from ever getting\ncalled.  If that happens the svc_rqst will not be cleaned up.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -36,8 +41,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-02T16:15:32Z"

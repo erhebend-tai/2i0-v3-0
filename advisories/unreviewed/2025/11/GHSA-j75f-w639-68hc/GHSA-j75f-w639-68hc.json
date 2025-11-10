@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j75f-w639-68hc",
-  "modified": "2025-11-05T17:48:28Z",
+  "modified": "2025-11-10T18:30:33Z",
   "published": "2025-11-05T17:48:28Z",
   "aliases": [
     "CVE-2025-63601"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/grokability/snipe-it/pull/17966"
+    },
+    {
+      "type": "WEB",
+      "url": "https://dappsec.substack.com/p/snipe-it-post-authenticated-remote"
     },
     {
       "type": "WEB",

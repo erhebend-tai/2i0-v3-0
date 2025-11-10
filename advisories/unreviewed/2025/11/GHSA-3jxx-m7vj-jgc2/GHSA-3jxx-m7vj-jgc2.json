@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3jxx-m7vj-jgc2",
-  "modified": "2025-11-08T00:31:01Z",
+  "modified": "2025-11-10T18:30:33Z",
   "published": "2025-11-08T00:31:01Z",
   "aliases": [
     "CVE-2025-12908"
   ],
   "details": "Insufficient validation of untrusted input in Downloads in Google Chrome on Android prior to 140.0.7339.80 allowed a remote attacker to perform domain spoofing via a crafted HTML page. (Chromium security severity: Low)",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -27,7 +32,7 @@
     "cwe_ids": [
       "CWE-20"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-11-08T00:15:35Z"
