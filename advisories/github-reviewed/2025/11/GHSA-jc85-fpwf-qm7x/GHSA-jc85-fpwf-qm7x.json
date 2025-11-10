@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jc85-fpwf-qm7x",
-  "modified": "2025-11-05T18:46:50Z",
+  "modified": "2025-11-10T19:06:03Z",
   "published": "2025-11-05T03:30:23Z",
   "aliases": [
     "CVE-2025-12735"
@@ -47,11 +47,14 @@
               "introduced": "0"
             },
             {
-              "last_affected": "2.0.2"
+              "fixed": "3.0.0"
             }
           ]
         }
-      ]
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "<= 2.0.2"
+      }
     }
   ],
   "references": [
@@ -65,11 +68,23 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/jorenbroekema/expr-eval/commit/1d71bb2ca8f98df8de00e9cc4de8fdd468a7ad43"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/jorenbroekema/expr-eval"
     },
     {
       "type": "WEB",
+      "url": "https://github.com/jorenbroekema/expr-eval/blob/460b820ba01c5aca6c5d84a7d4f1fa5d1913c67b/test/security.js"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/silentmatt/expr-eval"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.kb.cert.org/vuls/id/263614"
     },
     {
       "type": "WEB",
