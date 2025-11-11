@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4h7h-xhv3-2g96",
-  "modified": "2023-11-13T15:30:20Z",
+  "modified": "2025-11-11T18:30:14Z",
   "published": "2023-11-03T06:36:29Z",
   "aliases": [
     "CVE-2023-38965"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/Or4ngm4n/vulnreability-code-review-php/blob/main/Lost%20and%20Found%20Information%20System%20v1.0.txt"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.exploit-db.com/exploits/51795"
     },
     {
       "type": "WEB",

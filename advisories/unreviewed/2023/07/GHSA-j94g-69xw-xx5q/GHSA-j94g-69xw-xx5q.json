@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j94g-69xw-xx5q",
-  "modified": "2023-11-14T18:30:19Z",
+  "modified": "2025-11-11T18:30:13Z",
   "published": "2023-07-10T18:30:50Z",
   "aliases": [
     "CVE-2023-36375"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://packetstormsecurity.com"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.exploit-db.com/exploits/50628"
     }
   ],
   "database_specific": {

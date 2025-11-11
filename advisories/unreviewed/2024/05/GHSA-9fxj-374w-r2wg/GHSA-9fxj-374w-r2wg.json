@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9fxj-374w-r2wg",
-  "modified": "2024-07-03T18:41:35Z",
+  "modified": "2025-11-11T18:30:14Z",
   "published": "2024-05-14T18:31:05Z",
   "aliases": [
     "CVE-2024-33485"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/CveSecLook/cve/issues/17"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.exploit-db.com/exploits/49463"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fh6j-mgh8-7prh",
-  "modified": "2024-01-25T21:32:14Z",
+  "modified": "2025-11-11T18:30:14Z",
   "published": "2024-01-25T21:32:14Z",
   "aliases": [
     "CVE-2023-52355"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-52355"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:20801"
     },
     {
       "type": "WEB",

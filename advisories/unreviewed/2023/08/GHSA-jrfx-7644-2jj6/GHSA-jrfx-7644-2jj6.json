@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jrfx-7644-2jj6",
-  "modified": "2024-04-04T07:17:11Z",
+  "modified": "2025-11-11T18:30:14Z",
   "published": "2023-08-30T15:30:19Z",
   "aliases": [
     "CVE-2023-41537"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/nu11secur1ty/CVE-nu11secur1ty/tree/main/vendors/phpjabbers/2023/Business-Directory-Script-Version%3A3.2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nu11secur1ty/CVE-nu11secur1ty/tree/main/vendors/phpjabbers/2023/Business-Directory-Script-Version-3.2"
     }
   ],
   "database_specific": {
