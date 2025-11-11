@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7hrp-wc47-wvpj",
-  "modified": "2023-07-31T15:30:21Z",
+  "modified": "2025-11-11T21:30:27Z",
   "published": "2022-05-24T17:05:54Z",
   "aliases": [
     "CVE-2020-5510"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://www.exploit-db.com/exploits/47854"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.exploit-db.com/exploits/48542"
     }
   ],
   "database_specific": {

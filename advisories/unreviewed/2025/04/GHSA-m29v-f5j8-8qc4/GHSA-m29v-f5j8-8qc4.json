@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m29v-f5j8-8qc4",
-  "modified": "2025-04-03T09:32:14Z",
+  "modified": "2025-11-11T21:30:27Z",
   "published": "2025-04-03T09:32:14Z",
   "aliases": [
     "CVE-2025-3146"
@@ -42,6 +42,10 @@
     {
       "type": "WEB",
       "url": "https://vuldb.com/?submit.525340"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.exploit-db.com/exploits/50235"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v3mf-38wr-ph3h",
-  "modified": "2022-05-13T01:27:12Z",
+  "modified": "2025-11-11T21:30:27Z",
   "published": "2022-05-13T01:27:12Z",
   "aliases": [
     "CVE-2018-11544"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://pastebin.com/ygwczqpP"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.exploit-db.com/exploits/44852"
     }
   ],
   "database_specific": {
