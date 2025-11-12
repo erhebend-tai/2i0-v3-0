@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wpcg-v64f-4w9f",
-  "modified": "2025-11-12T09:30:27Z",
+  "modified": "2025-11-12T12:30:25Z",
   "published": "2025-11-12T09:30:27Z",
   "aliases": [
     "CVE-2025-64404"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://www.openoffice.org/security/cves/CVE-2025-64404.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/11/11/7"
     }
   ],
   "database_specific": {

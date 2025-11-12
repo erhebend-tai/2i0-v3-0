@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h4jv-xw7f-wjrg",
-  "modified": "2025-11-12T09:30:27Z",
+  "modified": "2025-11-12T12:30:25Z",
   "published": "2025-11-12T09:30:27Z",
   "aliases": [
     "CVE-2025-64405"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://www.openoffice.org/security/cves/CVE-2025-64405.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/11/11/8"
     }
   ],
   "database_specific": {
