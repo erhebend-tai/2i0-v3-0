@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rg35-5v25-mqvp",
-  "modified": "2025-10-29T15:35:45Z",
+  "modified": "2025-11-12T16:00:22Z",
   "published": "2025-10-28T15:30:43Z",
   "aliases": [
     "CVE-2025-12390"
@@ -28,7 +28,7 @@
               "introduced": "0"
             },
             {
-              "last_affected": "26.4.2"
+              "fixed": "26.0.0"
             }
           ]
         }
@@ -42,6 +42,26 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/keycloak/keycloak/issues/32197"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/keycloak/keycloak/commit/5344aada5ee06b02ec3a9e0f52fa381d085b6282"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/keycloak/keycloak/commit/b46fab230824a2304daafe74be019e8bd4ee590a"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/keycloak/keycloak/commit/d82438a611f2f869f1966c13012953fe963a493d"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/keycloak/keycloak/commit/ef75a4dc50aa9459777494e4b88655100bf2ac80"
+    },
+    {
+      "type": "WEB",
       "url": "https://access.redhat.com/security/cve/CVE-2025-12390"
     },
     {
@@ -51,6 +71,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/keycloak/keycloak"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/keycloak/keycloak/discussions/31265"
     }
   ],
   "database_specific": {
