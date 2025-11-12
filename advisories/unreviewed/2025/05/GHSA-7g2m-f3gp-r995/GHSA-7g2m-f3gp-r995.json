@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7g2m-f3gp-r995",
-  "modified": "2025-11-03T21:33:47Z",
+  "modified": "2025-11-12T21:31:02Z",
   "published": "2025-05-09T09:33:19Z",
   "aliases": [
     "CVE-2025-37857"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nscsi: st: Fix array overflow in st_setup()\n\nChange the array size to follow parms size instead of a fixed value.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -60,8 +65,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-190"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-09T07:16:06Z"

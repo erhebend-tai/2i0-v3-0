@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p747-785q-73v2",
-  "modified": "2025-11-10T21:30:36Z",
+  "modified": "2025-11-12T21:31:07Z",
   "published": "2025-11-10T21:30:36Z",
   "aliases": [
     "CVE-2025-63617"
   ],
   "details": "ktg-mes before commit a484f96 (2025-07-03) has a fastjson deserialization vulnerability. This is because it uses a vulnerable version of fastjson and deserializes unsafe input data.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-502"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-11-10T21:15:39Z"

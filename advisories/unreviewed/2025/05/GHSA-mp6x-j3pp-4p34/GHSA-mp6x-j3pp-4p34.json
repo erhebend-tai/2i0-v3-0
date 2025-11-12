@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mp6x-j3pp-4p34",
-  "modified": "2025-05-02T18:31:35Z",
+  "modified": "2025-11-12T21:31:01Z",
   "published": "2025-05-02T18:31:35Z",
   "aliases": [
     "CVE-2023-53092"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ninterconnect: exynos: fix node leak in probe PM QoS error path\n\nMake sure to add the newly allocated interconnect node to the provider\nbefore adding the PM QoS request so that the node is freed on errors.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-02T16:15:28Z"

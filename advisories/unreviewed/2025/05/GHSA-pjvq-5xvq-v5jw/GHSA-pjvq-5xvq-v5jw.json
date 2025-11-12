@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pjvq-5xvq-v5jw",
-  "modified": "2025-05-09T09:33:20Z",
+  "modified": "2025-11-12T21:31:03Z",
   "published": "2025-05-09T09:33:20Z",
   "aliases": [
     "CVE-2025-37873"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\neth: bnxt: fix missing ring index trim on error path\n\nCommit under Fixes converted tx_prod to be free running but missed\nmasking it on the Tx error path. This crashes on error conditions,\nfor example when DMA mapping fails.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -29,7 +34,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-09T07:16:08Z"

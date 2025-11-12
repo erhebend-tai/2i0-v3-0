@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wjf7-6cx7-x9v8",
-  "modified": "2025-07-25T21:33:49Z",
+  "modified": "2025-11-12T21:31:04Z",
   "published": "2025-07-25T18:30:38Z",
   "aliases": [
     "CVE-2025-34139"
@@ -34,6 +34,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-522",
       "CWE-552"
     ],
     "severity": "HIGH",

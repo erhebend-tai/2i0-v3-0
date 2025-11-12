@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j247-q9q3-vr7w",
-  "modified": "2025-05-02T18:31:34Z",
+  "modified": "2025-11-12T21:31:00Z",
   "published": "2025-05-02T18:31:34Z",
   "aliases": [
     "CVE-2023-53073"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nperf/x86/amd/core: Always clear status for idx\n\nThe variable 'status' (which contains the unhandled overflow bits) is\nnot being properly masked in some cases, displaying the following\nwarning:\n\n  WARNING: CPU: 156 PID: 475601 at arch/x86/events/amd/core.c:972 amd_pmu_v2_handle_irq+0x216/0x270\n\nThis seems to be happening because the loop is being continued before\nthe status bit being unset, in case x86_perf_event_set_period()\nreturns 0. This is also causing an inconsistency because the \"handled\"\ncounter is incremented, but the status bit is not cleaned.\n\nMove the bit cleaning together above, together when the \"handled\"\ncounter is incremented.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -29,7 +34,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-02T16:15:26Z"

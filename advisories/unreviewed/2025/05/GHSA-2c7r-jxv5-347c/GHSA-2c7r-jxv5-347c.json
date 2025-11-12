@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2c7r-jxv5-347c",
-  "modified": "2025-11-03T21:33:48Z",
+  "modified": "2025-11-12T21:31:03Z",
   "published": "2025-05-09T09:33:20Z",
   "aliases": [
     "CVE-2025-37883"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ns390/sclp: Add check for get_zeroed_page()\n\nAdd check for the return value of get_zeroed_page() in\nsclp_console_init() to prevent null pointer dereference.\nFurthermore, to solve the memory leak caused by the loop\nallocation, add a free helper to do the free job.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -44,8 +49,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-09T07:16:09Z"

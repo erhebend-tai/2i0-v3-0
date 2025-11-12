@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rhwj-4j44-629j",
-  "modified": "2025-05-02T18:31:34Z",
+  "modified": "2025-11-12T21:31:00Z",
   "published": "2025-05-02T18:31:34Z",
   "aliases": [
     "CVE-2023-53068"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: usb: lan78xx: Limit packet length to skb->len\n\nPacket length retrieved from descriptor may be larger than\nthe actual socket buffer length. In such case the cloned\nskb passed up the network stack will leak kernel memory contents.\n\nAdditionally prevent integer underflow when size is less than\nETH_FCS_LEN.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-02T16:15:25Z"

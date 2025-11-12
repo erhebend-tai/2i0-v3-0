@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fgxf-q65m-q88v",
-  "modified": "2025-05-02T18:31:33Z",
+  "modified": "2025-11-12T21:30:59Z",
   "published": "2025-05-02T18:31:33Z",
   "aliases": [
     "CVE-2023-53049"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nusb: ucsi: Fix NULL pointer deref in ucsi_connector_change()\n\nWhen ucsi_init() fails, ucsi->connector is NULL, yet in case of\nucsi_acpi we may still get events which cause the ucs_acpi code to call\nucsi_connector_change(), which then derefs the NULL ucsi->connector\npointer.\n\nFix this by not setting ucsi->ntfy inside ucsi_init() until ucsi_init()\nhas succeeded, so that ucsi_connector_change() ignores the events\nbecause UCSI_ENABLE_NTFY_CONNECTOR_CHANGE is not set in the ntfy mask.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -36,8 +41,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-02T16:15:23Z"

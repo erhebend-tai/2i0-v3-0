@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fhjp-7gr5-7mh5",
-  "modified": "2025-05-02T18:31:34Z",
+  "modified": "2025-11-12T21:31:00Z",
   "published": "2025-05-02T18:31:34Z",
   "aliases": [
     "CVE-2023-53066"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nqed/qed_sriov: guard against NULL derefs from qed_iov_get_vf_info\n\nWe have to make sure that the info returned by the helper is valid\nbefore using it.\n\nFound by Linux Verification Center (linuxtesting.org) with the SVACE\nstatic analysis tool.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-02T16:15:25Z"

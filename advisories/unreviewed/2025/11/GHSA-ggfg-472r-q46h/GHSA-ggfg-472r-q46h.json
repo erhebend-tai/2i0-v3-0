@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ggfg-472r-q46h",
-  "modified": "2025-11-07T18:30:31Z",
+  "modified": "2025-11-12T21:31:04Z",
   "published": "2025-11-07T18:30:31Z",
   "aliases": [
     "CVE-2025-63713"
   ],
   "details": "Cross-Site Scripting (XSS) vulnerability in SourceCodester \"MatchMaster\" 1.0 allows remote attackers to inject arbitrary web script or HTML via crafted input in the custom test creation feature. The vulnerability exists because the application fails to properly sanitize user-supplied input in test titles and matching pair items before rendering them in the DOM during test execution.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-11-07T18:15:36Z"

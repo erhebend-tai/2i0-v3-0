@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w3m4-2rp8-wq32",
-  "modified": "2025-11-07T21:31:20Z",
+  "modified": "2025-11-12T21:31:05Z",
   "published": "2025-11-07T21:31:20Z",
   "aliases": [
     "CVE-2025-63717"
   ],
   "details": "The change password functionality at /pet_grooming/admin/change_pass.php in SourceCodester Pet Grooming Management Software 1.0 is vulnerable to Cross-Site Request Forgery (CSRF) attacks. The application does not implement adequate anti-CSRF tokens or same-site cookie restrictions, allowing attackers to trick authenticated users into unknowingly changing their passwords.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-352"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-11-07T19:16:26Z"

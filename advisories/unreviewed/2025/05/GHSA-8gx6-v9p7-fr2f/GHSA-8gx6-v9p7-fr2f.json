@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8gx6-v9p7-fr2f",
-  "modified": "2025-05-02T18:31:35Z",
+  "modified": "2025-11-12T21:31:00Z",
   "published": "2025-05-02T18:31:35Z",
   "aliases": [
     "CVE-2023-53081"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nocfs2: fix data corruption after failed write\n\nWhen buffered write fails to copy data into underlying page cache page,\nocfs2_write_end_nolock() just zeroes out and dirties the page.  This can\nleave dirty page beyond EOF and if page writeback tries to write this page\nbefore write succeeds and expands i_size, page gets into inconsistent\nstate where page dirty bit is clear but buffer dirty bits stay set\nresulting in page data never getting written and so data copied to the\npage is lost.  Fix the problem by invalidating page beyond EOF after\nfailed write.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-787"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-02T16:15:27Z"
