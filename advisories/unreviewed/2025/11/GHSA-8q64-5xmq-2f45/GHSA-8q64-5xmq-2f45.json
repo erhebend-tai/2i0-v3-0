@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8q64-5xmq-2f45",
-  "modified": "2025-11-11T18:30:15Z",
+  "modified": "2025-11-12T18:31:19Z",
   "published": "2025-11-11T18:30:15Z",
   "aliases": [
     "CVE-2025-13014"
   ],
   "details": "Use-after-free in the Audio/Video component. This vulnerability affects Firefox < 145, Firefox ESR < 140.5, and Firefox ESR < 115.30.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-416"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-11-11T16:15:38Z"

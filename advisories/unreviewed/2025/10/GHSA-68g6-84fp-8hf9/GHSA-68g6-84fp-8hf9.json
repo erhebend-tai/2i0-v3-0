@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-68g6-84fp-8hf9",
-  "modified": "2025-10-20T06:30:17Z",
+  "modified": "2025-11-12T18:31:04Z",
   "published": "2025-10-20T06:30:17Z",
   "aliases": [
     "CVE-2025-11948"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-11948"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.chtsecurity.com/news/3575ad9c-31f4-49de-8bc4-de85bb2eed39"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pwjv-g8j5-52fj",
-  "modified": "2025-11-12T09:30:26Z",
+  "modified": "2025-11-12T18:31:24Z",
   "published": "2025-11-12T09:30:26Z",
   "aliases": [
     "CVE-2025-12871"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-12871"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.chtsecurity.com/news/b97e8337-6b0c-43e8-8e8c-187b7c0e13c2"
     },
     {
       "type": "WEB",

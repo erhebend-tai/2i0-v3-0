@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hm5m-9phw-v9hq",
-  "modified": "2025-11-10T03:30:16Z",
+  "modified": "2025-11-12T18:31:10Z",
   "published": "2025-11-10T03:30:16Z",
   "aliases": [
     "CVE-2025-12866"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-12866"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.chtsecurity.com/news/20848f61-9db5-44fd-8574-c9d6a54e4010"
     },
     {
       "type": "WEB",

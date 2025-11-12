@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fj59-gg5v-953f",
-  "modified": "2025-11-12T12:30:25Z",
+  "modified": "2025-11-12T18:31:24Z",
   "published": "2025-11-12T09:30:27Z",
   "aliases": [
     "CVE-2025-64406"
   ],
   "details": "An out-of-bounds Write vulnerability in Apache OpenOffice could allow an attacker to craft a document that would crash the program, or otherwise corrupt other memory areas.\n\nThis issue affects Apache OpenOffice: through 4.1.15.\n\nUsers are recommended to upgrade to version 4.1.16, which fixes the issue.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -31,7 +36,7 @@
     "cwe_ids": [
       "CWE-787"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-11-12T09:15:41Z"

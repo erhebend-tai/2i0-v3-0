@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c39c-9w23-7vmg",
-  "modified": "2025-11-10T21:30:36Z",
+  "modified": "2025-11-12T18:31:14Z",
   "published": "2025-11-10T21:30:36Z",
   "aliases": [
     "CVE-2025-12727"
   ],
   "details": "Inappropriate implementation in V8 in Google Chrome prior to 142.0.7444.137 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -25,7 +30,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-11-10T20:15:39Z"
