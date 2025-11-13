@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-399j-vxmf-hjvr",
-  "modified": "2025-11-06T22:36:27Z",
+  "modified": "2025-11-13T16:25:24Z",
   "published": "2025-11-03T18:31:52Z",
   "aliases": [
     "CVE-2025-11953"
@@ -75,17 +75,55 @@
     {
       "package": {
         "ecosystem": "npm",
-        "name": "@react-native-community/cli"
+        "name": "@react-native-community/cli-server-api"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "20.0.0-alpha.0"
             },
             {
-              "fixed": "17.0.1"
+              "fixed": "20.0.0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "@react-native-community/cli-server-api"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "19.0.0-alpha.0"
+            },
+            {
+              "fixed": "19.1.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "@react-native-community/cli-server-api"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "18.0.0"
+            },
+            {
+              "fixed": "18.0.1"
             }
           ]
         }
@@ -96,6 +134,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-11953"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/react-native-community/cli/issues/2733#issuecomment-3502424164"
     },
     {
       "type": "WEB",
@@ -136,6 +178,14 @@
     {
       "type": "WEB",
       "url": "https://x.com/SzymonRybczak/status/1986199665000566848"
+    },
+    {
+      "type": "WEB",
+      "url": "https://x.com/szymonrybczak/status/1986199665000566848?s=46"
+    },
+    {
+      "type": "WEB",
+      "url": "https://x.com/thymikee/status/1986770875954475375"
     }
   ],
   "database_specific": {
