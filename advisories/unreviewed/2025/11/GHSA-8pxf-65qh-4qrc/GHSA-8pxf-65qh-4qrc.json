@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8pxf-65qh-4qrc",
-  "modified": "2025-11-06T09:30:27Z",
+  "modified": "2025-11-14T03:30:53Z",
   "published": "2025-11-06T09:30:27Z",
   "aliases": [
     "CVE-2025-10259"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://jvn.jp/vu/JVNVU92088475"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-25-317-01"
     },
     {
       "type": "WEB",
