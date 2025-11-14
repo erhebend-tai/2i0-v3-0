@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vwcw-f8wh-8pv7",
-  "modified": "2025-06-18T12:30:31Z",
+  "modified": "2025-11-14T21:30:27Z",
   "published": "2025-06-18T12:30:31Z",
   "aliases": [
     "CVE-2025-38014"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndmaengine: idxd: Refactor remove call with idxd_cleanup() helper\n\nThe idxd_cleanup() helper cleans up perfmon, interrupts, internals and\nso on. Refactor remove call with the idxd_cleanup() helper to avoid code\nduplication. Note, this also fixes the missing put_device() for idxd\ngroups, enginces and wqs.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -33,7 +38,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-06-18T10:15:32Z"

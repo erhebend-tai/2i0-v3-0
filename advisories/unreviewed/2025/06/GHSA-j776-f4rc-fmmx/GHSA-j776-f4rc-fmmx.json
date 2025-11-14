@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j776-f4rc-fmmx",
-  "modified": "2025-06-18T12:30:36Z",
+  "modified": "2025-11-14T21:30:27Z",
   "published": "2025-06-18T12:30:36Z",
   "aliases": [
     "CVE-2022-49946"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nclk: bcm: rpi: Prevent out-of-bounds access\n\nThe while loop in raspberrypi_discover_clocks() relies on the assumption\nthat the id of the last clock element is zero. Because this data comes\nfrom the Videocore firmware and it doesn't guarantuee such a behavior\nthis could lead to out-of-bounds access. So fix this by providing\na sentinel element.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-125"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-06-18T11:15:21Z"

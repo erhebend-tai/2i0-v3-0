@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8rhx-6jcw-6ghv",
-  "modified": "2025-11-03T21:33:47Z",
+  "modified": "2025-11-14T21:30:27Z",
   "published": "2025-05-09T09:33:19Z",
   "aliases": [
     "CVE-2025-37839"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\njbd2: remove wrong sb->s_sequence check\n\nJournal emptiness is not determined by sb->s_sequence == 0 but rather by\nsb->s_start == 0 (which is set a few lines above). Furthermore 0 is a\nvalid transaction ID so the check can spuriously trigger. Remove the\ninvalid WARN_ON.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -61,7 +66,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-09T07:16:04Z"

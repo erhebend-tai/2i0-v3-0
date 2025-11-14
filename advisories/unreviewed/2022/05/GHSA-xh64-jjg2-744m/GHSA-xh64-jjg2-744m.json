@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xh64-jjg2-744m",
-  "modified": "2022-05-17T03:38:48Z",
+  "modified": "2025-11-14T21:30:26Z",
   "published": "2022-05-17T03:38:48Z",
   "aliases": [
     "CVE-2016-7420"
@@ -42,6 +42,10 @@
     {
       "type": "WEB",
       "url": "http://www.openwall.com/lists/oss-security/2023/09/28/4"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/11/14/5"
     },
     {
       "type": "WEB",

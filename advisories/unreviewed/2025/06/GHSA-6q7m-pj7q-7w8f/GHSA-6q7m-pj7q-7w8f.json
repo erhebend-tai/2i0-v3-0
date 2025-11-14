@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6q7m-pj7q-7w8f",
-  "modified": "2025-06-18T12:30:34Z",
+  "modified": "2025-11-14T21:30:27Z",
   "published": "2025-06-18T12:30:34Z",
   "aliases": [
     "CVE-2025-38081"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nspi-rockchip: Fix register out of bounds access\n\nDo not write native chip select stuff for GPIO chip selects.\nGPIOs can be numbered much higher than native CS.\nAlso, it makes no sense.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-125"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-06-18T10:15:41Z"

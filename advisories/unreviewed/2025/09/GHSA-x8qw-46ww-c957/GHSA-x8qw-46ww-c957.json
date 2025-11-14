@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x8qw-46ww-c957",
-  "modified": "2025-11-14T12:30:18Z",
+  "modified": "2025-11-14T21:30:28Z",
   "published": "2025-09-11T18:35:53Z",
   "aliases": [
     "CVE-2025-40300"
@@ -77,6 +77,14 @@
     {
       "type": "WEB",
       "url": "http://www.openwall.com/lists/oss-security/2025/11/14/3"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/11/14/4"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/11/14/6"
     }
   ],
   "database_specific": {
