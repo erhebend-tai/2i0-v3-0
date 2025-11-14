@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7f2v-3qq3-vvjf",
-  "modified": "2025-11-13T22:32:36Z",
+  "modified": "2025-11-14T16:05:41Z",
   "published": "2025-11-13T22:32:35Z",
   "aliases": [
     "CVE-2025-59840"
@@ -28,7 +28,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "6.20"
+              "fixed": "6.2.0"
             }
           ]
         }
