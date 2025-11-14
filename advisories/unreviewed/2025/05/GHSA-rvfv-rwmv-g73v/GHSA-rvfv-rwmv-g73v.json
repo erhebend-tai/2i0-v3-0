@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rvfv-rwmv-g73v",
-  "modified": "2025-05-20T18:30:57Z",
+  "modified": "2025-11-14T18:31:20Z",
   "published": "2025-05-20T18:30:57Z",
   "aliases": [
     "CVE-2025-37978"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nblock: integrity: Do not call set_page_dirty_lock()\n\nPlacing multiple protection information buffers inside the same page\ncan lead to oopses because set_page_dirty_lock() can't be called from\ninterrupt context.\n\nSince a protection information buffer is not backed by a file there is\nno point in setting its page dirty, there is nothing to synchronize.\nDrop the call to set_page_dirty_lock() and remove the last argument to\nbio_integrity_unpin_bvec().",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -29,7 +34,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-20T17:15:48Z"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3vrh-9v2m-f8xc",
-  "modified": "2025-06-18T12:30:39Z",
+  "modified": "2025-11-14T18:31:23Z",
   "published": "2025-06-18T12:30:39Z",
   "aliases": [
     "CVE-2022-49989"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nxen/privcmd: fix error exit of privcmd_ioctl_dm_op()\n\nThe error exit of privcmd_ioctl_dm_op() is calling unlock_pages()\npotentially with pages being NULL, leading to a NULL dereference.\n\nAdditionally lock_pages() doesn't check for pin_user_pages_fast()\nhaving been completely successful, resulting in potentially not\nlocking all pages into memory. This could result in sporadic failures\nwhen using the related memory in user mode.\n\nFix all of that by calling unlock_pages() always with the real number\nof pinned pages, which will be zero in case pages being NULL, and by\nchecking the number of pages pinned by pin_user_pages_fast() matching\nthe expected number of pages.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-06-18T11:15:26Z"

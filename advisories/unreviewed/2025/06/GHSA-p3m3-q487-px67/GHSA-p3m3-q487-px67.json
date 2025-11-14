@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p3m3-q487-px67",
-  "modified": "2025-06-18T12:30:39Z",
+  "modified": "2025-11-14T18:31:23Z",
   "published": "2025-06-18T12:30:39Z",
   "aliases": [
     "CVE-2022-49984"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nHID: steam: Prevent NULL pointer dereference in steam_{recv,send}_report\n\nIt is possible for a malicious device to forgo submitting a Feature\nReport.  The HID Steam driver presently makes no prevision for this\nand de-references the 'struct hid_report' pointer obtained from the\nHID devices without first checking its validity.  Let's change that.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -40,8 +45,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-06-18T11:15:25Z"

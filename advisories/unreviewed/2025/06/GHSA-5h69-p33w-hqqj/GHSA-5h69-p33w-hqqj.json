@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5h69-p33w-hqqj",
-  "modified": "2025-06-18T12:30:38Z",
+  "modified": "2025-11-14T18:31:23Z",
   "published": "2025-06-18T12:30:38Z",
   "aliases": [
     "CVE-2022-49965"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amd/pm: add missing ->fini_xxxx interfaces for some SMU13 asics\n\nWithout these, potential memory leak may be induced.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-06-18T11:15:23Z"

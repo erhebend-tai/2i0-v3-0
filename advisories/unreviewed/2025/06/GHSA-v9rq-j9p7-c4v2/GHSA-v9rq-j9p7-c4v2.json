@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v9rq-j9p7-c4v2",
-  "modified": "2025-06-18T12:30:40Z",
+  "modified": "2025-11-14T18:31:23Z",
   "published": "2025-06-18T12:30:40Z",
   "aliases": [
     "CVE-2022-49991"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmm/hugetlb: avoid corrupting page->mapping in hugetlb_mcopy_atomic_pte\n\nIn MCOPY_ATOMIC_CONTINUE case with a non-shared VMA, pages in the page\ncache are installed in the ptes.  But hugepage_add_new_anon_rmap is called\nfor them mistakenly because they're not vm_shared.  This will corrupt the\npage->mapping used by page cache code.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -29,7 +34,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-06-18T11:15:26Z"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xpgf-3r4f-4546",
-  "modified": "2025-06-18T12:30:39Z",
+  "modified": "2025-11-14T18:31:23Z",
   "published": "2025-06-18T12:30:39Z",
   "aliases": [
     "CVE-2022-49982"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmedia: pvrusb2: fix memory leak in pvr_probe\n\nThe error handling code in pvr2_hdw_create forgets to unregister the\nv4l2 device. When pvr2_hdw_create returns back to pvr2_context_create,\nit calls pvr2_context_destroy to destroy context, but mp->hdw is NULL,\nwhich leads to that pvr2_hdw_destroy directly returns.\n\nFix this by adding v4l2_device_unregister to decrease the refcount of\nusb interface.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-06-18T11:15:25Z"

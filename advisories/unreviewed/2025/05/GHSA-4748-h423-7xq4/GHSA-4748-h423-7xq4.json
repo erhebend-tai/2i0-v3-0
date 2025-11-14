@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4748-h423-7xq4",
-  "modified": "2025-08-01T09:31:22Z",
+  "modified": "2025-11-14T18:31:18Z",
   "published": "2025-05-01T15:31:44Z",
   "aliases": [
     "CVE-2025-37777"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nksmbd: fix use-after-free in __smb2_lease_break_noti()\n\nMove tcp_transport free to ksmbd_conn_free. If ksmbd connection is\nreferenced when ksmbd server thread terminates, It will not be freed,\nbut conn->tcp_transport is freed. __smb2_lease_break_noti can be performed\nasynchronously when the connection is disconnected. __smb2_lease_break_noti\ncalls ksmbd_conn_write, which can cause use-after-free\nwhen conn->ksmbd_transport is already freed.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-416"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-01T14:15:41Z"

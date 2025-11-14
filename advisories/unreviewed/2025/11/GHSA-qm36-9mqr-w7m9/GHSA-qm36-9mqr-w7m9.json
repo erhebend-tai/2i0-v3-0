@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-qm36-9mqr-w7m9",
+  "modified": "2025-11-14T18:31:40Z",
+  "published": "2025-11-14T18:31:39Z",
+  "aliases": [
+    "CVE-2025-54343"
+  ],
+  "details": "An Incorrect Access Control vulnerability was found in the Application Server of Desktop Alert PingAlert version 6.1.0.11 to 6.1.1.2 exploitable remotely for Escalation of Privileges.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-54343"
+    },
+    {
+      "type": "WEB",
+      "url": "https://desktopalert.net"
+    },
+    {
+      "type": "WEB",
+      "url": "https://desktopalert.net/CVE-2025-54343"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-11-14T18:15:48Z"
+  }
+}

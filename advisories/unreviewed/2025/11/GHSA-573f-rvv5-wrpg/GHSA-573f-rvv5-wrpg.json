@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-573f-rvv5-wrpg",
+  "modified": "2025-11-14T18:31:40Z",
+  "published": "2025-11-14T18:31:40Z",
+  "aliases": [
+    "CVE-2025-63725"
+  ],
+  "details": "Reflected Cross-Site Scripting (XSS) vulnerability in SVX Portal 2.7A via the id parameter to Recivers.php.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-63725"
+    },
+    {
+      "type": "WEB",
+      "url": "https://deepstrike.io/blog/reflected-xss-via-unescaped-attribute-context-in-svx-portal"
+    },
+    {
+      "type": "WEB",
+      "url": "https://deepstrike.io/blog/sql-injection-in-svx-portal-v-2-7A"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-11-14T18:15:51Z"
+  }
+}

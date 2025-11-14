@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cp59-hf68-p4rg",
-  "modified": "2025-06-18T12:30:37Z",
+  "modified": "2025-11-14T18:31:22Z",
   "published": "2025-06-18T12:30:37Z",
   "aliases": [
     "CVE-2022-49957"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nkcm: fix strp_init() order and cleanup\n\nstrp_init() is called just a few lines above this csk->sk_user_data\ncheck, it also initializes strp->work etc., therefore, it is\nunnecessary to call strp_done() to cancel the freshly initialized\nwork.\n\nAnd if sk_user_data is already used by KCM, psock->strp should not be\ntouched, particularly strp->work state, so we need to move strp_init()\nafter the csk->sk_user_data check.\n\nThis also makes a lockdep warning reported by syzbot go away.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -44,8 +49,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-908"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-06-18T11:15:22Z"

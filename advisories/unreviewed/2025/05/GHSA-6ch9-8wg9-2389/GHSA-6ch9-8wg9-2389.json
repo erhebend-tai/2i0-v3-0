@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6ch9-8wg9-2389",
-  "modified": "2025-05-20T18:30:57Z",
+  "modified": "2025-11-14T18:31:19Z",
   "published": "2025-05-20T18:30:57Z",
   "aliases": [
     "CVE-2025-37973"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nwifi: cfg80211: fix out-of-bounds access during multi-link element defragmentation\n\nCurrently during the multi-link element defragmentation process, the\nmulti-link element length added to the total IEs length when calculating\nthe length of remaining IEs after the multi-link element in\ncfg80211_defrag_mle(). This could lead to out-of-bounds access if the\nmulti-link element or its corresponding fragment elements are the last\nelements in the IEs buffer.\n\nTo address this issue, correctly calculate the remaining IEs length by\ndeducting the multi-link element end offset from total IEs end offset.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-125"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-20T17:15:47Z"

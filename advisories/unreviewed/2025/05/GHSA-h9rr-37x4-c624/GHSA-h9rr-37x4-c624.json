@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h9rr-37x4-c624",
-  "modified": "2025-05-20T18:30:57Z",
+  "modified": "2025-11-14T18:31:20Z",
   "published": "2025-05-20T18:30:57Z",
   "aliases": [
     "CVE-2025-37977"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nscsi: ufs: exynos: Disable iocc if dma-coherent property isn't set\n\nIf dma-coherent property isn't set then descriptors are non-cacheable\nand the iocc shareability bits should be disabled. Without this UFS can\nend up in an incompatible configuration and suffer from random cache\nrelated stability issues.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -29,7 +34,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-20T17:15:48Z"

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-vq9p-qh5c-cf9w",
+  "modified": "2025-11-14T18:31:39Z",
+  "published": "2025-11-14T18:31:39Z",
+  "aliases": [
+    "CVE-2025-54348"
+  ],
+  "details": "A Stored Cross Site Scripting (XSS) vulnerability was found in the Application Server of Desktop Alert PingAlert version 6.1.0.11 to 6.1.1.2 which allows an attacker to hijack user’s browser, capturing sensitive information.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-54348"
+    },
+    {
+      "type": "WEB",
+      "url": "https://desktopalert.net"
+    },
+    {
+      "type": "WEB",
+      "url": "https://desktopalert.net/cve-2025-54348"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-11-14T18:15:49Z"
+  }
+}
