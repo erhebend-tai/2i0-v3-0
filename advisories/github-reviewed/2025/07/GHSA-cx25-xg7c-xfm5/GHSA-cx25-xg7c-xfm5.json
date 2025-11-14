@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cx25-xg7c-xfm5",
-  "modified": "2025-11-13T16:12:53Z",
+  "modified": "2025-11-14T22:46:51Z",
   "published": "2025-07-30T18:31:36Z",
   "aliases": [
     "CVE-2025-54656"
@@ -39,18 +39,8 @@
         "ecosystem": "Maven",
         "name": "struts:struts"
       },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "last_affected": "1.2.9"
-            }
-          ]
-        }
+      "versions": [
+        "1.2.9"
       ]
     }
   ],
