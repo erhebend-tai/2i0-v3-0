@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rg35-5v25-mqvp",
-  "modified": "2025-11-12T16:00:22Z",
+  "modified": "2025-11-14T00:30:27Z",
   "published": "2025-10-28T15:30:43Z",
   "aliases": [
     "CVE-2025-12390"
@@ -59,6 +59,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/keycloak/keycloak/commit/ef75a4dc50aa9459777494e4b88655100bf2ac80"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:21370"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:21371"
     },
     {
       "type": "WEB",

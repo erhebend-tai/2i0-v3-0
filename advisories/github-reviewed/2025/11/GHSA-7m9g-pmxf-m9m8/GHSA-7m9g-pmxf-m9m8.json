@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7m9g-pmxf-m9m8",
-  "modified": "2025-11-13T23:41:02Z",
+  "modified": "2025-11-14T00:30:27Z",
   "published": "2025-11-13T18:31:05Z",
   "aliases": [
     "CVE-2025-11538"
@@ -39,6 +39,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-11538"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:21370"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:21371"
     },
     {
       "type": "WEB",
