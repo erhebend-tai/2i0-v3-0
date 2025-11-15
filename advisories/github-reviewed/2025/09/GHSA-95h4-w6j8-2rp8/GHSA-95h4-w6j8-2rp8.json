@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-95h4-w6j8-2rp8",
-  "modified": "2025-11-04T16:31:30Z",
+  "modified": "2025-11-15T01:58:53Z",
   "published": "2025-09-02T15:31:08Z",
   "aliases": [
     "CVE-2025-9784"
@@ -90,6 +90,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/undertow-io/undertow"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/undertow-io/undertow/releases/tag/2.2.38.Final"
     },
     {
       "type": "WEB",
