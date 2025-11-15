@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vf95-55w6-qmrf",
-  "modified": "2025-11-06T15:29:58Z",
+  "modified": "2025-11-15T02:25:28Z",
   "published": "2025-11-05T18:45:18Z",
   "aliases": [
     "CVE-2025-62596"
@@ -9,6 +9,10 @@
   "summary": "youki container escape and denial of service due to arbitrary write gadgets and procfs write redirects",
   "details": "### Impact ###\n\nyouki’s apparmor handling performs insufficiently strict write-target validation, which—combined with path substitution during pathname resolution—can allow writes to unintended procfs locations.\n\n**Weak write-target check**\nyouki only verifies that the destination lies somewhere under procfs. As a result, a write intended for `/proc/self/attr/apparmor/exec` can succeed even if the path has been redirected to `/proc/sys/kernel/hostname`(which is also in procfs).\n\n**Path substitution**\nWhile resolving a path component-by-component, a shared-mount race can substitute intermediate components and redirect the final target.\n\nThis is a different project, but the core logic is similar to the CVE in runc. Issues were identified in runc, and verification was also conducted in youki to confirm the problems.\nhttps://github.com/opencontainers/runc/security/advisories/GHSA-cgrx-mc8f-2prm\n\n### Credits ###\n\nThanks to Li Fubang (@lifubang from acmcoder.com, CIIC) and Tõnis Tiigi (@tonistiigi from Docker) for both independently discovering runc's original vulnerability, as well as Aleksa Sarai (@cyphar from SUSE) for the original research into this class of security issues and solutions.",
   "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:H/A:H"
+    },
     {
       "type": "CVSS_V4",
       "score": "CVSS:4.0/AV:L/AC:L/AT:P/PR:L/UI:A/VC:H/VI:H/VA:H/SC:H/SI:H/SA:H"

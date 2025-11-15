@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xf7m-v66q-76w8",
-  "modified": "2025-11-03T21:06:57Z",
+  "modified": "2025-11-15T02:24:51Z",
   "published": "2025-11-01T03:30:24Z",
   "aliases": [
     "CVE-2025-62275"
@@ -9,6 +9,10 @@
   "summary": "Liferay Portal and DXP do not check permissions of images in a blog entry",
   "details": "Blogs in Liferay Portal 7.4.0 through 7.4.3.111, and older unsupported versions, and Liferay DXP 2023.Q4.0 through 2023.Q4.10, 2023.Q3.1 through 2023.Q3.10, 7.4 GA through update 92, and older unsupported versions does not check permission of images in a blog entry, which allows remote attackers to view the images in a blog entry via crafted URL.",
   "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
+    },
     {
       "type": "CVSS_V4",
       "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:L/VI:N/VA:N/SC:N/SI:N/SA:N"
