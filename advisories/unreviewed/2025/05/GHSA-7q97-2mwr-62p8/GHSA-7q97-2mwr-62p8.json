@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7q97-2mwr-62p8",
-  "modified": "2025-11-03T21:33:54Z",
+  "modified": "2025-11-17T18:30:23Z",
   "published": "2025-05-20T18:30:54Z",
   "aliases": [
     "CVE-2025-37912"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nice: Check VF VSI Pointer Value in ice_vc_add_fdir_fltr()\n\nAs mentioned in the commit baeb705fd6a7 (\"ice: always check VF VSI\npointer values\"), we need to perform a null pointer check on the return\nvalue of ice_get_vf_vsi() before using it.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -44,8 +49,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-20T16:15:27Z"

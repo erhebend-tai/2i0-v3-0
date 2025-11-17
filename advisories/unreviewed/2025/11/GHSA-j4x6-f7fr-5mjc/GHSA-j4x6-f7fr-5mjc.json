@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j4x6-f7fr-5mjc",
-  "modified": "2025-11-10T15:31:06Z",
+  "modified": "2025-11-17T18:30:26Z",
   "published": "2025-11-10T15:31:05Z",
   "aliases": [
     "CVE-2025-63712"
   ],
   "details": "Cross-Site Request Forgery (CSRF) in SourceCodester Product Expiry Management System. The User Management module (delete-user.php) allows remote attackers to delete arbitrary user accounts via forged cross-origin GET requests because the endpoint relies solely on session cookies and lacks CSRF protection.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-352"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-11-10T15:15:38Z"
