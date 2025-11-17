@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6q7v-49c4-hj5m",
-  "modified": "2025-06-18T12:30:47Z",
+  "modified": "2025-11-17T21:31:18Z",
   "published": "2025-06-18T12:30:46Z",
   "aliases": [
     "CVE-2022-50077"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\napparmor: fix reference count leak in aa_pivotroot()\n\nThe aa_pivotroot() function has a reference counting bug in a specific\npath. When aa_replace_current_label() returns on success, the function\nforgets to decrement the reference count of “target”, which is\nincreased earlier by build_pivotroot(), causing a reference leak.\n\nFix it by decreasing the refcount of “target” in that path.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -45,7 +50,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-06-18T11:15:36Z"

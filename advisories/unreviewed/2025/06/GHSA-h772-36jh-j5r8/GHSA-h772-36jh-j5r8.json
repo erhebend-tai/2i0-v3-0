@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h772-36jh-j5r8",
-  "modified": "2025-06-18T12:30:48Z",
+  "modified": "2025-11-17T21:31:18Z",
   "published": "2025-06-18T12:30:48Z",
   "aliases": [
     "CVE-2022-50110"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nwatchdog: sp5100_tco: Fix a memory leak of EFCH MMIO resource\n\nUnlike release_mem_region(), a call to release_resource() does not\nfree the resource, so it has to be freed explicitly to avoid a memory\nleak.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-06-18T11:15:40Z"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9g9x-fc99-93r6",
-  "modified": "2025-10-22T00:33:24Z",
+  "modified": "2025-11-17T21:31:19Z",
   "published": "2025-10-14T18:30:28Z",
   "aliases": [
     "CVE-2025-24990"
@@ -26,6 +26,14 @@
     {
       "type": "WEB",
       "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-24990"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/cve-2025-24990-detection-script-elevation-of-privilege-vulnerability-in-agere-modem-driver-affecting-windows"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/cve-2025-24990-mitigation-script-elevation-of-privilege-vulnerability-in-agere-modem-driver-affecting-windows"
     }
   ],
   "database_specific": {

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hj5q-64v2-vcw6",
-  "modified": "2025-06-18T12:30:46Z",
+  "modified": "2025-11-17T21:31:18Z",
   "published": "2025-06-18T12:30:46Z",
   "aliases": [
     "CVE-2022-50079"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amd/display: Check correct bounds for stream encoder instances for DCN303\n\n[Why & How]\neng_id for DCN303 cannot be more than 1, since we have only two\ninstances of stream encoders.\n\nCheck the correct boundary condition for engine ID for DCN303 prevent\nthe potential out of bounds access.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-125"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-06-18T11:15:36Z"

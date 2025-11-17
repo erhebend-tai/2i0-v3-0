@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mj28-pj3c-6jwr",
-  "modified": "2025-10-22T00:31:12Z",
+  "modified": "2025-11-17T21:31:17Z",
   "published": "2022-05-14T02:24:41Z",
   "aliases": [
     "CVE-2016-1019"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2016-1019"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/cisagov/vulnrichment/issues/196"
     },
     {
       "type": "WEB",
