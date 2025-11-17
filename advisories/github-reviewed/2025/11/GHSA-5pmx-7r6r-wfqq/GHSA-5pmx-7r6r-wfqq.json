@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5pmx-7r6r-wfqq",
-  "modified": "2025-11-17T17:49:18Z",
+  "modified": "2025-11-17T21:37:07Z",
   "published": "2025-11-04T18:58:22Z",
   "aliases": [],
   "summary": "Kgateway transformation policy template can emit files from the container ",
