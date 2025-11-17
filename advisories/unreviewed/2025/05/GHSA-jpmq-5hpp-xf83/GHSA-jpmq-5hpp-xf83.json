@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jpmq-5hpp-xf83",
-  "modified": "2025-11-03T21:33:47Z",
+  "modified": "2025-11-17T15:30:31Z",
   "published": "2025-05-09T09:33:19Z",
   "aliases": [
     "CVE-2025-37852"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amdgpu: handle amdgpu_cgs_create_device() errors in amd_powerplay_create()\n\nAdd error handling to propagate amdgpu_cgs_create_device() failures\nto the caller. When amdgpu_cgs_create_device() fails, release hwmgr\nand return -ENOMEM to prevent null pointer dereference.\n\n[v1]->[v2]: Change error code from -EINVAL to -ENOMEM. Free hwmgr.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -44,8 +49,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-09T07:16:06Z"

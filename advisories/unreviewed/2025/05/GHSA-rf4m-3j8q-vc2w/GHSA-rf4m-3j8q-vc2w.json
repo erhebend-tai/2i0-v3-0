@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rf4m-3j8q-vc2w",
-  "modified": "2025-05-09T09:33:19Z",
+  "modified": "2025-11-17T15:30:31Z",
   "published": "2025-05-09T09:33:19Z",
   "aliases": [
     "CVE-2025-37853"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amdkfd: debugfs hang_hws skip GPU with MES\n\ndebugfs hang_hws is used by GPU reset test with HWS, for MES this crash\nthe kernel with NULL pointer access because dqm->packet_mgr is not setup\nfor MES path.\n\nSkip GPU with MES for now, MES hang_hws debugfs interface will be\nsupported later.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -36,8 +41,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-09T07:16:06Z"

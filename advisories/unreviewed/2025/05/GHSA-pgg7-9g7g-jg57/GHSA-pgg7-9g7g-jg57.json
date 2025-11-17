@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pgg7-9g7g-jg57",
-  "modified": "2025-11-03T21:33:54Z",
+  "modified": "2025-11-17T15:30:31Z",
   "published": "2025-05-20T18:30:54Z",
   "aliases": [
     "CVE-2025-37909"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: lan743x: Fix memleak issue when GSO enabled\n\nAlways map the `skb` to the LS descriptor. Previously skb was\nmapped to EXT descriptor when the number of fragments is zero with\nGSO enabled. Mapping the skb to EXT descriptor prevents it from\nbeing freed, leading to a memory leak",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -56,8 +61,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-20T16:15:27Z"
