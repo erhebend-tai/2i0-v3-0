@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c3q2-jc4g-3q9g",
-  "modified": "2025-09-04T21:31:39Z",
+  "modified": "2025-11-18T06:30:25Z",
   "published": "2025-09-04T21:31:38Z",
   "aliases": [
     "CVE-2025-48581"
@@ -21,7 +21,23 @@
     },
     {
       "type": "WEB",
+      "url": "https://android.googlesource.com/platform/build/+/cda08bfbf55aed1e4c79efe6a66bb930d19a8a13"
+    },
+    {
+      "type": "WEB",
+      "url": "https://android.googlesource.com/platform/system/apex/+/13bbfe3ef2953e9805d57d3219cc122e485ba90f"
+    },
+    {
+      "type": "WEB",
+      "url": "https://android.googlesource.com/platform/system/apex/+/5a33fa4202cb5f06d7f02f3a2b8d13780d7cb3f5"
+    },
+    {
+      "type": "WEB",
       "url": "https://source.android.com/security/bulletin/2025-09-01"
+    },
+    {
+      "type": "WEB",
+      "url": "https://source.android.com/security/bulletin/2025-11-01"
     }
   ],
   "database_specific": {
