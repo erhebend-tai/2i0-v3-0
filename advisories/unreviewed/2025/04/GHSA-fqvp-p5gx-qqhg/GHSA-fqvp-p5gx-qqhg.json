@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fqvp-p5gx-qqhg",
-  "modified": "2025-06-17T12:31:14Z",
+  "modified": "2025-11-18T09:30:50Z",
   "published": "2025-04-03T15:31:19Z",
   "aliases": [
     "CVE-2025-32049"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-32049"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:21657"
     },
     {
       "type": "WEB",

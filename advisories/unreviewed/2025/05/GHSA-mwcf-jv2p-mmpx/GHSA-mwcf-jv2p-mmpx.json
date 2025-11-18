@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mwcf-jv2p-mmpx",
-  "modified": "2025-11-11T21:30:27Z",
+  "modified": "2025-11-18T09:30:51Z",
   "published": "2025-05-19T18:30:47Z",
   "aliases": [
     "CVE-2025-4945"
@@ -38,6 +38,22 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2025:21032"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:21655"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:21656"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:21657"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:21664"
     },
     {
       "type": "WEB",
