@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p2p5-qgcx-x7vc",
-  "modified": "2025-11-18T00:30:19Z",
+  "modified": "2025-11-18T03:31:14Z",
   "published": "2025-11-18T00:30:18Z",
   "aliases": [
     "CVE-2025-36463"
