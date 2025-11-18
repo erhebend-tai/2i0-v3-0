@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9h3m-vp3m-35pw",
-  "modified": "2025-10-22T00:31:10Z",
+  "modified": "2025-11-18T00:30:17Z",
   "published": "2022-05-13T01:06:52Z",
   "aliases": [
     "CVE-2015-5122"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-5122"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/cisagov/vulnrichment/issues/196"
     },
     {
       "type": "WEB",
