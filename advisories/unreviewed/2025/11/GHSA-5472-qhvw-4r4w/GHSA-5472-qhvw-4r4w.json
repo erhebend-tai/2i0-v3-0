@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-5472-qhvw-4r4w",
+  "modified": "2025-11-18T21:32:31Z",
+  "published": "2025-11-18T21:32:31Z",
+  "aliases": [
+    "CVE-2025-63693"
+  ],
+  "details": "The comment editing template (dzz/comment/template/edit_form.htm) in DzzOffice 2.3.x lacks adequate security escaping for user-controllable data in multiple contexts, including HTML and JavaScript strings. This allows low-privilege attackers to construct comment content or request parameters and execute arbitrary JavaScript code when the victim opens the editing pop-up.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-63693"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/zyx0814/dzzoffice/issues/363"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/Yohane-Mashiro/dzzoffice_xss"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-11-18T19:15:50Z"
+  }
+}

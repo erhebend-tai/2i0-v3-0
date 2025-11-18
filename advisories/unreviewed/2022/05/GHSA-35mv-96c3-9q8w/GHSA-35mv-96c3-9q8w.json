@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-35mv-96c3-9q8w",
-  "modified": "2022-05-24T17:44:06Z",
+  "modified": "2025-11-18T21:32:28Z",
   "published": "2022-05-24T17:44:06Z",
   "aliases": [
     "CVE-2020-35752"
   ],
   "details": "Baby Care System 1.0 is affected by a cross-site scripting (XSS) vulnerability in the Edit Page tab through the Post title parameter.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cxvq-c3r3-8gwq",
-  "modified": "2025-11-05T00:31:27Z",
+  "modified": "2025-11-18T21:32:29Z",
   "published": "2025-09-12T06:30:26Z",
   "aliases": [
     "CVE-2025-10148"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "http://www.openwall.com/lists/oss-security/2025/09/10/3"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/09/10/4"
     }
   ],
   "database_specific": {

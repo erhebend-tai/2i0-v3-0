@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g3c2-cf4p-fhw2",
-  "modified": "2025-06-18T12:30:52Z",
+  "modified": "2025-11-18T21:32:28Z",
   "published": "2025-06-18T12:30:52Z",
   "aliases": [
     "CVE-2022-50162"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nwifi: libertas: Fix possible refcount leak in if_usb_probe()\n\nusb_get_dev will be called before lbs_get_firmware_async which means that\nusb_put_dev need to be called when lbs_get_firmware_async fails.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -49,7 +54,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-06-18T11:15:46Z"
