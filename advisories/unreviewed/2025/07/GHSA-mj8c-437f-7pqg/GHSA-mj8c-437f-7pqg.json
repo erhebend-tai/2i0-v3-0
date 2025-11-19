@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mj8c-437f-7pqg",
-  "modified": "2025-07-10T09:32:30Z",
+  "modified": "2025-11-19T21:31:16Z",
   "published": "2025-07-10T09:32:29Z",
   "aliases": [
     "CVE-2025-38302"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nblock: don't use submit_bio_noacct_nocheck in blk_zone_wplug_bio_work\n\nBios queued up in the zone write plug have already gone through all all\npreparation in the submit_bio path, including the freeze protection.\n\nSubmitting them through submit_bio_noacct_nocheck duplicates the work\nand can can cause deadlocks when freezing a queue with pending bio\nwrite plugs.\n\nGo straight to ->submit_bio or blk_mq_submit_bio to bypass the\nsuperfluous extra freeze protection and checks.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-667"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-07-10T08:15:28Z"

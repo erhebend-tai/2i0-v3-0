@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-xpx4-57h5-9v98",
+  "modified": "2025-11-19T21:31:23Z",
+  "published": "2025-11-19T21:31:23Z",
+  "aliases": [
+    "CVE-2025-51661"
+  ],
+  "details": "A path Traversal vulnerability found in FileCodeBox v2.2 and earlier allows arbitrary file writes when application is configured to use local filesystem storage. SystemFileStorage.save_file method in core/storage.py uses filenames from user input without validation to construct save_path and save files. This allows remote attackers to perform arbitrary file writes outside the intended directory by sending crafted POST requests with malicious traversal sequences to /share/file/ upload endpoint, which does not require any authorization.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-51661"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/vastsa/FileCodeBox/issues/349"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/vastsa/FileCodeBox"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-11-19T20:15:52Z"
+  }
+}

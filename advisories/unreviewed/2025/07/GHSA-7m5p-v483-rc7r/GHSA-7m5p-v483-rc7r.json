@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7m5p-v483-rc7r",
-  "modified": "2025-07-25T15:30:54Z",
+  "modified": "2025-11-19T21:31:16Z",
   "published": "2025-07-25T15:30:54Z",
   "aliases": [
     "CVE-2025-38426"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amdgpu: Add basic validation for RAS header\n\nIf RAS header read from EEPROM is corrupted, it could result in trying\nto allocate huge memory for reading the records. Add some validation to\nheader fields.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -25,7 +30,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-07-25T15:15:27Z"

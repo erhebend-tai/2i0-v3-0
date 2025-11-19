@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pj7h-hw7v-pg79",
-  "modified": "2025-07-25T15:30:51Z",
+  "modified": "2025-11-19T21:31:16Z",
   "published": "2025-07-25T15:30:51Z",
   "aliases": [
     "CVE-2025-38381"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nInput: cs40l50-vibra - fix potential NULL dereference in cs40l50_upload_owt()\n\nThe cs40l50_upload_owt() function allocates memory via kmalloc()\nwithout checking for allocation failure, which could lead to a\nNULL pointer dereference.\n\nReturn -ENOMEM in case allocation fails.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-07-25T13:15:27Z"

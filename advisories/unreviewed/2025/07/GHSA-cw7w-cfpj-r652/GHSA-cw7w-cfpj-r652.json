@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cw7w-cfpj-r652",
-  "modified": "2025-07-10T09:32:29Z",
+  "modified": "2025-11-19T21:31:16Z",
   "published": "2025-07-10T09:32:29Z",
   "aliases": [
     "CVE-2025-38297"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nPM: EM: Fix potential division-by-zero error in em_compute_costs()\n\nWhen the device is of a non-CPU type, table[i].performance won't be\ninitialized in the previous em_init_performance(), resulting in division\nby zero when calculating costs in em_compute_costs().\n\nSince the 'cost' algorithm is only used for EAS energy efficiency\ncalculations and is currently not utilized by other device drivers, we\nshould add the _is_cpu_device(dev) check to prevent this division-by-zero\nissue.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-369"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-07-10T08:15:28Z"

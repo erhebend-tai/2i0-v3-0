@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3w4f-86g3-p6vp",
-  "modified": "2025-07-09T12:31:34Z",
+  "modified": "2025-11-19T21:31:14Z",
   "published": "2025-07-09T12:31:34Z",
   "aliases": [
     "CVE-2025-38247"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nuserns and mnt_idmap leak in open_tree_attr(2)\n\nOnce want_mount_setattr() has returned a positive, it does require\nfinish_mount_kattr() to release ->mnt_userns.  Failing do_mount_setattr()\ndoes not change that.\n\nAs the result, we can end up leaking userns and possibly mnt_idmap as\nwell.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -25,7 +30,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-07-09T11:15:26Z"

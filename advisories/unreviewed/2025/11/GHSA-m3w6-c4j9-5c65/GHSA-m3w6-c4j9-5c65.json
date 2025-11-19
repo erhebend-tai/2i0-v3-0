@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m3w6-c4j9-5c65",
-  "modified": "2025-11-19T18:31:21Z",
+  "modified": "2025-11-19T21:31:23Z",
   "published": "2025-11-19T18:31:21Z",
   "aliases": [
     "CVE-2025-63210"
   ],
   "details": "The Newtec Celox UHD (models: CELOXA504, CELOXA820) running firmware version celox-21.6.13 is vulnerable to an authentication bypass. An attacker can exploit this issue by modifying intercepted responses from the /celoxservice endpoint. By injecting a forged response body during the loginWithUserName flow, the attacker can gain Superuser or Operator access without providing valid credentials.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-287"
+    ],
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-11-19T18:15:49Z"

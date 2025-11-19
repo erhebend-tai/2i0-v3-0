@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2q3p-f6j6-9qhj",
-  "modified": "2025-11-12T15:31:28Z",
+  "modified": "2025-11-19T21:31:17Z",
   "published": "2025-11-11T18:30:16Z",
   "aliases": [
     "CVE-2025-13020"
@@ -30,6 +30,14 @@
     {
       "type": "WEB",
       "url": "https://www.mozilla.org/security/advisories/mfsa2025-88"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mozilla.org/security/advisories/mfsa2025-90"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mozilla.org/security/advisories/mfsa2025-91"
     }
   ],
   "database_specific": {

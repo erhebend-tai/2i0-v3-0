@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-cr8f-gpg2-8g3h",
+  "modified": "2025-11-19T21:31:24Z",
+  "published": "2025-11-19T21:31:24Z",
+  "aliases": [
+    "CVE-2025-63371"
+  ],
+  "details": "Milos Paripovic OneCommander 3.102.0.0 is vulnerable to Directory Traversal. The vulnerability resides in the ZIP file processing component, specifically in the functionality responsible for extracting and handling ZIP archive contents.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-63371"
+    },
+    {
+      "type": "WEB",
+      "url": "https://jeroscope.com/advisories/2025/jero-2025-007"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.onecommander.com"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-11-19T21:15:51Z"
+  }
+}
