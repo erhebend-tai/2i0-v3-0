@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8c52-x9w7-vc95",
-  "modified": "2025-11-18T19:02:15Z",
+  "modified": "2025-11-19T18:59:58Z",
   "published": "2025-11-18T19:02:15Z",
   "aliases": [
     "CVE-2025-65089"
@@ -44,6 +44,10 @@
       "url": "https://github.com/xwikisas/xwiki-pro-macros/security/advisories/GHSA-8c52-x9w7-vc95"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-65089"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/xwikisas/xwiki-pro-macros"
     }
@@ -55,6 +59,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-11-18T19:02:15Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-11-19T18:15:51Z"
   }
 }
