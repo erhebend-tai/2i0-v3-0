@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-79xr-v794-wq35",
-  "modified": "2023-11-15T20:24:43Z",
+  "modified": "2025-11-19T15:16:10Z",
   "published": "2022-05-24T17:24:15Z",
   "aliases": [
     "CVE-2020-15883"
@@ -33,25 +33,6 @@
           ]
         }
       ]
-    },
-    {
-      "package": {
-        "ecosystem": "Packagist",
-        "name": "munkireport/munkireport"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "2.5.3"
-            },
-            {
-              "fixed": "5.6.3"
-            }
-          ]
-        }
-      ]
     }
   ],
   "references": [
@@ -62,6 +43,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/munkireport/managedinstalls/commit/708f6a2abc4b80a3751bcc9cf896f80d84250c55"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/munkireport/managedinstalls"
     },
     {
       "type": "WEB",

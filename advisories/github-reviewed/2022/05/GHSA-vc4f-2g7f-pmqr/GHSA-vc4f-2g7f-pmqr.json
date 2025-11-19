@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vc4f-2g7f-pmqr",
-  "modified": "2023-11-15T18:56:52Z",
+  "modified": "2025-11-19T15:15:45Z",
   "published": "2022-05-24T17:24:15Z",
   "aliases": [
     "CVE-2020-15885"
@@ -28,45 +28,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "4.1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "Packagist",
-        "name": "munkireport/managedinstalls"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "2.6"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "Packagist",
-        "name": "munkireport/munkireport"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "2.5.3"
-            },
-            {
-              "fixed": "5.6.3"
+              "fixed": "4.0"
             }
           ]
         }
@@ -80,7 +42,7 @@
     },
     {
       "type": "WEB",
-      "url": "https://github.com/munkireport/managedinstalls/commit/708f6a2abc4b80a3751bcc9cf896f80d84250c55"
+      "url": "https://github.com/munkireport/comment/commit/ee4c1cd28fdcb42eb24c0cfea24ddf02478f9869"
     },
     {
       "type": "PACKAGE",
