@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5rr4-3f6q-m7hp",
-  "modified": "2025-11-18T21:32:30Z",
+  "modified": "2025-11-19T00:31:24Z",
   "published": "2025-11-18T21:32:30Z",
   "aliases": [
     "CVE-2025-54771"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2413823"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/11/18/3"
     }
   ],
   "database_specific": {

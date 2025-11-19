@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-27q9-h529-q4g3",
-  "modified": "2025-11-18T21:32:28Z",
+  "modified": "2025-11-19T00:31:23Z",
   "published": "2023-12-24T09:30:19Z",
   "aliases": [
     "CVE-2023-51767"
@@ -113,6 +113,10 @@
     },
     {
       "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/09/27/4"
+    },
+    {
+      "type": "WEB",
       "url": "http://www.openwall.com/lists/oss-security/2025/09/27/5"
     },
     {
@@ -122,6 +126,14 @@
     {
       "type": "WEB",
       "url": "http://www.openwall.com/lists/oss-security/2025/09/27/7"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/09/28/7"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/09/29/1"
     },
     {
       "type": "WEB",
