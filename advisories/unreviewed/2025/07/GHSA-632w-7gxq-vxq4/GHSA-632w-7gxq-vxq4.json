@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-632w-7gxq-vxq4",
-  "modified": "2025-07-28T12:30:34Z",
+  "modified": "2025-11-19T18:31:17Z",
   "published": "2025-07-28T12:30:34Z",
   "aliases": [
     "CVE-2025-38469"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nKVM: x86/xen: Fix cleanup logic in emulation of Xen schedop poll hypercalls\n\nkvm_xen_schedop_poll does a kmalloc_array() when a VM polls the host\nfor more than one event channel potr (nr_ports > 1).\n\nAfter the kmalloc_array(), the error paths need to go through the\n\"out\" label, but the call to kvm_read_guest_virt() does not.\n\n[Adjusted commit message. - Paolo]",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -33,7 +38,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-07-28T12:15:28Z"

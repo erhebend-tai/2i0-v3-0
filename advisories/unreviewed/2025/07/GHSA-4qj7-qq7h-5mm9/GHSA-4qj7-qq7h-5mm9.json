@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4qj7-qq7h-5mm9",
-  "modified": "2025-07-28T12:30:35Z",
+  "modified": "2025-11-19T18:31:17Z",
   "published": "2025-07-28T12:30:35Z",
   "aliases": [
     "CVE-2025-38489"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ns390/bpf: Fix bpf_arch_text_poke() with new_addr == NULL again\n\nCommit 7ded842b356d (\"s390/bpf: Fix bpf_plt pointer arithmetic\") has\naccidentally removed the critical piece of commit c730fce7c70c\n(\"s390/bpf: Fix bpf_arch_text_poke() with new_addr == NULL\"), causing\nintermittent kernel panics in e.g. perf's on_switch() prog to reappear.\n\nRestore the fix and add a comment.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-07-28T12:15:30Z"
