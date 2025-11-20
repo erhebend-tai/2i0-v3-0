@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-89mq-4x47-5v83",
-  "modified": "2022-01-04T19:51:20Z",
+  "modified": "2025-11-20T19:29:58Z",
   "published": "2019-11-20T15:29:43Z",
   "aliases": [
     "CVE-2019-10768"
   ],
-  "summary": "Prototype Pollution in angular",
-  "details": "Versions of `angular ` prior to 1.7.9 are vulnerable to prototype pollution. The deprecated API function `merge()` does not restrict the modification of an Object's prototype in the , which may allow an attacker to add or modify an existing property that will exist on all objects.\n\n\n\n\n## Recommendation\n\nUpgrade to version 1.7.9 or later. The function was already deprecated and upgrades are not expected to break functionality.",
+  "summary": "angular Prototype Pollution vulnerability",
+  "details": "Versions of `angular ` prior to 1.7.9 are vulnerable to prototype pollution. The deprecated API function `merge()` does not restrict the modification of an Object's prototype in the , which may allow an attacker to add or modify an existing property that will exist on all objects.\n\n## Recommendation\n\nUpgrade to version 1.7.9 or later. The function was already deprecated and upgrades are not expected to break functionality.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -54,15 +54,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://lists.apache.org/thread.html/rca37935d661f4689cb4119f1b3b224413b22be161b678e6e6ce0c69b%40%3Ccommits.nifi.apache.org%3E"
+    },
+    {
+      "type": "WEB",
       "url": "https://lists.apache.org/thread.html/rca37935d661f4689cb4119f1b3b224413b22be161b678e6e6ce0c69b@%3Ccommits.nifi.apache.org%3E"
     },
     {
       "type": "WEB",
       "url": "https://snyk.io/vuln/SNYK-JS-ANGULAR-534884"
-    },
-    {
-      "type": "WEB",
-      "url": "https://www.npmjs.com/advisories/1343"
     }
   ],
   "database_specific": {
