@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7p7v-h84h-xmw3",
-  "modified": "2025-07-10T09:32:28Z",
+  "modified": "2025-11-20T18:31:00Z",
   "published": "2025-07-10T09:32:28Z",
   "aliases": [
     "CVE-2025-38274"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nfpga: fix potential null pointer deref in fpga_mgr_test_img_load_sgt()\n\nfpga_mgr_test_img_load_sgt() allocates memory for sgt using\nkunit_kzalloc() however it does not check if the allocation failed.\nIt then passes sgt to sg_alloc_table(), which passes it to\n__sg_alloc_table(). This function calls memset() on sgt in an attempt to\nzero it out. If the allocation fails then sgt will be NULL and the\nmemset will trigger a NULL pointer dereference.\n\nFix this by checking the allocation with KUNIT_ASSERT_NOT_ERR_OR_NULL().",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-07-10T08:15:25Z"

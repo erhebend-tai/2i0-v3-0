@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r3xp-pwxv-p43m",
-  "modified": "2025-06-20T21:32:07Z",
+  "modified": "2025-11-20T18:31:00Z",
   "published": "2025-06-20T21:32:07Z",
   "aliases": [
     "CVE-2025-25038"
@@ -50,7 +50,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-20"
+      "CWE-20",
+      "CWE-78"
     ],
     "severity": "CRITICAL",
     "github_reviewed": false,

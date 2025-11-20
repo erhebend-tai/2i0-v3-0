@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2f4p-w49c-4q77",
-  "modified": "2025-11-19T18:31:21Z",
+  "modified": "2025-11-20T18:31:00Z",
   "published": "2025-11-19T18:31:21Z",
   "aliases": [
     "CVE-2025-63205"
   ],
   "details": "An issue was discovered in bridgetech probes VB220 IP Network Probe,VB120 Embedded IP + RF Probe, VB330 High-Capacity Probe, VB440 ST 2110 Production Analytics Probe, and NOMAD, firmware versions 6.5.0-9, allowing attackers to gain sensitive information such as administrator passwords via the /probe/core/setup/passwd endpoint.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-200"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-11-19T18:15:48Z"
