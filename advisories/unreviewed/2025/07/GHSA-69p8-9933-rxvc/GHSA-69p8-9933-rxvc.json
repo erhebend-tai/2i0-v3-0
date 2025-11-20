@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-69p8-9933-rxvc",
-  "modified": "2025-07-10T09:32:29Z",
+  "modified": "2025-11-20T00:31:20Z",
   "published": "2025-07-10T09:32:29Z",
   "aliases": [
     "CVE-2025-38283"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nhisi_acc_vfio_pci: bugfix live migration function without VF device driver\n\nIf the VF device driver is not loaded in the Guest OS and we attempt to\nperform device data migration, the address of the migrated data will\nbe NULL.\nThe live migration recovery operation on the destination side will\naccess a null address value, which will cause access errors.\n\nTherefore, live migration of VMs without added VF device drivers\ndoes not require device data migration.\nIn addition, when the queue address data obtained by the destination\nis empty, device queue recovery processing will not be performed.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -33,7 +38,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-07-10T08:15:26Z"
