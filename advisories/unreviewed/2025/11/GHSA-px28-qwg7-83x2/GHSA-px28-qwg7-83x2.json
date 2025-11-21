@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-px28-qwg7-83x2",
-  "modified": "2025-11-20T18:31:01Z",
+  "modified": "2025-11-21T18:30:28Z",
   "published": "2025-11-20T18:31:01Z",
   "aliases": [
     "CVE-2025-62875"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://security.opensuse.org/2025/10/31/opensmtpd-local-DoS.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.opensuse.org/2025/10/31/opensmtpd-local-DoS.html#reproducer"
     },
     {
       "type": "WEB",

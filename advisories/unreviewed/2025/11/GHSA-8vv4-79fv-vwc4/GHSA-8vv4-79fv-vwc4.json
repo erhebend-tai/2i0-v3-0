@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8vv4-79fv-vwc4",
-  "modified": "2025-11-19T09:30:28Z",
+  "modified": "2025-11-21T18:30:28Z",
   "published": "2025-11-19T09:30:28Z",
   "aliases": [
     "CVE-2025-11243"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-11243"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-25-322-02"
     },
     {
       "type": "WEB",

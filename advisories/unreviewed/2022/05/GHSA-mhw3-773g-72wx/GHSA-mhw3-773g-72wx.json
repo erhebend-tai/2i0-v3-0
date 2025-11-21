@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mhw3-773g-72wx",
-  "modified": "2025-10-22T03:30:34Z",
+  "modified": "2025-11-21T18:30:26Z",
   "published": "2022-05-17T00:54:10Z",
   "aliases": [
     "CVE-2013-3346"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2013-3346"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/cisagov/vulnrichment/issues/199"
     },
     {
       "type": "WEB",

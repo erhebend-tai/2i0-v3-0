@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c628-mp65-3f6f",
-  "modified": "2024-04-04T06:17:04Z",
+  "modified": "2025-11-21T18:30:27Z",
   "published": "2023-07-19T15:30:26Z",
   "aliases": [
     "CVE-2023-30799"
   ],
-  "details": "MikroTik RouterOS stable before 6.49.7 and long-term through 6.48.6 are vulnerable to a privilege escalation issue. A remote and authenticated attacker can escalate privileges from admin to super-admin on the Winbox or HTTP interface. The attacker can abuse this vulnerability to execute arbitrary code on the system.\n\n",
+  "details": "MikroTik RouterOS stable before 6.49.7 and long-term through 6.48.6 are vulnerable to a privilege escalation issue. A remote and authenticated attacker can escalate privileges from admin to super-admin on the Winbox or HTTP interface. The attacker can abuse this vulnerability to execute arbitrary code on the system.",
   "severity": [
     {
       "type": "CVSS_V3",

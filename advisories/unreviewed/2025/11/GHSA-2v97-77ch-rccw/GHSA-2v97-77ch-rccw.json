@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2v97-77ch-rccw",
-  "modified": "2025-11-21T15:31:27Z",
+  "modified": "2025-11-21T18:30:29Z",
   "published": "2025-11-21T15:31:26Z",
   "aliases": [
     "CVE-2025-66075"
   ],
   "details": "Missing Authorization vulnerability in WP Legal Pages WP Cookie Notice for GDPR, CCPA & ePrivacy Consent gdpr-cookie-consent allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects WP Cookie Notice for GDPR, CCPA & ePrivacy Consent: from n/a through <= 4.0.3.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-862"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-11-21T13:15:48Z"

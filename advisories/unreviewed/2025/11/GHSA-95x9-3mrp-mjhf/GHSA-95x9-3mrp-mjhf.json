@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-95x9-3mrp-mjhf",
-  "modified": "2025-11-21T15:31:27Z",
+  "modified": "2025-11-21T18:30:29Z",
   "published": "2025-11-21T15:31:27Z",
   "aliases": [
     "CVE-2025-66098"
   ],
   "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Camille V Travelers' Map travelers-map allows Stored XSS.This issue affects Travelers' Map: from n/a through <= 2.3.2.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-79"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-11-21T13:15:51Z"
