@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wjw7-v5jq-mg9c",
-  "modified": "2025-07-02T15:30:38Z",
+  "modified": "2025-11-21T00:30:19Z",
   "published": "2025-07-02T15:30:38Z",
   "aliases": [
     "CVE-2025-38092"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nksmbd: use list_first_entry_or_null for opinfo_get_list()\n\nThe list_first_entry() macro never returns NULL.  If the list is\nempty then it returns an invalid pointer.  Use list_first_entry_or_null()\nto check if the list is empty.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-07-02T15:15:26Z"

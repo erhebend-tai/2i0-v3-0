@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4f73-499v-x32x",
-  "modified": "2025-07-03T09:30:32Z",
+  "modified": "2025-11-21T00:30:19Z",
   "published": "2025-07-03T09:30:32Z",
   "aliases": [
     "CVE-2025-38098"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amd/display: Don't treat wb connector as physical in create_validate_stream_for_sink\n\nDon't try to operate on a drm_wb_connector as an amdgpu_dm_connector.\nWhile dereferencing aconnector->base will \"work\" it's wrong and\nmight lead to unknown bad things. Just... don't.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -29,7 +34,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-07-03T09:15:23Z"

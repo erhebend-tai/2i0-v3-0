@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3r6m-7q2m-f6qj",
-  "modified": "2025-06-18T12:30:55Z",
+  "modified": "2025-11-21T00:30:18Z",
   "published": "2025-06-18T12:30:55Z",
   "aliases": [
     "CVE-2022-50208"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nsoc: amlogic: Fix refcount leak in meson-secure-pwrc.c\n\nIn meson_secure_pwrc_probe(), there is a refcount leak in one fail\npath.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -37,7 +42,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-06-18T11:15:51Z"

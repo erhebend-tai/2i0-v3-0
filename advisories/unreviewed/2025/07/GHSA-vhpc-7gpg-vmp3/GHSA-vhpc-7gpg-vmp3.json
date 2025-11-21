@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vhpc-7gpg-vmp3",
-  "modified": "2025-07-03T09:30:32Z",
+  "modified": "2025-11-21T00:30:20Z",
   "published": "2025-07-03T09:30:32Z",
   "aliases": [
     "CVE-2025-38099"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nBluetooth: Disable SCO support if READ_VOICE_SETTING is unsupported/broken\n\nA SCO connection without the proper voice_setting can cause\nthe controller to lock up.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -29,7 +34,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-07-03T09:15:23Z"

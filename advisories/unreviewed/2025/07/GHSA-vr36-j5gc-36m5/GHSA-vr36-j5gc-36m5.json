@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vr36-j5gc-36m5",
-  "modified": "2025-07-03T09:30:34Z",
+  "modified": "2025-11-21T00:30:20Z",
   "published": "2025-07-03T09:30:33Z",
   "aliases": [
     "CVE-2025-38125"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: stmmac: make sure that ptp_rate is not 0 before configuring EST\n\nIf the ptp_rate recorded earlier in the driver happens to be 0, this\nbogus value will propagate up to EST configuration, where it will\ntrigger a division by 0.\n\nPrevent this division by 0 by adding the corresponding check and error\ncode.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -29,7 +34,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-07-03T09:15:26Z"

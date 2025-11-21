@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h6c2-23rv-4mwc",
-  "modified": "2025-07-03T09:30:32Z",
+  "modified": "2025-11-21T00:30:19Z",
   "published": "2025-07-03T09:30:32Z",
   "aliases": [
     "CVE-2025-38096"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nwifi: iwlwifi: don't warn when if there is a FW error\n\niwl_trans_reclaim is warning if it is called when the FW is not alive.\nBut if it is called when there is a pending restart, i.e. after a FW\nerror, there is no need to warn, instead - return silently.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -29,7 +34,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-07-03T09:15:22Z"
