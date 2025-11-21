@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-pvvx-8727-hxpg",
+  "modified": "2025-11-21T15:31:27Z",
+  "published": "2025-11-21T15:31:27Z",
+  "aliases": [
+    "CVE-2025-66086"
+  ],
+  "details": "Missing Authorization vulnerability in Cozy Vision SMS Alert Order Notifications sms-alert allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects SMS Alert Order Notifications: from n/a through <= 3.8.8.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-66086"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/sms-alert/vulnerability/wordpress-sms-alert-order-notifications-plugin-3-8-8-broken-access-control-vulnerability?_s_id=cve"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-862"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-11-21T13:15:49Z"
+  }
+}

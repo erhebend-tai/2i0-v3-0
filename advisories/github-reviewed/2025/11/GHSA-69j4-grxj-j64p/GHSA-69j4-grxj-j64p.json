@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-69j4-grxj-j64p",
-  "modified": "2025-11-20T21:26:24Z",
+  "modified": "2025-11-21T15:32:03Z",
   "published": "2025-11-20T21:26:24Z",
   "aliases": [
     "CVE-2025-62426"
@@ -41,6 +41,10 @@
       "url": "https://github.com/vllm-project/vllm/security/advisories/GHSA-69j4-grxj-j64p"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62426"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/vllm-project/vllm/pull/27205"
     },
@@ -68,6 +72,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-11-20T21:26:24Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-11-21T02:15:43Z"
   }
 }

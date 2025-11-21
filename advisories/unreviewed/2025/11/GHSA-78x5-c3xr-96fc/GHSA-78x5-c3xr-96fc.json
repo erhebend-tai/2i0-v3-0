@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-78x5-c3xr-96fc",
+  "modified": "2025-11-21T15:31:27Z",
+  "published": "2025-11-21T15:31:27Z",
+  "aliases": [
+    "CVE-2025-66092"
+  ],
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in bqworks Accordion Slider accordion-slider allows Stored XSS.This issue affects Accordion Slider: from n/a through <= 1.9.13.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-66092"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/accordion-slider/vulnerability/wordpress-accordion-slider-plugin-1-9-13-cross-site-scripting-xss-vulnerability?_s_id=cve"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-11-21T13:15:50Z"
+  }
+}

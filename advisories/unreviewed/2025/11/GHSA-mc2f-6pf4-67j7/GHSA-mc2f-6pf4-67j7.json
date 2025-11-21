@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-mc2f-6pf4-67j7",
+  "modified": "2025-11-21T15:31:26Z",
+  "published": "2025-11-21T15:31:26Z",
+  "aliases": [
+    "CVE-2025-66062"
+  ],
+  "details": "URL Redirection to Untrusted Site ('Open Redirect') vulnerability in Frank Goossens WP YouTube Lyte wp-youtube-lyte allows Phishing.This issue affects WP YouTube Lyte: from n/a through <= 1.7.28.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-66062"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/wp-youtube-lyte/vulnerability/wordpress-wp-youtube-lyte-plugin-1-7-28-open-redirection-vulnerability?_s_id=cve"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-601"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-11-21T13:15:47Z"
+  }
+}
