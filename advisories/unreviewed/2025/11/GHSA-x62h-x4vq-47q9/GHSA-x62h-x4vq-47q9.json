@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x62h-x4vq-47q9",
-  "modified": "2025-11-21T15:31:26Z",
+  "modified": "2025-11-21T21:30:17Z",
   "published": "2025-11-21T15:31:26Z",
   "aliases": [
     "CVE-2025-66064"
   ],
   "details": "Cross-Site Request Forgery (CSRF) vulnerability in Syed Balkhi Giveaways and Contests by RafflePress rafflepress allows Cross Site Request Forgery.This issue affects Giveaways and Contests by RafflePress: from n/a through <= 1.12.20.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-352"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-11-21T13:15:47Z"
