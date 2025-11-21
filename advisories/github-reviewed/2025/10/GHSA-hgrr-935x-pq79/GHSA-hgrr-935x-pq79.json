@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hgrr-935x-pq79",
-  "modified": "2025-11-05T20:50:57Z",
+  "modified": "2025-11-21T15:19:19Z",
   "published": "2025-10-27T18:31:13Z",
   "aliases": [
     "CVE-2025-61795"
@@ -63,7 +63,7 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "9.0.0.40"
+              "introduced": "9.0.0.M1"
             },
             {
               "fixed": "9.0.110"
@@ -82,7 +82,7 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "8.5.60"
+              "introduced": "8.5.0"
             },
             {
               "last_affected": "8.5.100"
@@ -139,7 +139,7 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "9.0.0.40"
+              "introduced": "9.0.0.M1"
             },
             {
               "fixed": "9.0.110"
@@ -158,7 +158,7 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "8.5.60"
+              "introduced": "8.5.0"
             },
             {
               "last_affected": "8.5.100"
@@ -215,7 +215,7 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "9.0.0.40"
+              "introduced": "9.0.0.M1"
             },
             {
               "fixed": "9.0.110"
@@ -234,7 +234,7 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "8.5.60"
+              "introduced": "8.5.0"
             },
             {
               "last_affected": "8.5.100"
