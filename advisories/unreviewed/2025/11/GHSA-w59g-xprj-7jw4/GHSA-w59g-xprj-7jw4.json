@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w59g-xprj-7jw4",
-  "modified": "2025-11-21T15:31:27Z",
+  "modified": "2025-11-22T00:31:20Z",
   "published": "2025-11-21T15:31:27Z",
   "aliases": [
     "CVE-2025-66087"
   ],
   "details": "Missing Authorization vulnerability in Property Hive PropertyHive propertyhive allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects PropertyHive: from n/a through <= 2.1.12.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-862"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-11-21T13:15:49Z"

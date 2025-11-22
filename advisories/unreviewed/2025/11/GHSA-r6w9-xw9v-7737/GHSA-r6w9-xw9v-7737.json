@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r6w9-xw9v-7737",
-  "modified": "2025-11-21T15:31:27Z",
+  "modified": "2025-11-22T00:31:20Z",
   "published": "2025-11-21T15:31:26Z",
   "aliases": [
     "CVE-2025-66079"
   ],
   "details": "Missing Authorization vulnerability in Jegstudio Gutenverse Form gutenverse-form allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects Gutenverse Form: from n/a through <= 2.2.0.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-862"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-11-21T13:15:48Z"
