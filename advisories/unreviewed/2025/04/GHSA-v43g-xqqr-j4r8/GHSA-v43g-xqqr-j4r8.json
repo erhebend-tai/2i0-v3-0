@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v43g-xqqr-j4r8",
-  "modified": "2025-11-03T21:33:38Z",
+  "modified": "2025-11-24T12:30:27Z",
   "published": "2025-04-16T15:34:44Z",
   "aliases": [
     "CVE-2025-22107"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-22107"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/031e00249e9e6bee72ba66701c8f83b45fc4b8a2"
     },
     {
       "type": "WEB",

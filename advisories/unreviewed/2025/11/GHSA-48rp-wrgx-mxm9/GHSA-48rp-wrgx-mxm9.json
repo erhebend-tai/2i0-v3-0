@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-48rp-wrgx-mxm9",
-  "modified": "2025-11-24T06:31:25Z",
+  "modified": "2025-11-24T12:30:29Z",
   "published": "2025-11-24T06:31:25Z",
   "aliases": [
     "CVE-2025-12569"
   ],
   "details": "The Guest posting / Frontend Posting / Front Editor  WordPress plugin before 5.0.0 does not validate a parameter before redirecting the user to its value, leading to an Open Redirect issue",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -21,7 +26,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-11-24T06:15:46Z"
