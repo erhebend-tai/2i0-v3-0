@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-952c-2cx9-gv4r",
-  "modified": "2025-09-15T15:31:23Z",
+  "modified": "2025-11-24T21:30:57Z",
   "published": "2025-09-15T15:31:23Z",
   "aliases": [
     "CVE-2023-53165"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nudf: Fix uninitialized array access for some pathnames\n\nFor filenames that begin with . and are between 2 and 5 characters long,\nUDF charset conversion code would read uninitialized memory in the\noutput buffer. The only practical impact is that the name may be prepended a\n\"unification hash\" when it is not actually needed but still it is good\nto fix this.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-908"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-15T14:15:38Z"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vwc5-3f53-7rhp",
-  "modified": "2025-09-05T18:31:15Z",
+  "modified": "2025-11-24T21:30:56Z",
   "published": "2025-09-05T18:31:15Z",
   "aliases": [
     "CVE-2025-38686"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nuserfaultfd: fix a crash in UFFDIO_MOVE when PMD is a migration entry\n\nWhen UFFDIO_MOVE encounters a migration PMD entry, it proceeds with\nobtaining a folio and accessing it even though the entry is swp_entry_t. \nAdd the missing check and let split_huge_pmd() handle migration entries. \nWhile at it also remove unnecessary folio check.\n\n[surenb@google.com: remove extra folio check, per David]",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -33,7 +38,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-04T16:15:36Z"

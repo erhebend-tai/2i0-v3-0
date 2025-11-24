@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mmx3-2qhv-f4x6",
-  "modified": "2025-09-15T15:31:23Z",
+  "modified": "2025-11-24T21:30:57Z",
   "published": "2025-09-15T15:31:23Z",
   "aliases": [
     "CVE-2023-53153"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nwifi: cfg80211: Fix use after free for wext\n\nKey information in wext.connect is not reset on (re)connect and can hold\ndata from a previous connection.\n\nReset key data to avoid that drivers or mac80211 incorrectly detect a\nWEP connection request and access the freed or already reused memory.\n\nAdditionally optimize cfg80211_sme_connect() and avoid an useless\nschedule of conn_work.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-416"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-15T14:15:37Z"

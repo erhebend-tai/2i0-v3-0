@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gcc2-qf7h-c2x4",
-  "modified": "2025-11-24T18:31:14Z",
+  "modified": "2025-11-24T21:30:59Z",
   "published": "2025-11-24T18:31:14Z",
   "aliases": [
     "CVE-2025-63958"
   ],
   "details": "MILLENSYS Vision Tools Workspace 6.5.0.2585 exposes a sensitive configuration endpoint (/MILLENSYS/settings) that is accessible without authentication. This page leaks plaintext database credentials, file share paths, internal license server configuration, and software update parameters. An unauthenticated attacker can retrieve this information by accessing the endpoint directly, potentially leading to full system compromise. The vulnerability is due to missing access controls on a privileged administrative function.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-200"
+    ],
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-11-24T17:16:09Z"
