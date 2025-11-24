@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x9pw-qp8j-96f9",
-  "modified": "2025-05-21T15:30:32Z",
+  "modified": "2025-11-24T15:30:27Z",
   "published": "2025-05-20T21:30:42Z",
   "aliases": [
     "CVE-2025-44893"
@@ -21,7 +21,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/xyqer1/Planet-web_acl_mgmt_Rules_Apply_post-ruleName-StackOverflow"
+    },
+    {
+      "type": "WEB",
       "url": "https://lafdrew.github.io/2025/04/20/web-acl-mgmt-Rules-Apply-post-ruleName"
+    },
+    {
+      "type": "WEB",
+      "url": "https://raw.githubusercontent.com/lafdrew/lafdrew.github.io/7e2c4ab83017611974e61aa1384c2563ec008f49/2025/04/18/web-aaa-loginAuthlistEdit-get-authName-StackOverflow/index.html"
     }
   ],
   "database_specific": {

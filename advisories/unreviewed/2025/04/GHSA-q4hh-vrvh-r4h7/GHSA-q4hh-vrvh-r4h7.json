@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q4hh-vrvh-r4h7",
-  "modified": "2025-11-03T21:33:40Z",
+  "modified": "2025-11-24T15:30:27Z",
   "published": "2025-04-16T21:30:57Z",
   "aliases": [
     "CVE-2025-31201"
@@ -18,6 +18,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-31201"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/cisagov/vulnrichment/issues/200"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/JGoyd/iOS-Attack-Chain-CVE-2025-31200-CVE-2025-31201/blob/main/Remote%20Crypto%20Attack%20Chain%20.md"
     },
     {
       "type": "WEB",
@@ -61,7 +69,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-1220"
+    ],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,

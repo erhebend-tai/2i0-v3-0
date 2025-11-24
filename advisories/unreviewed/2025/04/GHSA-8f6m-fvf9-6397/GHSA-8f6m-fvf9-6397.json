@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8f6m-fvf9-6397",
-  "modified": "2025-11-03T21:33:40Z",
+  "modified": "2025-11-24T15:30:27Z",
   "published": "2025-04-16T21:30:56Z",
   "aliases": [
     "CVE-2025-31200"
@@ -21,7 +21,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/cisagov/vulnrichment/issues/200"
+    },
+    {
+      "type": "WEB",
       "url": "https://blog.noahhw.dev/posts/cve-2025-31200"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/JGoyd/iOS-Attack-Chain-CVE-2025-31200-CVE-2025-31201/blob/main/Remote%20Crypto%20Attack%20Chain%20.md"
     },
     {
       "type": "WEB",
@@ -70,6 +78,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-119",
       "CWE-787"
     ],
     "severity": "HIGH",
