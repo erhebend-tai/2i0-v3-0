@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vrhc-cgwx-m2qw",
-  "modified": "2025-10-23T21:31:41Z",
+  "modified": "2025-11-25T18:32:21Z",
   "published": "2025-10-16T18:30:25Z",
   "aliases": [
     "CVE-2025-34514"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://www.vulncheck.com/advisories/ilevia-eve-x1-server-auth-command-injection"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.zeroscience.mk/en/vulnerabilities/ZSL-2025-5966.php"
     }
   ],
   "database_specific": {

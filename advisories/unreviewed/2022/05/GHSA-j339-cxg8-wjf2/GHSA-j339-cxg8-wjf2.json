@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j339-cxg8-wjf2",
-  "modified": "2022-05-24T16:44:48Z",
+  "modified": "2025-11-25T18:32:15Z",
   "published": "2022-05-24T16:44:48Z",
   "aliases": [
     "CVE-2019-9810"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r9mx-4c25-vp64",
-  "modified": "2025-09-07T18:31:27Z",
+  "modified": "2025-11-25T18:32:19Z",
   "published": "2025-09-07T18:31:27Z",
   "aliases": [
     "CVE-2025-39733"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nteam: replace team lock with rtnl lock\n\nsyszbot reports various ordering issues for lower instance locks and\nteam lock. Switch to using rtnl lock for protecting team device,\nsimilar to bonding. Based on the patch by Tetsuo Handa.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -29,7 +34,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-07T16:15:50Z"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hf84-87fj-v8xv",
-  "modified": "2022-05-14T01:27:13Z",
+  "modified": "2025-11-25T18:32:12Z",
   "published": "2022-05-14T01:27:13Z",
   "aliases": [
     "CVE-2018-5131"

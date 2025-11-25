@@ -1,18 +1,27 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vqr2-c24p-rh7p",
-  "modified": "2022-05-24T17:40:23Z",
+  "modified": "2025-11-25T18:32:17Z",
   "published": "2022-05-24T17:40:23Z",
   "aliases": [
     "CVE-2021-3297"
   ],
   "details": "On Zyxel NBG2105 V1.00(AAGU.2)C0 devices, setting the login cookie to 1 provides administrator access.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-3297"
+    },
+    {
+      "type": "WEB",
+      "url": "https://codeberg.org/nieldk/vulnerabilities/src/branch/main/zyxel%20nbg2105/Admin%20bypass"
     },
     {
       "type": "WEB",

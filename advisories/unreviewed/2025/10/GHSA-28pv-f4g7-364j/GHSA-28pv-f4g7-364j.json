@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-28pv-f4g7-364j",
-  "modified": "2025-10-10T15:31:28Z",
+  "modified": "2025-11-25T18:32:21Z",
   "published": "2025-10-10T15:31:28Z",
   "aliases": [
     "CVE-2025-61152"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61152"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/mpdavis/python-jose/issues/391"
     },
     {
       "type": "WEB",

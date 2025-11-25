@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w3v2-46wf-pq33",
-  "modified": "2022-05-05T02:48:51Z",
+  "modified": "2025-11-25T18:32:00Z",
   "published": "2022-05-05T02:48:51Z",
   "aliases": [
     "CVE-2013-0340"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2013-0340"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/libexpat/libexpat/blob/R_2_4_1/expat/Changes"
     },
     {
       "type": "WEB",

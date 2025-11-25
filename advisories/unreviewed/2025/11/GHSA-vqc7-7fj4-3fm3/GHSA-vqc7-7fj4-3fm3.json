@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-vqc7-7fj4-3fm3",
+  "modified": "2025-11-25T18:32:22Z",
+  "published": "2025-11-25T18:32:22Z",
+  "aliases": [
+    "CVE-2025-64049"
+  ],
+  "details": "A stored cross-site scripting (XSS) vulnerability in the module management component in REDAXO CMS 5.20.0 allows remote users to inject arbitrary web script or HTML via the Output code field in modules. The payload is executed when a user views or edits an article by adding slice that uses the compromised module.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-64049"
+    },
+    {
+      "type": "WEB",
+      "url": "https://drive.google.com/drive/folders/1SpwL548ZBRYU_uL8W7Riv7VHshr2UN0R?usp=sharing"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/redaxo/redaxo"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/vettrivel007/CVE-Disclosures/blob/main/CVE-2025-64049.md"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": "MODERATE",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-11-25T16:16:07Z"
+  }
+}

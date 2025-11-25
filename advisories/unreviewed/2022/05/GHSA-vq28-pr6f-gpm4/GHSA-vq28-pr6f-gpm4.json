@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vq28-pr6f-gpm4",
-  "modified": "2022-05-14T03:10:53Z",
+  "modified": "2025-11-25T18:32:07Z",
   "published": "2022-05-14T03:10:53Z",
   "aliases": [
     "CVE-2017-5396"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j688-45pj-fx7v",
-  "modified": "2025-09-15T15:31:23Z",
+  "modified": "2025-11-25T18:32:21Z",
   "published": "2025-09-15T15:31:23Z",
   "aliases": [
     "CVE-2023-53150"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nscsi: qla2xxx: Pointer may be dereferenced\n\nKlocwork tool reported pointer 'rport' returned from call to function\nfc_bsg_to_rport() may be NULL and will be dereferenced.\n\nAdd a fix to validate rport before dereferencing.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-15T14:15:37Z"

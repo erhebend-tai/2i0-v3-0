@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cv3r-ffc6-6hcp",
-  "modified": "2025-09-11T18:35:51Z",
+  "modified": "2025-11-25T18:32:20Z",
   "published": "2025-09-11T18:35:51Z",
   "aliases": [
     "CVE-2025-39747"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/msm: Add error handling for krealloc in metadata setup\n\nFunction msm_ioctl_gem_info_set_metadata() now checks for krealloc\nfailure and returns -ENOMEM, avoiding potential NULL pointer dereference.\nExplicitly avoids __GFP_NOFAIL due to deadlock risks and allocation constraints.\n\nPatchwork: https://patchwork.freedesktop.org/patch/661235/",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-11T17:15:38Z"

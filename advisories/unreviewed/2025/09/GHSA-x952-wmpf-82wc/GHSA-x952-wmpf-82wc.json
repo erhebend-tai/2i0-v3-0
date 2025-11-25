@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x952-wmpf-82wc",
-  "modified": "2025-09-07T18:31:26Z",
+  "modified": "2025-11-25T18:32:19Z",
   "published": "2025-09-07T18:31:26Z",
   "aliases": [
     "CVE-2025-39727"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmm: swap: fix potential buffer overflow in setup_clusters()\n\nIn setup_swap_map(), we only ensure badpages are in range (0, last_page]. \nAs maxpages might be < last_page, setup_clusters() will encounter a buffer\noverflow when a badpage is >= maxpages.\n\nOnly call inc_cluster_info_page() for badpage which is < maxpages to fix\nthe issue.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-120"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-07T16:15:46Z"
