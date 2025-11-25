@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gfw5-r5r2-fv73",
-  "modified": "2025-08-03T18:32:49Z",
+  "modified": "2025-11-25T09:31:22Z",
   "published": "2025-08-03T18:32:49Z",
   "aliases": [
     "CVE-2025-54956"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/r-lib/gh/compare/v1.4.1...v1.5.0"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/11/msg00021.html"
     }
   ],
   "database_specific": {
