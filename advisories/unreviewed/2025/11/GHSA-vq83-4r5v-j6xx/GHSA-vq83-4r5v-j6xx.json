@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-vq83-4r5v-j6xx",
+  "modified": "2025-11-25T21:32:07Z",
+  "published": "2025-11-25T21:32:07Z",
+  "aliases": [
+    "CVE-2025-51743"
+  ],
+  "details": "An issue was discovered in jishenghua JSH_ERP 2.3.1. The /materialCategory/addMaterialCategory endpoint is vulnerable to fastjson deserialization attacks.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-51743"
+    },
+    {
+      "type": "WEB",
+      "url": "https://blog.hackpax.top/jsh-erp2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gist.github.com/Paxsizy/cd1557aeba8093a8650601c4dbffb6f9"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gitee.com/jishenghua"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gitee.com/jishenghua/JSH_ERP"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-11-25T21:15:55Z"
+  }
+}

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q522-2v7v-4rm7",
-  "modified": "2025-09-11T18:35:51Z",
+  "modified": "2025-11-25T21:32:04Z",
   "published": "2025-09-11T18:35:51Z",
   "aliases": [
     "CVE-2025-39750"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nwifi: ath12k: Correct tid cleanup when tid setup fails\n\nCurrently, if any error occurs during ath12k_dp_rx_peer_tid_setup(),\nthe tid value is already incremented, even though the corresponding\nTID is not actually allocated. Proceed to\nath12k_dp_rx_peer_tid_delete() starting from unallocated tid,\nwhich might leads to freeing unallocated TID and cause potential\ncrash or out-of-bounds access.\n\nHence, fix by correctly decrementing tid before cleanup to match only\nthe successfully allocated TIDs.\n\nAlso, remove tid-- from failure case of ath12k_dp_rx_peer_frag_setup(),\nas decrementing the tid before cleanup in loop will take care of this.\n\nCompile tested only.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -36,8 +41,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-125"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-11T17:15:38Z"

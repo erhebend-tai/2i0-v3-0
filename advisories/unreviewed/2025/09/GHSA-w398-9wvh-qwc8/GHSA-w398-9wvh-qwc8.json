@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w398-9wvh-qwc8",
-  "modified": "2025-10-29T15:31:51Z",
+  "modified": "2025-11-25T21:32:03Z",
   "published": "2025-09-05T18:31:26Z",
   "aliases": [
     "CVE-2025-39678"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nplatform/x86/amd/hsmp: Ensure sock->metric_tbl_addr is non-NULL\n\nIf metric table address is not allocated, accessing metrics_bin will\nresult in a NULL pointer dereference, so add a check.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-05T18:15:44Z"

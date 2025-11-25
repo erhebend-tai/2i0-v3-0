@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cqc2-f63q-q48x",
-  "modified": "2025-09-11T18:35:52Z",
+  "modified": "2025-11-25T21:32:04Z",
   "published": "2025-09-11T18:35:52Z",
   "aliases": [
     "CVE-2025-39774"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\niio: adc: rzg2l_adc: Set driver data before enabling runtime PM\n\nWhen stress-testing the system by repeatedly unbinding and binding the ADC\ndevice in a loop, and the ADC is a supplier for another device (e.g., a\nthermal hardware block that reads temperature through the ADC), it may\nhappen that the ADC device is runtime-resumed immediately after runtime PM\nis enabled, triggered by its consumer. At this point, since drvdata is not\nyet set and the driver's runtime PM callbacks rely on it, a crash can\noccur. To avoid this, set drvdata just after it was allocated.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -25,7 +30,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-11T17:15:43Z"

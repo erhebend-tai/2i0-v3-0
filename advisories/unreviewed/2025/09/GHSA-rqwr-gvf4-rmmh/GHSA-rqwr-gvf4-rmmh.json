@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rqwr-gvf4-rmmh",
-  "modified": "2025-09-11T18:35:52Z",
+  "modified": "2025-11-25T21:32:04Z",
   "published": "2025-09-11T18:35:52Z",
   "aliases": [
     "CVE-2025-39777"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ncrypto: acomp - Fix CFI failure due to type punning\n\nTo avoid a crash when control flow integrity is enabled, make the\nworkspace (\"stream\") free function use a consistent type, and call it\nthrough a function pointer that has that same type.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -25,7 +30,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-11T17:15:43Z"

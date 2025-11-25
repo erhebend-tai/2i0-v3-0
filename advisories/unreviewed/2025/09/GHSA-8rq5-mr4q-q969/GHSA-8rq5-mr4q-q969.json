@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8rq5-mr4q-q969",
-  "modified": "2025-09-11T18:35:52Z",
+  "modified": "2025-11-25T21:32:05Z",
   "published": "2025-09-11T18:35:52Z",
   "aliases": [
     "CVE-2025-39786"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\niio: adc: ad7173: fix channels index for syscalib_mode\n\nFix the index used to look up the channel when accessing the\nsyscalib_mode attribute. The address field is a 0-based index (same\nas scan_index) that it used to access the channel in the\nad7173_channels array throughout the driver. The channels field, on\nthe other hand, may not match the address field depending on the\nchannel configuration specified in the device tree and could result\nin an out-of-bounds access.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-125"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-11T17:15:44Z"

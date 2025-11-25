@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r8x7-576r-pcrg",
-  "modified": "2025-09-05T18:31:27Z",
+  "modified": "2025-11-25T21:32:03Z",
   "published": "2025-09-05T18:31:26Z",
   "aliases": [
     "CVE-2025-39695"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nRDMA/rxe: Flush delayed SKBs while releasing RXE resources\n\nWhen skb packets are sent out, these skb packets still depends on\nthe rxe resources, for example, QP, sk, when these packets are\ndestroyed.\n\nIf these rxe resources are released when the skb packets are destroyed,\nthe call traces will appear.\n\nTo avoid skb packets hang too long time in some network devices,\na timestamp is added when these skb packets are created. If these\nskb packets hang too long time in network devices, these network\ndevices can free these skb packets to release rxe resources.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -29,7 +34,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-05T18:15:46Z"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-35wp-vg6r-qrm4",
-  "modified": "2025-09-11T18:35:52Z",
+  "modified": "2025-11-25T21:32:04Z",
   "published": "2025-09-11T18:35:52Z",
   "aliases": [
     "CVE-2025-39781"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nparisc: Drop WARN_ON_ONCE() from flush_cache_vmap\n\nI have observed warning to occassionally trigger.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -33,7 +38,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-11T17:15:44Z"

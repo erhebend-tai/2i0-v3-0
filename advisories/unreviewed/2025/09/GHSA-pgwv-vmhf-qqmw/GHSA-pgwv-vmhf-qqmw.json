@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pgwv-vmhf-qqmw",
-  "modified": "2025-09-05T18:31:26Z",
+  "modified": "2025-11-25T21:32:03Z",
   "published": "2025-09-05T18:31:26Z",
   "aliases": [
     "CVE-2025-39690"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\niio: accel: sca3300: fix uninitialized iio scan data\n\nFix potential leak of uninitialized stack data to userspace by ensuring\nthat the `channels` array is zeroed before use.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-908"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-05T18:15:45Z"
