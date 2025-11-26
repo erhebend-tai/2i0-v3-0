@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-xhr6-7rpm-rmv3",
+  "modified": "2025-11-26T18:31:04Z",
+  "published": "2025-11-26T18:31:04Z",
+  "aliases": [
+    "CVE-2025-56396"
+  ],
+  "details": "An issue was discovered in Ruoyi 4.8.1 allowing attackers to gain escalated privileges due to the owning department having higher rights than the active user.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-56396"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gist.github.com/Han-tj/22cfd18fa9f116bb886e8e56782f6865"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gitee.com/y_project/RuoYi/issues/ICJ865"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-11-26T16:15:48Z"
+  }
+}

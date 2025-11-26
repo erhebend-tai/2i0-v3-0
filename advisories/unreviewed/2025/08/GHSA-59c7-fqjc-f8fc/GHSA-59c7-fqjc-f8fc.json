@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-59c7-fqjc-f8fc",
-  "modified": "2025-08-22T18:31:22Z",
+  "modified": "2025-11-26T18:31:01Z",
   "published": "2025-08-22T18:31:22Z",
   "aliases": [
     "CVE-2025-38648"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nspi: stm32: Check for cfg availability in stm32_spi_probe\n\nThe stm32_spi_probe function now includes a check to ensure that the\npointer returned by of_device_get_match_data is not NULL before\naccessing its members. This resolves a warning where a potential NULL\npointer dereference could occur when accessing cfg->has_device_mode.\n\nBefore accessing the 'has_device_mode' member, we verify that 'cfg' is\nnot NULL. If 'cfg' is NULL, an error message is logged.\n\nThis change ensures that the driver does not attempt to access\nconfiguration data if it is not available, thus preventing a potential\nsystem crash due to a NULL pointer dereference.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -36,8 +41,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-08-22T16:15:39Z"

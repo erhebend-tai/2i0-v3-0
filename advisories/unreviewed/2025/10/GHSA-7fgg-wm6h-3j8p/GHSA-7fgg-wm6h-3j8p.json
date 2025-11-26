@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7fgg-wm6h-3j8p",
-  "modified": "2025-10-27T21:30:26Z",
+  "modified": "2025-11-26T18:31:03Z",
   "published": "2025-10-27T18:31:10Z",
   "aliases": [
     "CVE-2023-49440"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/KernelCipher/CVE-2023-49440-POC"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NyaMeeEain/CVE-2023-49440"
     },
     {
       "type": "WEB",

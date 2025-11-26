@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-h67h-6hv5-vfg2",
+  "modified": "2025-11-26T18:31:04Z",
+  "published": "2025-11-26T18:31:04Z",
+  "aliases": [
+    "CVE-2025-55469"
+  ],
+  "details": "Incorrect access control in youlai-boot v2.21.1 allows attackers to escalate privileges and access the Administrator backend.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-55469"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gist.github.com/old6ma/d6e19c9efbe28431f4c27c063cc9cbb8"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gitee.com/youlaiorg/youlai-boot"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gitee.com/youlaiorg/youlai-boot/issues/ICFCOK"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-11-26T18:15:48Z"
+  }
+}

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-55f8-prfx-mfvw",
-  "modified": "2025-09-11T18:35:52Z",
+  "modified": "2025-11-26T18:31:02Z",
   "published": "2025-09-11T18:35:52Z",
   "aliases": [
     "CVE-2025-39761"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nwifi: ath12k: Decrement TID on RX peer frag setup error handling\n\nCurrently, TID is not decremented before peer cleanup, during error\nhandling path of ath12k_dp_rx_peer_frag_setup(). This could lead to\nout-of-bounds access in peer->rx_tid[].\n\nHence, add a decrement operation for TID, before peer cleanup to\nensures proper cleanup and prevents out-of-bounds access issues when\nthe RX peer frag setup fails.\n\nFound during code review. Compile tested only.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -36,8 +41,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-125"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-11T17:15:40Z"

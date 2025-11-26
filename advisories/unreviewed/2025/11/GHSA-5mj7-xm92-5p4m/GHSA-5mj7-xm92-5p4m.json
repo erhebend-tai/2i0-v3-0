@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5mj7-xm92-5p4m",
-  "modified": "2025-11-24T21:31:00Z",
+  "modified": "2025-11-26T18:31:03Z",
   "published": "2025-11-24T21:31:00Z",
   "aliases": [
     "CVE-2025-63498"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/Alinto/sogo/commit/9e20190fad1a437f7e1307f0adcfe19a8d45184c"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/Alinto/sogo/releases/tag/SOGo-5.12.4"
     },
     {
       "type": "WEB",

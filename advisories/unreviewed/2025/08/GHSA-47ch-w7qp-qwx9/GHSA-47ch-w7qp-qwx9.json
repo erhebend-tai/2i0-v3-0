@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-47ch-w7qp-qwx9",
-  "modified": "2025-08-22T18:31:22Z",
+  "modified": "2025-11-26T18:31:01Z",
   "published": "2025-08-22T18:31:22Z",
   "aliases": [
     "CVE-2025-38654"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\npinctrl: canaan: k230: Fix order of DT parse and pinctrl register\n\nMove DT parse before pinctrl register. This ensures that device tree\nparsing is done before calling devm_pinctrl_register() to prevent using\nuninitialized pin resources.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -29,7 +34,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-08-22T16:15:40Z"

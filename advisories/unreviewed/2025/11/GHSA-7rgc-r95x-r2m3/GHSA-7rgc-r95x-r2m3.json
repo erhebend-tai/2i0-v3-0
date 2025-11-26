@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-7rgc-r95x-r2m3",
+  "modified": "2025-11-26T18:31:04Z",
+  "published": "2025-11-26T18:31:04Z",
+  "aliases": [
+    "CVE-2025-46175"
+  ],
+  "details": "Ruoyi v4.8.0 is vulnerable to Incorrect Access Control. There is a missing checkUserDataScope permission check in the authRole method of SysUserController.java.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-46175"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gist.github.com/Han-tj/74d2ed84ede1909da55090fed410d288"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gitee.com/y_project/RuoYi/commit/f935b2782f4237cdbcc13bdce76703e82c42f4fe"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gitee.com/y_project/RuoYi/issues/IC1FS0"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-11-26T17:15:45Z"
+  }
+}
