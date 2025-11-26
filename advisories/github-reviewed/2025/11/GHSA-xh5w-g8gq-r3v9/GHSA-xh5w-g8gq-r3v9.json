@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xh5w-g8gq-r3v9",
-  "modified": "2025-11-24T18:31:14Z",
+  "modified": "2025-11-26T19:32:37Z",
   "published": "2025-11-24T18:31:14Z",
   "aliases": [
     "CVE-2025-13609"
   ],
+  "summary": "Keylime allows users to register new agents by recycling existing UUIDs when using different TPM devices",
   "details": "A vulnerability has been identified in keylime where an attacker can exploit this flaw by registering a new agent using a different Trusted Platform Module (TPM) device but claiming an existing agent's unique identifier (UUID). This action overwrites the legitimate agent's identity, enabling the attacker to impersonate the compromised agent and potentially bypass security controls.",
   "severity": [
     {
@@ -13,11 +14,39 @@
       "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:L/I:H/A:L"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "keylime"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.13.0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-13609"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/keylime/keylime/pull/1785"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/keylime/keylime/commit/e1ae8de1f7b1385eaeec66572a92ff1338e6e157"
     },
     {
       "type": "WEB",
@@ -26,6 +55,14 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2416761"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/keylime/keylime"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/keylime/keylime/releases/tag/v7.13.0"
     }
   ],
   "database_specific": {
@@ -33,8 +70,8 @@
       "CWE-694"
     ],
     "severity": "HIGH",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-11-26T19:32:37Z",
     "nvd_published_at": "2025-11-24T18:15:49Z"
   }
 }
