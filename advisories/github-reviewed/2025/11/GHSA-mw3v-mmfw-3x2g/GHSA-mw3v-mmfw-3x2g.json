@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-mw3v-mmfw-3x2g",
+  "modified": "2025-11-26T22:10:36Z",
+  "published": "2025-11-25T21:32:07Z",
+  "aliases": [
+    "CVE-2025-9624"
+  ],
+  "summary": "OpenSearch is vulnerable to DoS via complex query_string inputs",
+  "details": "A vulnerability in OpenSearch allows attackers to cause Denial of Service (DoS) by submitting complex query_string inputs.\n\nThis issue affects all OpenSearch versions below 3.2.0.",
+  "severity": [
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:H"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.opensearch:opensearch-common"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.3.0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-9624"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/opensearch-project/OpenSearch/pull/19491"
+    },
+    {
+      "type": "WEB",
+      "url": "https://fluidattacks.com/advisories/chick"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/opensearch-project/OpenSearch"
+    },
+    {
+      "type": "WEB",
+      "url": "https://opensearch.org/blog/explore-opensearch-3-3"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-674"
+    ],
+    "severity": "HIGH",
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-11-26T22:10:36Z",
+    "nvd_published_at": "2025-11-25T20:16:01Z"
+  }
+}
