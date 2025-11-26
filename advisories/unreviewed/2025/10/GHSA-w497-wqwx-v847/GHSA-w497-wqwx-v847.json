@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w497-wqwx-v847",
-  "modified": "2025-11-05T00:31:29Z",
+  "modified": "2025-11-26T21:31:25Z",
   "published": "2025-10-15T15:30:27Z",
   "aliases": [
     "CVE-2025-9640"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2391698"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/11/msg00027.html"
     },
     {
       "type": "WEB",
