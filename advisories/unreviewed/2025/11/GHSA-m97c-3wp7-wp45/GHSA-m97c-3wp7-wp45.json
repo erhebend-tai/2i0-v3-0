@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m97c-3wp7-wp45",
-  "modified": "2025-11-21T00:30:21Z",
+  "modified": "2025-11-26T15:34:10Z",
   "published": "2025-11-17T18:30:32Z",
   "aliases": [
     "CVE-2025-34323"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-34323"
+    },
+    {
+      "type": "WEB",
+      "url": "https://theyhack.me/Rooting-Nagios-Log-Server"
     },
     {
       "type": "WEB",

@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9ww7-cjcf-gq83",
-  "modified": "2024-03-27T09:30:40Z",
+  "modified": "2025-11-26T15:34:08Z",
   "published": "2024-03-27T09:30:40Z",
   "aliases": [
     "CVE-2024-30198"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in ThemeKraft BuddyForms allows Reflected XSS.This issue affects BuddyForms: from n/a through 2.8.5.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in ThemeKraft BuddyForms allows Reflected XSS.This issue affects BuddyForms: from n/a through 2.8.5.",
   "severity": [
     {
       "type": "CVSS_V3",
