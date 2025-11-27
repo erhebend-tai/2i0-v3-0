@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w62r-7c53-fmc5",
-  "modified": "2025-11-21T22:37:21Z",
+  "modified": "2025-11-27T08:39:59Z",
   "published": "2025-11-21T15:31:28Z",
   "aliases": [
     "CVE-2025-41115"
@@ -100,6 +100,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/grafana/grafana/commit/ca5d89812015ef2db3acc62826f73650450b331e"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-w62r-7c53-fmc5"
     },
     {
       "type": "PACKAGE",

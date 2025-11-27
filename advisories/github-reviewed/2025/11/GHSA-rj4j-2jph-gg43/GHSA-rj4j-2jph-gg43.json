@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rj4j-2jph-gg43",
-  "modified": "2025-11-24T23:31:40Z",
+  "modified": "2025-11-27T08:40:42Z",
   "published": "2025-11-24T23:31:39Z",
   "aliases": [],
   "summary": "LF Edge eKuiper is vulnerable to Arbitrary File Read/Write via unsanitized names and zip extraction",
