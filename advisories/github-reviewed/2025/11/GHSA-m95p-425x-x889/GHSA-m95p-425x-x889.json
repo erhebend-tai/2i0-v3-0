@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m95p-425x-x889",
-  "modified": "2025-11-25T20:41:04Z",
+  "modified": "2025-11-27T08:59:47Z",
   "published": "2025-11-25T20:41:04Z",
   "aliases": [
     "CVE-2025-66016"
@@ -60,6 +60,10 @@
       "url": "https://github.com/LFDT-Lockness/cggmp21/security/advisories/GHSA-m95p-425x-x889"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-66016"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/LFDT-Lockness/cggmp21/commit/60e0ada5291e771d5649793329d99edd32285e72"
     },
@@ -82,11 +86,12 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-345",
       "CWE-347"
     ],
     "severity": "CRITICAL",
     "github_reviewed": true,
     "github_reviewed_at": "2025-11-25T20:41:04Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-11-25T20:16:00Z"
   }
 }

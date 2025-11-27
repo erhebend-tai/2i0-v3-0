@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7j46-f57w-76pj",
-  "modified": "2025-11-24T22:13:32Z",
+  "modified": "2025-11-27T09:01:07Z",
   "published": "2025-11-24T22:13:32Z",
   "aliases": [
     "CVE-2025-65956"
@@ -41,8 +41,16 @@
       "url": "https://github.com/getformwork/formwork/security/advisories/GHSA-7j46-f57w-76pj"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-65956"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/getformwork/formwork/pull/791"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/getformwork/formwork/commit/4abcd60ae7692b46d316f956b0b20fb85336f3b2"
     },
     {
       "type": "PACKAGE",
@@ -56,6 +64,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-11-24T22:13:32Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-11-26T00:15:50Z"
   }
 }
