@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-49w6-73cw-chjr",
-  "modified": "2024-12-19T21:38:47Z",
+  "modified": "2025-11-27T08:02:36Z",
   "published": "2024-12-19T15:12:33Z",
   "aliases": [
     "CVE-2024-56159"
@@ -32,10 +32,7 @@
             }
           ]
         }
-      ],
-      "database_specific": {
-        "last_known_affected_version_range": "<= 5.0.7"
-      }
+      ]
     },
     {
       "package": {
