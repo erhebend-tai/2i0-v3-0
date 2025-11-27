@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fc9h-whq2-v747",
-  "modified": "2024-12-20T15:30:47Z",
+  "modified": "2025-11-27T08:43:15Z",
   "published": "2024-10-15T15:30:56Z",
   "aliases": [
     "CVE-2024-48948"
@@ -55,6 +55,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/indutny/elliptic/commit/34c853478cec1be4e37260ed2cb12cdbdc6402cf"
+    },
+    {
+      "type": "WEB",
+      "url": "https://blog.trailofbits.com/2025/11/18/we-found-cryptography-bugs-in-the-elliptic-library-using-wycheproof"
     },
     {
       "type": "PACKAGE",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xq4h-wqm2-668w",
-  "modified": "2025-11-24T23:34:19Z",
+  "modified": "2025-11-27T08:42:15Z",
   "published": "2025-11-24T23:34:18Z",
   "aliases": [],
   "summary": "Babylon's BIP322 signature implementation is not fully compliant to the spec",
