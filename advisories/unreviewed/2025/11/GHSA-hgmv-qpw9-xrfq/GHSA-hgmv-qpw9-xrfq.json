@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hgmv-qpw9-xrfq",
-  "modified": "2025-11-27T12:30:29Z",
+  "modified": "2025-11-27T15:31:25Z",
   "published": "2025-11-27T12:30:29Z",
   "aliases": [
     "CVE-2025-59302"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/kwwsg2j85f1b75o0ht5zbr34d7h66788"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/11/27/2"
     }
   ],
   "database_specific": {

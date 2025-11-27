@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g2p7-38hq-rvj6",
-  "modified": "2025-11-27T12:30:29Z",
+  "modified": "2025-11-27T15:31:25Z",
   "published": "2025-11-27T12:30:29Z",
   "aliases": [
     "CVE-2025-59454"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/0hlklvlwhzsfw39nocmyxb6svjbs9xbc"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/11/27/3"
     }
   ],
   "database_specific": {
