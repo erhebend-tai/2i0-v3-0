@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9j86-wqqw-j67h",
-  "modified": "2024-04-04T08:29:25Z",
+  "modified": "2025-11-28T18:30:16Z",
   "published": "2023-10-10T15:30:51Z",
   "aliases": [
     "CVE-2023-30802"
   ],
-  "details": "The Sangfor Next-Gen Application Firewall version NGAF8.0.17 is vulnerable to a source code disclosure vulnerability. A remote and unauthenticated attacker can obtain PHP source code by sending an HTTP request with an invalid Content-Length field.\n\n\n",
+  "details": "The Sangfor Next-Gen Application Firewall version NGAF8.0.17 is vulnerable to a source code disclosure vulnerability. A remote and unauthenticated attacker can obtain PHP source code by sending an HTTP request with an invalid Content-Length field.",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v498-rhc6-28g9",
-  "modified": "2025-11-24T21:30:58Z",
+  "modified": "2025-11-28T18:30:22Z",
   "published": "2025-11-24T15:30:29Z",
   "aliases": [
     "CVE-2025-12977"
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://fluentbit.io/announcements/v4.1.0"
+    },
+    {
+      "type": "WEB",
+      "url": "https://fluentbit.io/blog/2025/10/28/security-vulnerabilities-addressed-in-fluent-bit-v4.1-and-backported-to-v4.0"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.oligo.security/blog/critical-vulnerabilities-in-fluent-bit-expose-cloud-environments-to-remote-takeover"
     }
   ],
   "database_specific": {

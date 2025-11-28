@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h932-5cw5-54j3",
-  "modified": "2025-11-28T15:30:31Z",
+  "modified": "2025-11-28T18:30:23Z",
   "published": "2025-11-28T15:30:30Z",
   "aliases": [
     "CVE-2025-59792"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/h2pcvr5p9otc7dnj2dt2nr4b3omghddw"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/11/28/3"
     }
   ],
   "database_specific": {

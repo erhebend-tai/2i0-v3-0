@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rch9-592x-rrw8",
-  "modified": "2024-04-04T08:29:27Z",
+  "modified": "2025-11-28T18:30:16Z",
   "published": "2023-10-10T15:30:51Z",
   "aliases": [
     "CVE-2023-30803"
   ],
-  "details": "The Sangfor Next-Gen Application Firewall version NGAF8.0.17 is vulnerable to an authentication bypass vulnerability. A remote and unauthenticated attacker can bypass authentication and access administrative functionality by sending HTTP requests using a crafted Y-forwarded-for header.\n\n\n",
+  "details": "The Sangfor Next-Gen Application Firewall version NGAF8.0.17 is vulnerable to an authentication bypass vulnerability. A remote and unauthenticated attacker can bypass authentication and access administrative functionality by sending HTTP requests using a crafted Y-forwarded-for header.",
   "severity": [
     {
       "type": "CVSS_V3",
