@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-75hx-6r6j-hw56",
-  "modified": "2025-11-26T21:31:26Z",
+  "modified": "2025-11-28T16:51:29Z",
   "published": "2025-11-26T21:31:25Z",
   "aliases": [
     "CVE-2021-4472"
   ],
+  "summary": "OpenStack's Mistral Client has a local file inclusion vulnerability",
   "details": "The mistral-dashboard plugin for openstack has a local file inclusion vulnerability through the 'Create Workbook' feature that may result in disclosure of arbitrary local files content.",
   "severity": [
     {
@@ -13,7 +14,27 @@
       "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "python-mistralclient"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.3.0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -32,6 +53,10 @@
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2417321"
     },
     {
+      "type": "PACKAGE",
+      "url": "https://opendev.org/openstack/mistral-dashboard"
+    },
+    {
       "type": "WEB",
       "url": "https://review.opendev.org/c/openstack/mistral-dashboard/+/800952"
     },
@@ -45,8 +70,8 @@
       "CWE-73"
     ],
     "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-11-28T16:51:29Z",
     "nvd_published_at": "2025-11-26T19:15:46Z"
   }
 }
