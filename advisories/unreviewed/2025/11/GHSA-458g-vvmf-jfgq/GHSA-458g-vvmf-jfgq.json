@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-458g-vvmf-jfgq",
-  "modified": "2025-11-28T18:30:23Z",
+  "modified": "2025-11-28T21:31:18Z",
   "published": "2025-11-28T18:30:23Z",
   "aliases": [
     "CVE-2025-13683"
   ],
   "details": "Exposure of credentials in unintended requests in Devolutions Server, Remote Desktop Manager on Windows.This issue affects Devolutions Server: through 2025.3.8.0; Remote Desktop Manager: through 2025.3.23.0.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-200"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-11-28T17:16:08Z"
