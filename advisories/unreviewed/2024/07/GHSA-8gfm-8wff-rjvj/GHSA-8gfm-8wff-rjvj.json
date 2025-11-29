@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8gfm-8wff-rjvj",
-  "modified": "2024-07-04T21:30:50Z",
+  "modified": "2025-11-29T15:30:17Z",
   "published": "2024-07-04T21:30:50Z",
   "aliases": [
     "CVE-2024-39936"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://codereview.qt-project.org/c/qt/qtbase/+/571601"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/11/msg00031.html"
     }
   ],
   "database_specific": {
