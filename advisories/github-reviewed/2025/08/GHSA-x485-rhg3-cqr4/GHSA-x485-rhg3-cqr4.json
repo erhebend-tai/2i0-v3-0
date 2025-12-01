@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x485-rhg3-cqr4",
-  "modified": "2025-11-26T00:04:31Z",
+  "modified": "2025-12-01T16:03:35Z",
   "published": "2025-08-20T18:30:21Z",
   "aliases": [
     "CVE-2011-10026"
@@ -66,6 +66,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/spree/spree/commit/3b559e7219f3681184be409ad00cd34a34a37978"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/rd_searchlogic/CVE-2011-10026.yml"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/spree/CVE-2011-10026.yml"
     },
     {
       "type": "WEB",
