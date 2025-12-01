@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-24hm-wm2h-h8w7",
-  "modified": "2025-11-28T06:32:06Z",
+  "modified": "2025-12-01T23:57:53Z",
   "published": "2025-11-28T06:32:06Z",
   "aliases": [
     "CVE-2025-66371"
   ],
+  "summary": "Peppol-py is vulnerable to XXE attacks due to Saxon configuration",
   "details": "Peppol-py before 1.1.1 allows XXE attacks because of the Saxon configuration. When validating XML-based invoices, the XML parser could read files from the filesystem and expose their content to a remote host.",
   "severity": [
     {
@@ -13,7 +14,27 @@
       "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:N/A:N"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "peppol_py"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -25,6 +46,14 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/iterasdev/peppol-py/commit/349a4bff8adb6205ea411bac8d7a06da0477abd7"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/iterasdev/peppol-py"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/iterasdev/peppol-py/releases/tag/1.1.1"
     }
   ],
@@ -33,8 +62,8 @@
       "CWE-611"
     ],
     "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-12-01T23:57:53Z",
     "nvd_published_at": "2025-11-28T04:16:01Z"
   }
 }
