@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2q38-88hx-3qf7",
-  "modified": "2025-09-16T18:31:27Z",
+  "modified": "2025-12-01T21:30:23Z",
   "published": "2025-09-16T18:31:27Z",
   "aliases": [
     "CVE-2023-53318"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nrecordmcount: Fix memory leaks in the uwrite function\n\nCommon realloc mistake: 'file_append' nulled but not freed upon failure",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-16T17:15:37Z"
