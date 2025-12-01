@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r59j-vrhf-mp7x",
-  "modified": "2025-12-01T03:30:25Z",
+  "modified": "2025-12-01T15:30:17Z",
   "published": "2025-12-01T03:30:25Z",
   "aliases": [
     "CVE-2025-13797"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://www.notion.so/2a60c75766a88027a6aec07b378332a8"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.notion.so/report-7-2a60c75766a88027a6aec07b378332a8"
     }
   ],
   "database_specific": {
