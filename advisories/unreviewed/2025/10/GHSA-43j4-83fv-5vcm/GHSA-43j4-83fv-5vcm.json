@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-43j4-83fv-5vcm",
-  "modified": "2025-10-09T18:30:36Z",
+  "modified": "2025-12-01T09:30:26Z",
   "published": "2025-10-09T18:30:36Z",
   "aliases": [
     "CVE-2025-52960"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-52960"
+    },
+    {
+      "type": "WEB",
+      "url": "https://kb.juniper.net/JSA103143"
     },
     {
       "type": "WEB",
