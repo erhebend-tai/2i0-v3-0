@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-88w2-6722-q9jg",
-  "modified": "2025-11-09T00:30:26Z",
+  "modified": "2025-12-02T09:30:26Z",
   "published": "2025-11-09T00:30:26Z",
   "aliases": [
     "CVE-2025-12914"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-12914"
+    },
+    {
+      "type": "WEB",
+      "url": "https://docs.bt.cn/notices/CVE-2025-12914"
     },
     {
       "type": "WEB",
